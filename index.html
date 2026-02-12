@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombers Test - Preparació Oposicions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Bombers Test Logo" class="logo-img">
+                <h1>BOMBERS<span>TEST</span></h1>
+            </div>
+            <div class="stats-overview" id="stats-overview">
+                <!-- Stats will be injected here -->
+            </div>
+            <div class="user-profile" id="user-profile" style="display: none;">
+                <button id="btn-show-stats" class="btn-icon" title="Estadístiques"><i
+                        class="fas fa-chart-line"></i></button>
+                <span id="user-name-display"></span>
+                <button id="btn-logout" class="btn-icon" title="Tancar sessió"><i
+                        class="fas fa-sign-out-alt"></i></button>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <!-- Screen 0: Auth -->
+            <section id="auth-screen" class="screen active">
+                <div class="auth-container">
+                    <div class="auth-card">
+                        <div class="auth-header">
+                            <img src="assets/img/logo.png" alt="Bombers Test Logo" class="auth-logo">
+                            <h2 id="auth-title">Inicia Sessió</h2>
+                            <p id="auth-subtitle">Benvingut de nou, futur bomber.</p>
+                        </div>
+
+                        <form id="login-form" class="auth-form">
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="login-email" placeholder="Correu electrònic" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="login-password" placeholder="Contrasenya" required>
+                            </div>
+                            <button type="submit" class="btn-primary w-100">ENTRAR</button>
+                            <p class="auth-switch">No tens compte? <a href="#" id="go-to-register">Registra't</a></p>
+                        </form>
+
+                        <form id="register-form" class="auth-form" style="display: none;">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="reg-name" placeholder="Nom complet" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="reg-email" placeholder="Correu electrònic" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="reg-password" placeholder="Contrasenya" required>
+                            </div>
+                            <button type="submit" class="btn-primary w-100">CREAR COMPTE</button>
+                            <p class="auth-switch">Ja tens compte? <a href="#" id="go-to-login">Inicia sessió</a></p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Screen 1: Selection -->
+            <section id="selection-screen" class="screen">
+                <div class="screen-header">
+                    <h2>Selecciona els Temes</h2>
+                    <p>Escull un o més temes per començar el test personalitzat.</p>
+                </div>
+
+                <div class="controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="topic-search" placeholder="Cerca temes...">
+                    </div>
+                    <div class="test-modes">
+                        <button id="btn-mode-standard" class="mode-btn active"
+                            title="Feedback immediat i sense límit de temps">
+                            <i class="fas fa-graduation-cap"></i> Estudi
+                        </button>
+                        <button id="btn-mode-exam" class="mode-btn"
+                            title="Sense pistes i amb temps limitat (50 preguntes / 45 min)">
+                            <i class="fas fa-stopwatch"></i> Examen
+                        </button>
+                    </div>
+                </div>
+
+                <div class="extra-actions">
+                    <div class="action-buttons">
+                        <button id="btn-select-all" class="btn-outline">Seleccionar Tots</button>
+                        <button id="btn-deselect-all" class="btn-outline">Desmarcar</button>
+                        <button id="btn-random-mix" class="btn-outline"
+                            style="color: var(--warning); border-color: var(--warning);">
+                            <i class="fas fa-random"></i> Mix Aleatori (Tot)
+                        </button>
+                    </div>
+                    <div class="review-actions">
+                        <button id="btn-review-failed" class="btn-outline btn-review" disabled>
+                            <i class="fas fa-redo"></i> Repassar Fallades (<span id="failed-count">0</span>)
+                        </button>
+                        <button id="btn-clear-failed" class="btn-outline btn-clear" disabled
+                            title="Borrar registre de fallades">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="topics-grid" id="topics-grid">
+                    <!-- Topics will be injected here -->
+                </div>
+
+                <div class="sticky-footer">
+                    <div class="selection-summary">
+                        <span id="selected-count">0</span> temes seleccionats
+                    </div>
+                    <button id="btn-start-test" class="btn-primary" disabled>
+                        COMENÇAR TEST <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Screen 2: Quiz -->
+            <section id="quiz-screen" class="screen">
+                <div class="quiz-header">
+                    <button id="btn-exit-quiz" class="btn-icon"><i class="fas fa-times"></i></button>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <div class="quiz-timer" id="quiz-timer">00:00</div>
+                </div>
+
+                <div class="question-container" id="question-container">
+                    <!-- Question card will be injected here -->
+                </div>
+
+                <div class="quiz-footer">
+                    <span id="question-counter">Pregunta 1 de 10</span>
+                    <button id="btn-next-question" class="btn-primary" style="display: none;">
+                        SEGÜENT <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Screen 3: Results -->
+            <section id="results-screen" class="screen">
+                <div class="results-card">
+                    <div class="results-header">
+                        <div class="score-circle">
+                            <span id="final-score">0%</span>
+                        </div>
+                        <h2 id="result-message">Ben fet!</h2>
+                    </div>
+
+                    <div class="results-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Correctes</span>
+                            <span class="stat-value text-success" id="stat-correct">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Incorrectes</span>
+                            <span class="stat-value text-danger" id="stat-incorrect">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Temps</span>
+                            <span class="stat-value" id="stat-time">0m 0s</span>
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button id="btn-restart" class="btn-primary">TORNAR A L'INICI</button>
+                    </div>
+                </div>
+                <!-- Screen 4: Statistics -->
+                <section id="stats-screen" class="screen">
+                    <div class="screen-header">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <button id="btn-stats-back" class="btn-icon"><i class="fas fa-arrow-left"></i></button>
+                            <h2>Les Meves Estadístiques</h2>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card main-stat">
+                            <i class="fas fa-calendar-check"></i>
+                            <span class="stat-value" id="user-days">1</span>
+                            <span class="stat-label">Dies d'ús</span>
+                        </div>
+                        <div class="stat-card main-stat">
+                            <i class="fas fa-crosshairs"></i>
+                            <span class="stat-value" id="user-accuracy">0%</span>
+                            <span class="stat-label">Encert Global</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value text-success" id="user-total-correct">0</span>
+                            <span class="stat-label">Correctes totals</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value text-danger" id="user-total-wrong">0</span>
+                            <span class="stat-label">Fallades totals</span>
+                        </div>
+                    </div>
+
+                    <div class="detailed-stats">
+                        <h3>Detall per Temes</h3>
+                        <div class="topic-stats-table" id="topic-stats-list">
+                            <!-- Topic details injected here -->
+                        </div>
+                    </div>
+                </section>
+        </main>
+    </div>
+
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
