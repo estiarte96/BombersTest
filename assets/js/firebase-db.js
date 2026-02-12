@@ -1,17 +1,16 @@
-// Firebase is initialized in index.html
-// Access the already initialized Firebase instance
-const database = firebase.database();
+// Access the initialized Firebase instance
+const getDb = () => firebase.database();
 
 // Database references
-const usersRef = database.ref('users');
-const questionsRef = database.ref('questions');
+const getUsersRef = () => getDb().ref('users');
+const getQuestionsRef = () => getDb().ref('questions');
 
 // Firebase Database Functions
 export const FirebaseDB = {
     // Get all users
     async getUsers() {
         try {
-            const snapshot = await usersRef.once('value');
+            const snapshot = await getUsersRef().once('value');
             const usersObj = snapshot.val() || {};
             return Object.values(usersObj);
         } catch (error) {
@@ -29,7 +28,7 @@ export const FirebaseDB = {
                 const key = user.email.replace(/[.#$[\]]/g, '_'); // Firebase keys can't contain these chars
                 usersObj[key] = user;
             });
-            await usersRef.set(usersObj);
+            await getUsersRef().set(usersObj);
             return true;
         } catch (error) {
             console.error('Error saving users:', error);
@@ -41,7 +40,7 @@ export const FirebaseDB = {
     async getUserByEmail(email) {
         try {
             const key = email.replace(/[.#$[\]]/g, '_');
-            const snapshot = await usersRef.child(key).once('value');
+            const snapshot = await getUsersRef().child(key).once('value');
             return snapshot.val();
         } catch (error) {
             console.error('Error getting user:', error);
@@ -53,7 +52,7 @@ export const FirebaseDB = {
     async updateUser(user) {
         try {
             const key = user.email.replace(/[.#$[\]]/g, '_');
-            await usersRef.child(key).set(user);
+            await getUsersRef().child(key).set(user);
             return true;
         } catch (error) {
             console.error('Error updating user:', error);
@@ -64,7 +63,7 @@ export const FirebaseDB = {
     // Get all questions
     async getQuestions() {
         try {
-            const snapshot = await questionsRef.once('value');
+            const snapshot = await getQuestionsRef().once('value');
             return snapshot.val() || [];
         } catch (error) {
             console.error('Error getting questions:', error);
@@ -77,7 +76,7 @@ export const FirebaseDB = {
     // Initialize questions in Firebase (run once)
     async initializeQuestions(questionsData) {
         try {
-            await questionsRef.set(questionsData);
+            await getQuestionsRef().set(questionsData);
             console.log('Questions initialized in Firebase');
             return true;
         } catch (error) {
