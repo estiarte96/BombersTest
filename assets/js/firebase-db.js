@@ -1,7 +1,5 @@
-import firebaseConfig from './firebase-config.js';
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+// Firebase is initialized in index.html
+// Access the already initialized Firebase instance
 const database = firebase.database();
 
 // Database references
