@@ -1,0 +1,210 @@
+[
+  {
+    "id": "3 PRL I EPIS-81/24-22",
+    "exam": "81/24",
+    "num": "22",
+    "text": "D’acord amb la Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals, s’entén per \"risc laboral greu i imminent\":",
+    "options": {
+      "a": "que ja s’hagi produït el dany al treballador.",
+      "b": "que sigui probable que es materialitzi en un futur immediat i pugui suposar un dany greu per a la salut dels treballadors.",
+      "c": "que sigui segur que es materialitzi i pugui suposar un dany per a la salut dels treballadors.",
+      "d": "que pugui suposar un dany per a la salut dels treballadors en qualsevol grau. 14"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "3 PRL I EPIS-81/24-97",
+    "exam": "81/24",
+    "num": "97",
+    "text": "Què entenem per un principi de l'acció preventiva?",
+    "options": {
+      "a": "evitar els riscos.",
+      "b": "combatre els riscos només quan es manifestin.",
+      "c": "adaptar la persona al treball.",
+      "d": "prioritzar la protecció individual i la utilització dels equips de protecció individual (epi) a la protecció col·lectiva. 20 22"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "3 PRL I EPIS-81/23-25",
+    "exam": "81/23",
+    "num": "25",
+    "text": "Quan ha de fer servir el treballador un equip de protecció individual proporcionat per l’empresari?",
+    "options": {
+      "a": "sempre i en qualsevol circumstància.",
+      "b": "quan els riscos no es puguin evitar.",
+      "c": "només quan ho indiqui l’empresari.",
+      "d": "a criteri del treballador. 28 30"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "3 PRL I EPIS-81/21-31",
+    "exam": "81/21",
+    "num": "31",
+    "text": "Quin és el nombre de delegats de prevenció que ha de tenir una empresa de 1.500 treballadors segons la Llei 31/1985, de 8 de novembre, de prevenció de riscos laborals:",
+    "options": {
+      "a": "5 delegats.",
+      "b": "3 delegats.",
+      "c": "8 delegats.",
+      "d": "4 delegats. 36"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "3 PRL I EPIS-81/21-59",
+    "exam": "81/21",
+    "num": "59",
+    "text": "En matèria de prevenció de riscos laborals, la formació al treballador:",
+    "options": {
+      "a": "es fa sempre fora de l’horari laboral compensant amb hores extraordinàries la seva realització.",
+      "b": "es fa dins la jornada laboral sempre que sigui possible però no es computa com a jornada anual.",
+      "c": "és de 40 hores anuals.",
+      "d": "es fa dins la jornada laboral sempre que sigui possible i es computa dins de la jornada anual. 42 44"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "3 PRL I EPIS-81/19.2-68",
+    "exam": "81/19.2",
+    "num": "68",
+    "text": "Segons el que estableix l'article 35 de la Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals, quants delegats de prevenció haurien de ser designats en una empresa que tingués 2.501 treballadors?",
+    "options": {
+      "a": "5 delegats",
+      "b": "6 delegats",
+      "c": "7 delegats",
+      "d": "8 delegats 50"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "3 PRL I EPIS-81/19.2-75",
+    "exam": "81/19.2",
+    "num": "75",
+    "text": "Indiqueu quina cadència estableix la Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals en l’article 38.3, quan especifica que el Comitè de Seguretat i Salut s’ha de reunir “___________” i sempre que ho sol·liciti alguna de les seves representacions.",
+    "options": {
+      "a": "anualment",
+      "b": "mensualment",
+      "c": "cada semestre",
+      "d": "cada trimestre 56"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "3 PRL I EPIS-81/19.2-86",
+    "exam": "81/19.2",
+    "num": "86",
+    "text": "Segons el que estableix l'article 19 de la Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals en l’article 19, en quin moment l’empresari, en compliment del deure de protecció, ha de garantir que cada treballador rep una formació teòrica i pràctica, suficient i adequada, en matèria preventiva?",
+    "options": {
+      "a": "abans de la contractació, i en el cas que s’esdevinguin canvis en les funcions que exerceixi o s’introdueixin noves tecnologies o canvis en els equips de treball.",
+      "b": "en el moment de la contractació i quan s’esdevinguin canvis en les funcions que exerceixi o s’introdueixin noves tecnologies o canvis en els equips de treball.",
+      "c": "durant el període de vacances.",
+      "d": "una setmana després de la finalització del contracte. 62 64"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "3 PRL I EPIS-81/19-46",
+    "exam": "81/19",
+    "num": "46",
+    "text": "La Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals és d’aplicació directa sense excepció:",
+    "options": {
+      "a": "al personal de seguretat.",
+      "b": "a les forces armades.",
+      "c": "al personal que presta el servei de llar familiar.",
+      "d": "al personal d’administració i tècnic de l’administració pública. 70"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "3 PRL I EPIS-81/19-52",
+    "exam": "81/19",
+    "num": "52",
+    "text": "Els costos de les mesures relatives a la seguretat i la salut en el treball recauen en:",
+    "options": {
+      "a": "l’empresariat.",
+      "b": "els treballadors.",
+      "c": "entre els treballadors i l’empresariat.",
+      "d": "el servei català de la salut. 76 78"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "3 PRL I EPIS-81/18-4",
+    "exam": "81/18",
+    "num": "4",
+    "text": "Els delegats de prevenció són designats:",
+    "options": {
+      "a": "entre els treballadors escollits per l'empresari.",
+      "b": "segons la seva formació.",
+      "c": "entre els delegats de personal.",
+      "d": "entre els treballadors i l’empresari. 84"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "3 PRL I EPIS-81/18-42",
+    "exam": "81/18",
+    "num": "42",
+    "text": "Les competències, facultats i garanties dels delegats de prevenció, en quins casos poden ser modificades?",
+    "options": {
+      "a": "en els serveis de protecció civil.",
+      "b": "en la policia.",
+      "c": "en el peritatge forense en els casos de greu risc, catàstrofe i calamitat pública.",
+      "d": "en cap cas es poden modificar 90"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "3 PRL I EPIS-81/18-70",
+    "exam": "81/18",
+    "num": "70",
+    "text": "Els treballadors, d’acord amb la seva formació i seguint les instruccions de l’empresari, han de:",
+    "options": {
+      "a": "decidir quan utilitzar els equips de protecció.",
+      "b": "informar a final de mes de les situacions que comportin un risc per a la seguretat i la salut dels treballadors.",
+      "c": "utilitzar correctament els mitjans i equips de protecció que faciliti l’empresari, d’acord amb les instruccions que doni.",
+      "d": "comunicar al treballador o treballadora designat el pla de treball 96 98"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "3 PRL I EPIS-81/16-19",
+    "exam": "81/16",
+    "num": "19",
+    "text": "Els drets dels treballadors a la protecció davant dels riscos laborals, comporta:",
+    "options": {
+      "a": "l'obligació de comprar-se els equips de protecció individuals.",
+      "b": "proposar a l'empresari la compra d'equips de protecció individuals.",
+      "c": "decidir quan utilitzar els equips de protecció individuals.",
+      "d": "el deure de l'empresari i les administracions públiques a la protecció dels treballadors. 104"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "3 PRL I EPIS-81/16-55",
+    "exam": "81/16",
+    "num": "55",
+    "text": "Quina és la primera mesura que prendrem en matèria de prevenció de riscos laborals?",
+    "options": {
+      "a": "adaptar el treball a la persona.",
+      "b": "substituir els elements perillosos pels que comportin poc o cap perill.",
+      "c": "evitar els riscos.",
+      "d": "anteposar la protecció col·lectiva a la individual. 110"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "3 PRL I EPIS-81/16-62",
+    "exam": "81/16",
+    "num": "62",
+    "text": "Quin és l'àmbit d'aplicació de la Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals?",
+    "options": {
+      "a": "convenis de relacions laborals nacionals.",
+      "b": "convenis de relacions laborals provincials.",
+      "c": "convenis de relacions laborals provincials i nacionals.",
+      "d": "totes les relacions laborals regulades per l'estatut dels treballadors."
+    },
+    "answer": "d"
+  }
+]

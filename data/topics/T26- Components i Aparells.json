@@ -1,0 +1,52 @@
+[
+  {
+    "id": "T26 COMPONENTS I APARELLS-81/24-47",
+    "exam": "81/24",
+    "num": "47",
+    "text": "Quina de les següents opcions correspon a la definició de sobreintensitat?",
+    "options": {
+      "a": "qualsevol tensió superior a un valor assignat. als conductors, el valor assignat és el de tensió admissible.",
+      "b": "qualsevol corrent superior a un valor assignat. als conductors, el valor assignat és el de corrent admissible.",
+      "c": "qualsevol tensió superior a un valor assignat. als conductors, el valor assignat és el d'intensitat admissible.",
+      "d": "qualsevol resistència superior a un valor assignat. als conductors, el valor assignat és el de resistència admissible. 10"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T26 COMPONENTS I APARELLS-81/24-68",
+    "exam": "81/24",
+    "num": "68",
+    "text": "Les cèl·lules fotovoltaiques produeixen electricitat a partir de la llum solar. Quin tipus de corrent produeixen aquestes cèl·lules?",
+    "options": {
+      "a": "corrent continu sempre.",
+      "b": "corrent altern sempre.",
+      "c": "les policristal·lines, corrent altern.",
+      "d": "les monocristal·lines produeixen corrent altern sempre que estiguin fabricades amb tecnologia bifacial. 16"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T26 COMPONENTS I APARELLS-81/24-81",
+    "exam": "81/24",
+    "num": "81",
+    "text": "Quines són les tres tipologies principals de subestacions elèctriques segons la seva funcionalitat?",
+    "options": {
+      "a": "subestacions d’alta, subestacions de baixa i subestacions de mitjana.",
+      "b": "subestacions curtes, subestacions llargues i subestacions mitjanes.",
+      "c": "subestacions elevadores, subestacions reductores i subestacions de distribució.",
+      "d": "subestacions elevadores, subestacions de distribució i subestacions de maniobra. 22"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T26 COMPONENTS I APARELLS-81/24-86",
+    "exam": "81/24",
+    "num": "86",
+    "text": "Quins són els mètodes de protecció contra sobrecàrregues i curtcircuits en una instal·lació elèctrica?",
+    "options": {
+      "a": "interruptors automàtics, o també anomenats disjuntors.",
+      "b": "fusibles."
+    },
+    "answer": ""
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "6 L.PC-81/24-103",
+    "exam": "81/24",
+    "num": "103",
+    "text": "D'acord amb la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, quina de les afirmacions següents és CORRECTA?",
+    "options": {
+      "a": "entre les mesures d'emergència per a la població, correspon a la subdirecció general operativa del cos de bombers de la generalitat restringir l'accés a zones de perill o a zones d'operació.",
+      "b": "els plans de protecció civil poden ser territorials, generals i d'autoprotecció. aquests plans han de ser aprovats i homologats d'acord amb la legislació vigent.",
+      "c": "la desactivació dels plans de protecció civil ha de ser declarada formalment pel govern, seguint el procediment específic de desactivació.",
+      "d": "negar-se a fer les prestacions personals ordenades per l'autoritat de protecció civil competent en situacions d'activació d'un pla és una infracció greu en matèria de protecció civil. 14 151/2/2019 16"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "6 L.PC-81/24-40",
+    "exam": "81/24",
+    "num": "40",
+    "text": "Segons el que estableix el capítol VI de la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, no seguir o no respectar les mesures i les instruccions indicades per l'autoritat de protecció civil en els simulacres...",
+    "options": {
+      "a": "és una infracció molt greu.",
+      "b": "és una infracció greu.",
+      "c": "és una infracció lleu.",
+      "d": "no és una infracció. 22"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "6 L.PC-81/24-41",
+    "exam": "81/24",
+    "num": "41",
+    "text": "D'acord amb el que estableix l'article 48 de la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, quina de les funcions següents de l'alcalde pot ser delegada?",
+    "options": {
+      "a": "elaborar i mantenir el catàleg de recursos i serveis mobilitzables per a la protecció civil en el municipi.",
+      "b": "exercir la potestat sancionadora, en els termes que estableix aquesta llei.",
+      "c": "exercir les altres funcions i facultats que li assigni la legislació vigent.",
+      "d": "exercir la direcció superior del centre de coordinació operativa local. 28 30"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "6 L.PC-2019-70",
+    "exam": "2019",
+    "num": "70",
+    "text": "El centre superior de coordinació i informació de l’estructura de protecció civil de 32Catalunya és:",
+    "options": {
+      "a": "el centre de coordinació comarcal i municipal (cecopal).",
+      "b": "el centre de coordinació operativa de catalunya (cecat).",
+      "c": "el centre de control central de catalunya (cecocat).",
+      "d": "el centre de comandament operatiu superior (cecops). 37"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2019-79",
+    "exam": "2019",
+    "num": "79",
+    "text": "El pla de protecció civil que integra els diversos plans territorials i especials i que conté la previsió d'emergències a què es pot veure sotmès el país a causa de situacions de catàstrofe o calamitats públiques, el catàleg de recursos humans i materials disponibles i els protocols d'actuació per a afrontar-les, a més de les directrius bàsiques per a restablir els serveis i recuperar la normalitat és:",
+    "options": {
+      "a": "el pla d'emergències per incendis forestals de catalunya (infocat).",
+      "b": "el pla de protecció civil de catalunya (procicat).",
+      "c": "el pla general d’emergències de catalunya (gencat).",
+      "d": "el pla bàsic i sectorial d’emergències de catalunya (plasecat). 43 45"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2018-51",
+    "exam": "2018",
+    "num": "51",
+    "text": "La protecció civil a Catalunya s’organitza en una estructura integrada per:",
+    "options": {
+      "a": "les administracions públiques, els serveis d’autoprotecció i el voluntariat de protecció civil.",
+      "b": "els directors dels plans de protecció civil.",
+      "c": "la persona titular del departament d’interior de la generalitat de catalunya i els/les presidents/es de les associacions de protecció civil de catalunya.",
+      "d": "els serveis públics d’emergència de la generalitat de catalunya. 51"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "6 L.PC-2018-90",
+    "exam": "2018",
+    "num": "90",
+    "text": "Quin pla d’emergència s’activaria en un nucli de producció industrial a Catalunya en situació d’accident greu per substàncies perilloses?",
+    "options": {
+      "a": "neucat.",
+      "b": "plaseqcat.",
+      "c": "quimicat.",
+      "d": "infocat. 57 59"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2016-47",
+    "exam": "2016",
+    "num": "47",
+    "text": "Els plans de protecció civil poden ser:",
+    "options": {
+      "a": "territorials i sectorials",
+      "b": "territorials, especials i d’autoprotecció",
+      "c": "territorials, forestals i de grans infraestructures.",
+      "d": "preventius i d’intervenció. 65 67"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2008-28",
+    "exam": "2008",
+    "num": "28",
+    "text": "D’acord amb la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, la col·laboració regular dels ciutadans i les ciutadanes amb les autoritats de protecció civil es fa...",
+    "options": {
+      "a": "per mitjà de la inscripció en el servei d’ocupació de catalunya",
+      "b": "per mitjà del pagament del cànon de voluntariat regular en protecció civil",
+      "c": "per mitjà del seu nomenament com a bombers voluntaris de la generalitat",
+      "d": "per mitjà de les associacions de voluntariat de protecció civil 73"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "6 L.PC-2008-60",
+    "exam": "2008",
+    "num": "60",
+    "text": "Segons el Pla INUNCAT, quins són els períodes de retorn que s’estudien per determinar el risc d’inundació? (METEO)",
+    "options": {
+      "a": "100, 500 i 750 anys",
+      "b": "50, 100 i 500 anys",
+      "c": "50, 100 i 250 anys",
+      "d": "10, 50 i 100 anys 79 81"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2006-75",
+    "exam": "2006",
+    "num": "75",
+    "text": "D’acord amb la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, el Pla de protecció civil de Catalunya...",
+    "options": {
+      "a": "ha de ser aprovat pel govern",
+      "b": "ha de ser aprovat per la direcció general d’emergències i seguretat civil",
+      "c": "ha de ser aprovat per la comissió de protecció civil de catalunya",
+      "d": "ha de ser aprovat pel departament d’interior 87 89"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "6 L.PC-2005-44",
+    "exam": "2005",
+    "num": "44",
+    "text": "D’acord amb la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, els plans de protecció civil poden ésser...",
+    "options": {
+      "a": "especials, d’evacuació i de confinament",
+      "b": "generals, singulars i d’intervenció",
+      "c": "territorials, especials i d’autoprotecció",
+      "d": "territorials, d’evacuació i especials 95"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "6 L.PC-2005-53",
+    "exam": "2005",
+    "num": "53",
+    "text": "D’acord amb la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, quin tipus de pla de protecció civil preveu, per a determinats centres, empreses i instal·lacions, les emergències que es poden produir com a conseqüència de llur pròpia activitat i les mesures de resposta davant situacions de risc, de catàstrofes i de calamitats públiques que els poden afectar?",
+    "options": {
+      "a": "els plans de confinament",
+      "b": "els plans d'autoprotecció",
+      "c": "els plans especials",
+      "d": "el plans específics 101 103"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "6 L.PC-2003-24",
+    "exam": "2003",
+    "num": "24",
+    "text": "Les entitats bàsiques de la protecció civil a Catalunya són:",
+    "options": {
+      "a": "les comarques",
+      "b": "les comissions locals de protecció civil",
+      "c": "els municipis",
+      "d": "els centres municipals de coordinació operativa 109"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "6 L.PC-2003-44",
+    "exam": "2003",
+    "num": "44",
+    "text": "La Comissió de Protecció Civil de Catalunya es compon de:",
+    "options": {
+      "a": "representants de l’administració de la generalitat, de l’administració de l’estat a catalunya i de l’administració local de catalunya",
+      "b": "representants de l’administració de la generalitat, dels consells comarcals i dels municipis de catalunya",
+      "c": "representants de l’administració de la generalitat i de l’administració de l’estat a catalunya",
+      "d": "representants de l’administració de la generalitat i de l’administració local de catalunya 115"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "6 L.PC-2003-62",
+    "exam": "2003",
+    "num": "62",
+    "text": "La Llei 4/1997 de 20 maig, regula la protecció civil a Catalunya, la qual comprèn:",
+    "options": {
+      "a": "les normes que s’han d’aplicar al manteniment de parcs naturals",
+      "b": "les accions destinades a protegir les persones, els béns i el medi ambient davant de greu risc col·lectiu, de catàstrofes i de calamitats públiques",
+      "c": "les matèries que tenen a veure amb la protecció d’edificis singulars, declarats d’interès artístic"
+    },
+    "answer": "b"
+  }
+]

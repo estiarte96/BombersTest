@@ -1,0 +1,365 @@
+[
+  {
+    "id": "T 9 N. DEL FOC-81/24-1",
+    "exam": "81/24",
+    "num": "1",
+    "text": "Indica la resposta INCORRECTA pel que fa als gasos generats com a producte de la combustió en un incendi:",
+    "options": {
+      "a": "provocaran hipòxia i possibles efectes derivats de la toxicitat segons el tipus de gas.",
+      "b": "el co és el principal gas causant d’intoxicacions i morts en els incendis.",
+      "c": "l’àcid cianhídric es produeix en combustions de compostos amb carboni i nitrogen.",
+      "d": "el diòxid de sofre no és irritant però sí molt tòxic. 13"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/24-26",
+    "exam": "81/24",
+    "num": "26",
+    "text": "En un incendi a la segona planta d’un bloc de 5 plantes, s’obre la porta del replà i surten fums molt calents al forat d’escala. Degut a l’efecte de la convecció, aquest fum tendirà a:",
+    "options": {
+      "a": "baixar pel forat d’escala, degut a la densitat més gran dels fums.",
+      "b": "mantenir-se al replà, conservant el mateix pla neutre que a l’interior de l’habitatge.",
+      "c": "dirigir-se a l’interior del pis, buscant la màxima radiació.",
+      "d": "pujar pel forat d’escala, degut a la menor densitat dels fums. 19"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/24-31",
+    "exam": "81/24",
+    "num": "31",
+    "text": "Donat un gas inflamable, indica la resposta INCORRECTA respecte a l’efecte que té l’augment de la temperatura en les seves condicions d’inflamabilitat:",
+    "options": {
+      "a": "disminueix el límit inferior d’inflamabilitat.",
+      "b": "augmenta el límit superior d’inflamabilitat.",
+      "c": "disminueix el rang d’inflamabilitat.",
+      "d": "augmenta el rang d’inflamabilitat. 25"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/24-57",
+    "exam": "81/24",
+    "num": "57",
+    "text": "Indica quin dels següents aspectes NO correspon a la deflagració d’un gas o núvol de vapor:",
+    "options": {
+      "a": "com més gran sigui el confinament del gas, més gran serà la sobrepressió generada.",
+      "b": "la velocitat de l’ona de sobrepressió és superior a 340 m/s.",
+      "c": "la sobrepressió generada és inferior a la d’una detonació.",
+      "d": "té una velocitat de progressió més gran que una combustió latent. 31"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/24-75",
+    "exam": "81/24",
+    "num": "75",
+    "text": "Una vaporització sobtada, brusca i violenta d'una substància líquida en ebullició es coneix pel nom de:",
+    "options": {
+      "a": "reacció de combustió.",
+      "b": "bleve.",
+      "c": "flashover.",
+      "d": "backdraft. 37"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/24-98",
+    "exam": "81/24",
+    "num": "98",
+    "text": "La descomposició química d’una substància per acció de la calor es coneix amb el nom de:",
+    "options": {
+      "a": "flashover.",
+      "b": "piròlisi.",
+      "c": "sublimació.",
+      "d": "reacció redox. 43 45"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-7",
+    "exam": "81/23",
+    "num": "7",
+    "text": "Segons la norma UNE-EN 2:1994/A1:2005, els focs que impliquen metalls combustibles són de tipus:",
+    "options": {
+      "a": "k",
+      "b": "me",
+      "c": "d",
+      "d": "f 51"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-34",
+    "exam": "81/23",
+    "num": "34",
+    "text": "En relació amb el Límit Inferior d’Inflamabilitat (LII) del butà, el propà i el metà, quina de les següents afirmacions és CERTA?",
+    "options": {
+      "a": "el lii del butà és inferior al del propà.",
+      "b": "el lii del propà és superior al del metà.",
+      "c": "el lii del metà és inferior al del butà.",
+      "d": "totes 3 substàncies tenen el mateix lii. 57"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-84",
+    "exam": "81/23",
+    "num": "84",
+    "text": "En relació amb els mecanismes de transferència de calor, quina de les següents afirmacions és CORRECTA?",
+    "options": {
+      "a": "la transmissió de la calor per radiació és transportada per ones electromecàniques des d’un cos fred a un de calent.",
+      "b": "en la transferència de calor per conducció, és necessari el contacte directe entre els materials que s’intercanvien calor.",
+      "c": "en la transmissió de la calor per conducció, el transport de la calor es fa per mitjà dels moviments d’un fluid.",
+      "d": "la transferència d’energia en forma de calor per convecció és un procés de transmissió basat en el contacte directe entre els cossos, sempre amb intercanvi de matèria. 63"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-85",
+    "exam": "81/23",
+    "num": "85",
+    "text": "La BLEVE (expansió explosiva del vapor d’un líquid en ebullició) és un tipus d’explosió mecànica que pot generar efectes molt greus. Quina de les següents és una condició necessària perquè es produeixi una BLEVE?",
+    "options": {
+      "a": "s’ha de produir una variació regular de la pressió en el recipient d’1 bar/minut.",
+      "b": "s’ha de produir una baixada sobtada de la pressió en el recipient.",
+      "c": "s’ha de produir un augment de la pressió en el recipient superior al 30% de la seva pressió de vapor.",
+      "d": "s’ha de produir una pujada sobtada de la pressió en el recipient. 69"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-90",
+    "exam": "81/23",
+    "num": "90",
+    "text": "En relació amb la detonació, quina de les següents afirmacions és CORRECTA?",
+    "options": {
+      "a": "la velocitat de l'ona expansiva és superior a la velocitat del so (340 m/s).",
+      "b": "és una combustió d’oxidació lenta però que afecta tots els elements combustibles implicats en l’incendi.",
+      "c": "la velocitat de l'ona expansiva no supera la velocitat del so (340 m/s).",
+      "d": "en les detonacions no fa falta mai aportació d’energia o focus d’ignició, ja que es produeixen sempre per sobrepressió. 75"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-92",
+    "exam": "81/23",
+    "num": "92",
+    "text": "Respecte de la temperatura, quina de les següents afirmacions és CERTA?",
+    "options": {
+      "a": "el seu valor és inversament proporcional a la velocitat de les partícules de les molècules que conformen el material del qual es mesura.",
+      "b": "és una magnitud escalar.",
+      "c": "en el sistema internacional d’unitats, la unitat de temperatura és el grau celsius (ºc).",
+      "d": "en l’escala de graus fahrenheit (ºf) es pren com a valor 0 ºf la temperatura normal corporal humana. 81"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/23-98",
+    "exam": "81/23",
+    "num": "98",
+    "text": "En relació amb els fenòmens del flashover i del backdraft, quina de les següents afirmacions és CERTA?",
+    "options": {
+      "a": "el flashover consisteix en un augment de la velocitat de propagació d’un incendi, de manera progressiva, lenta i previsible.",
+      "b": "en el flashover es produeix la ignició de tots els materials combustibles del recinte de manera sobtada.",
+      "c": "el backdraft consisteix en un augment de la velocitat de propagació d’un incendi, de manera progressiva i lenta.",
+      "d": "en el backdraft es produeix la ignició de tots els materials combustibles del recinte de manera sobrevinguda. 87 89"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-8",
+    "exam": "81/21",
+    "num": "8",
+    "text": "De les següents afirmacions, quina és FALSA?",
+    "options": {
+      "a": "la deflagració té una velocitat de propagació superior a 1 m/s.",
+      "b": "la deflagració té una velocitat de propagació superior a la velocitat del so.",
+      "c": "la detonació té una velocitat de propagació superior a 1 m/s.",
+      "d": "la detonació té una velocitat de propagació superior a la velocitat del so. 95"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-38",
+    "exam": "81/21",
+    "num": "38",
+    "text": "(T7-T10-T18) Referent al coeficient de conductivitat tèrmica, quina de les següents és la resposta CORRECTA?",
+    "options": {
+      "a": "el coure i l’alumini tenen un coeficient de conductivitat tèrmica superior al de l’acer i al del formigó.",
+      "b": "el coeficient de conductivitat tèrmica de la fusta és superior al de l’aigua.",
+      "c": "el formigó i l’acer tenen un coeficient de conductivitat tèrmica menor que el de la fusta.",
+      "d": "el coeficient de conductivitat tèrmica de l’alumini és inferior al del ferro i al de l’acer. 101"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-74",
+    "exam": "81/21",
+    "num": "74",
+    "text": "Quina afirmació és correcta respecte d’una BLEVE:",
+    "options": {
+      "a": "és necessari que es produeixi una reacció química.",
+      "b": "és exclusiu en dipòsits de gasos comprimits.",
+      "c": "és un tipus de dipòsit molt resistent.",
+      "d": "és un tipus d'explosió mecànica. 107"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-75",
+    "exam": "81/21",
+    "num": "75",
+    "text": "Quins son els mecanismes de propagació o transmissió de la calor?",
+    "options": {
+      "a": "convecció, reflectivitat i conducció.",
+      "b": "radiació, reflectivitat i conductivitat tèrmica.",
+      "c": "conducció, radiació i convecció.",
+      "d": "convecció, reflectivitat i radiació. 113"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-79",
+    "exam": "81/21",
+    "num": "79",
+    "text": "En una reacció d’oxidació-reducció l’agent reductor... (assenyaleu la resposta CORRECTA)",
+    "options": {
+      "a": "guanya electrons.",
+      "b": "perd electrons.",
+      "c": "perd protons.",
+      "d": "guanya protons. 119"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-88",
+    "exam": "81/21",
+    "num": "88",
+    "text": "Segons la norma UNE-EN 2-1994/A1:2005 s’estableixen cinc classes de foc. Indiqueu la resposta correcta:",
+    "options": {
+      "a": "classes a, b, c, d, e, f.",
+      "b": "classes a, b, c, d, f.",
+      "c": "classes a, b, c, e, f.",
+      "d": "classes a, b, c, d. 125"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-97",
+    "exam": "81/21",
+    "num": "97",
+    "text": "En un incendi on el combustible que crema és alumini en pols, quina classe de foc és segons la Norma europea UNE-EN 2?",
+    "options": {
+      "a": "a.",
+      "b": "b.",
+      "c": "d.",
+      "d": "c. 131"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/21-102",
+    "exam": "81/21",
+    "num": "102",
+    "text": "Quins són els elements del triangle del foc?",
+    "options": {
+      "a": "comburent, inflamabilitat i reacció en cadena.",
+      "b": "comburent, font d’ignició i combustible.",
+      "c": "combustible, font d’ignició i reacció en cadena.",
+      "d": "comburent, combustible i reacció en cadena. 137 139"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-1",
+    "exam": "81/19.2",
+    "num": "1",
+    "text": "Quina de les següents substàncies NO és comburent?",
+    "options": {
+      "a": "peròxid d’hidrogen (h2o2).",
+      "b": "monòxid de carboni (co).",
+      "c": "oxigen (o2).",
+      "d": "ozó (o3). 145"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-14",
+    "exam": "81/19.2",
+    "num": "14",
+    "text": "En relació amb els mecanismes de transferència de calor, quina de les afirmacions següents és correcta?",
+    "options": {
+      "a": "la transmissió de la calor per radiació és transportada por ones electromagnètiques, i l’energia radiant es pot transmetre a través del buit.",
+      "b": "en la transferència de calor per convecció, és necessari el contacte directe entre els materials que s’intercanvien calor.",
+      "c": "en la transmissió de la calor per radiació el transport d'aquesta es fa per mitjà dels moviments d’un fluid.",
+      "d": "la transferència d’energia en forma de calor per conducció és un procés de transmissió basat en el contacte directe entre els cossos, sempre amb intercanvi de matèria. 151"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-55",
+    "exam": "81/19.2",
+    "num": "55",
+    "text": "Segons la norma UNE-EN 2:1994/A1:2005, els focs derivats de la utilització en els aparells de cuina d’ingredients com olis i greixos vegetals o animals són de tipus:",
+    "options": {
+      "a": "b",
+      "b": "c",
+      "c": "d",
+      "d": "f 157"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-65",
+    "exam": "81/19.2",
+    "num": "65",
+    "text": "Respecte una BLEVE, assenyala l'afirmació correcta:",
+    "options": {
+      "a": "és una evaporació sobtada de tota la massa d’un líquid.",
+      "b": "és una gasificació sobtada que genera baixa pressió a l'ambient.",
+      "c": "és una evaporació progressiva caracteritzada per un increment de la densitat dels gasos.",
+      "d": "una vegada es trenca el recipient hermètic, s'origina un augment de la pressió a l'interior. 163"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-84",
+    "exam": "81/19.2",
+    "num": "84",
+    "text": "Assenyaleu l’ordre correcte de les substàncies següents, segons el seu límit inferior d’inflamabilitat (LII) de menor a major.",
+    "options": {
+      "a": "butà, propà, età, metà.",
+      "b": "metà, età, propà, butà.",
+      "c": "butà, età, metà, propà.",
+      "d": "propà, metà, età, butà. 169"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-89",
+    "exam": "81/19.2",
+    "num": "89",
+    "text": "En relació amb la deflagració, quina de les afirmacions següents és correcta?",
+    "options": {
+      "a": "la velocitat del front de flames és superior a la velocitat del so (340 m/s).",
+      "b": "és una combustió d’oxidació lenta però que afecta tots els elements combustibles implicats en l’incendi.",
+      "c": "la velocitat del front de flames no supera la velocitat del so (340 m/s).",
+      "d": "en les deflagracions no és necessària aportació d’energia o focus d’ignició. 175"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 9 N. DEL FOC-81/19.2-102",
+    "exam": "81/19.2",
+    "num": "102",
+    "text": "En la teoria del foc, l’energia d’activació és:",
+    "options": {
+      "a": "l’energia que es guanya o es perd quan té lloc una reacció en cadena.",
+      "b": "l’energia necessària per a l’inici d’una reacció exotèrmica d’oxidació.",
+      "c": "el principal component d’actuació de l’aigua com a agent extintor."
+    },
+    "answer": "b"
+  }
+]

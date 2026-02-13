@@ -1,0 +1,405 @@
+[
+  {
+    "id": "T12 HIDRÀULICA-81/24-15",
+    "exam": "81/24",
+    "num": "15",
+    "text": "Les pèrdues de càrrega depenen d'una sèrie de factors. Quin dels següents factors NO influeix en les pèrdues de càrrega d’un líquid que circula per una mànega rígida?",
+    "options": {
+      "a": "la viscositat del líquid.",
+      "b": "el diàmetre de la mànega.",
+      "c": "el cabal que hi circula.",
+      "d": "la pressió a la qual circula. 14"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/24-41",
+    "exam": "81/24",
+    "num": "41",
+    "text": "Respecte al nombre de Reynolds, quina condició és INCORRECTA?",
+    "options": {
+      "a": "el diàmetre no influeix en el seu càlcul però sí la temperatura.",
+      "b": "un reynolds inferior a 200 es considera laminar.",
+      "c": "un reynolds superior a 4.000 es considera turbulent.",
+      "d": "descriu si un fluid és turbulent o laminar. 20"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/24-64",
+    "exam": "81/24",
+    "num": "64",
+    "text": "Respecte a l’efecte del cop d’ariet, quina d’aquestes condicions és INCORRECTA?",
+    "options": {
+      "a": "la longitud en una instal·lació rígida és directament proporcional al cop d’ariet.",
+      "b": "la velocitat del tancament de la vàlvula és directament proporcional al cop d’ariet.",
+      "c": "el cabal d’aigua que circula és directament proporcional al cop d’ariet.",
+      "d": "l’elasticitat de la mànega és directament proporcional al cop d’ariet. 26 28 29 30 31 32 33 34"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/23-70",
+    "exam": "81/23",
+    "num": "70",
+    "text": "L’enunciat: “la velocitat de l’aigua quan s'escapa per un forat a la part inferior d’un dipòsit omplert a una profunditat h és igual a la velocitat que tindria en caure lliurement a la mateixa altura h”, descriu:",
+    "options": {
+      "a": "el principi de pascal.",
+      "b": "el principi d’arquímedes.",
+      "c": "un fluid newtonià.",
+      "d": "el teorema de torricelli. 40"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/23-79",
+    "exam": "81/23",
+    "num": "79",
+    "text": "En relació amb el cop d’ariet, assenyaleu la resposta INCORRECTA:",
+    "options": {
+      "a": "aquest fenomen també es coneix com a impuls de jukovski (zhukovsky).",
+      "b": "és un fenomen que només es considera en les canonades per on circulen líquids.",
+      "c": "segons la fórmula de michaud, la sobrepressió del cop d’ariet és directament proporcional a la longitud del conducte.",
+      "d": "segons la fórmula de michaud, la sobrepressió del cop d’ariet és inversament proporcional al temps durant el qual es tanca la clau. 46 48"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/21-9",
+    "exam": "81/21",
+    "num": "9",
+    "text": "Depositem en una piscina olímpica plena d’aigua en condicions normals un cos d'1dm3 de volum amb una densitat de 1.500kg/m3. Quin serà el comportament d’aquest cos dins la piscina? (considereu g=10m/s2)",
+    "options": {
+      "a": "surarà.",
+      "b": "s’enfonsarà.",
+      "c": "es quedarà en equilibri a la meitat de la profunditat de la piscina.",
+      "d": "no hi ha dades suficients per determinar-ho. 54"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/21-11",
+    "exam": "81/21",
+    "num": "11",
+    "text": "De quin d’aquest paràmetres NO depèn l'efecte de sobrepressió produïda per un cop d’ariet?",
+    "options": {
+      "a": "velocitat del fluid.",
+      "b": "densitat del fluid.",
+      "c": "diàmetre de la canonada.",
+      "d": "punt d’ebullició del fluid. 60"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/21-18",
+    "exam": "81/21",
+    "num": "18",
+    "text": "En relació amb el règim de flux laminar, trieu la resposta INCORRECTA:",
+    "options": {
+      "a": "es caracteritza per un moviment de flux ordenat i sense pertorbacions.",
+      "b": "si el nombre de reynolds és superior a 5.000 sempre serà laminar.",
+      "c": "si el nombre de reynolds és inferior a 1.000 sempre serà laminar.",
+      "d": "es produeix a velocitats baixes o viscositats altes. 66"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/21-32",
+    "exam": "81/21",
+    "num": "32",
+    "text": "Una canonada té una secció d’entrada de 0,5m2 d’àrea i la velocitat del fluid és de 0,5 m/s. Si la secció de sortida té una àrea d'1,0m2, quina és la velocitat del fluid i el cabal en aquesta secció? (considereu el fluid incompressible i el flux uniform)",
+    "options": {
+      "a": "v =0,25 m/s i q=0,25m3/s.",
+      "b": "v=1,0 m/s i q=1,0 m3/s.",
+      "c": "v =0,25 m3/s i q=0,25m/s.",
+      "d": "v =1,0 m3/s i q=0,25m/s. 72 74"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-12",
+    "exam": "81/19.2",
+    "num": "12",
+    "text": "Quina és la pressió hidrostàtica d'un punt de la base d'un dipòsit circular de 10 m d'alçada, el qual està omplert un 60 % de la seva capacitat? (preneu g = 10 m/s2)",
+    "options": {
+      "a": "0,60 mca.",
+      "b": "1,00 kp/cm2.",
+      "c": "0,06 n.",
+      "d": "0,06 mpa. 80"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-17",
+    "exam": "81/19.2",
+    "num": "17",
+    "text": "Vull minimitzar les pèrdues de càrrega d'una instal·lació d'extinció de foc forestal. Selecciona l'opció correcta:",
+    "options": {
+      "a": "augmentar la longitud de mànega, disminuir el diàmetre de la mànega i augmentar la rugositat de la mànega.",
+      "b": "disminuir la longitud de mànega, augmentar el diàmetre de la mànega i disminuir la rugositat de la mànega.",
+      "c": "disminuir la longitud de mànega, augmentar el diàmetre de la mànega i augmentar la rugositat de la mànega.",
+      "d": "disminuir la longitud de mànega, disminuir el diàmetre de la mànega i disminuir la rugositat de la mànega 86"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-18",
+    "exam": "81/19.2",
+    "num": "18",
+    "text": "Disposem d'un recipient ple d'aigua i tancat per dos èmbols: (A) i (B). La superfície de l'èmbol (A) és el doble de l'èmbol (B). Si exercim una força (F) a l'èmbol (B) superior a 0, obtindrem una força a l'èmbol (A) que compleix que:",
+    "options": {
+      "a": "fa > fb.",
+      "b": "fa < fb.",
+      "c": "fa = fb.",
+      "d": "fa = 0. 92"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-47",
+    "exam": "81/19.2",
+    "num": "47",
+    "text": "Disposem d'una canonada de secció circular amb un tram a l'entremig de menor diàmetre que conté un flux d'aigua constant. Quina de les afirmacions següents és INCORRECTA en relació amb l'efecte Venturi?",
+    "options": {
+      "a": "la velocitat del flux d'aigua en el tram a l'entremig augmentarà.",
+      "b": "la pressió dinàmica en un punt del tram a l'entremig augmentarà.",
+      "c": "la pressió estàtica en un punt del tram a l'entremig augmentarà.",
+      "d": "el cabal d'entrada i sortida es mantindrà. 98"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-95",
+    "exam": "81/19.2",
+    "num": "95",
+    "text": "Segons el teorema de Torricelli, la velocitat del flux de sortida de l'aigua (fluid ideal) d'un dipòsit amb una obertura a la seva part inferior depèn de:",
+    "options": {
+      "a": "la gravetat, l'alçada de la columna d'aigua i el diàmetre de l'obertura.",
+      "b": "la gravetat i l'alçada de la columna d'aigua.",
+      "c": "l'alçada de la columna d'aigua i el diàmetre de l'obertura.",
+      "d": "la gravetat, l'alçada de la columna d'aigua i la rugositat de les parets del dipòsit. 104"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19.2-99",
+    "exam": "81/19.2",
+    "num": "99",
+    "text": "Disposem d'una canonada de secció circular amb una àrea al punt inicial de 200 dm2 i de 100 dm2 al punt final. La velocitat del flux d'aigua al punt inicial és de 2 m/s. Quina és la seva velocitat al punt final?",
+    "options": {
+      "a": "4 m3/s",
+      "b": "1 m3/s",
+      "c": "4 m/s",
+      "d": "1 m/s 110 112"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-7",
+    "exam": "81/19",
+    "num": "7",
+    "text": "Si ens referim a l’equació de continuïtat en hidrodinàmica, quina afirmació és INCORRECTA?",
+    "options": {
+      "a": "per tal que es compleixi la conducció ha de ser perfectament estanca.",
+      "b": "estableix que si disminueix la secció d’una conducció augmentarà la velocitat del líquid que hi circula.",
+      "c": "diu que el cabal es mantindrà constant al llarg de tota una instal·lació.",
+      "d": "estableix que la suma de les pressions dinàmica i estàtica serà zero. 118"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-34",
+    "exam": "81/19",
+    "num": "34",
+    "text": "Si parlem de pressió dinàmica, quina resposta és CORRECTA?",
+    "options": {
+      "a": "depèn de la densitat i de la velocitat del líquid.",
+      "b": "depèn de la densitat i de la quantitat de líquid.",
+      "c": "depèn de l’alçada i de la quantitat de líquid.",
+      "d": "depèn de l’alçada i de la densitat del líquid. 124"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-84",
+    "exam": "81/19",
+    "num": "84",
+    "text": "Quina afirmació és INCORRECTA respecte de les pèrdues de càrrega?",
+    "options": {
+      "a": "augmenten amb la pressió.",
+      "b": "són directament proporcionals a la longitud de la conducció.",
+      "c": "són inversament proporcionals al diàmetre de la conducció.",
+      "d": "augmenten amb el cabal. 130"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-90",
+    "exam": "81/19",
+    "num": "90",
+    "text": "Un manòmetre mesura la pressió:",
+    "options": {
+      "a": "absoluta.",
+      "b": "relativa.",
+      "c": "atmosfèrica.",
+      "d": "de referència. 136"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-92",
+    "exam": "81/19",
+    "num": "92",
+    "text": "Si parlem de pressió estàtica, quina resposta és CORRECTA?",
+    "options": {
+      "a": "depèn de la densitat i de la velocitat del líquid.",
+      "b": "depèn de la densitat i de la quantitat de líquid.",
+      "c": "depèn de l’alçada i de la quantitat de líquid.",
+      "d": "depèn de l’alçada i de la densitat del líquid. 142"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/19-99",
+    "exam": "81/19",
+    "num": "99",
+    "text": "L’alçada màxima efectiva a la qual pot aspirar una bomba hidràulica:",
+    "options": {
+      "a": "és superior a l’alçada màxima teòrica d’aspiració.",
+      "b": "és inferior a l’alçada màxima teòrica d’aspiració.",
+      "c": "és de 10.33 metres.",
+      "d": "és inversament proporcional a la pressió atmosfèrica. 148 150"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/18-22",
+    "exam": "81/18",
+    "num": "22",
+    "text": "Les pèrdues de càrrega en una instal·lació:",
+    "options": {
+      "a": "seran més petites com més llarga sigui la instal·lació.",
+      "b": "seran més grans com més gran sigui el diàmetre de les mànegues.",
+      "c": "seran més petites com més gran sigui el diàmetre de les mànegues.",
+      "d": "serà independent de la llargada de la instal·lació 156"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/18-53",
+    "exam": "81/18",
+    "num": "53",
+    "text": "En un fluid en repòs on la pressió total és de 100.000 Pa i la pressió estàtica és de 100.000 Pa, quina és la pressió dinàmica?",
+    "options": {
+      "a": "100.000 pa",
+      "b": "1 pa",
+      "c": "200.000 pa",
+      "d": "0 pa 162"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/18-88",
+    "exam": "81/18",
+    "num": "88",
+    "text": "La pressió dinàmica d’un fluid:",
+    "options": {
+      "a": "actua en la direcció del flux.",
+      "b": "actua per igual en totes les direccions.",
+      "c": "actua en angle recte amb totes les superfícies que continguin el fluid.",
+      "d": "consisteix en la suma de la pressió estàtica i la pressió total. 168 169 170 171 172 173 174 176"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/16-24",
+    "exam": "81/16",
+    "num": "24",
+    "text": "Què és el cabal?",
+    "options": {
+      "a": "és la quantitat d'aigua que passa per la secció d'un conducte per unitat de temps.",
+      "b": "és la força que fa l'aigua per unitat de superfície",
+      "c": "és la quantitat d'aigua que passa per una instal·lació per unitat de superfície.",
+      "d": "és la mesura de projecció de l'aigua en brollar per un orifici en funció de la secció de l'orifici. 182"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/16-30",
+    "exam": "81/16",
+    "num": "30",
+    "text": "Si augmentem la secció d'una instal·lació de mànegues mantenint la velocitat de l'aigua:",
+    "options": {
+      "a": "augmenta la pressió dinàmica dins de la instal·lació, ja que va relacionada directament amb el cabal.",
+      "b": "això és impossible, ja que en augmentar la secció augmenta inevitablement la velocitat.",
+      "c": "augmenta el cabal.",
+      "d": "augmenta la pressió estàtica, ja que la força que fa l'aigua contra les parets de la instal·lació es més gran. 188"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/16-41",
+    "exam": "81/16",
+    "num": "41",
+    "text": "Quina pressió marcaria el manòmetre connectat a l'extrem superior d'un tub de 10 m immers en la seva part inferior dins d'un contenidor d'aigua si aspirem l'aigua fins a fer-la pujar fins a l'alçada de 7 m?",
+    "options": {
+      "a": "7 mca.",
+      "b": "-0,3 bar.",
+      "c": "-0,7 bar.",
+      "d": "1 atm. 194"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T12 HIDRÀULICA-81/16-45",
+    "exam": "81/16",
+    "num": "45",
+    "text": "Disposem d'una instal·lació de mànegues de 45 mm que es bifurca en dues de 25 mm i que tornen a confluir en una sola mànega de 45 mm. Una de les dues mànegues de 25 mm, la A, és el doble de llarga que la B. Quina de les dues instal·lacions té més pèrdues de pressió per fregament, la A o la B?",
+    "options": {
+      "a": "la a, perquè en tenir més longitud, el cabal és inferior.",
+      "b": "la a, tal com es reflecteix a les corbes de pèrdues de càrrega.",
+      "c": "tenen les mateixes pèrdues, ja que la llargada no influeix en les pèrdues de càrrega.",
+      "d": "tenen les mateixes pèrdues, ja que en disminuir el cabal a la a també hi disminueixen les pèrdues. 200 202"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T12 HIDRÀULICA-2009-49",
+    "exam": "2009",
+    "num": "49",
+    "text": "El francès Blaise Pascal va investigar sobre el concepte de pressió i el buit, però el principi de Pascal és:",
+    "options": {
+      "a": "la pressió aplicada a un líquid tancat dins un recipient es transmet per igual a tots els punts del líquid i sempre és perpendicular a la superfície",
+      "b": "en un tub tancat on circula aigua, a mesura que anem augmentant la velocitat del líquid que hi circula, tant la pressió estàtica com la dinàmica del sistema augmenten",
+      "c": "la pressió augmenta a mesura que anem baixant la cota",
+      "d": "la mínima pressió absoluta assolible és de -1 bar 208"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-2009-57",
+    "exam": "2009",
+    "num": "57",
+    "text": "La diferència de pressió a la base entre una banyera immensa amb 3 m3 d’aigua i un tub prim amb 0’1 m3 d’aigua depèn:",
+    "options": {
+      "a": "de l’altura del líquid de la banyera i del tub, i de la densitat dels líquids",
+      "b": "serà sempre la mateixa si el líquid és el mateix",
+      "c": "de la superfície i la forma de la banyera i del tub",
+      "d": "de la superfície de la banyera i del tub i de la densitat dels líquids 214"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T12 HIDRÀULICA-2009-63",
+    "exam": "2009",
+    "num": "63",
+    "text": "En una canonada rígida en què està circulant l’aigua, mesurem la pressió estàtica i dinàmica del punt mig de la canonada. Quan tanquem l’aixeta del final de la canonada, al punt que mesurem:",
+    "options": {
+      "a": "no hi ha variació per haver tancat l’aixeta",
+      "b": "la pressió estàtica augmenta i la dinàmica disminueix",
+      "c": "la pressió estàtica i la dinàmica s’igualen",
+      "d": "la pressió estàtica disminueix i la dinàmica augmenta 220"
+    },
+    "answer": "b"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-3",
+    "exam": "81/24",
+    "num": "3",
+    "text": "Quin és el propòsit del quadre elèctric en una instal·lació interior domèstica?",
+    "options": {
+      "a": "mesura l'electricitat i controla d’on arriba el flux elèctric.",
+      "b": "en una instal·lació domèstica el quadre elèctric no és important.",
+      "c": "distribueix l’electricitat, protegeix els circuits i connexió a terra.",
+      "d": "protegeix la instal·lació d'enllaç de les sobretensions. 10"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-5",
+    "exam": "81/24",
+    "num": "5",
+    "text": "Segons el Reglament electrotècnic de baixa tensió (REBT), el circuit d’il·luminació d’un habitatge de nova construcció amb grau d’electrificació elevat requerirà, entre altres elements, de:",
+    "options": {
+      "a": "un pia de 20 a i una secció mínima de conductors de 2,5 mm2.",
+      "b": "un pia de 10 a i una secció mínima de conductors de 2,5 mm2.",
+      "c": "un pia de 10 a i una secció mínima de conductors d'1,5 mm2.",
+      "d": "un pia de 20 a i una secció mínima de conductors d'1,5 mm2. 16"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-9",
+    "exam": "81/24",
+    "num": "9",
+    "text": "D’acord amb el Reglament electrotècnic de baixa tensió (REBT), en el seu apartat BT-06, en el cas d’encreuaments i paral·lelismes amb carreteres i ferrocarrils sense electrificar, quina serà la distància dels diferents elements amb el cable conductor?",
+    "options": {
+      "a": "l’alçada mínima del conductor més baix, en condicions de fletxa més desfavorable, serà de 6 metres.",
+      "b": "l’alçada mínima del conductor més baix, en condicions de fletxa més desfavorable, serà de 3 metres.",
+      "c": "l’alçada mínima del conductor sobre la superfície serà de h = g+1 metre, on g és el gàlib de la carretera i h és l'alçada.",
+      "d": "es permetrà qualsevol alçada sempre que el conductor sigui aïllat i tinguin una tensió de ruptura superior a 200 dan. 22"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-53",
+    "exam": "81/24",
+    "num": "53",
+    "text": "Quina informació és INCORRECTA sobre els parallamps en els edificis?",
+    "options": {
+      "a": "és un sistema extern de protecció contra llamps.",
+      "b": "la barra metàl·lica ha d’estar col·locada en un punt elevat.",
+      "c": "està connectat a un cable amb poca resistència que condueix el corrent de forma segura i que permet dispersar el corrent del llamp cap al neutre.",
+      "d": "pretén convertir l’edifici protegit en una gàbia de faraday. 28"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-54",
+    "exam": "81/24",
+    "num": "54",
+    "text": "El Reglament electrotècnic de baixa tensió (REBT) estableix les característiques mínimes de l'interruptor diferencial en una instal·lació domèstica. Quina serà la intensitat diferencial residual màxima?",
+    "options": {
+      "a": "300 ma.",
+      "b": "30 a.",
+      "c": "0,03 a.",
+      "d": "dependrà en funció del grau d'electrificació de l'habitatge 34"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/24-58",
+    "exam": "81/24",
+    "num": "58",
+    "text": "Segons el Reglament electrotècnic de baixa tensió (REBT), quins dels següents components NO formen part de les instal·lacions d’enllaç?",
+    "options": {
+      "a": "derivació individual.",
+      "b": "connexió de servei (escomesa).",
+      "c": "caixa general de protecció.",
+      "d": "línia general d’alimentació. 40 42"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/23-9",
+    "exam": "81/23",
+    "num": "9",
+    "text": "Si ens demanen fer un tall d’electricitat en un edifici de múltiples habitatges i només podem fer el tall de corrent elèctric a la caixa general de protecció, actuarem:",
+    "options": {
+      "a": "traient els fusibles i la barra de neutre en qualsevol ordre.",
+      "b": "traient la barra de neutre, perquè traient un sol element ja deixarem el circuit obert.",
+      "c": "traient només els fusibles.",
+      "d": "no podem actuar, és alta tensió i només ho pot manipular la companyia. 48"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/23-54",
+    "exam": "81/23",
+    "num": "54",
+    "text": "Treballem en l’incendi d’un pis on ha cremat una vitroceràmica i volem desconnectar la línia que ha quedat afectada. Si l’habitatge disposa d’una electrificació bàsica i els magnetotèrmics no tenen referenciats els circuits, buscarem un PIA de:",
+    "options": {
+      "a": "10 a.",
+      "b": "16 a.",
+      "c": "20 a.",
+      "d": "25 a. 54"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/23-86",
+    "exam": "81/23",
+    "num": "86",
+    "text": "En una instal·lació d’enllaç per a un edifici amb centralització de comptadors, el comptador el trobarem entre:",
+    "options": {
+      "a": "el fusible de seguretat i l’interruptor de control de potència.",
+      "b": "l’interruptor de control de potència i l’interruptor general automàtic.",
+      "c": "la línia general d’alimentació i el fusible de seguretat.",
+      "d": "l’interruptor general de maniobra i el fusible de seguretat. 60 62"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-7",
+    "exam": "81/21",
+    "num": "7",
+    "text": "La caixa general de protecció (CGP) té la funció de protegir la línia general d’alimentació. En edificis de múltiples habitatges, què trobarem al seu interior, entre altres elements?",
+    "options": {
+      "a": "fusibles per a tots els conductors de fase i també fusible per al conductor de terra.",
+      "b": "fusibles per a tots els conductors de fase.",
+      "c": "un interruptor diferencial general.",
+      "d": "l ’interruptor diferencial general i també l’interruptor de control de potència (icp). 68"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-42",
+    "exam": "81/21",
+    "num": "42",
+    "text": "Entre els elements següents, amb quin es podria protegir un aparell elèctric domèstic d’una fallada del conductor neutre?",
+    "options": {
+      "a": "amb un dispositiu de protecció contra sobretensions.",
+      "b": "amb un ruptofusible de protecció contra sobreintensitats.",
+      "c": "amb un interruptor diferencial general (id).",
+      "d": "amb un fusible amb poder de tall igual o superior a la icc (corrent de curtcircuit). 74"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-49",
+    "exam": "81/21",
+    "num": "49",
+    "text": "Un circuit elèctric de BAIXA TENSIÓ soterrat en vorera:",
+    "options": {
+      "a": "l’identificarem sempre pel color vermell de l’aïllament exterior.",
+      "b": "segons normativa, amb caràcter general no es trobarà a una profunditat inferior a 60 cm.",
+      "c": "únicament per a tensions de 0,6 a 1 kv cal senyalitzar la presència de cables elèctrics. només els circuits soterrats d’alta tensió tindran protecció mecànica.",
+      "d": "identificarem el neutre per la major secció respecte als conductors de fase (conductors d’alumini). 80"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-57",
+    "exam": "81/21",
+    "num": "57",
+    "text": "Indiqueu la resposta FALSA en relació amb l’interruptor diferencial:",
+    "options": {
+      "a": "en un habitatge, la normativa permet instal·lar un interruptor diferencial per cada circuit, prescindint així d’un únic interruptor diferencial general, sempre que quedin protegits tots els circuits.",
+      "b": "és un dispositiu de protecció complementària contra els contactes directes amb corrent diferencial residual menor o igual a 30 ma en ús domèstic.",
+      "c": "en accionar el botó de test es provoca un corrent diferencial entre fase i neutre.",
+      "d": "el trobarem ubicat preferentment sobre façanes exteriors dels edificis, en llocs d'accés lliure i permanent. 86"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-92",
+    "exam": "81/21",
+    "num": "92",
+    "text": "El Reglament electrotècnic de baixa tensió identifica els conductors en colors. Indiqueu la resposta INCORRECTA:",
+    "options": {
+      "a": "el color marró correspon a un conductor de fase.",
+      "b": "el conductor de protecció s’identifica pel color vermell.",
+      "c": "el color blau identifica el conductor neutre.",
+      "d": "quan convingui identificar tres fases diferents, s’usarà el color gris. 92"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-98",
+    "exam": "81/21",
+    "num": "98",
+    "text": "Un habitatge amb una potència instal·lada de 7.360 W es considera una electrificació bàsica segons el Reglament electrotècnic de baixa tensió. Quina intensitat nominal correspondrà a l’interruptor general automàtic IGA?",
+    "options": {
+      "a": "32 a.",
+      "b": "40 a.",
+      "c": "50 a.",
+      "d": "63 a. 98 9919/2/2023 100"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-54",
+    "exam": "81/21",
+    "num": "54",
+    "text": "Si a causa d'un incendi no tenim accés a desconnectar el corrent a la caixa de protecció i mesura (CPM), quin podria ser el lloc alternatiu on podriem desconnectar?",
+    "options": {
+      "a": "interruptor de control i potència (icp).",
+      "b": "interruptor general automàtic (iga).",
+      "c": "caixa general de protecció (cgp).",
+      "d": "petits interruptors automàtics (pia). 106"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/21-85",
+    "exam": "81/21",
+    "num": "85",
+    "text": "En un quadre de comandament i protecció d'un habitatge, l'interruptor diferencial protegeix:",
+    "options": {
+      "a": "contra curtcircuits i sobrecàrregues en la instal·lació elèctrica.",
+      "b": "contra contactes directes o indirectes amb parts actives de la instal·lació amb derivació al terra.",
+      "c": "limitant l'ús a la potència que tenim contractada.",
+      "d": "contra sobrecàrregues en el circuit. 112 114 115 116 117 118 119 120"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/19-62",
+    "exam": "81/19",
+    "num": "62",
+    "text": "En una caixa de distribució elèctrica amb concentració de comptadors en la planta baixa d’un edifici, on estan situats els fusibles que protegeixen la derivació individual?",
+    "options": {
+      "a": "no hi ha fusibles en la caixa de distribució.",
+      "b": "a l’embarrat, just abans de cada comptador.",
+      "c": "als borns de sortida de cada derivació individual, just després de cada comptador.",
+      "d": "cada comptador incorpora internament el fusible de seguretat. 126"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/19-63",
+    "exam": "81/19",
+    "num": "63",
+    "text": "En una instal·lació elèctrica domèstica que compleix tota la normativa, si pugem sobre una banqueta dielèctrica i agafem un conductor pelat de fase amb una mà i un conductor pelat de neutre amb l’altre mà i ens comencem a electrocutar, quin dels dispositius de protecció obrirà el circuit per a protegir-nos?",
+    "options": {
+      "a": "l’interruptor diferencial.",
+      "b": "l’interruptor general automàtic de tota la instal·lació.",
+      "c": "el petit interruptor automàtic del circuït del qual hem agafat els cables.",
+      "d": "cap dispositiu de protecció obrirà el circuit. 132"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/19-101",
+    "exam": "81/19",
+    "num": "101",
+    "text": "La principal mesura de seguretat dels comptadors elèctrics intel·ligents és:",
+    "options": {
+      "a": "avisar els bombers en cas d’incendi.",
+      "b": "facilitar la comunicació entre l’empresa subministradora i el client.",
+      "c": "tallar el subministrament en cas de sobrepassar la potència màxima contractada.",
+      "d": "verificar la qualitat de la intensitat elèctrica que arriba al domicili. 138 140"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/18-30",
+    "exam": "81/18",
+    "num": "30",
+    "text": "Quina funció té la presa de terra?",
+    "options": {
+      "a": "estabilitzar el corrent elèctric.",
+      "b": "facilitar el funcionament de l'interruptor general automàtic de tall omnipolar (iga).",
+      "c": "desviar un contacte al terra i evitar una descàrrega al cos humà.",
+      "d": "reduir el corrent de 380 volts a 230 volts 146"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/18-34",
+    "exam": "81/18",
+    "num": "34",
+    "text": "En el quadre de comandament de protecció elèctric d’un habitatge, l’aparell que ens protegeix d’una possible descàrrega elèctrica és:",
+    "options": {
+      "a": "l’interruptor general automàtic.",
+      "b": "l’interruptor diferencial.",
+      "c": "l’interruptor general automàtic de tall omnipolar.",
+      "d": "l'interruptor protector de sobretensions 152"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/18-37",
+    "exam": "81/18",
+    "num": "37",
+    "text": "Quins elements de control porta el quadre de distribució d’un domicili?",
+    "options": {
+      "a": "interruptor de control de potència (icp), interruptor diferencial (id), petits interruptors automàtics (pia).",
+      "b": "interruptor general automàtic de tall omnipolar (iga), interruptor de control de potència (icp), interruptor diferencial (id), petits interruptors automàtics (pia).",
+      "c": "fusibles, interruptor de control de potència (icp), interruptor diferencial (id), petits interruptors automàtics (pia).",
+      "d": "comptador analògic o digital, interruptor general automàtic de tall omnipolar (iga), interruptor de control de potència (icp), interruptor diferencial (id), petits interruptors automàtics (pia) 158 159 160 161 162 163 164 166"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/16-35",
+    "exam": "81/16",
+    "num": "35",
+    "text": "La principal funció d'un interruptor diferencial és:",
+    "options": {
+      "a": "limitar el consum elèctric.",
+      "b": "evitar la fibril·lació del cor per una descàrrega elèctrica.",
+      "c": "diferenciar els interruptors de control de potència.",
+      "d": "assegurar que la presa de terra està dins dels 500 ohms. 172"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-81/16-68",
+    "exam": "81/16",
+    "num": "68",
+    "text": "Per què l'energia elèctrica produïda en les centrals es transporta a tensions de 110 a 400 KV?",
+    "options": {
+      "a": "per garantir la seguretat del subministrament.",
+      "b": "per controlar els camps magnètics produïts per cada fase.",
+      "c": "per disminuir les pèrdues d'energia.",
+      "d": "per assegurar la intensitat. 178 180"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-2009-62",
+    "exam": "2009",
+    "num": "62",
+    "text": "Què és ICP?",
+    "options": {
+      "a": "és un interruptor diferencial",
+      "b": "són les inicials de les companyies subministradores d’electricitat",
+      "c": "és l’índex de preus al consum que s’aplica al material elèctric",
+      "d": "és un magnetotèrmic 186"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-2009-71",
+    "exam": "2009",
+    "num": "71",
+    "text": "Quan es desconnecta de forma automàtica un interruptor diferencial?",
+    "options": {
+      "a": "quan detecta una derivació de corrent en el circuit",
+      "b": "quan es creuen dos pols de diferent potencial",
+      "c": "quan sobrepassa la intensitat de l’interruptor de control de potència",
+      "d": "quan es tall un cable amb unes estisores i el ferro toca els dos fils de coure 192 194"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T27 INST ELECTRIQUES-2000-57",
+    "exam": "2000",
+    "num": "57",
+    "text": "Una instal·lació domèstica de 220 V està dividida en 4 seccions. Cada secció està protegida per un petit interruptor automàtic (PIA). Dos d’aquests interruptors són de 10 A i els altres de 20 A. Si l’interruptor de control de potència d’efecte magnetotèrmic (ICP) és de 50 A:",
+    "options": {
+      "a": "per la instal·lació, com a màxim hi circularan 60 a",
+      "b": "la potència contractada és de 11 kw",
+      "c": "els pia saltaran quan el corrent total de la instal·lació superi els 50 a"
+    },
+    "answer": "b"
+  }
+]

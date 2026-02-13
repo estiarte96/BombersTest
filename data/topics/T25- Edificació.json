@@ -1,0 +1,756 @@
+[
+  {
+    "id": "T25 C. EDIFICACIÓ-81/24-27",
+    "exam": "81/24",
+    "num": "27",
+    "text": "Segons la manera com resisteix les accions, quin nom rep el mur de contenció en què el fust no és resistent a flexió i no pot resistir traccions?",
+    "options": {
+      "a": "mur suportat.",
+      "b": "mur cortina.",
+      "c": "mur per gravetat.",
+      "d": "mur en mènsula. 10"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/24-62",
+    "exam": "81/24",
+    "num": "62",
+    "text": "Quan una biga d’acer és sotmesa a l’acció de forces puntuals i/o repartides que actuen sobre el seu eix longitudinal i tenen tendència a corbar-la, diem que està sotmesa a un esforç:",
+    "options": {
+      "a": "de flexió.",
+      "b": "de torsió.",
+      "c": "de tracció.",
+      "d": "tallant. 16"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/24-63",
+    "exam": "81/24",
+    "num": "63",
+    "text": "Com s’anomena la peça vertical que separa les dues meitats d’una encavallada, s’acobla al vèrtex superior i sosté pel seu punt mitjà el tirant?",
+    "options": {
+      "a": "tornapunta.",
+      "b": "monjo.",
+      "c": "cavall.",
+      "d": "corretja. 22"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/24-89",
+    "exam": "81/24",
+    "num": "89",
+    "text": "Assenyala la resposta INCORRECTA referent a les parets de càrrega:",
+    "options": {
+      "a": "acostumen a disposar de poques obertures.",
+      "b": "treballen principalment a compressió.",
+      "c": "el gruix d’aquestes caracteritza la seva capacitat resistent.",
+      "d": "els forjats que s'hi recolzen disposen d’àbacs, els quals serveixen per evitar el punxonament. 28 30"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/23-30",
+    "exam": "81/23",
+    "num": "30",
+    "text": "En una encavallada, principalment a quin tipus d'esforç està sotmès el pendeló?",
+    "options": {
+      "a": "flexió.",
+      "b": "cisallament.",
+      "c": "tracció.",
+      "d": "torsió. 36"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/23-37",
+    "exam": "81/23",
+    "num": "37",
+    "text": "Quina d'aquestes afirmacions és CERTA?",
+    "options": {
+      "a": "la dimensió dels fonaments és directament proporcional a la cohesió del terreny i inversament proporcional a les càrregues que suporta.",
+      "b": "la dimensió dels fonaments és inversament proporcional a la cohesió del terreny i directament proporcional a les càrregues que suporta.",
+      "c": "la dimensió dels fonaments no depèn de les càrregues que suporta, però sí de la cohesió del terreny.",
+      "d": "la dimensió dels fonaments depèn únicament de la cohesió del terreny. 42"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/23-89",
+    "exam": "81/23",
+    "num": "89",
+    "text": "Dins de l'àmbit de la construcció i segons el Codi Tècnic d'Edificació, el concepte de càrregues que sotmeten els edificis i els seus elements a deformacions i canvis geomètrics deguts a les variacions de la temperatura ambient exterior es denominen:",
+    "options": {
+      "a": "accions accidentals.",
+      "b": "accions concàrregues.",
+      "c": "accions variables.",
+      "d": "accions permanents. 48"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/23-91",
+    "exam": "81/23",
+    "num": "91",
+    "text": "Quin tipus d'estructures poden ser analitzades i resoltes simplement mitjançant l'aplicació de la Primera Llei de Newton?",
+    "options": {
+      "a": "estructures hipostàtiques.",
+      "b": "estructures indeterminades.",
+      "c": "estructures hiperestàtiques.",
+      "d": "estructures isostàtiques. 54"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-4",
+    "exam": "81/21",
+    "num": "4",
+    "text": "En una estructura d'edificació, quan les accions que actuen sobre un element molt esvelt que es troba comprimit i es genera un important desplaçament transversal a la direcció principal de compressió, diem que l’element està sotmès a:",
+    "options": {
+      "a": "torsió.",
+      "b": "vinclament.",
+      "c": "cisallament.",
+      "d": "tracció. 61"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-6",
+    "exam": "81/21",
+    "num": "6",
+    "text": "Entre els tipus d’accions que cal considerar en el càlcul d’una estructura d’edificació, les accions degudes al vent formen part de:",
+    "options": {
+      "a": "les accions accidentals.",
+      "b": "les accions permanents.",
+      "c": "les accions reològiques.",
+      "d": "les accions variables. 67"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-17",
+    "exam": "81/21",
+    "num": "17",
+    "text": "(T25-T22) Una encavallada que forma part de l’estructura portant d’una coberta lleugera i té una resistència al foc de 30 min, la seva classificació, en referència al seu comportament al foc és:",
+    "options": {
+      "a": "ei 30.",
+      "b": "rei 30",
+      "c": "e 30.",
+      "d": "r 30. 73"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-36",
+    "exam": "81/21",
+    "num": "36",
+    "text": "Una paret de “gero” que pot anar exteriorment revestida o aplacada de pedra o ceràmica i pot ser de càrrega o no, i envà interior d’obra amb un aïllament situat a la càmera interior és un/a:",
+    "options": {
+      "a": "façana ventilada.",
+      "b": "mur cortina.",
+      "c": "façana massissa o d’un sol full.",
+      "d": "façana amb extradossat interior. 79"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-82",
+    "exam": "81/21",
+    "num": "82",
+    "text": "L’anomenada comunament “casa de cos” es refereix a un dels sistemes tradicionals de construcció amb murs de càrrega, dins dels sistemes estructurals més comuns a Catalunya. Quina de les característiques següents NO correspon a aquest sistema constructiu concret?",
+    "options": {
+      "a": "regularitat en la distribució interior.",
+      "b": "traves a les façanes i l’escala interior.",
+      "c": "dues parets mitgeres generalment de càrrega paral·leles.",
+      "d": "sostres carregant en diverses direccions per travar-se. 85"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-85",
+    "exam": "81/21",
+    "num": "85",
+    "text": "Quan parlem d’una paret de peu i mig, en format de peu català (de 2 peus iguals a 3 pams), ens referim a una paret amb un gruix de:",
+    "options": {
+      "a": "uns 15 cm aproximadament.",
+      "b": "uns 25 cm aproximadament.",
+      "c": "uns 45 cm aproximadament.",
+      "d": "uns 60 cm aproximadament. 91"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-91",
+    "exam": "81/21",
+    "num": "91",
+    "text": "En un element de la construcció, el tipus d’enllaç (nus) que impedeix el desplaçament en qualsevol direcció de les barres que hi concorren, tant verticalment com horitzontalment, però que en canvi permet el gir relatiu s’anomena:",
+    "options": {
+      "a": "articulació.",
+      "b": "encastament.",
+      "c": "recolzament.",
+      "d": "flexible, tipus molla. 97"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-101",
+    "exam": "81/21",
+    "num": "101",
+    "text": "Com s’anomena el tipus d’estructura d’edificació que té l'origen en la substitució d’uns elements “extensos” de caràcter superficial per conjunts d’elements “lineals” de bigues i pilars disposats en plans paral·lels, on la transmissió de les càrregues passa de la bigueta o placa fins a les bigues, i d’aquestes als pilars, fins a arribar als fonaments?",
+    "options": {
+      "a": "estructura espacial o tridimensional.",
+      "b": "estructures muraries.",
+      "c": "estructura mixta.",
+      "d": "estructura porticada. 103 1041/2/2019 105"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-7",
+    "exam": "81/21",
+    "num": "7",
+    "text": "Quina és la funció dels fonaments en una construcció?",
+    "options": {
+      "a": "repartir als pilars les càrregues de l'edificació.",
+      "b": "servir d'aïllant.",
+      "c": "repartir les càrregues de l'edificació al terreny.",
+      "d": "actuar com a element de tancament. 111"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-36",
+    "exam": "81/21",
+    "num": "36",
+    "text": "Quins dels elements constructius següents NO és estructural?",
+    "options": {
+      "a": "micropilots.",
+      "b": "sabata aïllada.",
+      "c": "envà.",
+      "d": "llosa de fonamentació. 117"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-57",
+    "exam": "81/21",
+    "num": "57",
+    "text": "Que és el cantell d'una biga de secció rectangular?",
+    "options": {
+      "a": "l'alçada de la secció.",
+      "b": "l'amplada de la secció.",
+      "c": "el seu perímetre.",
+      "d": "la seva àrea 123"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-63",
+    "exam": "81/21",
+    "num": "63",
+    "text": "Dins l'àmbit de la construcció, el concepte de càrrega permanent inclou, entre d'altres:",
+    "options": {
+      "a": "l'acció de la neu acumulada sobre un edifici.",
+      "b": "el pes propi dels elements estructurals.",
+      "c": "el pes resultant per l'ocupació de persones, mobiliari i vehicles.",
+      "d": "les accions tèrmiques. 129"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-67",
+    "exam": "81/21",
+    "num": "67",
+    "text": "Quin nom rep la barra de ferro disposada transversalment en un pilar o en una biga de formigó armat que serveix per lligar les barres principals de l'armadura i per resistir els esforços tallants?",
+    "options": {
+      "a": "llinda.",
+      "b": "estrep.",
+      "c": "encofrat.",
+      "d": "dovella. 135"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-78",
+    "exam": "81/21",
+    "num": "78",
+    "text": "Les parets de càrrega construïdes amb maons són un mètode molt utilitzat a les construccions tradicionals. El seu gruix mínim és:",
+    "options": {
+      "a": "15 cm",
+      "b": "20 cm",
+      "c": "25 cm",
+      "d": "30 cm 141"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-82",
+    "exam": "81/21",
+    "num": "82",
+    "text": "Els pilars són elements estructurals que es comporten molt adequadament davant dels esforços de:",
+    "options": {
+      "a": "tracció.",
+      "b": "torsió.",
+      "c": "compressió.",
+      "d": "cisallament. 147"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-81/21-97",
+    "exam": "81/21",
+    "num": "97",
+    "text": "En aplicar una càrrega puntual a l'extrem lliure d'una biga amb voladís, quin és el seu moment flector en aquest punt?",
+    "options": {
+      "a": "el doble que a l'extrem encastat.",
+      "b": "igual que a l'extrem encastat.",
+      "c": "és igual a 0.",
+      "d": "la meitat que a l'extrem encastat. 153 155"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-6",
+    "exam": "2019",
+    "num": "6",
+    "text": "Quina d’aquestes tipologies de fonaments NO és un fonament superficial:",
+    "options": {
+      "a": "llosa armada.",
+      "b": "sabates aïllades de formigó armat.",
+      "c": "bigues flotants de formigó armat.",
+      "d": "pilons fabricats “in situ” 161"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-11",
+    "exam": "2019",
+    "num": "11",
+    "text": "Una jàssera de formigó armat tindrà en el seu interior:",
+    "options": {
+      "a": "igual nombre de barres d’acer a la seva part superior que inferior.",
+      "b": "més barres d’acer als llocs on la peça és sotmesa a tracció.",
+      "c": "més barres d’acer als llocs on la peça és sotmesa a compressió.",
+      "d": "solament barres d’acer a la seva part inferior. 167"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-29",
+    "exam": "2019",
+    "num": "29",
+    "text": "Un mur cortina és:",
+    "options": {
+      "a": "una façana lleugera, majoritàriament de vidre, suportada per una subestructura metàl·lica autoportant que se subjecta a l’estructura de l’edifici.",
+      "b": "una façana de vidre que se suporta per una estructura metàl·lica de muntants i travessers que formen part de l’estructura portant d’un edifici.",
+      "c": "una paret de tancament interior d’un edifici composta per elements tèxtils.",
+      "d": "el tancament metàl·lic resistent al foc de la caixa escènica d’un teatre 173"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-30",
+    "exam": "2019",
+    "num": "30",
+    "text": "Una coberta plana transitable:",
+    "options": {
+      "a": "té un pendent d’un 0%.",
+      "b": "té un pendent mínim d’un 1% i màxim d’un 5%.",
+      "c": "té un pendent mínim d’un 1% i màxim d’un 20%.",
+      "d": "sempre ha de tenir un canaló de recollida d’aigües perimetral. 179"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-37",
+    "exam": "2019",
+    "num": "37",
+    "text": "El vinclament és:",
+    "options": {
+      "a": "la deformació lateral d’una peça llarga que es corba en la seva part central per efecte d’una compressió excessiva exercida en el sentit del seu eix longitudinal.",
+      "b": "el trencament d’una peça llarga provocat per l’aplicació d’una força perpendicular al seu eix longitudinal.",
+      "c": "l'esforç intern o resultant de les tensions paral·leles a la secció transversal d'un prisma mecànic com per exemple una biga o un pilar.",
+      "d": "la deformació que experimenta una peça llarga sotmesa a dos parells de forces que actuen en sentits contraris i en dos plans paral·lels. 185"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2019-91",
+    "exam": "2019",
+    "num": "91",
+    "text": "Les barres que formen part d’una encavallada treballen:",
+    "options": {
+      "a": "unes a tracció i d’altres a compressió.",
+      "b": "unes a tracció i d’altres a flexió o torsió.",
+      "c": "cap treballa a tracció.",
+      "d": "totes treballen a compressió. 191 193"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2018-9",
+    "exam": "2018",
+    "num": "9",
+    "text": "Les accions que actuen sobre un edifici es classifiquen per la seva variació en el temps en:",
+    "options": {
+      "a": "directes i indirectes.",
+      "b": "estàtiques i dinàmiques.",
+      "c": "permanents, accidentals i variables.",
+      "d": "pes propi, sobrecàrrega d’ús, sisme, incendi i explosió. 199"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2018-47",
+    "exam": "2018",
+    "num": "47",
+    "text": "En una sabata flexible de formigó armat:",
+    "options": {
+      "a": "els esforços que hi apareixen són només de compressió.",
+      "b": "hi apareixen esforços de tracció a la part superior.",
+      "c": "hi apareixen esforços de tracció a la part inferior.",
+      "d": "una sabata flexible ha de ser de formigó en massa. 205"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2018-54",
+    "exam": "2018",
+    "num": "54",
+    "text": "La capa de compressió:",
+    "options": {
+      "a": "es col·loca per sota dels forjats sanitaris.",
+      "b": "és la part del terreny en contacte amb la base dels fonaments superficials.",
+      "c": "és la part del terreny en contacte amb l'extradós del mur de contenció.",
+      "d": "es col·loca sobre les biguetes i els revoltons. 211"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2018-68",
+    "exam": "2018",
+    "num": "68",
+    "text": "El bulb de pressions:",
+    "options": {
+      "a": "està compost per isohietes, corbes que uneixen punts a la mateixa pressió.",
+      "b": "proporciona una idea del volum de sòl afectat per la fonamentació.",
+      "c": "es produeix a la unió entre bigues i pilars.",
+      "d": "mostra com els esforços que transmet una sabata augmenten progressivament en profunditat 217"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2018-101",
+    "exam": "2018",
+    "num": "101",
+    "text": "Les barres que formen part d'una encavallada treballen:",
+    "options": {
+      "a": "unes, a tracció i d'altres, a compressió.",
+      "b": "unes, a tracció i d'altres a flexió quan les reaccions del terreny són cap a baix.",
+      "c": "cap treballa a tracció.",
+      "d": "totes treballen a compressió. 223 225"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-16",
+    "exam": "2016",
+    "num": "16",
+    "text": "Un terreny cohesiu està majoritàriament format per:",
+    "options": {
+      "a": "matèria orgànica",
+      "b": "argiles",
+      "c": "grava",
+      "d": "àrids 231"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-63",
+    "exam": "2016",
+    "num": "63",
+    "text": "Una coberta invertida es diferencia d’una coberta tradicional en:",
+    "options": {
+      "a": "la diferència de pendents respecte la façana",
+      "b": "la diferència en posicionar el material aïllant respecte la làmina impermeable",
+      "c": "que no utilitza teula àrab",
+      "d": "que no té pendents 237"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-79",
+    "exam": "2016",
+    "num": "79",
+    "text": "Un forjat sanitari és:",
+    "options": {
+      "a": "un forjat reforçat per sustentar els elements del bany",
+      "b": "el darrer forjat que existeix abans d’una coberta ventilada on es troben els baixants",
+      "c": "un forjat amb biguetes autorresistents per aïllar el terreny mitjançant una càmera d’aire",
+      "d": "un forjat construït amb semibiguetes ceràmiques per on es condueixen les instal·lacions de gas i llum. 243"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-80",
+    "exam": "2016",
+    "num": "80",
+    "text": "En un edifici construït en fàbrica de maó, quina d’aquestes parets no és estructural?",
+    "options": {
+      "a": "paret de trava",
+      "b": "paret de tancament",
+      "c": "paret divisòria interior",
+      "d": "paret de càrrega 249"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-84",
+    "exam": "2016",
+    "num": "84",
+    "text": "El comportament dels elements estructurals segueix un criteri en aguantar les seves càrregues, amb quina seqüència?",
+    "options": {
+      "a": "amb les deformacions es generen accions derivades dels esforços, que amb valor elevat impliquen la disminució de tensions.",
+      "b": "les tensions generen esforços i el seu valor s’incrementa amb les accions derivades de les deformacions.",
+      "c": "les tensions i les accions en valor excessiu impliquen un increment de deformacions i una disminució dels esforços.",
+      "d": "les accions generen esforços, els esforços generen tensions, i si el valor és excessiu es produeixen deformacions. 255"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2016-100",
+    "exam": "2016",
+    "num": "100",
+    "text": "La tensió admissible d’un terreny és:",
+    "options": {
+      "a": "la tensió mínima que suporta el terreny amb el pes de l’estructura.",
+      "b": "la tensió que es genera en el terreny en rebre la càrrega d’un element estructural.",
+      "c": "la tensió màxima que un cop superada provoca el trencament del terreny.",
+      "d": "la suma de totes les sobrecàrregues de l’edifici sense l’estructura. 261 263"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2009-29",
+    "exam": "2009",
+    "num": "29",
+    "text": "Una coberta catalana és:",
+    "options": {
+      "a": "un tipus de coberta plana",
+      "b": "un tipus de coberta amb teula catalana",
+      "c": "un tipus de coberta amb teula plana",
+      "d": "una coberta amb un 20% de pendent 269"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2009-48",
+    "exam": "2009",
+    "num": "48",
+    "text": "En una escala d’un edifici d’habitatges, el graó té:",
+    "options": {
+      "a": "és indiferent",
+      "b": "un pendent mínim del 25%",
+      "c": "l’estesa de 28 cm i l’alçada de 17’3 cm",
+      "d": "l’estesa de 18 cm i el davant de 28’3 cm 275"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2009-65",
+    "exam": "2009",
+    "num": "65",
+    "text": "Quin tipus de fonament es pot trobar en un terreny no resistent?",
+    "options": {
+      "a": "sabata correguda",
+      "b": "pilotatges",
+      "c": "sabata excèntrica",
+      "d": "sabata mixta 281 283"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2008-41",
+    "exam": "2008",
+    "num": "41",
+    "text": "Com s’oposen els murs de gravetat a les empentes laterals de les terres?",
+    "options": {
+      "a": "per les armadures situades en l’extradós del mur",
+      "b": "per les armadures situades en la zona de l’intradós",
+      "c": "per les armadures situades en la zona de tracció",
+      "d": "pel seu propi pes 289"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2008-43",
+    "exam": "2008",
+    "num": "43",
+    "text": "L’element de construcció “envanets de sostre mort”, en quin tipus de coberta el trobarem?",
+    "options": {
+      "a": "en les metàl·liques de xapa grecada",
+      "b": "en les lleugeres de fibrociment",
+      "c": "en les planes",
+      "d": "en les inclinades de teula ceràmica 295"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2008-66",
+    "exam": "2008",
+    "num": "66",
+    "text": "En un pilar de formigó armat, quins esforços absorbeix principalment l’armadura d’acer?",
+    "options": {
+      "a": "únicament els de vinclament",
+      "b": "únicament els de compressió",
+      "c": "únicament els de tracció",
+      "d": "els de tracció i part dels de compressió 301"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2008-70",
+    "exam": "2008",
+    "num": "70",
+    "text": "Quina de les següents afirmacions és incorrecta:",
+    "options": {
+      "a": "la cara del mur de gravetat que està en contacte amb les terres es diu intradós",
+      "b": "la dovella és una peça que forma part d’un arc",
+      "c": "el cassetó ceràmic no té cap funció resistent",
+      "d": "quan el terreny resistent es troba a gran profunditat utilitzarem pilotatge 307 309"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2006-16",
+    "exam": "2006",
+    "num": "16",
+    "text": "L’armadura d’un mur de contenció del tipus de gravetat és del tipus:",
+    "options": {
+      "a": "de cap mena, ja que els murs del tipus de gravetat no tenen armadura",
+      "b": "d’acer amb rodons (varillas) com a mínim de 20 mm de diàmetre",
+      "c": "mallada i acordada a l’armadura de la sabata",
+      "d": "serà determinada per càlcul i estarà en funció de les empentes que suporti el mur 315"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2006-27",
+    "exam": "2006",
+    "num": "27",
+    "text": "Uns fonaments seran de més superfície:",
+    "options": {
+      "a": "com més gran sigui el pes a suportar",
+      "b": "com més resistent sigui el terreny",
+      "c": "com menys càrrega hagin de suportar",
+      "d": "com menys plantes tingui l’edifici que ha de suportar 321"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2006-50",
+    "exam": "2006",
+    "num": "50",
+    "text": "En una estructura de fàbrica de ceràmica, com coneixerem quina és la paret de càrrega?",
+    "options": {
+      "a": "pel seu gruix",
+      "b": "per la direcció de les bigues en el cas que hi hagi forjat unidireccional",
+      "c": "pel tipus d’arrebossat que aquesta tingui",
+      "d": "pel seu gruix i, en el cas dels forjats unidireccionals, per la direcció de les bigues 327"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2006-52",
+    "exam": "2006",
+    "num": "52",
+    "text": "El pes propi d’una construcció correspon a un tipus d’acció…",
+    "options": {
+      "a": "gravitatòria",
+      "b": "reològica",
+      "c": "tèrmica",
+      "d": "sísmica 333"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2006-70",
+    "exam": "2006",
+    "num": "70",
+    "text": "Una paret de càrrega, construïda correctament, amb quina o quines de les següents peces ceràmiques pot estar construïda?",
+    "options": {
+      "a": "amb totxo calat de 29 x 14 x 6 cm",
+      "b": "amb totxo foradat de 29 x 14 x 9 cm",
+      "c": "amb totxo de 29 x 14 x 6 cm",
+      "d": "amb totxo calat de 29 x 14 x 6 cm o amb totxo de 29 x 14 x 6 cm 339 341"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2005-32",
+    "exam": "2005",
+    "num": "32",
+    "text": "Un forjat format per bigues de fusta (cairats o cabirons) el podem classificar com a:",
+    "options": {
+      "a": "no es pot considerar com a forjat",
+      "b": "una volta",
+      "c": "forjat reticular",
+      "d": "forjat unidireccional 347"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2005-37",
+    "exam": "2005",
+    "num": "37",
+    "text": "Utilitzarem un sistema de pilotatge quan…",
+    "options": {
+      "a": "quan l’estructura de l’edifici que tenim previst construir en terreny resistent sigui d’obra de fàbrica",
+      "b": "quan el terreny sigui de tipus granític",
+      "c": "el tipus de terreny on tenim previst construir sigui no resistent",
+      "d": "el tipus de terreny on tenim previst construir sigui resistent 353"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2005-48",
+    "exam": "2005",
+    "num": "48",
+    "text": "Quin dels tipus de coberta que coneixes ha de portar necessàriament una capa impermeabilitzant?",
+    "options": {
+      "a": "les cobertes inclinades de pissarra",
+      "b": "totes les cobertes han de portar necessàriament una capa impermeabilitzant",
+      "c": "les cobertes planes",
+      "d": "les cobertes inclinades de teula àrab 359 361"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2003-50",
+    "exam": "2003",
+    "num": "50",
+    "text": "Una biga horitzontal de formigó armat recolzada pels extrems està sotmesa a una càrrega puntual centrada. Les barnilles de l’armat de la seva part inferior estan sotmeses a:",
+    "options": {
+      "a": "compressió",
+      "b": "tracció",
+      "c": "torsió vibrant",
+      "d": "compressió i tracció 367"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T25 C. EDIFICACIÓ-2003-56",
+    "exam": "2003",
+    "num": "56",
+    "text": "Per apuntalar una jàssera plana, quin és el tipus d’apuntalament més adequat?",
+    "options": {
+      "a": "creu de sant andreu",
+      "b": "horitzontal",
+      "c": "inclinat",
+      "d": "vertical 373 375"
+    },
+    "answer": "d"
+  }
+]

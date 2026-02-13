@@ -1,0 +1,665 @@
+[
+  {
+    "id": "T17 MECÀNICA-81/24-80",
+    "exam": "81/24",
+    "num": "80",
+    "text": "Quina de les següents afirmacions, relatives a les politges, NO és certa?",
+    "options": {
+      "a": "una politja fixa no té cap avantatge mecànic.",
+      "b": "una politja fixa només permet canviar la direcció de la força.",
+      "c": "per dividir la força a la meitat necessitarem com a mínim dues politges.",
+      "d": "la desmultiplicació d’un polipast té relació directa amb el nombre de politges que el componen. 20"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/24-82",
+    "exam": "81/24",
+    "num": "82",
+    "text": "Quina és la força que evita el desplaçament d’un cos que està situat en un pla inclinat?",
+    "options": {
+      "a": "la força de la gravetat.",
+      "b": "la seva inèrcia.",
+      "c": "la rugositat de la superfície.",
+      "d": "la força de fricció. 26"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/24-95",
+    "exam": "81/24",
+    "num": "95",
+    "text": "Quins són els principals moviments de treball en un torn mecànic?",
+    "options": {
+      "a": "moviment per rotació i moviment circular.",
+      "b": "moviment radial, moviment longitudinal i moviment per rotació.",
+      "c": "moviment longitudinal i moviment circular.",
+      "d": "moviment per rotació, moviment longitudinal i moviment circular. 32 34"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/23-8",
+    "exam": "81/23",
+    "num": "8",
+    "text": "Per què serveix la volandera Grower:",
+    "options": {
+      "a": "perquè no s’afluixi una femella.",
+      "b": "col·locada després del cap de cargol, serveix per no marcar el material que volem collar.",
+      "c": "per collar aixetes de la mateixa marca comercial.",
+      "d": "per estalviar-nos de col·locar una femella d’autoassegurança. 40"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/23-46",
+    "exam": "81/23",
+    "num": "46",
+    "text": "Volem traslladar les càrregues verticals entre dos elements que estan separats verticalment 5 cm. Per fer-ho, disposem de dues falques iguals de 30 cm de longitud i 10 cm d’alçada, que solaparem pel seu costat llarg. Quina distància horitzontal s’hauran de solapar les dues falques per tal de garantir el contacte entre els dos elements?",
+    "options": {
+      "a": "5 cm.",
+      "b": "10 cm.",
+      "c": "15 cm.",
+      "d": "30 cm. 46"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/23-55",
+    "exam": "81/23",
+    "num": "55",
+    "text": "Volem fer la unió de dues peces metàl·liques mitjançant una unió roscada amb 4 cargols mètrics i sense utilitzar femelles. Quin serà el procediment per a fer una unió que treballi correctament?",
+    "options": {
+      "a": "farem 4 orificis roscats a cada peça independentment i a continuació les unirem amb els cargols.",
+      "b": "farem 4 orificis roscats a la peça que muntarem més allunyada de la cabota i 4 forats passant a l’altra.",
+      "c": "farem 4 orificis passants a la peça que muntarem més allunyada de la cabota i 4 forats roscats a l’altra.",
+      "d": "les unions cargolades s’han de muntar amb femella. 52"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/23-87",
+    "exam": "81/23",
+    "num": "87",
+    "text": "Quin és el màxim avantatge mecànic que podem obtenir si disposem d’un polispast compost per una politja fixa i una politja mòbil?",
+    "options": {
+      "a": "obtindrem un avantatge mecànic de 2, però podem aprofitar la politja fixa per oferir-nos comoditat a l’hora d’aixecar la càrrega.",
+      "b": "obtindrem un avantatge mecànic de 3.",
+      "c": "la força serà el 75% de la resistència però més còmode per l’ajut de la politja mòbil.",
+      "d": "no es podrà muntar el polispast. 58"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/23-104",
+    "exam": "81/23",
+    "num": "104",
+    "text": "Si tenim una rosca d’una sola entrada i amb un pas de rosca d’1 mm i comprovem que avança 1 mm en una volta, si tenim una rosca de tres entrades amb el mateix pas, quant avançarà?",
+    "options": {
+      "a": "1 mm",
+      "b": "1,5 mm",
+      "c": "3 mm",
+      "d": "6 mm 64 66"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/21-26",
+    "exam": "81/21",
+    "num": "26",
+    "text": "Utilitzem una politja fixada al sostre per on passa una corda. Un operari subjecta un extrem de la corda per aguantar un pes de 700 N que penja de l’altre extrem. Quina força haurà de suportar el suport de la politja al sostre?",
+    "options": {
+      "a": "350 n.",
+      "b": "700 n.",
+      "c": "1.050 n.",
+      "d": "1.400 n. 72"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/21-33",
+    "exam": "81/21",
+    "num": "33",
+    "text": "En un gronxador tipus balancí d’un parc infantil (palanca de primer gènere) hi ha un nen de 32 kg a un dels extrems, que està a 2,5 metres del punt de suport. Puja una nena de 50 kg a l’altre extrem, que també està a 2,5 metres. Quants cm ha d’avançar la nena en direcció al nen per tal que el balancí quedi en equilibri?",
+    "options": {
+      "a": "50 cm.",
+      "b": "80 cm.",
+      "c": "90 cm.",
+      "d": "120 cm. 78"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/21-43",
+    "exam": "81/21",
+    "num": "43",
+    "text": "Suposant que la gravetat sigui de 10 m/s2 i que no hi hagi fregament, quina ha de ser la longitud d’un pla inclinat d’altura de 4 metres per tal que amb una força de 1.000 N paral· lela al pla es pugui aguantar un objecte de massa de 400 kg recolzat sobre el pla?",
+    "options": {
+      "a": "16 m.",
+      "b": "24 m.",
+      "c": "32 m.",
+      "d": "64 m. 84"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/21-73",
+    "exam": "81/21",
+    "num": "73",
+    "text": "Tenim muntat un polispast amb tres politges mòbils i un avantatge mecànic de 8. Amb una força F a l’extrem de la corda A ens permet aguantar un pes R. Suposant que totes les cordes són estàtiques i prou llargues per tal que les politges no es toquin, quants cm de corda haurem d’estirar per l’extrem de la corda A per aixecar 4 cm el pes R?",
+    "options": {
+      "a": "0,5 cm.",
+      "b": "4 cm.",
+      "c": "8 cm.",
+      "d": "32 cm. 90"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/21-90",
+    "exam": "81/21",
+    "num": "90",
+    "text": "Un torn amb el cilindre de 12 cm de radi l’utilitzem per treure aigua d’un pou amb una galleda. La maneta del torn mesura 60 cm entre l’eix del cilindre i el punt on exercim la força. Suposant que no hi ha fregament i que la corda i la galleda no pesen, quants litres d’aigua podem treure aplicant una força a la maneta de 8 kp?",
+    "options": {
+      "a": "5 l.",
+      "b": "12,5 l.",
+      "c": "24 l.",
+      "d": "40 l. 96 98"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19.2-3",
+    "exam": "81/19.2",
+    "num": "3",
+    "text": "El pla inclinat és una màquina simple que ens estalvia esforç. Consisteix en una porció del pla que té una inclinació respecte a l'horitzontal. Calculeu la longitud de la rampa que hem de fer servir per aixecar una massa de 250 kg, amb una força de 100 N en la direcció del pla inclinat, la volem aixecar a una altura de 4 m (preneu g = 10 m/s2, considereu el fregament menyspreable i que el pla inclinat actua com una màquina ideal)",
+    "options": {
+      "a": "la longitud de la rampa serà de 16 m.",
+      "b": "la longitud de la rampa serà de 160 m.",
+      "c": "la longitud de la rampa serà de 100 m.",
+      "d": "la longitud de la rampa serà de 80 m. 104"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19.2-27",
+    "exam": "81/19.2",
+    "num": "27",
+    "text": "La palanca de segon gènere:",
+    "options": {
+      "a": "és la palanca que té la resistència (r) entre el fulcre (o) i la força (f).",
+      "b": "és la palanca que té el fulcre (o) entre la força (f) i la resistència (r).",
+      "c": "és la palanca que té la força (f) entre el fulcre (o) i la resistència (r).",
+      "d": "és la palanca que té el fulcre (o) més a prop de la resistència (r) que de la força (f). 110"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19.2-32",
+    "exam": "81/19.2",
+    "num": "32",
+    "text": "Un cargol de banc de l'aula de tecnologia té un pas de rosca de 0,5 cm i una maneta de 10 cm. Si s'aplica una força de 100 N a l'extrem de la maneta, el cargol subjectarà la peça amb una força aproximada de: (preneu pi=3,14)",
+    "options": {
+      "a": "12.560 n",
+      "b": "7.425 n",
+      "c": "18.364 n",
+      "d": "1.256 n 116"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19.2-77",
+    "exam": "81/19.2",
+    "num": "77",
+    "text": "Els cabrestants de rodet consisteixen en un rodet confinat lateralment que permet enrotllar un cable amb diferents capes sobreposades. En quina d'aquestes situacions es pot aconseguir més força?",
+    "options": {
+      "a": "amb gairebé tot el cable desenrotllat del rodet, el màxim que permeti.",
+      "b": "la llargada del cable enrotllat no té cap rellevància.",
+      "c": "amb la meitat del cable desenrotllat estirat del rodet.",
+      "d": "amb gairebé tot el cable enrotllat al rodet i fent servir el mínim per estirar. 122"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19.2-94",
+    "exam": "81/19.2",
+    "num": "94",
+    "text": "En una instal·lació de politges simples, per aconseguir el màxim avantatge mecànic s'ha de tenir en compte si el nombre de politges és parell o senar. Quan aconseguirem el màxim avantatge mecànic?",
+    "options": {
+      "a": "quan el nombre de politges sigui parell, l'inici de la corda la fixarem al punt fix.",
+      "b": "l'avantatge mecànic dependrà de la força necessària per moure un pes, no d'on col·loquem l'inici de la corda.",
+      "c": "quan el nombre de politges sigui senar, l'inici de la corda el fixarem a la càrrega.",
+      "d": "quan el nombre de politges sigui parell, l'inici de la corda el fixarem a la càrrega. 128 130"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-13",
+    "exam": "81/19",
+    "num": "13",
+    "text": "Una barra de 3 m de longitud és utilitzada en forma de palanca de segon gènere. Apliquem una força de 7 N en un dels extrems de la barra. L’altre extrem de la barra serà el punt de recolzament. A quina distància del punt de recolzament haurem de col·locar una càrrega de 10 N perquè el sistema estigui en equilibri?",
+    "options": {
+      "a": "2,1 m.",
+      "b": "1,5 m.",
+      "c": "0,5 m.",
+      "d": "2,5 m. 136"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-35",
+    "exam": "81/19",
+    "num": "35",
+    "text": "En un sistema d’engranatges el quocient entre el diàmetre de la roda i el nombre de dents és:",
+    "options": {
+      "a": "el pas de dent.",
+      "b": "el mòdul de l’engranatge.",
+      "c": "l’alçada de la dent.",
+      "d": "la relació de transmissió. 142"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-51",
+    "exam": "81/19",
+    "num": "51",
+    "text": "En un balancí (palanca de primer gènere) hi ha una noia i un noi en cadascun dels seus extrems que pesen 40 kg i 60 kg respectivament. La noia està a 3 m del punt de suport. Si el balancí està en equilibri, quina distància separa els joves?",
+    "options": {
+      "a": "2 m.",
+      "b": "3 m.",
+      "c": "4 m.",
+      "d": "5 m. 148"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-77",
+    "exam": "81/19",
+    "num": "77",
+    "text": "Per tal d’aconseguir el màxim avantatge mecànic en un polispast:",
+    "options": {
+      "a": "muntarem el màxim nombre de politges mòbils possible.",
+      "b": "muntarem el màxim nombre de politges fixes possible.",
+      "c": "el nombre de politges mòbils i fixes ha de coincidir.",
+      "d": "la corda o el cable ha de tenir la mínima longitud possible. 154"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-83",
+    "exam": "81/19",
+    "num": "83",
+    "text": "Disposem d’una corda i d’una única politja per muntar una instal·lació per aixecar un pes de 50 kg. Amb aquests elements, quina serà la força mínima que haurem de fer per tal d’aconseguir-ho?",
+    "options": {
+      "a": "50 kp si la politja és mòbil.",
+      "b": "25 kp si la politja és fixa.",
+      "c": "25 kp si la politja és mòbil.",
+      "d": "12,5 kp en qualsevol cas. 160"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-96",
+    "exam": "81/19",
+    "num": "96",
+    "text": "Una palanca de primer gènere té una càrrega de 40 N a 1 m del fulcre. A quina distància del fulcre haurem de col·locar una segona càrrega de 20 N per tal que la palanca romangui en equilibri?",
+    "options": {
+      "a": "1m.",
+      "b": "2m.",
+      "c": "0,5 m.",
+      "d": "sempre es decantarà cap a l’extrem on la càrrega sigui major. 166"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/19-100",
+    "exam": "81/19",
+    "num": "100",
+    "text": "En una nau industrial hi ha una politja penjada d’una biga. En un costat hi ha un pes de 50 kg, i a l’altre una persona subjectant-lo. El pes està en equilibri, ni puja ni baixa. Quina és la força que ha de sostenir l’element que subjecta la politja al sostre de la nau?",
+    "options": {
+      "a": "490 n.",
+      "b": "100 kg.",
+      "c": "50 kg.",
+      "d": "980 n. 172 174"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-81/18-14",
+    "exam": "81/18",
+    "num": "14",
+    "text": "Es vol aixecar un cos des d'una alçada determinada. Per fer-ho podem utilitzar dos sistemes: aixecar el cos verticalment amb l’ajuda d’una corda (requerirà una força mínima Fv), o bé fent ús d’un pla inclinat sense fricció que requerirà una força mínima de Fp. Podem assegurar que:",
+    "options": {
+      "a": "fp>fv",
+      "b": "fp<fv",
+      "c": "fp=fv",
+      "d": "fp=2*fv 180"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/18-15",
+    "exam": "81/18",
+    "num": "15",
+    "text": "Si parlem de l’avantatge mecànic en palanques de tercer gènere, podem assegurar que serà:",
+    "options": {
+      "a": "superior a 1.",
+      "b": "igual o inferior a 1.",
+      "c": "superior a 0,5.",
+      "d": "igual o inferior a 0,5. 186"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/18-25",
+    "exam": "81/18",
+    "num": "25",
+    "text": "Un camió de bombers de massa “m” baixa per un pla inclinat a una velocitat constant “v”, des d'una alçada “h” i recorre una distància “d”. Sabent que la força de fregament és “Fr”. Quina serà l'energia dissipada pel fregament amb el terra? (preneu “g” com l’acceleració de la gravetat).",
+    "options": {
+      "a": "-fr·d.",
+      "b": "0,5·m·v2.",
+      "c": "m·g·h.",
+      "d": "m·g·h-0,5·m·v2. 192"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/18-94",
+    "exam": "81/18",
+    "num": "94",
+    "text": "Per aixecar una càrrega concreta, R, disposem d’una corda amb un extrem fix i de 2 politges: una mòbil que subjecta la càrrega i una altra fixa, subjecta al sostre. Referent a la força necessària per aixecar la càrrega podem assegurar que:",
+    "options": {
+      "a": "dependrà del punt d’ancoratge de l’extrem fix de la corda.",
+      "b": "serà r.",
+      "c": "serà r/2.",
+      "d": "serà r/4. 198"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/18-103",
+    "exam": "81/18",
+    "num": "103",
+    "text": "Una palanca de tercer gènere es manté en equilibri quan la força aplicada és de 2N i la resistència és d'1,5N. Si la distància entre la resistència i el punt de recolzament és de 80cm, quina és la distància entre la força i la resistència?",
+    "options": {
+      "a": "20 cm.",
+      "b": "50 cm.",
+      "c": "60 cm.",
+      "d": "100 cm. 204 206 207 208 209 210 211 212"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-81/16-37",
+    "exam": "81/16",
+    "num": "37",
+    "text": "Hem d'aixecar un objecte que pesa 500 kg. Per fer la maniobra disposem d'un cabrestant que no podem ancorar a la vertical de la càrrega. Per solucionar-ho muntem una politja i fem un desviament de manera que la tracció es fa des d'uns 140 graus de la vertical. Quina tracció ha de fer el cabrestant? I quant ha de suportar l'ancoratge de la politja?",
+    "options": {
+      "a": "el cabrestant suporta la meitat de la càrrega ja que la politja és fixa. l'ancoratge de la politja és el doble de la càrrega.",
+      "b": "el cabrestant, 500 kg. l'ancoratge de la politja, menys de 500 kg.",
+      "c": "el cabrestant, més de 500 kg. l'ancoratge de la politja la meitat de la càrrega.",
+      "d": "el cabrestant, la meitat de la càrrega. l'ancoratge de la politja menys de 500 kg. 218 219 220 221 222 223 224"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-81/16-82",
+    "exam": "81/16",
+    "num": "82",
+    "text": "Una persona que pesa 90 kg es posa un arnés i es lliga un dels extrems d'una corda que passa per una politja fixa. L'altra extrem de la corda l'utilitza per elevar-se. Quina força ha de fer amb els braços?",
+    "options": {
+      "a": "els 80 kg, ja que les politges fixes no multipliquen la força.",
+      "b": "és impossible pujar, ja que es produiria un cicle tancat amb la corda.",
+      "c": "la meitat del pes de la persona.",
+      "d": "només podrà pujar si puja per les dues cordes vencent els 80 kg. 230 231 232 233 234 235 236"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-81/16-98",
+    "exam": "81/16",
+    "num": "98",
+    "text": "Els pistons de rescat telescòpics...",
+    "options": {
+      "a": "en el primer tram tenen més força i menor velocitat que a la resta de trams.",
+      "b": "en el primer tram tenen més força i major velocitat que a la resta de trams.",
+      "c": "a tots els trams tenen la mateixa força i diferent velocitat.",
+      "d": "a tots els trams tenen la mateixa força i velocitat. 242 244"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T17 MECÀNICA-2009-22",
+    "exam": "2009",
+    "num": "22",
+    "text": "En una palanca de segon gènere, si la càrrega (R) està situada a 20 cm del fulcre, quina força s’ha d’aplicar a 1 m del fulcre per moure la càrrega?",
+    "options": {
+      "a": "una força igual a r",
+      "b": "una força igual a r/2",
+      "c": "una força igual a r/20",
+      "d": "una força igual a r/5 250"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2009-23",
+    "exam": "2009",
+    "num": "23",
+    "text": "Quina és la llargada màxima teòrica del cable d’un tràctel?",
+    "options": {
+      "a": "dependrà del diàmetre del cable",
+      "b": "aquesta llargada és il·limitada",
+      "c": "20 m en els tràctels que utilitzen els bombers",
+      "d": "35 m per el de tipus t 35 256"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2009-59",
+    "exam": "2009",
+    "num": "59",
+    "text": "En mecànica, i segons la definició d’una màquina simple:",
+    "options": {
+      "a": "un cabestrant és una màquina simple",
+      "b": "les màquines simples són rotatives",
+      "c": "una màquina simple es mou per l’aplicació d’una sola força",
+      "d": "una màquina simple es mou per l’aplicació d’un mínim de dues forces 262"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-2009-72",
+    "exam": "2009",
+    "num": "72",
+    "text": "Mecànicament el cargol és una màquina simple. La longitud d’avançada que es produeix en una volta de cargol es coneix com a:",
+    "options": {
+      "a": "velocitat d’avançada",
+      "b": "mètric",
+      "c": "pas de rosca",
+      "d": "filet de la rosca 268 270"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-2008-12",
+    "exam": "2008",
+    "num": "12",
+    "text": "A la part superior d’un forjat hi ha un ancoratge. De l’ancoratge penja una politja fixa. Per la politja fixa passa una corda amb dos extrems. A cada extrem de la corda s’aplica una força de 25 Newtons (25 N + 25 N = 50 N). Si es varia l’angle entre els dos extrems de la corda, amb quin angle la tracció de l’ancoratge serà màxima?",
+    "options": {
+      "a": "a cent vuitanta graus",
+      "b": "a cent vint graus",
+      "c": "a noranta graus",
+      "d": "a zero graus (extrems paral·lels) 276"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2008-46",
+    "exam": "2008",
+    "num": "46",
+    "text": "Es disposa d’un trepant de 700 watts de potència, i dues broques de 6 mm i 10 mm de diàmetre. Marca la resposta correcta:",
+    "options": {
+      "a": "la potència depèn del moment de força",
+      "b": "el moment de força és el mateix amb les dues broques",
+      "c": "amb la broca de 10 mm el moment de força és menor",
+      "d": "amb la broca de 6 mm el moment de força és menor 282"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2008-38",
+    "exam": "2008",
+    "num": "38",
+    "text": "Per aixecar una càrrega de 200 Newtons fem servir una palanca de segon gènere. El braç de resistència és ¼ de la palanca. Quina força ha de suportar el punt de suport quan la palanca està en posició horitzontal (no és té en compte el pes de la mateixa palanca).",
+    "options": {
+      "a": "250 n",
+      "b": "150 n",
+      "c": "100 n",
+      "d": "50 n 288"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2008-59",
+    "exam": "2008",
+    "num": "59",
+    "text": "En una palanca de segon gènere:",
+    "options": {
+      "a": "el moment de força és màxim",
+      "b": "el punt de suport és màxim",
+      "c": "tot el sistema és braç de resistència",
+      "d": "tot el sistema és braç de palanca 294 296"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2006-29",
+    "exam": "2006",
+    "num": "29",
+    "text": "La politja és un disc de costat acanalat que gira:",
+    "options": {
+      "a": "al voltant d’un eix que passa per un extrem del disc i li és perpendicular",
+      "b": "al voltant d’un eix que passa pel seu centre i que és perpendicular a la superfície del disc",
+      "c": "al voltant d’un eix que passa pel seu centre i que no és perpendicular a la superfície del disc",
+      "d": "al voltant d’un eix que no passa pel seu centre i que és perpendicular a la superfície del disc 302"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2006-31",
+    "exam": "2006",
+    "num": "31",
+    "text": "El torn, com a màquina simple, enrotlla normalment el cable que estira de la resistència en un cilindre, el qual gira sobre el seu eix sota l’acció d’una força F. A la pràctica la força necessària per elevar una càrrega:",
+    "options": {
+      "a": "és sempre constant",
+      "b": "pot anar disminuint a mesura que s’eleva la càrrega",
+      "c": "pot anar augmentant a mesura que s’eleva la càrrega",
+      "d": "és sempre la meitat del valor de la càrrega 308"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-2006-67",
+    "exam": "2006",
+    "num": "67",
+    "text": "La màquina eina que s’utilitza per obtenir peces cilíndriques, còniques i esfèriques és:",
+    "options": {
+      "a": "la fresadora",
+      "b": "el torn",
+      "c": "la rectificadora",
+      "d": "el trepant 314"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2006-69",
+    "exam": "2006",
+    "num": "69",
+    "text": "Parlant de màquines simples, en una palanca de primer gènere, si la resistència (R) es a 50 centímetres del fulcre (punt de suport), quina força haurem d’aplicar a 2 metres del fulcre per moure la resistència?",
+    "options": {
+      "a": "una força igual a r",
+      "b": "una força igual a 2r",
+      "c": "una força igual a r/2",
+      "d": "una força igual a r/4 320 322"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2005-6",
+    "exam": "2005",
+    "num": "6",
+    "text": "Les politges fixes són les que:",
+    "options": {
+      "a": "fan moviments de rotació i de translació",
+      "b": "no estan sotmeses a cap moviment",
+      "c": "fan únicament el moviment de rotació",
+      "d": "fan únicament el moviment de translació 328"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-2005-22",
+    "exam": "2005",
+    "num": "22",
+    "text": "Per què una palanca estigui en equilibri quan gira al voltant d’un punt fix ha de succeir que:",
+    "options": {
+      "a": "existeixin el moment de la força f i el moment de la força r, encara que no siguin iguals",
+      "b": "existeixin el moment de la força f i el moment de la força r i que siguin iguals",
+      "c": "existeixin la força f que produeix el moviment i la força r que s’oposa al moviment, encara que no siguin iguals",
+      "d": "existeixin la força f que produeix el moviment i la força r que s’oposa al moviment, encara que siguin iguals 334"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2005-43",
+    "exam": "2005",
+    "num": "43",
+    "text": "Si en un mecanisme de cargol - femella, en fer girar el cargol 10 voltes, aquest avança 25 mm, podem dir que el seu pas és:",
+    "options": {
+      "a": "0’25 mm",
+      "b": "5 mm",
+      "c": "2’5 mm",
+      "d": "0’4 mm 340 341 343"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T17 MECÀNICA-2003-3",
+    "exam": "2003",
+    "num": "3",
+    "text": "En una instal·lació de politges, quin és l’avantatge mecànic màxim que es pot assolir si es disposa de 4 politges?",
+    "options": {
+      "a": "4",
+      "b": "12",
+      "c": "8",
+      "d": "16 349"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T17 MECÀNICA-2003-65",
+    "exam": "2003",
+    "num": "65",
+    "text": "Quina afirmació és certa?",
+    "options": {
+      "a": "ta = tb",
+      "b": "ta > tb",
+      "c": "tb = 2ta",
+      "d": "tb > 2ta 355 357"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T17 MECÀNICA-2002-38",
+    "exam": "2002",
+    "num": "38",
+    "text": "En una palanca de segon gènere, la relació entre la força motriu i la força resistent és:",
+    "options": {
+      "a": "inferior a la unitat",
+      "b": "si no hi ha més dades, no es pot concretar",
+      "c": "superior a la unitat",
+      "d": "igual a la unitat 363"
+    },
+    "answer": "a"
+  }
+]

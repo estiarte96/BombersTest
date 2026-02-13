@@ -1,0 +1,483 @@
+[
+  {
+    "id": "T 10A. EXTINTORS-81/24-4",
+    "exam": "81/24",
+    "num": "4",
+    "text": "Indica quina de les següents afirmacions NO correspon a les limitacions o inconvenients que té l’ús d’un extintor de CO2:",
+    "options": {
+      "a": "pot provocar congelacions degut a la baixa temperatura a la qual surt el gas.",
+      "b": "pot provocar asfíxia al desplaçar l’oxigen disponible.",
+      "c": "pot produir corrosió en elements electrònics.",
+      "d": "pot no ser gaire efectiu si s’utilitza a l’exterior i amb vent. 14"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/24-42",
+    "exam": "81/24",
+    "num": "42",
+    "text": "L’escuma formadora de pel·lícula aquosa (AFFF) està especialment indicada per extingir incendis:",
+    "options": {
+      "a": "de líquids inflamables.",
+      "b": "de gasos a baixa pressió.",
+      "c": "de matolls i vegetació densa.",
+      "d": "de tipus e pel baix contingut en aire. 20"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/24-70",
+    "exam": "81/24",
+    "num": "70",
+    "text": "Amb relació al tetraedre del foc, indica l’afirmació CORRECTA en relació amb el mètode d’extinció i el seu àmbit d’actuació principal:",
+    "options": {
+      "a": "la inhibició actua sobre la temperatura.",
+      "b": "el refredament actua sobre el comburent.",
+      "c": "la sufocació actua sobre la reacció en cadena.",
+      "d": "l’eliminació actua sobre el combustible. 26"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/24-73",
+    "exam": "81/24",
+    "num": "73",
+    "text": "Indica la resposta CORRECTA respecte a l’adequació del tipus d’agent extintor contra un foc de classe B:",
+    "options": {
+      "a": "l’extintor de pols convencional bc és excel·lent.",
+      "b": "l’extintor de pols polivalent abc és més adequat que l’extintor d’espuma física.",
+      "c": "l’extintor de co2 és menys adequat que l’extintor d’aigua polvoritzada.",
+      "d": "l’extintor específic per a focs de metalls té una adequació acceptable 32"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/24-79",
+    "exam": "81/24",
+    "num": "79",
+    "text": "Al camió hi portem un dipòsit de 200 litres d’escumogen i volem llançar escuma al 2%. Si sabem que la bomba impulsa aigua cap al dosificador a 1.000 litres per minut, quant temps trigarem a esgotar tot l’escumogen del dipòsit?",
+    "options": {
+      "a": "4 minuts.",
+      "b": "5 minuts.",
+      "c": "10 minuts.",
+      "d": "40 minuts. 38 40"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-18",
+    "exam": "81/23",
+    "num": "18",
+    "text": "Disposem d’un premesclador Z2 que dosifica un 2,5% d’escumogen per generar escuma de mitjana expansió (coeficient d’expansió 1:100) i d’un bidó de 25 litres d’escumogen. Quants litres d’aigua necessito aproximadament per generar tota l’escuma possible?",
+    "options": {
+      "a": "100 litres d’aigua.",
+      "b": "1.000 litres d’aigua.",
+      "c": "10.000 litres d’aigua.",
+      "d": "100.000 litres d’aigua. 46"
+    },
+    "answer": ""
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-20",
+    "exam": "81/23",
+    "num": "20",
+    "text": "Quina de les següents és una característica del diòxid de carboni (CO2) com a agent extintor?",
+    "options": {
+      "a": "és combustible.",
+      "b": "és més dens que l’aire.",
+      "c": "és un gas amb olor.",
+      "d": "sublima lentament. 52"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-24",
+    "exam": "81/23",
+    "num": "24",
+    "text": "Quina de les següents és una propietat de la pols química ABC d’un extintor convencional?",
+    "options": {
+      "a": "és molt tòxica.",
+      "b": "és molt penetrant.",
+      "c": "té una mida de partícula molt gran.",
+      "d": "és molt corrosiva sobre el teixit humà. 58"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-28",
+    "exam": "81/23",
+    "num": "28",
+    "text": "En un incendi forestal, hi ha un binomi de bombers que està treballant amb una línia d’aigua realitzant extinció de vegetació que està cremant. Quin és el mètode principal d’extinció que estan utilitzant?",
+    "options": {
+      "a": "sufocació.",
+      "b": "inhibició.",
+      "c": "refredament.",
+      "d": "inanició. 64"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-60",
+    "exam": "81/23",
+    "num": "60",
+    "text": "Per fer front a un incendi, es determina que es realitzarà l’extinció aplicant escuma. Concretament, es vol omplir amb escuma un gran espai amb el menor temps possible. Davant aquesta situació, quina de les següents afirmacions és CERTA?",
+    "options": {
+      "a": "utilitzarem una escuma de baixa expansió, que són escumes poc denses.",
+      "b": "utilitzarem una escuma de baixa expansió, que el seu coeficient d’expansió és molt gran.",
+      "c": "utilitzarem una escuma d’alta expansió, que són escumes molt lleugeres.",
+      "d": "utilitzarem una escuma d’alta expansió, que el seu coeficient d’expansió és molt petit. 70"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/23-65",
+    "exam": "81/23",
+    "num": "65",
+    "text": "Volem obtenir escuma i sabem que la concentració d’escumogen és del 3% i el coeficient d’expansió és de 10. Si tenim una garrafa amb 6 litres d’escumogen i els gastem tots, quants litres d’escuma obtindrem?",
+    "options": {
+      "a": "2.000 litres d’escuma.",
+      "b": "6.000 litres d’escuma.",
+      "c": "4.000 litres d’escuma.",
+      "d": "5.000 litres d’escuma. 76 78"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/21-1",
+    "exam": "81/21",
+    "num": "1",
+    "text": "Quin dels següents productes que s’apliquen a l’aigua per millorar-ne les propietats extintores es caracteritza per reduir la tensió superficial de l’aigua i facilitar-ne la penetració als combustibles?",
+    "options": {
+      "a": "espassidor.",
+      "b": "escumant.",
+      "c": "retardant.",
+      "d": "humectant. 84"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/21-39",
+    "exam": "81/21",
+    "num": "39",
+    "text": "Com es classifiquen les escumes segons el seu coeficient d’expansió?",
+    "options": {
+      "a": "baixa i alta expansió.",
+      "b": "baixa, mitjana i alta expansió.",
+      "c": "expansió química i expansió física.",
+      "d": "expansió fluida i expansió viscosa. 90"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/21-44",
+    "exam": "81/21",
+    "num": "44",
+    "text": "Quines de les següents afirmacions relatives a la utilització de la pols química com a agent extintor és FALSA?",
+    "options": {
+      "a": "en llocs tancats, a causa de l’alta concentració de pols i desplaçament de l’oxigen, poden causar asfíxia.",
+      "b": "poden danyar els equips elèctrics o electrònics.",
+      "c": "produeixen una atmosfera de pols que provoca una pèrdua de visió.",
+      "d": "es mesclen amb aigua per potenciar el refredament. 96"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/21-63",
+    "exam": "81/21",
+    "num": "63",
+    "text": "Quan s’apliquen altes concentracions de diòxid de carboni (CO2) per extinció d’incendis en un espai tancat, quina de les següents afirmacions és CERTA?",
+    "options": {
+      "a": "deixa residus que malmeten els béns afectats.",
+      "b": "és corrosiu.",
+      "c": "és tòxic.",
+      "d": "produeix asfíxia. 102"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/21-72",
+    "exam": "81/21",
+    "num": "72",
+    "text": "Les escumes, com a agent extintor, són indicades per a focs de tipus:",
+    "options": {
+      "a": "a i b.",
+      "b": "a, b i d.",
+      "c": "b i d.",
+      "d": "a, b i e. 108 110"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19.2-10",
+    "exam": "81/19.2",
+    "num": "10",
+    "text": "En relació amb els extintors de pols ABC, el seu principal mètode d’extinció és:",
+    "options": {
+      "a": "el refredament.",
+      "b": "el trencament de la reacció en cadena.",
+      "c": "la sufocació.",
+      "d": "l'eliminació del combustible. 116"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19.2-25",
+    "exam": "81/19.2",
+    "num": "25",
+    "text": "L’índex o coeficient d’expansió de les escumes de mitjana expansió és:",
+    "options": {
+      "a": "d 'entre 0,2 i 20",
+      "b": "d'entre 20 i 200",
+      "c": "d'entre 200 i 500",
+      "d": "d'entre 500 i 1000 122"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19.2-38",
+    "exam": "81/19.2",
+    "num": "38",
+    "text": "Respecte a l’escuma AFFF com a agent extintor, quin és el seu principal efecte extintor i quin és el secundari?",
+    "options": {
+      "a": "el seu principal efecte extintor és el refredament, i el secundari, la sufocació.",
+      "b": "el seu principal efecte extintor és la sufocació, i el secundari, el refredament.",
+      "c": "el seu principal efecte extintor és el refredament i el secundari és la inanició",
+      "d": "el seu principal efecte extintor és la sufocació, i el secundari, el trencament de la reacció en cadena 128"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19.2-59",
+    "exam": "81/19.2",
+    "num": "59",
+    "text": "Una de les limitacions o inconvenients de la utilització dels halons com a agents extintors és:",
+    "options": {
+      "a": "que fan malbé els equips electrònics.",
+      "b": "que no es poden utilitzar en situacions de risc elèctric.",
+      "c": "que destrueixen la capa d’ozó.",
+      "d": "que no són aptes per a focs de classe a. 134"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19.2-104",
+    "exam": "81/19.2",
+    "num": "104",
+    "text": "En relació amb l’aigua com a agent extintor, el seu principal mètode d’extinció és:",
+    "options": {
+      "a": "sufocació.",
+      "b": "refredament.",
+      "c": "sublimació.",
+      "d": "inhibició 140 142"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19-18",
+    "exam": "81/19",
+    "num": "18",
+    "text": "En una instal·lació fixa d’extinció per inundació en un lloc amb presència d’equips elèctrics i electrònics delicats s’utilitza:",
+    "options": {
+      "a": "aigua.",
+      "b": "pols química.",
+      "c": "gas inert.",
+      "d": "escuma. 148"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19-85",
+    "exam": "81/19",
+    "num": "85",
+    "text": "Les escumes d’alta expansió, amb coeficients d’expansió superior a 200, davant d’un incendi actuen principalment per:",
+    "options": {
+      "a": "sufocació.",
+      "b": "dilució.",
+      "c": "refredament.",
+      "d": "trencament de la cadena. 154"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19-94",
+    "exam": "81/19",
+    "num": "94",
+    "text": "Una de les limitacions de l'ús del CO2 com agent extintor és que:",
+    "options": {
+      "a": "pot crear atmosferes asfixiants i risc de cremades per congelació.",
+      "b": "destrueix la capa d’ozó.",
+      "c": "presenta una densitat inferior a la de l’aire.",
+      "d": "en sortir del recipient, se sublima lentament. 160"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/19-102",
+    "exam": "81/19",
+    "num": "102",
+    "text": "En un incendi, quan disminuïm la concentració de combustible actuem sobre aquest per:",
+    "options": {
+      "a": "sufocació.",
+      "b": "dilució.",
+      "c": "inertització.",
+      "d": "inhibició. 166 168"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/18-52",
+    "exam": "81/18",
+    "num": "52",
+    "text": "Quina temperatura pot tenir el diòxid de carboni quan es fa la descàrrega d’un extintor?",
+    "options": {
+      "a": "21 graus centígrads.",
+      "b": "-79 graus centígrads.",
+      "c": "-200 graus centígrads.",
+      "d": "5 graus centígrads 174"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/18-57",
+    "exam": "81/18",
+    "num": "57",
+    "text": "Fisiològicament, quin agent extintor pot produir alteracions respiratòries i cremades?",
+    "options": {
+      "a": "l’escuma polivalent de baixa expansió.",
+      "b": "l’escuma d’alta expansió.",
+      "c": "la pols química seca.",
+      "d": "el diòxid de carboni 180"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/18-72",
+    "exam": "81/18",
+    "num": "72",
+    "text": "El mecanisme d’extinció pel trencament de la reacció interna en cadena és una propietat molt important que té:",
+    "options": {
+      "a": "l’escuma.",
+      "b": "l'aigua.",
+      "c": "la pols química seca.",
+      "d": "el diòxid de carboni. 186 187"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/18-81",
+    "exam": "81/18",
+    "num": "81",
+    "text": "La propietat més important de l’aigua com a medi extintor és la seva capacitat per absorbir calor. Quantes calories són necessàries per passar 1 gram d’aigua a 100ºC de la fase líquida a la fase gas (o vapor)?",
+    "options": {
+      "a": "1 caloria.",
+      "b": "80 calories.",
+      "c": "540 calories.",
+      "d": "760 calories. 193"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/18-98",
+    "exam": "81/18",
+    "num": "98",
+    "text": "Des del punt de vista de l’aprofitament calòric de l’aigua en l’extinció d’incendis, quina és la propietat que més ho afavoreix?",
+    "options": {
+      "a": "la calor específica.",
+      "b": "la calor latent de vaporització.",
+      "c": "la calor latent de fusió.",
+      "d": "la densitat relativa del vapor d’aigua. 199 201"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/16-38",
+    "exam": "81/16",
+    "num": "38",
+    "text": "Quin agent extintor apliquem preferiblement en un foc de brases?",
+    "options": {
+      "a": "pols química polivalent (abc).",
+      "b": "pols química seca (bc).",
+      "c": "pols química especial (d).",
+      "d": "diòxid de carboni. 207"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/16-86",
+    "exam": "81/16",
+    "num": "86",
+    "text": "Un dels inconvenients de l'escuma com a agent extintor és:",
+    "options": {
+      "a": "la seva capacitat de formar capes per sobre dels líquids cremats.",
+      "b": "ser més lleugera que els liquids inflamables.",
+      "c": "alllar el combustible de l'ambient que l'envolta.",
+      "d": "l'extinció dels focs dinàmics (vessaments). 213"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/16-90",
+    "exam": "81/16",
+    "num": "90",
+    "text": "L'aigua com a agent extintor actua per sufocació:",
+    "options": {
+      "a": "pel refredament de la superfície.",
+      "b": "per la dilució del combustible.",
+      "c": "per emulsió del combustible.",
+      "d": "per generació de vapor. 219"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-81/16-91",
+    "exam": "81/16",
+    "num": "91",
+    "text": "Els extintors portàtils d'aigua a raig tenen principalment aquesta aplicació:",
+    "options": {
+      "a": "focs amb brasa i amb presència de tensió elèctrica continua.",
+      "b": "focs de metalls.",
+      "c": "focs de líquids inflamables.",
+      "d": "focs de brasa. 225 227"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T 10A. EXTINTORS-2009-1",
+    "exam": "2009",
+    "num": "1",
+    "text": "El CO2, com a agent extintor, té les propietats extintores següents:",
+    "options": {
+      "a": "sufocació i secundàriament inhibició de la reacció en cadena",
+      "b": "sufocació i secundàriament refredament",
+      "c": "inhibició i secundàriament refredament",
+      "d": "refredament i secundàriament sufocació 233"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T 10A. EXTINTORS-2009-5",
+    "exam": "2009",
+    "num": "5",
+    "text": "Quin és el principal perill per a l’ésser humà del nitrogen com a agent extintor?",
+    "options": {
+      "a": "la seva alta volatibilitat",
+      "b": "el perill d’intoxicació per co",
+      "c": "el perill d’asfíxia per manca d’oxigen",
+      "d": "la baixa temperatura amb què s’aplica que pot produir greus cremades 239"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T 10A. EXTINTORS-2009-19",
+    "exam": "2009",
+    "num": "19",
+    "text": "Quan és més eficaç l’aigua com a agent extintor?",
+    "options": {
+      "a": "quan l’apliquem amb un tamany de gota més gran, ja que augmenta la capacitat de refredament",
+      "b": "quan s’aplica sobre incendis en què hi ha implicat risc elèctric",
+      "c": "quan passa de líquid a vapor, a causa de l’alta calor latent de vaporització",
+      "d": "sempre que la fem servir amb cabals baixos, per tal d’estalviar el consum 245"
+    },
+    "answer": "c"
+  }
+]

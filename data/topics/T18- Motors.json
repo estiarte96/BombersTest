@@ -1,0 +1,508 @@
+[
+  {
+    "id": "T18. MOTORS-81/24-18",
+    "exam": "81/24",
+    "num": "18",
+    "text": "Els cotxes elèctrics i híbrids tenen diferents nomenclatures segons la tipologia de motors que s’utilitzen i com s’alimenten. Si parlem d’un cotxe elèctric de pila de combustible, la seva nomenclatura és:",
+    "options": {
+      "a": "phev.",
+      "c": "hev.",
+      "d": "tdi. 13"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/24-56",
+    "exam": "81/24",
+    "num": "56",
+    "text": "Generalment, quin tipus de canvi té un cotxe 100% elèctric?",
+    "options": {
+      "a": "una caixa de canvi manual.",
+      "b": "canvi automàtic de variador continu.",
+      "c": "canvi automàtic convertidor de parell.",
+      "d": "no porta caixa de canvi. 19"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-81/24-69",
+    "exam": "81/24",
+    "num": "69",
+    "text": "De què depèn el parell motor en un vehicle de combustió?",
+    "options": {
+      "a": "de l’amplada del colze del cigonyal.",
+      "b": "de la força aplicada.",
+      "c": "de la velocitat angular de gir del cigonyal.",
+      "d": "de la carrera del pistó. 25 26 27 28 29 30 31 33"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-81/23-21",
+    "exam": "81/23",
+    "num": "21",
+    "text": "El dipòsit de combustible dels vehicles amb motor de gas natural comprimit (GNC) emmagatzema el gas en dipòsits de diferents formes. A quina pressió s’emmagatzema el gas?",
+    "options": {
+      "a": "a 80 bar de pressió interna.",
+      "b": "a 15 bar de pressió interna.",
+      "c": "a 200 bar de pressió interna.",
+      "d": "a 4,5 bar de pressió interna. 39"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/23-27",
+    "exam": "81/23",
+    "num": "27",
+    "text": "En els motors alternatius, la cambra de combustió ocupa el volum comprès entre:",
+    "options": {
+      "a": "la culata i el pistó situat al punt mort superior.",
+      "b": "la culata i el pistó situat al punt mort inferior.",
+      "c": "la junta de la biela i el pistó situat al punt mort superior.",
+      "d": "el cigonyal i el pistó situat al punt mort inferior. 45 46 47 48 49 50 51"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/23-51",
+    "exam": "81/23",
+    "num": "51",
+    "text": "En termes generals, quina és l’afirmació CORRECTA:",
+    "options": {
+      "a": "l’espirall de càrrega i l'espirall d’escapament d’un motor de 2 temps estan a la mateixa alçada.",
+      "b": "l’espirall de càrrega d’un motor de 2 temps està més baix que l’espirall d’escapament.",
+      "c": "l’espirall de càrrega d’un motor de 2 temps està més alt que l’espirall d’escapament.",
+      "d": "l’alçada dels espiralls de càrrega i escapament d’un motor de 2 temps no influeix en el seu rendiment. 57"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-81/23-76",
+    "exam": "81/23",
+    "num": "76",
+    "text": "Indica l’afirmació CORRECTA en relació amb els vehicles elèctrics:",
+    "options": {
+      "a": "els cables d’alta tensió porten un recobriment de color taronja.",
+      "b": "els vehicles elèctrics no tenen cables d’alta tensió.",
+      "c": "els cables d’alta tensió porten un recobriment groc amb franges negres.",
+      "d": "els cables d’alta tensió porten un recobriment de color negre. 63 65"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/21-29",
+    "exam": "81/21",
+    "num": "29",
+    "text": "En un vehicle amb motor de combustió alternatiu, quina de les afirmacions següents és CORRECTA en relació amb el volant bimassa?",
+    "options": {
+      "a": "evita o disminueix el balanceig del vehicle quan circula en revolts.",
+      "b": "permet que el sistema de direcció sigui suau, precís, segur i que tingui una tendència auto- alineant.",
+      "c": "està situat en l’interior de la carcassa de la corona i forma part del conjunt del grup diferencial. té la funció de compensar la diferència de gir que es produeix entre la roda exterior i interior quan el vehicle pren un revolt.",
+      "d": "evita que les vibracions que genera el motor arribin a la caixa de canvi. 71"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-81/21-30",
+    "exam": "81/21",
+    "num": "30",
+    "text": "La quantitat de quilòmetres que es poden recórrer amb un vehicle elèctric varia segons la capacitat de la bateria. Quina de les unitats següents mesura la capacitat d’una bateria de cotxe?",
+    "options": {
+      "a": "kth (kilotesla hora)",
+      "b": "v (volts)",
+      "c": "kwh (kilowatt hora)",
+      "d": "kva (kilovolts amper) 77"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/21-35",
+    "exam": "81/21",
+    "num": "35",
+    "text": "En un cotxe elèctric, indiqueu l’afirmació correcta en relació amb un motor síncron.",
+    "options": {
+      "a": "el motor síncron es basa en el principi d’atracció i repulsió magnètica. la velocitat de gir del rotor i la freqüència elèctrica estan sincronitzades.",
+      "b": "en el motor síncron, el rotor gira a una velocitat diferent de la del camp magnètic de l’estator per mitjà d’unes bobines inductores; també és conegut com motor d’inducció.",
+      "c": "el motor síncron rep energia tèrmica en forma de calor i retorna energia mecànica en forma de treball.",
+      "d": "el motor síncron és la peça que té la missió de determinar la millor relació entre la potència del motor i la velocitat del vehicle. 83 84 86"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-4",
+    "exam": "81/19.2",
+    "num": "4",
+    "text": "La culata és la coberta metàl·lica que forma la tapa superior del bloc del motor. S'hi troben:",
+    "options": {
+      "a": "els pistons.",
+      "b": "els cilindres.",
+      "c": "les bieles.",
+      "d": "els sistemes d'admissió i escapament dels gasos. 92"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-22",
+    "exam": "81/19.2",
+    "num": "22",
+    "text": "En relació amb els combustibles dels motors bivalents, podem afirmar que:",
+    "options": {
+      "a": "el gnc és un gas liquat del petroli, barreja de gas butà i propà.",
+      "b": "el glp és un gas natural comprimit.",
+      "c": "el glp és un gas liquat del petroli, barreja de gas butà i propà.",
+      "d": "el gnc és un gas natural criogènic. 98"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-42",
+    "exam": "81/19.2",
+    "num": "42",
+    "text": "Els components dels motors en sistema híbrid són:",
+    "options": {
+      "a": "bateries, motor d'arrancada, motor elèctric i sistema de gestió.",
+      "b": "motor tèrmic, motor d'arrancada, sistema de gestió, bateries i generador.",
+      "c": "motor tèrmic, motor elèctric, generador, bateries i sistema de gestió.",
+      "d": "motor tèrmic, motor d'arrancada, motor elèctric, sistema de gestió i bateries. 104"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-66",
+    "exam": "81/19.2",
+    "num": "66",
+    "text": "La potència dels motors elèctrics s'expressa en:",
+    "options": {
+      "a": "j",
+      "b": "n",
+      "c": "w",
+      "d": "kw·h 110"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-81",
+    "exam": "81/19.2",
+    "num": "81",
+    "text": "Quins són els quatre temps per ordre del cicle d'un motor d'explosió?",
+    "options": {
+      "a": "admissió, funcionament, engegada i escapament.",
+      "b": "admissió, compressió, explosió i escapament.",
+      "c": "compressió, admissió, explosió i escapament.",
+      "d": "encesa, admissió, explosió i escapament. 116"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-81/19.2-105",
+    "exam": "81/19.2",
+    "num": "105",
+    "text": "En els motors de corrent altern, segons la forma en què gira el rotor, ens podem trobar amb motors:",
+    "options": {
+      "a": "asíncrons i trifàsics.",
+      "b": "trifàsics i monofàsics.",
+      "c": "amb rotor sincronitzant i trifàsics.",
+      "d": "síncrons i asíncrons. 122 124"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-81/19-3",
+    "exam": "81/19",
+    "num": "3",
+    "text": "En un motor de dos temps i un cilindre, quantes voltes dona el cigonyal per cada cicle complert?",
+    "options": {
+      "a": "una volta complerta, 360º.",
+      "b": "dues voltes complertes, 720º.",
+      "c": "una volta i mitja, 540º.",
+      "d": "mitja volta, 180º. 130"
+    },
+    "answer": ""
+  },
+  {
+    "id": "T18. MOTORS-81/19-65",
+    "exam": "81/19",
+    "num": "65",
+    "text": "Entre quines peces se situa, generalment, el col·lector d’admissió d’un motor dièsel?",
+    "options": {
+      "a": "entre el carburador i la vàlvula de papallona.",
+      "b": "entre el carburador i la tapa de balancins.",
+      "c": "entre la cisterna i la vàlvula de papallona.",
+      "d": "entre el filtre d’aire i la culata. 136"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/19-98",
+    "exam": "81/19",
+    "num": "98",
+    "text": "En els motors dièsel de què s'omplen els cilindres durant el temps d'admissió?",
+    "options": {
+      "a": "gasoil i aire.",
+      "b": "gasolina i aire.",
+      "c": "aire.",
+      "d": "gasoil. 142 144"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/18-31",
+    "exam": "81/18",
+    "num": "31",
+    "text": "En els motors de benzina, per tenir una combustió completa, la barreja d’aire i combustible pot ser:",
+    "options": {
+      "a": "5:1.",
+      "b": "8:1.",
+      "c": "14:1.",
+      "d": "20:1. 150"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/18-40",
+    "exam": "81/18",
+    "num": "40",
+    "text": "Una biela està formada per:",
+    "options": {
+      "a": "cap, cos i engranatge de biela.",
+      "b": "cos, peu de biela i engranatge.",
+      "c": "cap, cos i peu de biela.",
+      "d": "peu de biela i rodament 156"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-81/18-41",
+    "exam": "81/18",
+    "num": "41",
+    "text": "Què pot passar si un motor, amb els segments gastats, segueix funcionant?",
+    "options": {
+      "a": "que el motor consumirà una excessiva quantitat d’oli.",
+      "b": "que el motor produirà més potència.",
+      "c": "que evitarà l’aparició del fenomen d’autoencesa.",
+      "d": "que el radiador consumirà més aigua 162"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/18-74",
+    "exam": "81/18",
+    "num": "74",
+    "text": "El valor màxim de parell motor amb el mínim consum…",
+    "options": {
+      "a": "s’obté amb el màxim nombre de revolucions per minut del motor.",
+      "b": "és la força màxima que té un motor per traccionar en un interval de revolucions per minut del motor.",
+      "c": "sempre s’obté amb la màxima potència.",
+      "d": "s'obté amb el mínim nombre de revolucions per minut del motor 168 169 171"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/16-8",
+    "exam": "81/16",
+    "num": "8",
+    "text": "L'ordre d'encesa és la successió d'encesa dels cilindres, un darrere l'altre. L'ordre d'encesa més habitual per motors de vehicles de quatre cilindres és:",
+    "options": {
+      "a": "1234",
+      "b": "1423",
+      "c": "1243",
+      "d": "1342 177"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-81/16-28",
+    "exam": "81/16",
+    "num": "28",
+    "text": "Les parts principals del motor alternatiu d'èmbols són:",
+    "options": {
+      "a": "èmbol, biela, cigonyal",
+      "b": "vàlvula, guia, seient.",
+      "c": "carter, filtre d'oli, oli.",
+      "d": "cigonyal, volant d'impulsió, coixinets del cigonyal. 183"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/16-67",
+    "exam": "81/16",
+    "num": "67",
+    "text": "Per motor diesel s'entén...",
+    "options": {
+      "a": "embols alternatius amb barreja de gas interior heterogènia i autoencesa.",
+      "b": "embols alternatius amb barreja de gas exterior heterogènia i autoencesa.",
+      "c": "embols amb barreja de gas exterior homogènia i autoencesa.",
+      "d": "embols alternatius amb barreja de gas exterior heterogènia i no autoencesa. 189"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/16-74",
+    "exam": "81/16",
+    "num": "74",
+    "text": "S'entén per motor benzina...",
+    "options": {
+      "a": "el de pistons amb barreja homogènia interior o exterior i encesa externa.",
+      "b": "el de pistons amb barreja heterogènia.",
+      "c": "el de pistons amb barreja heterogènia interior i autoencesa.",
+      "d": "el de pistons amb barreja de gas interior homogènia i autoencesa. 195"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-81/16-97",
+    "exam": "81/16",
+    "num": "97",
+    "text": "La potència d'un motor és:",
+    "options": {
+      "a": "cada valor instantani del parell motor multiplicat per les revolucions per minut (rpm).",
+      "b": "el valor màxim de força amb el mínim consum.",
+      "c": "la màxima força del motor.",
+      "d": "la força per la distància en un moviment de rotació. 201 203"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-2009-24",
+    "exam": "2009",
+    "num": "24",
+    "text": "En un motor, es defineix el calibre com:",
+    "options": {
+      "a": "és el volum que desplaça el pistó entre el punt mort superior i el punt mort inferior",
+      "b": "és el volum comprès entre el cap del pistó, quan es troba al punt mort superior i la culata",
+      "c": "la posició quan el pistó en el seu moviment alternatiu arriba al punt de màxima altura abans de baixar",
+      "d": "el diàmetre interior del cilindre, en mil·límetres 209"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-2009-45",
+    "exam": "2009",
+    "num": "45",
+    "text": "En els motors de gasoil:",
+    "options": {
+      "a": "totes són correctes",
+      "b": "en el temps de treball, s’injecta el gasoil i aquest s’encén immediatament a causa de l’alta temperatura",
+      "c": "en el temps d’aspiració entra aire barrejat amb gasoil per millorar l’efectivitat de la combustió",
+      "d": "en el temps de compressió el pistó impulsa els gasos de combustió cap al tub d’escapament 215 217"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-2006-5",
+    "exam": "2006",
+    "num": "5",
+    "text": "La relació de compressió d’un motor de benzina correspon a la relació entre:",
+    "options": {
+      "a": "la pressió màxima de combustió i la pressió que s’obté al final de la cursa de compressió",
+      "b": "la pressió màxima de combustió i la pressió que s’obté al final de la cursa d’expansió",
+      "c": "el volum de la cambra de combustió més la cilíndrica unitària i el volum de la cambra de combustió",
+      "d": "el volum de la cambra de combustió i el volum total ocupat per la barreja quan el pistó és al final de la cursa d’admissió 223 225"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-2005-34",
+    "exam": "2005",
+    "num": "34",
+    "text": "Si en un motor de benzina procedim a rectificar la culata:",
+    "options": {
+      "a": "disminueix la relació de compressió",
+      "b": "augmenta la relació de compressió",
+      "c": "augmenta la cilindrada unitària",
+      "d": "disminueix la cilindrada unitària 231"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-2005-55",
+    "exam": "2005",
+    "num": "55",
+    "text": "L’emplenat dels cilindres en un motor de benzina de quatre temps es realitza:",
+    "options": {
+      "a": "només amb benzina",
+      "b": "només amb una barreja de benzina i oli",
+      "c": "només amb aire",
+      "d": "només amb una barreja d’aire i benzina 237 239"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-2003-36",
+    "exam": "2003",
+    "num": "36",
+    "text": "En un motor de quatre temps, quina és la relació de revolucions per minut entre el cigonyal i l’arbre de lleves?",
+    "options": {
+      "a": "1 a 4",
+      "b": "1 a 3",
+      "c": "1 a 2",
+      "d": "1 a 1 245"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-2003-57",
+    "exam": "2003",
+    "num": "57",
+    "text": "L’energia elèctrica consumida per un motor es pot mesurar en:",
+    "options": {
+      "a": "kw/h",
+      "b": "kwh",
+      "c": "w/h",
+      "d": "joules/s 251 253"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T18. MOTORS-2001-35",
+    "exam": "2001",
+    "num": "35",
+    "text": "De quin ordre és la relació de compressió del motor d’explosió?",
+    "options": {
+      "a": "1/3 del volum primitiu",
+      "b": "1/20 del volum primitiu",
+      "c": "1/8 del volum primitiu",
+      "d": "1/40 del volum primitiu 259 260 262"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T18. MOTORS-2000-5",
+    "exam": "2000",
+    "num": "5",
+    "text": "En un motor d’explosió la distància que hi ha entre el punt mort superior (PMS) i el punt mort inferior (PMI) s’anomena:",
+    "options": {
+      "a": "carrera",
+      "b": "distància volumètrica",
+      "c": "cambra d’explosió",
+      "d": "pas de stromber 268"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T18. MOTORS-2000-20",
+    "exam": "2000",
+    "num": "20",
+    "text": "On es troba situat el col·lector d’admissió d’un motor dièsel?",
+    "options": {
+      "a": "entre la vàlvula d’admissió i els cilindres",
+      "b": "en la sortida del servofrè",
+      "c": "en el càrter",
+      "d": "entre el filtre de l’aire i la vàlvula d’admissió 274"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T18. MOTORS-2000-27",
+    "exam": "2000",
+    "num": "27",
+    "text": "La peça que uneix el pistó amb l’arbre motor és:",
+    "options": {
+      "a": "la corretja de transmissió",
+      "b": "el boló",
+      "c": "la biela",
+      "d": "les vàlvules 280"
+    },
+    "answer": "c"
+  }
+]

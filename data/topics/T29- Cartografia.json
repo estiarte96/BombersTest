@@ -1,0 +1,795 @@
+[
+  {
+    "id": "T29 CARTOGRAFIA-81/24-29",
+    "exam": "81/24",
+    "num": "29",
+    "text": "En un mapa topogràfic d'escala numèrica 1:1.000.000, si mesurem 10 cm, a quina distància real correspon?",
+    "options": {
+      "a": "10 km.",
+      "b": "1.000 m.",
+      "c": "1.000 hm.",
+      "d": "1.000 dam. 14 16"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/23-48",
+    "exam": "81/23",
+    "num": "48",
+    "text": "Com s’anomena el tipus de projecció azimutal (destinada a mapes de gran escala), que es fa servir per completar les UTM a les zones polars de la Terra?",
+    "options": {
+      "a": "projecció estereogràfica.",
+      "b": "projecció ortogràfica.",
+      "c": "projecció equivalent.",
+      "d": "projecció equidistant. 22 24"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/21-24",
+    "exam": "81/21",
+    "num": "24",
+    "text": "Un mapa on es representen línies compostes per punts d’igual valor, es denomina:",
+    "options": {
+      "a": "mapa d’isopletes.",
+      "b": "mapa d’isòbares.",
+      "c": "mapa d’isohietes.",
+      "d": "mapa d’isotermes. 30"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/21-34",
+    "exam": "81/21",
+    "num": "34",
+    "text": "Quan mesura en un plànol 1:5.000 la pista d’un aeroport que té una longitud de 750 metres?",
+    "options": {
+      "a": "15 cm.",
+      "b": "13 cm.",
+      "c": "11 cm.",
+      "d": "7,5 cm. 36"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/21-60",
+    "exam": "81/21",
+    "num": "60",
+    "text": "Els mètodes de georeferenciació directa son mètodes en què la posició s’expressa per si mateixa, en forma geomètrica mitjançant un o altre sistema de coordenades. Dels sistemes de coordenades següents, indiqueu quin NO és de georeferenciació directa:",
+    "options": {
+      "a": "coordenades geogràfiques.",
+      "b": "coordenades projectades.",
+      "c": "coordenades polars.",
+      "d": "coordenades per localitzadors. 42 44"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-34",
+    "exam": "81/19.2",
+    "num": "34",
+    "text": "L’any 2007 va fixar-se un nou sistema de referència oficial per tal d’harmonitzar la geoinformació arreu d’Europa. Quin sistema fou aquest?",
+    "options": {
+      "a": "ed50",
+      "b": "wgs84",
+      "c": "etrs89",
+      "d": "sgs-1985 50"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-37",
+    "exam": "81/19.2",
+    "num": "37",
+    "text": "Les línies que uneixen punts d’igual pressió en un moment donat, se les denomina:",
+    "options": {
+      "a": "isòbates.",
+      "b": "isòbares.",
+      "c": "isotermes.",
+      "d": "isohietes. 56"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-50",
+    "exam": "81/19.2",
+    "num": "50",
+    "text": "Què entenem per declinació magnètica?",
+    "options": {
+      "a": "és un valor angular fix que tenim representat als mapes topogràfics i serveix per orientar-se en el mapa.",
+      "b": "és un angle format per la direcció del nord magnètic respecte al geogràfic i resulta fonamental per poder orientar-se amb el mapa.",
+      "c": "és un valor angular mòbil que varia en funció de la projecció del mapa i no es té en compte per orientar-se.",
+      "d": "és un angle format per la declinació anual del nord de la projecció i el nord magnètic i resulta fonamental per al càlcul de distàncies en el mapa. 62"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-61",
+    "exam": "81/19.2",
+    "num": "61",
+    "text": "Quina és la propietat que conserva una projecció cartogràfica conforme?",
+    "options": {
+      "a": "les superfícies.",
+      "b": "els angles.",
+      "c": "les formes.",
+      "d": "les distàncies. 68"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-91",
+    "exam": "81/19.2",
+    "num": "91",
+    "text": "El sistema de coordenades UTM s’organitza en fusos, zones i quadrícules. Aquestes quadrícules formen part del denominat MGRS (Military Grid Reference System) i s’integren dins del sistema de coordenades UTM. Podries dir quina és la distància fixada a cadascun dels costats d’aquestes quadrícules que s’identifiquen per una combinació de dues lletres?",
+    "options": {
+      "a": "5x5km",
+      "b": "10x10km",
+      "c": "100x100km",
+      "d": "1.000x1.000km 74"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-92",
+    "exam": "81/19.2",
+    "num": "92",
+    "text": "A nivell de les coordenades UTM, Catalunya es troba ubicada, pel que fa al fus i a la zona, a…",
+    "options": {
+      "a": "30s",
+      "b": "31t",
+      "c": "30u",
+      "d": "30t 80"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19.2-100",
+    "exam": "81/19.2",
+    "num": "100",
+    "text": "Què és una xarxa geodèsica?",
+    "options": {
+      "a": "és la formada per un conjunt de punts del territori, anomenats vèrtexs geodèsics, dels quals s’ha mesurat l’emplaçament amb gran precisió i es materialitzen sobre el terreny amb fites o senyals.",
+      "b": "és un conjunt de sensors homogèniament distribuïts per les costes que permet mesurar la variació del nivell de mar per al seu ús en topografia.",
+      "c": "és una xarxa de vèrtexs que permeten calcular les coordenades del punt on es troba un gps i facilitar així la navegació aèria.",
+      "d": "és una xarxa que permet identificar el nom o topònim dels principals cims i cotes de les muntanyes homologades a nivell europeu per la denominada xarxa natura 2000. 86 88"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-8",
+    "exam": "81/19",
+    "num": "8",
+    "text": "Sovint, per tal de fer més expressiu el mapa i facilitar-ne la lectura altimètrica, s’aplica un eficaç i ja clàssic recurs consistent a sobreposar gammes de colors intercalables entre determinades corbes, que reben el nom de colors…",
+    "options": {
+      "a": "hipsomètrics.",
+      "b": "isobàrics.",
+      "c": "isobàtics.",
+      "d": "hipsobàrics. 94"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-24",
+    "exam": "81/19",
+    "num": "24",
+    "text": "Les coordenades geogràfiques de Barcelona són 41º 23’ 22” N i 2º 09’ 44” E. Les coordenades geogràfiques dels antípodes són:",
+    "options": {
+      "a": "41º 23’ 22” s i 177º 50’ 16” w.",
+      "b": "41º 23’ 22” s i 177º 50’ 16”e.",
+      "c": "41º 23’ 22” n i 2º 09’ 44” w.",
+      "d": "41º 23’ 22” s i 2º 09’ 44” w. 100"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-54",
+    "exam": "81/19",
+    "num": "54",
+    "text": "En el sistema de coordenades UTM, la divisió de la superfície terrestre en franges verticals s’anomena FUS UTM, i la divisió de la superfície terrestre en franges horitzontals s’anomena ZONA UTM. Podries assenyalar quina és l’amplada en graus de la ZONA:",
+    "options": {
+      "a": "6º de longitud.",
+      "b": "6º de latitud.",
+      "c": "8º de longitud.",
+      "d": "8º de latitud. 106"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-55",
+    "exam": "81/19",
+    "num": "55",
+    "text": "L’any 2007 es va adoptar de forma consensuada per tot Europa un nou sistema de referència geogràfica i de cartogràfica oficial. Pots assenyalar com s’identifica aquest nou sistema o datum?",
+    "options": {
+      "a": "ed50",
+      "b": "wgs84",
+      "c": "etrs89",
+      "d": "datum73 112"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-72",
+    "exam": "81/19",
+    "num": "72",
+    "text": "Què és un punt d’interès (waypoint) quan treballem amb un GPS?",
+    "options": {
+      "a": "una successió de punts que generen una línia.",
+      "b": "la memorització d’una localització que, a més, ens permet posar nom i símbol.",
+      "c": "és un punt que compon els recorreguts i que no permet associar-hi informació.",
+      "d": "és la memorització del datum. 118"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/19-105",
+    "exam": "81/19",
+    "num": "105",
+    "text": "Segons el sistema de coordenades UTM, la terra es divideix en:",
+    "options": {
+      "a": "30 bandes de 8º de latitud que es denominen amb lletres.",
+      "b": "40 bandes de 8º de latitud que es denominen amb lletres.",
+      "c": "50 bandes de 8º de latitud que es denominen amb lletres.",
+      "d": "20 bandes de 8º de latitud que es denominen amb lletres. 124 126"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/18-8",
+    "exam": "81/18",
+    "num": "8",
+    "text": "Quin dels acrònims següents no respon a un sistema de posicionament per satèl·lit?",
+    "options": {
+      "a": "gps.",
+      "b": "glonass.",
+      "c": "gis.",
+      "d": "galileu. 132"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/18-16",
+    "exam": "81/18",
+    "num": "16",
+    "text": "La declinació magnètica en un punt de la terra és:",
+    "options": {
+      "a": "l’angle comprès entre el nord magnètic local i el nord verdader (o nord geogràfic)",
+      "b": "l’àrea compresa entre el nord de projeccions i el nord magnètic local.",
+      "c": "l’àrea compresa entre el nord magnètic local i el nord verdader (o nord geogràfic)",
+      "d": "la distància compresa entre el nord de projeccions i el nord magnètic local. 138"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/18-17",
+    "exam": "81/18",
+    "num": "17",
+    "text": "La meva posició és 41º 23’ 20” N i 2º 09’ 32” E. Quina de les posicions següents és la més propera a la meva ubicació?",
+    "options": {
+      "a": "55º 45’ 08” n i 37º 36’ 56” e.",
+      "b": "40º 28’ 25” n i 3º 34’ 40” w.",
+      "c": "48º 51’ 12” n i 2º 20’ 56” e.",
+      "d": "32º 52’ 31” n i 13º 11’ 15” e. 144"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/18-46",
+    "exam": "81/18",
+    "num": "46",
+    "text": "En un plànol amb una escala 1:25.000:",
+    "options": {
+      "a": "1cm = 250m.",
+      "b": "1cm = 250 cm.",
+      "c": "1cm = 2500 m.",
+      "d": "1cm = 2’5km. 150"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/18-55",
+    "exam": "81/18",
+    "num": "55",
+    "text": "Les línies isogòniques uneixen posicions que:",
+    "options": {
+      "a": "tenen igual valor de declinació magnètica.",
+      "b": "tenen igual valor d’elevació.",
+      "c": "tenen el mateix valor d’inclinació magnètica.",
+      "d": "tenen 0º de variació. 156 158"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/16-12",
+    "exam": "81/16",
+    "num": "12",
+    "text": "Si tracem una línia perimetral a la Terra, quina és la circumferència més gran?",
+    "options": {
+      "a": "la línia que passa pel pol nord i pel pol sud.",
+      "b": "la línia que segueix l'equador.",
+      "c": "la línia del cercle polar.",
+      "d": "la línia del meridià de greenwich. 164"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/16-26",
+    "exam": "81/16",
+    "num": "26",
+    "text": "Si en un mapa a escala 1:100.000 mesurem una distància amb regle d'1 dm, quina és la distància del terreny en metres?",
+    "options": {
+      "a": "1.000 m.",
+      "b": "10.000 m.",
+      "c": "100.000 m.",
+      "d": "1.000.000 dm. 170"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/16-27",
+    "exam": "81/16",
+    "num": "27",
+    "text": "En un mapa, quan un camí transcorre paral·lelament a una línia de nivell mestra, què podem deduir?",
+    "options": {
+      "a": "que el camí no té desnivell.",
+      "b": "que el camí tornarà al mateix lloc.",
+      "c": "res específic, allò que ens aporta informació respecte al camí són les línies auxiliars.",
+      "d": "que el desnivell que farà és la suma de l'equidistància entre les corbes mestres. 176"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/16-32",
+    "exam": "81/16",
+    "num": "32",
+    "text": "El sistema GPS:",
+    "options": {
+      "a": "ens posiciona un element en l'espai bidimensional.",
+      "b": "als pols, la utilització del sistema es veu dificultat per qüestions de precisió magnètica.",
+      "c": "permet corregir el senyal del sistema egnos.",
+      "d": "el càlcul de la posició es basa en un sistema de triangulació. 182"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-81/16-88",
+    "exam": "81/16",
+    "num": "88",
+    "text": "Quin és el perímetre d'una parcel·la que està dibuixada en un mapa d'E: 1/500000 amb un quadrat de 5 cm de costat?",
+    "options": {
+      "a": "5 km.",
+      "b": "100 km.",
+      "c": "20 km.",
+      "d": "50 km. 188 190"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2009-53",
+    "exam": "2009",
+    "num": "53",
+    "text": "En l’orientació d’un mapa, quin és el nord que segueixen els meridians, fins a convergir al pol?",
+    "options": {
+      "a": "nord de la projecció",
+      "b": "nord magnètic",
+      "c": "nord geogràfic",
+      "d": "nord de la quadrícula 196"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2009-56",
+    "exam": "2009",
+    "num": "56",
+    "text": "Com s’anomenen aquells punts del territori dels quals es coneix la localització precisa, l’altitud i la distància entre ells?",
+    "options": {
+      "a": "vèrtex sinclinal",
+      "b": "vèrtex geodèsic",
+      "c": "vèrtex de cota",
+      "d": "vèrtex topogràfic 202"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2009-61",
+    "exam": "2009",
+    "num": "61",
+    "text": "Com s’anomena l’angle que mesura la diferència entre el nord magnètic i el nord geogràfic?",
+    "options": {
+      "a": "divergència magnètica",
+      "b": "declinació magnètica",
+      "c": "desviació magnètica",
+      "d": "deriva magnètica 208 209 211"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2008-27",
+    "exam": "2008",
+    "num": "27",
+    "text": "Si una persona fa 400 metres direcció est i després 300 metres direcció sud, quina de les distàncies següents aproximadament hauria recorregut si des del començament hagués caminat direcció sud-est?",
+    "options": {
+      "a": "500 m",
+      "b": "225 m",
+      "c": "150 m",
+      "d": "100 m 217"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2008-45",
+    "exam": "2008",
+    "num": "45",
+    "text": "Si definim els meridians com a línies rectes que convergeixen en els pols i els paral·lels com circumferències concèntriques amb el centre al pol, parlem d’una projecció:",
+    "options": {
+      "a": "cònica",
+      "b": "cilíndrica",
+      "c": "zenital",
+      "d": "azimutal 223"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2008-63",
+    "exam": "2008",
+    "num": "63",
+    "text": "En el sistema de coordenades UTM, si et trobes en la posició x: 300.000 i y: 4.100.000, i et mous 200 m cap a l’E i 100 m cap al N, quina és la teva posició final?",
+    "options": {
+      "a": "x: 299.800 y: 4.100.100",
+      "b": "x: 300.200 y: 4.100.100",
+      "c": "x: 300.200 y: 4.099.900",
+      "d": "x: 299.800 y: 4.099.900 229"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2008-72",
+    "exam": "2008",
+    "num": "72",
+    "text": "Quina de les següents paraules NO segueix aquesta definició: línia que uneix tots els punts que es troben a la mateixa altitud.",
+    "options": {
+      "a": "isòbata",
+      "b": "isohipsa",
+      "c": "cota",
+      "d": "corba de nivell 235 237"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2006-2",
+    "exam": "2006",
+    "num": "2",
+    "text": "A quin nord estan orientats majoritàriament els mapes topogràfics?",
+    "options": {
+      "a": "al nord magnètic",
+      "b": "al nord geogràfic",
+      "c": "al nord de la projecció",
+      "d": "al pol nord 243"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2006-10",
+    "exam": "2006",
+    "num": "10",
+    "text": "Quan parlem d’un mapa a gran escala ens volem referir a:",
+    "options": {
+      "a": "un mapa que representa una extensió gran del territori",
+      "b": "un mapa representat en un full gran de paper, com a mínim un din-a3",
+      "c": "un mapa que representa una extensió petita de territori",
+      "d": "un mapa mundi 249"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2006-11",
+    "exam": "2006",
+    "num": "11",
+    "text": "Si en un mapa calculem la distància en línia recta entre dos punts del mapa, tenint en compte el desnivell entre tots dos, estem calculant...",
+    "options": {
+      "a": "la distància real",
+      "b": "la distància aproximada",
+      "c": "la distància geomètrica",
+      "d": "la distància reduïda 255"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2006-49",
+    "exam": "2006",
+    "num": "49",
+    "text": "Totes les coordenades UTM referenciades en el territori català s’identifiquen amb el mateix fus i zona. Sabríeu dir-nos quins són aquests?",
+    "options": {
+      "a": "fus 30 zona t (30t)",
+      "b": "fus 31 zona s (31s)",
+      "c": "fus 31 zona t (31t)",
+      "d": "fus 30 zona s (30s) 261 263"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2005-3",
+    "exam": "2005",
+    "num": "3",
+    "text": "Tinc un banc de 5 metres de llargada; si el represento a escala 1/100 el resultat en el dibuix és:",
+    "options": {
+      "a": "ampliació a 5 cm",
+      "b": "ampliació a 2,5 cm",
+      "c": "reducció a 2,5 cm",
+      "d": "reducció a 5 cm 269"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2005-46",
+    "exam": "2005",
+    "num": "46",
+    "text": "L’eix de coordenades X -o eix horitzontal o d’abscisses, en el sistema de coordenades UTM, ens permet calcular la distància...",
+    "options": {
+      "a": "en el mateix sentit que en les coordenades geogràfiques ho fan els paral·lels",
+      "b": "en el sentit cardinal s-n",
+      "c": "en el sentit de la latitud",
+      "d": "en el mateix sentit que en les coordenades geogràfiques ho fan els meridians 275"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2005-51",
+    "exam": "2005",
+    "num": "51",
+    "text": "Per anotar una coordenada UTM, amb un nivell de concreció hectomètric (100 m), quants dígits calen per a una correcta localització d’un punt o element del territori?",
+    "options": {
+      "a": "4 per a les coordenades x i 5 per a les coordenades y",
+      "b": "les coordenades utm només poden localitzar-se a nivell quilomètric",
+      "c": "3 per a les coordenades x i 4 per a les coordenades y",
+      "d": "4 per a les coordenades x i 3 per a les coordenades y 281"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2005-65",
+    "exam": "2005",
+    "num": "65",
+    "text": "La millor projecció cartogràfica és...",
+    "options": {
+      "a": "mai no pot dir-se que una projecció sigui millor o pitjor, si no és en funció de l’ús a què s’hagi de destinar el mapa",
+      "b": "la projecció equivalent de peters",
+      "c": "la projecció cònica de lambert",
+      "d": "la cilíndrica-conforme de mercator 287 289"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2003-9",
+    "exam": "2003",
+    "num": "9",
+    "text": "En un plànol a escala 1:25.000, cada km en la realitat correspon a:",
+    "options": {
+      "a": "2.500 cm",
+      "b": "4 cm",
+      "c": "25 cm",
+      "d": "250 cm 295"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2003-16",
+    "exam": "2003",
+    "num": "16",
+    "text": "La longitud i la latitud es mesura sobre:",
+    "options": {
+      "a": "el diàmetre de la terra",
+      "b": "el radi de la terra",
+      "c": "un altímetre",
+      "d": "arcs de paral·lels i meridians respectivament 301"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2003-20",
+    "exam": "2003",
+    "num": "20",
+    "text": "La isopleta que indica l’elevació del terreny es diu:",
+    "options": {
+      "a": "isotaca",
+      "b": "isohipsa",
+      "c": "isoterma",
+      "d": "isòbara 307 309"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2002-5",
+    "exam": "2002",
+    "num": "5",
+    "text": "Què s’entén per “latitud d’un punt”?",
+    "options": {
+      "a": "l’angle format pel meridià del punt i el de greenwich",
+      "b": "la distància a l’equador",
+      "c": "la distància al meridià “0” o meridià de referència",
+      "d": "l’angle que forma la normal d’un punt amb l’equador 315"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2002-7",
+    "exam": "2002",
+    "num": "7",
+    "text": "La projecció Lambert és un:",
+    "options": {
+      "a": "mètode de representació gràfica basat en la projecció del globus terraqüi sobre una esfera",
+      "b": "mètode de representació gràfica basat en la projecció del globus terraqüi sobre un poliedre regular",
+      "c": "mètode de representació gràfica basat en la projecció del globus terraqüi sobre un con",
+      "d": "mètode de representació gràfica basat en la projecció del globus terraqüi sobre un cilindre 321"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2002-14",
+    "exam": "2002",
+    "num": "14",
+    "text": "Què s’entén per “equidistància de corbes de nivell”?",
+    "options": {
+      "a": "la representació de corbes d’igual distància",
+      "b": "la distància vertical entre dos corbes de nivell consecutives",
+      "c": "el número que indica la cota de cada corba",
+      "d": "la distància horitzontal entre dues corbes de nivell consecutives 327"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2002-44",
+    "exam": "2002",
+    "num": "44",
+    "text": "Un plànol està a una escala 1:333. Això vol dir que:",
+    "options": {
+      "a": "no es poden fer plànols amb aquesta escala",
+      "b": "1 cm de la realitat correspon a 333 cm del plànol",
+      "c": "1 cm del plànol correspon a 333 cm en la realitat",
+      "d": "1 cm del plànol correspon a 3’3 km de la realitat 333 335"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2001-16",
+    "exam": "2001",
+    "num": "16",
+    "text": "Dins de la projecció dissenyada pel senyor Mercator, el municipi de Montmany Figaró es troba situat:",
+    "options": {
+      "a": "al fus 31 i zona t",
+      "b": "a l’hemisferi sud",
+      "c": "a la zona s i fus 29",
+      "d": "al nord del continent africà 341"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2001-56",
+    "exam": "2001",
+    "num": "56",
+    "text": "En un mapa topogràfic d’escala 1:50.000, 1 km en la realitat tindrà la dimensió següent sobre el mapa:",
+    "options": {
+      "a": "2 cm",
+      "b": "20 cm",
+      "c": "5 cm",
+      "d": "1 cm 347 349"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2000-10",
+    "exam": "2000",
+    "num": "10",
+    "text": "Quines dades dels mapes comarcals de Catalunya, editats per l’Institut Cartogràfic de Catalunya, ens permeten saber els relleus del terreny?",
+    "options": {
+      "a": "les dades són insuficients per saber el relleu",
+      "b": "les corbes de nivell",
+      "c": "per saber el relleu necessitem un altre tipus de mapa",
+      "d": "els colors 355"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2000-43",
+    "exam": "2000",
+    "num": "43",
+    "text": "Definició de declinació magnètica:",
+    "options": {
+      "a": "error magnètic de la brúixola",
+      "b": "angle que forma el nord magnètic i un paral·lel",
+      "c": "angle que forma el nord magnètic amb el nord geogràfic",
+      "d": "inclinació de la brúixola respecte del nivell del terreny 361"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2000-55",
+    "exam": "2000",
+    "num": "55",
+    "text": "En quina escala s’han editat els mapes comarcals de Catalunya de l’Institut de Cartografia de Catalunya?",
+    "options": {
+      "a": "1:25.000",
+      "b": "1:1.000.000",
+      "c": "1:50.000",
+      "d": "1:10.000 367"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-2000-56",
+    "exam": "2000",
+    "num": "56",
+    "text": "Com es determina un punt en un mapa?",
+    "options": {
+      "a": "per la intersecció d’un meridià i un paral·lel",
+      "b": "pel meridià que el conté",
+      "c": "per mesura directa de la seva corba de nivell",
+      "d": "per relació entre dos punts més 373 375"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-1999-4",
+    "exam": "1999",
+    "num": "4",
+    "text": "Definició de corba de nivell:",
+    "options": {
+      "a": "és la línia que en el mapa uneix els punts que tenen la mateixa alçada",
+      "b": "és la línia que en el mapa uneix els punts de diferent cota",
+      "c": "és la línia de màxim pendent",
+      "d": "és la línia que segueix les carenes 381"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-1999-13",
+    "exam": "1999",
+    "num": "13",
+    "text": "Per mesurar la superfície en un mapa, hem de tenir en compte el pendent del terreny?",
+    "options": {
+      "a": "sí, en el cas de les zones forestals",
+      "b": "no",
+      "c": "sí",
+      "d": "sí, en el cas de grans pendents 387"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-1999-16",
+    "exam": "1999",
+    "num": "16",
+    "text": "Quan les corbes de nivell tendeixen a ajuntar-se, això vol dir que:",
+    "options": {
+      "a": "es forma una vall en aquell punt",
+      "b": "el pendent augmenta",
+      "c": "el pendent disminueix",
+      "d": "hi ha una carena 393"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-1999-55",
+    "exam": "1999",
+    "num": "55",
+    "text": "Si en un plànol a escala 1:25000 mesurem la distància entre dos punts, i ens dóna 40 mm, quina distància hi ha en realitat sobre el terreny?",
+    "options": {
+      "a": "2.500 m",
+      "b": "625 m",
+      "c": "1.000 m",
+      "d": "250 m 399 401"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T29 CARTOGRAFIA-1998-26",
+    "exam": "1998",
+    "num": "26",
+    "text": "La representació cartogràfica UTM, és una projecció:",
+    "options": {
+      "a": "cilíndrica",
+      "b": "triangular",
+      "c": "rectangular",
+      "d": "cúbica"
+    },
+    "answer": "a"
+  }
+]

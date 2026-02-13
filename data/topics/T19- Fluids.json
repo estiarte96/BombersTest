@@ -1,0 +1,80 @@
+[
+  {
+    "id": "T19 FLUIDS-81/24-12",
+    "exam": "81/24",
+    "num": "12",
+    "text": "Segons el funcionament del cargol d’Arquímedes, quin dels següents és un requisit indispensable per al seu correcte funcionament en la funció d’elevació d’aigua?",
+    "options": {
+      "a": "el volum del cargol no ha d’estar completament ple d’aigua.",
+      "b": "el circuit interior ha de ser finit.",
+      "c": "el fons del cargol ha d’estar totalment submergit a l’aigua.",
+      "d": "el cargol ha de disposar d’un mínim de 10 segments. 10"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T19 FLUIDS-81/24-13",
+    "exam": "81/24",
+    "num": "13",
+    "text": "Generalment, quin és l’objectiu principal d’un regulador de pressió instal·lat en una bomba hidràulica?",
+    "options": {
+      "a": "regular la pressió de sortida de la bomba, de manera que aquesta pressió es mantingui gairebé constant, independentment del cabal.",
+      "b": "regular la pressió a la entrada de la bomba, de manera que aquesta pressió es mantingui gairebé constant, independentment del cabal.",
+      "c": "regular la pressió de sortida de la bomba, de manera que aquesta pressió es mantingui gairebé constant, en funció del cabal.",
+      "d": "regular la pressió a la entrada de la bomba, de manera que aquesta pressió es mantingui gairebé constant, en funció del cabal. 16"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T19 FLUIDS-81/24-19",
+    "exam": "81/24",
+    "num": "19",
+    "text": "En les bombes centrífugues, la direcció del flux a la sortida del rodet és:",
+    "options": {
+      "a": "perpendicular a l’eix.",
+      "b": "paral·lela a l’eix.",
+      "c": "mixta.",
+      "d": "perpendicular a 20º de l’eix. 22"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T19 FLUIDS-81/24-51",
+    "exam": "81/24",
+    "num": "51",
+    "text": "Quin és l’objectiu principal de les vàlvules antiretorn?",
+    "options": {
+      "a": "controlar la pressió de funcionament del circuit.",
+      "b": "distribuir el cabal a diversos actuadors.",
+      "c": "assegurar la direcció del fluid.",
+      "d": "regular el cabal disponible. 28 30"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T19 FLUIDS-81/23-19",
+    "exam": "81/23",
+    "num": "19",
+    "text": "Quin dels següents materials NO és necessari per fer la soldadura d’un tub de coure d’una instal·lació d’aigua domèstica?",
+    "options": {
+      "a": "decapant.",
+      "b": "elèctrodes.",
+      "c": "estany.",
+      "d": "element que permeti obrir els porus, tipus paper de vidre o fregall d’alumini. 36 37 38 39 40 41 42"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T19 FLUIDS-81/23-93",
+    "exam": "81/23",
+    "num": "93",
+    "text": "Una vàlvula de tres vies mescladora:",
+    "options": {
+      "a": "disposa de dues entrades i una sortida.",
+      "b": "disposa de dues entrades i dues sortides.",
+      "c": "disposa de tres entrades i una sortida.",
+      "d": "disposa d’una entrada i dues sortides."
+    },
+    "answer": "a"
+  }
+]

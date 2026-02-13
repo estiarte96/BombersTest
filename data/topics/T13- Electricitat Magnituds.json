@@ -1,0 +1,522 @@
+[
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/24-28",
+    "exam": "81/24",
+    "num": "28",
+    "text": "En un circuit elèctric en sèrie, quina tensió hauria de tenir la font per alimentar dues bombetes de 2 Ω (ohms) cadascuna i un corrent de 4 A (ampers)?",
+    "options": {
+      "a": "2 volts (v).",
+      "b": "1 volt (v).",
+      "c": "16 volts (v).",
+      "d": "8 volts (v). 10"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/24-44",
+    "exam": "81/24",
+    "num": "44",
+    "text": "Segons el Reglament electrotècnic de baixa tensió (REBT), en el seu apartat BT-24, per a la protecció contra contactes directes en habitatges serà necessària:",
+    "options": {
+      "a": "la col·locació d'un dispositiu de corrent diferencial-residual, que constitueix una mesura de protecció completa i no requereix cap altra mesura de protecció complementària.",
+      "b": "la protecció per mitjà d'obstacles de contactes fortuïts, que és la mesura obligatòria i més efectiva en habitatges.",
+      "c": "la protecció per posada fora d'abast per allunyament, que és la mesura obligatòria i més efectiva en habitatges.",
+      "d": "la col·locació d'un dispositiu de corrent diferencial-residual, que és només una mesura de protecció complementària als contactes directes. 16"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/24-100",
+    "exam": "81/24",
+    "num": "100",
+    "text": "Quina de les següents definicions, referents a les magnituds elèctriques, correspon a la tensió elèctrica?",
+    "options": {
+      "a": "magnitud necessària per moure les càrregues. equival al treball per unitat de càrrega.",
+      "b": "nombre d’electrons o càrregues que travessen una secció de cable en un segon.",
+      "c": "dificultat que posen els diferents materials a ser travessats pel corrent elèctric.",
+      "d": "proporció de corrent elèctric que es transfereix en un circuit elèctric per unitat de temps. 22 24"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/23-40",
+    "exam": "81/23",
+    "num": "40",
+    "text": "Si augmenta la resistivitat elèctrica d’un element, sense variar les altres propietats físiques:",
+    "options": {
+      "a": "augmentarà la resistència elèctrica.",
+      "b": "disminuirà la resistència elèctrica.",
+      "c": "disminuirà la secció de l’element.",
+      "d": "augmentarà la longitud de l’element. 30"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/23-41",
+    "exam": "81/23",
+    "num": "41",
+    "text": "Si tenim un circuit elèctric de corrent continu on augmenta la intensitat però el voltatge es manté constant, indiqueu la resposta INCORRECTA:",
+    "options": {
+      "a": "ha augmentat la potència elèctrica.",
+      "b": "ha disminuït la resistència.",
+      "c": "ha augmentat el potencial elèctric.",
+      "d": "les càrregues elèctriques circulen sempre en el mateix sentit. 36"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/23-64",
+    "exam": "81/23",
+    "num": "64",
+    "text": "Quina és la unitat que utilitza el Sistema Internacional per mesurar la quantitat d'electricitat?",
+    "options": {
+      "a": "l’ampere (a).",
+      "b": "el coulomb (c).",
+      "c": "el volt (v).",
+      "d": "l’ohm (ω). 42"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/23-71",
+    "exam": "81/23",
+    "num": "71",
+    "text": "Segons el Reial decret 614/2001, de 8 juny, sobre disposicions mínimes per a la protecció de la salut i la seguretat dels treballadors davant el risc elèctric, quina de les següents NO és una de les 5 etapes per treballar sense tensió elèctrica?",
+    "options": {
+      "a": "verificar l’absència de tensió.",
+      "b": "posada a terra i curtcircuit.",
+      "c": "senyalitzar la zona de treball.",
+      "d": "utilització de casc, guants i calçat de seguretat aïllant. 48 50"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-13",
+    "exam": "81/21",
+    "num": "13",
+    "text": "Per protegir-nos, un determinat interruptor diferencial en un habitatge desconnecta un circuit si percep un corrent de fuita igual o menor de 30 mA en un temps igual o inferior a 50 ms. No obstant, quin dels següents valors s’apropa més al llindar de percepció del corrent elèctric altern?",
+    "options": {
+      "a": "0,2 µa.",
+      "b": "25 ma.",
+      "c": "10 ma.",
+      "d": "0,5 ma. 56"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-28",
+    "exam": "81/21",
+    "num": "28",
+    "text": "Un dia de molt fred al parc de bombers estàs pensant en anar a buscar una altra manta o bé en endollar un calefactor de 5.000 watts de potència a la instal·lació del parc (de 230 volts i amb un ICP de 25 ampers). El circuit d’endolls de l’habitació on et trobes es protegeix amb un petit interruptor automàtic (PIA) de 16 ampers, per tant si connectes el calefactor:",
+    "options": {
+      "a": "el circuit suportarà perfectament els menys de 3 ampers que consumeix.",
+      "b": "el circuit hauria de suportar els 9,8 ampers que consumeix.",
+      "c": "la intensitat serà major de 10 ampers, però el pia no hauria de desconnectar el circuit perquè això li correspon fer-ho a l’interruptor de control de potència (icp), que assumeix de sobres aquesta potència.",
+      "d": "el pia hauria de desconnectar el circuit, per tant segurament hauràs d’anar a buscar una altra manta. 62"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-40",
+    "exam": "81/21",
+    "num": "40",
+    "text": "T’han explicat que pel circuit elèctric de les llanternes d’intervenció del teu parc circula un corrent de 4 ampers, connectat a una bateria d’un voltatge de 2 volts. El teu cap de torn ha de demanar recanvis de bombetes per si es fonen. Quina és la resistència de la bombeta en aquest circuit?",
+    "options": {
+      "a": "no ho puc saber perquè les dades són errònies; en un circuit amb una bateria de 2 volts no hi pot haver un corrent de 4 ampers, independentment de la resistència.",
+      "b": "0,5 ohms.",
+      "c": "4 ohms.",
+      "d": "5 ohms. 68"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-51",
+    "exam": "81/21",
+    "num": "51",
+    "text": "L’electricitat és una font de risc per als treballadors; és per això que en totes aquelles tasques en què calgui manipular una instal·lació elèctrica cal assegurar-se que la tasca es fa sense tensió. Per fer això s’han de seguir cinc passos coneguts com les regles d’or de la seguretat elèctrica, en un ordre específic. Quina de les afirmacions següents és CORRECTE?",
+    "options": {
+      "a": "abans de desconnectar la instal·lació sempre l’hem de protegir i senyalitzar.",
+      "b": "hem de curtcircuitar el circuit i posar-lo a terra de forma prèvia a fer les mesures per comprovar l’absència de tensió.",
+      "c": "l’últim dels passos és prevenir qualsevol possible realimentació, assegurant els dispositius i senyalitzant la realització de treballs a la instal·lació.",
+      "d": "per tornar a donar tensió a la instal·lació amb seguretat s’han de desfer els cinc passos, però en ordre invers. 74"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-53",
+    "exam": "81/21",
+    "num": "53",
+    "text": "Tenint en compte que intensitats de 25 mA no causen trastorns a l’organisme i la resistència del cos humà oscil·la entre 1.000 i 2.000 ohms, la tensió de seguretat és aquella que es pot aplicar indefinidament al cos humà sense perill. De quina tensió parlem en ambients secs?",
+    "options": {
+      "a": "50 v.",
+      "b": "24 v.",
+      "c": "12 v.",
+      "d": "75 v. 80 811/2/2019 82"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-29",
+    "exam": "81/21",
+    "num": "29",
+    "text": "Quan per un conductor circula un corrent elèctric i aquest s'escalfa, com es diu aquest efecte?",
+    "options": {
+      "a": "efecte coulomb.",
+      "b": "efecte fotoelèctric.",
+      "c": "efecte electromotriu.",
+      "d": "efecte joule. 88"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/21-53",
+    "exam": "81/21",
+    "num": "53",
+    "text": "Si volem mesurar la intensitat que passa per un circuit, com connectarem l'amperímetre?",
+    "options": {
+      "a": "en sèrie.",
+      "b": "en paral·lel.",
+      "c": "de manera mixta.",
+      "d": "és indiferent. 94 96"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/19-89",
+    "exam": "81/19",
+    "num": "89",
+    "text": "Segons el Reglament electrotècnic de baixa tensió hi ha tres tipus d’esquemes de distribució elèctrica que s’anomenen TN, TT i IT. A partir de quin criteri són categoritzats?",
+    "options": {
+      "a": "el voltatge que transporten.",
+      "b": "el diàmetre dels conductors.",
+      "c": "l’ús al qual està destinat la instal·lació.",
+      "d": "el tipus de posada a terra. 102 104"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/18-13",
+    "exam": "81/18",
+    "num": "13",
+    "text": "Afirmar que per una instal·lació elèctrica circula un corrent de 0,3 mA d’intensitat, és afirmar que la intensitat que circula per la instal·lació és de:",
+    "options": {
+      "a": "3 ampers.",
+      "b": "30 microampers.",
+      "c": "300 microampers.",
+      "d": "0,3 microampers. 110"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/18-29",
+    "exam": "81/18",
+    "num": "29",
+    "text": "La intensitat elèctrica és:",
+    "options": {
+      "a": "directament proporcional a la resistència i inversament al voltatge.",
+      "b": "directament proporcional al voltatge i inversament a la resistència.",
+      "c": "la que marca el comptador elèctric mecànic de l'habitatge.",
+      "d": "la que marca el comptador elèctric intel·ligent de l'habitatg 116"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -81/18-91",
+    "exam": "81/18",
+    "num": "91",
+    "text": "La càrrega elèctrica es mesura en:",
+    "options": {
+      "a": "ampers.",
+      "b": "volts.",
+      "c": "coulombs.",
+      "d": "watts. 122 124"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2016-25",
+    "exam": "2016",
+    "num": "25",
+    "text": "El despreniment d'energia en forma de calor que provoca el pas del corrent s'anomena efecte:",
+    "options": {
+      "a": "joule.",
+      "b": "elèctric.",
+      "c": "farad.",
+      "d": "ohm. 130"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2016-49",
+    "exam": "2016",
+    "num": "49",
+    "text": "Com evitarem les càrregues per electricitat estàtica?",
+    "options": {
+      "a": "amb la interconnexió i presa de terra electrostàtica de totes les parts conductores.",
+      "b": "no es pot evitar, però sí reduir o anul·lar",
+      "c": "tonitzant l'atmosfera.",
+      "d": "portant roba de llana. 136"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2016-51",
+    "exam": "2016",
+    "num": "51",
+    "text": "Com connectaries un voltimetre i un amperímetre en un circuit de corrent continu?",
+    "options": {
+      "a": "tots dos en sèrie.",
+      "b": "tots dos en paral·lel,",
+      "c": "el voltímetre, en sèrie i l'amperímetre, en paral·lel.",
+      "d": "el voltimetre, en paral·lel i l'amperímetre, en sèrie 142 144"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2009-32",
+    "exam": "2009",
+    "num": "32",
+    "text": "Què és el voltatge?",
+    "options": {
+      "a": "és la mateixa magnitud que l’amper",
+      "b": "és el nivell d’aïllament que té un conductor",
+      "c": "és la diferència de potencial que hi ha entre dos pols",
+      "d": "és la unitat de resistència elèctrica 150"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2009-46",
+    "exam": "2009",
+    "num": "46",
+    "text": "La intensitat de corrent és:",
+    "options": {
+      "a": "és el terme que s’utilitza per calcular el consum elèctric",
+      "b": "és la quantitat d’electricitat que recorre un circuit en una unitat de temps",
+      "c": "la força amb què circula el corrent",
+      "d": "el temps que triga el corrent a travessar un circuit 156 158"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2008-20",
+    "exam": "2008",
+    "num": "20",
+    "text": "Un voltímetre ha de connectar-se sempre:",
+    "options": {
+      "a": "amb les masses connectades a la presa de terra però amb tensió",
+      "b": "aïllat de la presa de terra",
+      "c": "en sèrie amb l’element la tensió del qual es vulgui mesurar",
+      "d": "en paral·lel amb l’element la tensió del qual es vulgui mesurar 164"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2008-30",
+    "exam": "2008",
+    "num": "30",
+    "text": "Com es denomina la unitat de càrrega elèctrica?",
+    "options": {
+      "a": "amper",
+      "b": "culombi",
+      "c": "watt",
+      "d": "volt 170 172"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2006-17",
+    "exam": "2006",
+    "num": "17",
+    "text": "Una cuina elèctrica consumeix 2’3 KW a una tensió de 230 V. La resistència elèctrica de la cuina és igual a:",
+    "options": {
+      "a": "23 ohms",
+      "b": "17’3 ohms",
+      "c": "2’3 ohms",
+      "d": "230 ohms 178"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2006-39",
+    "exam": "2006",
+    "num": "39",
+    "text": "Si tenim una tensió de 220 V i una resistència de 100 ohms, obtindrem una intensitat de:",
+    "options": {
+      "a": "22 a",
+      "b": "2’2 a",
+      "c": "2’2 v",
+      "d": "2’2 ohms 184"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2006-68",
+    "exam": "2006",
+    "num": "68",
+    "text": "Si una persona està manipulant una caixa de connexions elèctriques, toca un dels cables i sent passar corrent pel seu cos (sense provocar-li cap efecte greu), s’ha produït:",
+    "options": {
+      "a": "un contacte directe",
+      "b": "un contacte indirecte",
+      "c": "una electrocució",
+      "d": "un accident inevitable 190 192"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2005-47",
+    "exam": "2005",
+    "num": "47",
+    "text": "La unitat de resistència elèctrica és:",
+    "options": {
+      "a": "metre (m)",
+      "b": "ohm (ω)",
+      "c": "amper (a)",
+      "d": "volt (v) 198 200"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2003-23",
+    "exam": "2003",
+    "num": "23",
+    "text": "En corrent altern trifàsic, si cada fase té respecte al terra 230 V, entre fases tindrem:",
+    "options": {
+      "a": "125 v",
+      "b": "0 volts",
+      "c": "230 v",
+      "d": "400 v 206"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2003-41",
+    "exam": "2003",
+    "num": "41",
+    "text": "En un circuit de corrent continu amb una pila de 6 volts, si la intensitat amb què mesurem el circuit és de 12 ampers, la resistència és de:",
+    "options": {
+      "a": "és independent",
+      "b": "2 ohms",
+      "c": "0’5 ohms",
+      "d": "6 ohms 212"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2003-54",
+    "exam": "2003",
+    "num": "54",
+    "text": "En un circuit de corrent continu amb una pila de 6 volts amb dues resistències en paral·lel de 12 ohms, la intensitat és de:",
+    "options": {
+      "a": "6 ampers",
+      "b": "0’5 ampers",
+      "c": "2 ampers",
+      "d": "1 amper 218 220"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2002-23",
+    "exam": "2002",
+    "num": "23",
+    "text": "La resistència elèctrica entre dos punts d’un conductor és igual a:",
+    "options": {
+      "a": "el quocient entre la diferència de potencial i la intensitat del corrent que hi circula",
+      "b": "el producte de la resistivitat per la distància entre els dos punts",
+      "c": "el producte de la intensitat del corrent que hi circula i la diferència de potencial",
+      "d": "el quocient entre la intensitat del corrent que hi circula i la diferència de potencial 226"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2002-64",
+    "exam": "2002",
+    "num": "64",
+    "text": "En un circuit elèctric de corrent continu, la resistència equivalent d’una associació de resistències en paral·lel és:",
+    "options": {
+      "a": "igual a la suma de resistències",
+      "b": "menor que qualsevol de les resistències",
+      "c": "igual a la major de les resistències",
+      "d": "igual a la suma de les inverses de les resistències 232 234"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2001-36",
+    "exam": "2001",
+    "num": "36",
+    "text": "Quin d’aquests materials conductors té menys resistència elèctrica?",
+    "options": {
+      "a": "plata",
+      "b": "alumini",
+      "c": "ferro",
+      "d": "coure 240"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2001-37",
+    "exam": "2001",
+    "num": "37",
+    "text": "Una persona està en contacte amb una màquina elèctrica connectada a 400 V, que té una fuita per una fase de la carcassa i que està connectada a terra. Com seran les resistències en funció de la resistivitat dels materials?",
+    "options": {
+      "a": "no passa cap electricitat pel cos humà",
+      "b": "la resistència del cos humà és la més gran",
+      "c": "no hi ha cap resistència",
+      "d": "la resistència del cos humà és més petita que la del motor 246"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2001-59",
+    "exam": "2001",
+    "num": "59",
+    "text": "Com es considera un motor elèctric en un circuit elèctric",
+    "options": {
+      "a": "com una càrrega capacitiva",
+      "b": "com una càrrega mecànica",
+      "c": "com una càrrega resistiva",
+      "d": "com una càrrega inductiva 252 254"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2000-11",
+    "exam": "2000",
+    "num": "11",
+    "text": "L’aparell que mesura l’energia elèctrica consumida en una instal·lació és el:",
+    "options": {
+      "a": "fasímetre",
+      "b": "waltímetre",
+      "c": "comptador",
+      "d": "potenciòmetre 260"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -2000-12",
+    "exam": "2000",
+    "num": "12",
+    "text": "El potencial elèctric es mesura amb la unitat:",
+    "options": {
+      "a": "ohm",
+      "b": "volt",
+      "c": "coulomb",
+      "d": "watt 266 268"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T13. ELECTRICITAT MAGNITUDS -1999-45",
+    "exam": "1999",
+    "num": "45",
+    "text": "Un circuit està connectat en sèrie:",
+    "options": {
+      "a": "quan en cada element del circuit el voltatge va augmentat",
+      "b": "sempre que per tots els elements passa la mateixa intensitat",
+      "c": "sempre que tots els elements estan sotmesos a la mateixa tensió",
+      "d": "sempre que hi ha corrent altern"
+    },
+    "answer": "b"
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "T30 G. FÍSICA-81/24-30",
+    "exam": "81/24",
+    "num": "30",
+    "text": "Quina és la serra que està situada al vessant nord-oest de la serra del Montsià?",
+    "options": {
+      "a": "serra de cardó.",
+      "b": "serra del catllaràs.",
+      "c": "serra del verd.",
+      "d": "serra de godall. 16"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/24-37",
+    "exam": "81/24",
+    "num": "37",
+    "text": "Per quines dues serralades o muntanyes passa, entre d’altres, el riu Segre?",
+    "options": {
+      "a": "serra de boumort i serra del port del comte.",
+      "b": "serra de boumort i serra de sant gervàs.",
+      "c": "montsec de rúbies i montsec d’àres.",
+      "d": "serra de sant mamet i serra de montclús. 22 24"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/23-45",
+    "exam": "81/23",
+    "num": "45",
+    "text": "Quin riu NO és afluent del Segre?",
+    "options": {
+      "a": "el corb.",
+      "b": "el llobregós.",
+      "c": "el sió.",
+      "d": "el d’algars. 30"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/23-49",
+    "exam": "81/23",
+    "num": "49",
+    "text": "Quines serralades o muntanyes de Catalunya hi ha d’oest a est ordenadament?",
+    "options": {
+      "a": "serra de godall, serra de miralles, serra de rubió i serra de cardó.",
+      "b": "serra de cardó, muntanyes de prades, montsant i serra de l’albera.",
+      "c": "serra de godall, serra de la llena, serra de rubió i serra de montnegre.",
+      "d": "serra de sant gervàs, serra del boumort, serra de la llena i muntanyes de tivissa i vandellòs. 36"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/23-99",
+    "exam": "81/23",
+    "num": "99",
+    "text": "Assenyaleu quin és el cim més alt de la Serra del Montsant:",
+    "options": {
+      "a": "la talaia.",
+      "b": "el tossal de la baltasana.",
+      "c": "la creu de santos.",
+      "d": "la roca corbatera. 42 44"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/21-86",
+    "exam": "81/21",
+    "num": "86",
+    "text": "Quin embassament pertany a les conques hidrogràfiques internes de Catalunya?",
+    "options": {
+      "a": "camarasa.",
+      "b": "oliana.",
+      "c": "llosa del cavall.",
+      "d": "siurana. 50 52"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19.2-8",
+    "exam": "81/19.2",
+    "num": "8",
+    "text": "Dels següents agrupaments de rius, quin correspon en la seva totalitat a les denominades conques hidrogràfiques internes de Catalunya?",
+    "options": {
+      "a": "el llobregat, la muga i el segre.",
+      "b": "l’anoia, el cardener i el francolí.",
+      "c": "la garona, el segre i el ter.",
+      "d": "la tordera, el noguera pallaresa i el fluvià. 58"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19.2-15",
+    "exam": "81/19.2",
+    "num": "15",
+    "text": "Amb quants quilòmetres de costa compta Catalunya?",
+    "options": {
+      "a": "730 km",
+      "b": "menys de 400 km",
+      "c": "425 km",
+      "d": "580 km 64"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19.2-20",
+    "exam": "81/19.2",
+    "num": "20",
+    "text": "El massís del Montseny es troba a:",
+    "options": {
+      "a": "el prepirineu axial.",
+      "b": "la serralada prelitoral.",
+      "c": "la depressió central.",
+      "d": "la serralada litoral. 70"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19.2-90",
+    "exam": "81/19.2",
+    "num": "90",
+    "text": "Quines són les grans unitats o blocs en què es pot dividir el relleu català?",
+    "options": {
+      "a": "els pirineus i les serralades costaneres, únicament.",
+      "b": "les serralades costaneres, la depressió central i els pirineus.",
+      "c": "les serralades costaneres, la depressió litoral i els pirineus.",
+      "d": "les serralades costaneres, la depressió litoral i el delta de l’ebre. 76 78"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19-12",
+    "exam": "81/19",
+    "num": "12",
+    "text": "Quina és la superfície aproximada de Catalunya?",
+    "options": {
+      "a": "22.000 km2.",
+      "b": "32.000 km2.",
+      "c": "35.000 km2.",
+      "d": "25.000 km2. 84"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19-68",
+    "exam": "81/19",
+    "num": "68",
+    "text": "Dels embassaments següents, identifica el que pertany a la conca del riu Llobregat:",
+    "options": {
+      "a": "susqueda.",
+      "b": "foix.",
+      "c": "sant ponç.",
+      "d": "sau. 90 91 92 93 94 95 96"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/19-86",
+    "exam": "81/19",
+    "num": "86",
+    "text": "En quin sistema muntanyenc català trobem el cim del Comabona?",
+    "options": {
+      "a": "pirineu.",
+      "b": "prepirineu.",
+      "c": "serralada prelitoral.",
+      "d": "serralada transversal. 102 104"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-1",
+    "exam": "81/18",
+    "num": "1",
+    "text": "En quina comarca es troba el pantà de Sau?",
+    "options": {
+      "a": "vallès oriental.",
+      "b": "osona.",
+      "c": "bages.",
+      "d": "garrotxa. 110"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-27",
+    "exam": "81/18",
+    "num": "27",
+    "text": "En quina comarca està situat el pantà de Riudecanyes?",
+    "options": {
+      "a": "montsià.",
+      "b": "osona.",
+      "c": "baix camp.",
+      "d": "la selva. 116"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-35",
+    "exam": "81/18",
+    "num": "35",
+    "text": "En quin massís trobem els cims del Matagalls i del Turó de l’Home?",
+    "options": {
+      "a": "pedraforca.",
+      "b": "garraf.",
+      "c": "montseny.",
+      "d": "montgrí. 122"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-36",
+    "exam": "81/18",
+    "num": "36",
+    "text": "Quin riu travessa la comarca de la Garrotxa?",
+    "options": {
+      "a": "fluvià.",
+      "b": "francolí.",
+      "c": "cardener.",
+      "d": "llobregós. 128"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-89",
+    "exam": "81/18",
+    "num": "89",
+    "text": "En quin espai natural es troba l’estany de la Ricarda?",
+    "options": {
+      "a": "al delta de l’ebre.",
+      "b": "al delta del llobregat.",
+      "c": "a la gola del ter.",
+      "d": "al pla de l’estany. 134"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/18-104",
+    "exam": "81/18",
+    "num": "104",
+    "text": "L’estatge de muntanya mitjana a Catalunya es situa entre:",
+    "options": {
+      "a": "els 200 m. i els 400 m. d’altitud.",
+      "b": "els 400 m. i els 800 m. d’altitud.",
+      "c": "els 800 m. i els 1600 m. d’altitud.",
+      "d": "els 1600 m. i 2400 m. d’altitud. 140 142"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/16-18",
+    "exam": "81/16",
+    "num": "18",
+    "text": "On neix el riu Ter?",
+    "options": {
+      "a": "la pobla de segur.",
+      "b": "calldetenes",
+      "c": "ulldeter",
+      "d": "ripoll 148"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/16-33",
+    "exam": "81/16",
+    "num": "33",
+    "text": "Entre quins rius se situa la serra de Boumort?",
+    "options": {
+      "a": "noguera pallaresa i segre",
+      "b": "segre i noguera ribagorçana",
+      "c": "segre i cardener",
+      "d": "ter i llobregat 154"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/16-39",
+    "exam": "81/16",
+    "num": "39",
+    "text": "Quins dels següents són afluents del riu Segre:",
+    "options": {
+      "a": "noguera pallaresa i freser",
+      "b": "freser i onyar",
+      "c": "noguera pallaresa i congost",
+      "d": "noguera pallaresa i cinca 160"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/16-93",
+    "exam": "81/16",
+    "num": "93",
+    "text": "En quina comarca neix el riu Llobregat?",
+    "options": {
+      "a": "cerdanya",
+      "b": "ripollès",
+      "c": "alt empordà",
+      "d": "berguedà 166"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-81/16-99",
+    "exam": "81/16",
+    "num": "99",
+    "text": "Quin d’aquets cims pertany a la Serralada Litoral?",
+    "options": {
+      "a": "montnegre",
+      "b": "puig de bessoga",
+      "c": "puigpedrós",
+      "d": "comanegra 172 174"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-2009-13",
+    "exam": "2009",
+    "num": "13",
+    "text": "Dins de quins termes municipals es troba la Serra de Pàndols, en el territori català?",
+    "options": {
+      "a": "es troba situada al municipi d’albinyana, situat a la comarca del baix penedès, que es troba entre el vendrell i valls",
+      "b": "es troba situada als municipis de gandesa i el pinell de brai, a la terra alta",
+      "c": "es troba situada al nord de la província de tarragona, que limita amb la província de lleida, i està encerclada per les comarques de la conca de barberà, el priorat i les garrigues",
+      "d": "es troba situada al municipi de vic, al centre de la comarca d’osona, al mig de la plana de vic 180"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2009-26",
+    "exam": "2009",
+    "num": "26",
+    "text": "La xarxa hidrogràfica de Catalunya es compon de les tipologies de conques següents:",
+    "options": {
+      "a": "conques intercomunitàries i conques internacionals",
+      "b": "conques internes i conques intercomunitàries",
+      "c": "conques internes, conques intercomunitàries i conques internacionals",
+      "d": "conques internes 186"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2009-33",
+    "exam": "2009",
+    "num": "33",
+    "text": "En quina serralada de Catalunya s’integra la Zona Volcànica de la Garrotxa?",
+    "options": {
+      "a": "serralada transversal",
+      "b": "serralada prelitoral",
+      "c": "serralada litoral",
+      "d": "serralada prepirineus 192 194"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-2008-2",
+    "exam": "2008",
+    "num": "2",
+    "text": "La Serra de Sant Mamet es troba al sud de...",
+    "options": {
+      "a": "la serra de tallat",
+      "b": "la serra de montsec",
+      "c": "la serra de rubió",
+      "d": "la serra de castelltallat 200"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2008-14",
+    "exam": "2008",
+    "num": "14",
+    "text": "Quin dels embassaments següents no pertany a la conca del riu Ebre?",
+    "options": {
+      "a": "guiamets",
+      "b": "riudecanyes",
+      "c": "canelles",
+      "d": "rialb 206"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2008-16",
+    "exam": "2008",
+    "num": "16",
+    "text": "Quina és la unitat de mesura del cabal dels rius d’ús habitual per a la gestió d’emergències?",
+    "options": {
+      "a": "els quilòmetres per hora",
+      "b": "els metres cúbics per segon",
+      "c": "els metres de fondària",
+      "d": "els hectòmetres cúbics al mes 212"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2008-31",
+    "exam": "2008",
+    "num": "31",
+    "text": "Prop de quin parc neix el riu Fluvià?",
+    "options": {
+      "a": "puigsacalm",
+      "b": "puigsou",
+      "c": "puig rodó",
+      "d": "puig neulós 218"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-2008-35",
+    "exam": "2008",
+    "num": "35",
+    "text": "Quin dels rius següents és més llarg?",
+    "options": {
+      "a": "la noguera ribagorçana",
+      "b": "la noguera pallaresa",
+      "c": "el llobregat",
+      "d": "el ter 224 226"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-8",
+    "exam": "2006",
+    "num": "8",
+    "text": "El principal riu de la comarca de la Cerdanya és...",
+    "options": {
+      "a": "el segre",
+      "b": "el freser",
+      "c": "el cardener",
+      "d": "el fluvià 232"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-19",
+    "exam": "2006",
+    "num": "19",
+    "text": "El pic més alt de Catalunya és...",
+    "options": {
+      "a": "el canigó",
+      "b": "la pica d’estats",
+      "c": "l’aneto",
+      "d": "el turo de l’home 238"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-25",
+    "exam": "2006",
+    "num": "25",
+    "text": "L’embassament amb més capacitat d’emmagatzemament d’aigua (688 hm3) es troba dins la conca de la Noguera Ribagorçana (conques intercomunitàries). Sabríeu assenyalar de quin embassament es tracta?",
+    "options": {
+      "a": "embassament de cavallers",
+      "b": "embassament de santa anna",
+      "c": "embassament de canelles",
+      "d": "embassament de rialb 244"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-30",
+    "exam": "2006",
+    "num": "30",
+    "text": "El riu Noguera Pallaresa neix al Pla de Beret, a la Vall d’Aran, a pocs metres del naixement del riu Garona. La Noguera Pallaresa es dirigeix en direcció sud fins a convertir-se en un afluent del riu Segre. Sabríeu dir quin és el congost que travessa aquest riu entre les comarques del Pallars Sobirà i del Pallars Jussà?",
+    "options": {
+      "a": "el congost de terradets",
+      "b": "el congost de camarassa",
+      "c": "el congost de collegats",
+      "d": "el congost del montsec 250"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-58",
+    "exam": "2006",
+    "num": "58",
+    "text": "Els rius Cortiella i Guiamets, els trobarem a la comarca:",
+    "options": {
+      "a": "de les garrigues",
+      "b": "del priorat",
+      "c": "de la terra alta",
+      "d": "de la segarra 256"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2006-66",
+    "exam": "2006",
+    "num": "66",
+    "text": "La unitat del relleu caracteritzada per l’absència total o quasi total, d’estructures de plegament, que configura un conjunt de terres poc deformades, s’identifica amb el nom de:",
+    "options": {
+      "a": "la depressió de l’ebre",
+      "b": "la placa de vic",
+      "c": "la depressió central catalana",
+      "d": "tan correcta és la denominació de depressió central catalana com la de depressió de l’ebre, ja que la primera és el prolongament oriental de la segona 262 264"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-8",
+    "exam": "2005",
+    "num": "8",
+    "text": "El clima de les terres allunyades de la mar es denomina:",
+    "options": {
+      "a": "clima terral",
+      "b": "clima alpí",
+      "c": "clima d’interior",
+      "d": "clima continental 270"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-10",
+    "exam": "2005",
+    "num": "10",
+    "text": "Hidrologia. Dins del concepte de conques internes de Catalunya, assenyala el riu que NO té aquesta consideració:",
+    "options": {
+      "a": "fluvià",
+      "b": "segre",
+      "c": "foix",
+      "d": "gaià 276"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-14",
+    "exam": "2005",
+    "num": "14",
+    "text": "La forma de sedimentació situada a la part baixa d’un torrent es denomina:",
+    "options": {
+      "a": "con d’ejecció",
+      "b": "con de desguàs",
+      "c": "con de projecció",
+      "d": "con de dejecció 282"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-45",
+    "exam": "2005",
+    "num": "45",
+    "text": "La fragmentació de les roques fruit de les tensions que produeix la congelació i descongelació de l’aigua en els forats que presenta la roca rep el nom de:",
+    "options": {
+      "a": "corrosió",
+      "b": "gelifractació o crioclàstia",
+      "c": "hidroclàstia",
+      "d": "haloclàstia 288"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-54",
+    "exam": "2005",
+    "num": "54",
+    "text": "Quin és l’embassament o pantà que recull les aigües del Ter, situat a la part nord-oest de la comarca de la Selva, i a tocar de la d’Osona?",
+    "options": {
+      "a": "pantà de sau",
+      "b": "pantà de vallfornès",
+      "c": "pantà de susqueda",
+      "d": "pantà de boadella 294"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-2005-58",
+    "exam": "2005",
+    "num": "58",
+    "text": "El port de muntanya que separa les comarques del Pallars Sobirà i la Vall d’Aran és:",
+    "options": {
+      "a": "port de la picada",
+      "b": "port del portilló",
+      "c": "port d’en valira",
+      "d": "port de la bonaigua 300 302"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2003-52",
+    "exam": "2003",
+    "num": "52",
+    "text": "Després de l’Ebre el riu que té més cabal d’aigua a Catalunya és el:",
+    "options": {
+      "a": "fluvià",
+      "b": "francolí",
+      "c": "l’aigua d’ora",
+      "d": "ter 308 310"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-2002-31",
+    "exam": "2002",
+    "num": "31",
+    "text": "Quin dels següents cims no es troba a la serralada litoral?",
+    "options": {
+      "a": "el montnegre de llevant",
+      "b": "puig d’arques",
+      "c": "el montsià",
+      "d": "el montau 316"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T30 G. FÍSICA-2002-22",
+    "exam": "2002",
+    "num": "22",
+    "text": "Quina d’aquestes comarques desaigua les seves aigües en una única conca fluvial, entenent que totes les seves aigües arriben al mar per un mateix riu?",
+    "options": {
+      "a": "la val d’aran",
+      "b": "el priorat",
+      "c": "el solsonès",
+      "d": "la garrotxa 322 324"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T30 G. FÍSICA-2000-48",
+    "exam": "2000",
+    "num": "48",
+    "text": "Quin d’aquests rius desemboca al Mediterrani?",
+    "options": {
+      "a": "flamisell",
+      "b": "manol",
+      "c": "valira",
+      "d": "sènia 330 332"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-1999-36",
+    "exam": "1999",
+    "num": "36",
+    "text": "En quin riu hi ha el pantà d’Oliana?",
+    "options": {
+      "a": "llobregat",
+      "b": "noguera ribagorçana",
+      "c": "noguera pallaresa",
+      "d": "segre 338 340"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T30 G. FÍSICA-1998-31",
+    "exam": "1998",
+    "num": "31",
+    "text": "A Catalunya, les tres grans unitats de relleu són:",
+    "options": {
+      "a": "litoral, serralada i pirineus",
+      "b": "depressió prelitoral, serralada central i pirineus axial",
+      "c": "maresme, depressió central i prepirineu",
+      "d": "serralades costaneres, depressió central i pirineus"
+    },
+    "answer": "d"
+  }
+]

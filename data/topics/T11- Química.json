@@ -1,0 +1,210 @@
+[
+  {
+    "id": "T11 QUÍMICA-81/24-14",
+    "exam": "81/24",
+    "num": "14",
+    "text": "Quina d’aquestes afirmacions és CORRECTA?",
+    "options": {
+      "a": "els àcids són substàncies que en el medi aquós es dissocien aportant ions hidrogen.",
+      "b": "les bases són substàncies que en el medi aquós es dissocien aportant ions hidrogen.",
+      "c": "els àcids i les bases no es neutralitzen quan entren en contacte l’un amb l’altra.",
+      "d": "els àcids són més dèbils quan el seu ph és més proper a zero. 14 15 16 17 18 19 20"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/24-39",
+    "exam": "81/24",
+    "num": "39",
+    "text": "Quina d’aquestes afirmacions és INCORRECTA?",
+    "options": {
+      "a": "l’ebullició és una vaporització que té lloc a tot el volum d’un líquid.",
+      "b": "l’evaporació és una vaporització que té lloc a la superfície d’un líquid.",
+      "c": "la condensació és el procés pel qual els gasos passen a líquids.",
+      "d": "la fusió és un procés pel qual els sòlids passen a gas. 26"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T11 QUÍMICA-81/24-40",
+    "exam": "81/24",
+    "num": "40",
+    "text": "Respecte a la viscositat, quina condició és INCORRECTA?",
+    "options": {
+      "a": "en un líquid, com menys temperatura més viscositat.",
+      "b": "en un gas, com més temperatura més viscositat.",
+      "c": "en un líquid, com més pressió més viscositat.",
+      "d": "en un gas, com menys pressió més viscositat. 32"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T11 QUÍMICA-81/24-74",
+    "exam": "81/24",
+    "num": "74",
+    "text": "Pel que fa a l’absorció de calor de l’aigua, en condicions normals podem dir que:",
+    "options": {
+      "a": "la calor latent de vaporització és d’aproximadament 540 cal/g.",
+      "b": "la calor específica de l’aigua en estat gasós és més gran que en estat líquid.",
+      "c": "la calor latent de vaporització té el mateix valor que la calor latent de fusió.",
+      "d": "la calor específica de l’aigua en estat sòlid té el mateix valor que en estat líquid. 38"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/24-94",
+    "exam": "81/24",
+    "num": "94",
+    "text": "Si volem igualar la reacció de combustió del butà, quina d’aquestes opcions és la CORRECTA?",
+    "options": {
+      "a": "c2h6 + o2 → co2 + h2o.",
+      "b": "c4h10 + o2 → co2 + h2o.",
+      "c": "2c2h6 + 7o2 → 4co2 + 6h2o.",
+      "d": "2c4h10 + 13o2 → 8co2 + 10h2o. 44"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T11 QUÍMICA-81/24-99",
+    "exam": "81/24",
+    "num": "99",
+    "text": "En química, quan parlem de mols, quina d’aquestes afirmacions és INCORRECTA?",
+    "options": {
+      "a": "un mol equival a 6,02214076·10^23 unitats elementals.",
+      "b": "és la unitat del sistema internacional que es fa servir per mesurar quantitat de substància.",
+      "c": "un mol d’aigua (h2o) pesa 12 grams.",
+      "d": "és una de les set magnituds fonamentals del sistema internacional. 50 52"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-1",
+    "exam": "81/23",
+    "num": "1",
+    "text": "Segons la IUPAC (Unió Internacional de Química Pura i Aplicada), en química es referencien les condicions normals de pressió i temperatura (SPT) per als gasos com:",
+    "options": {
+      "a": "temperatura 273,15 k i pressió 10^5 pascals.",
+      "b": "temperatura 25ºc i pressió 1 atm.",
+      "c": "temperatura 298,15 k i pressió 10^5 pascals.",
+      "d": "temperatura 0 k i pressió 1 atm. 58"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-4",
+    "exam": "81/23",
+    "num": "4",
+    "text": "Quin d'aquests fluids té un grau més alt de densitat (g/cm3)?",
+    "options": {
+      "a": "aigua.",
+      "b": "alcohol etílic.",
+      "c": "àcid sulfúric.",
+      "d": "gasolina. 64"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-35",
+    "exam": "81/23",
+    "num": "35",
+    "text": "L'estat d'agregació que presenta un material es pot modificar variant la temperatura o la pressió. Quin nom rep el canvi d'estat d'un material de sòlid a gas?",
+    "options": {
+      "a": "vaporització.",
+      "b": "sublimació.",
+      "c": "fusió.",
+      "d": "condensació. 70"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-73",
+    "exam": "81/23",
+    "num": "73",
+    "text": "De les substàncies químiques següents, quina té una composició constant com a substància pura?",
+    "options": {
+      "a": "sofre.",
+      "b": "aigua del mar.",
+      "c": "aire.",
+      "d": "grava. 76"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-74",
+    "exam": "81/23",
+    "num": "74",
+    "text": "De forma general, un vapor és:",
+    "options": {
+      "a": "la forma per descriure l’aigua en la seva fase gasosa, que rep el nom de “vapor d’aigua”.",
+      "b": "el concepte per descriure qualsevol gas.",
+      "c": "la fase gasosa d’una substància que és a una temperatura inferior a temperatura crítica.",
+      "d": "l'estat d’agregació de la matèria en què les molècules interaccionen fortament entre elles, formant enllaços moleculars i adoptant la forma i el volum del recipient que el conté. 82"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T11 QUÍMICA-81/23-105",
+    "exam": "81/23",
+    "num": "105",
+    "text": "Quina de les següents opcions correspon a la reacció de combustió completa i ajustada estequiomètricament de l’etí (acetilè):",
+    "options": {
+      "a": "2c2h2(g) + 5o2(g) → 4co2(g) + 2h2o(l)",
+      "b": "c2h4(g) + 3o2(g) → 2co2(g) + 2h2o(l)",
+      "c": "2c2h6(g) + 6o2(g) → 4co2(g) + 6h2o(l)",
+      "d": "c2h8(g) + 4o2(g) → 2co2(g) + 4h2o(l) 88 90"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/21-5",
+    "exam": "81/21",
+    "num": "5",
+    "text": "Els punts dels canvis d’estat d’una matèria... (assenyaleu la resposta CORRECTA)",
+    "options": {
+      "a": "varien segons la temperatura i la pressió a la què està sotmesa aquesta.",
+      "b": "no varien amb la temperatura.",
+      "c": "són independents de la pressió a què està sotmesa.",
+      "d": "són independents de la temperatura i de la pressió a què està sotmesa. 96"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T11 QUÍMICA-81/21-45",
+    "exam": "81/21",
+    "num": "45",
+    "text": "Quan un gram de gel canvia d'estat a un gram d'aigua, quina de les afirmacions següents és CORRECTA:",
+    "options": {
+      "a": "cedeix 54 calories.",
+      "b": "absorbeix 54 calories.",
+      "c": "cedeix 80 calories.",
+      "d": "absorbeix 80 calories. 102"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T11 QUÍMICA-81/21-68",
+    "exam": "81/21",
+    "num": "68",
+    "text": "En el fons d'una cubeta plena d’aigua, deixem anar un mol d’hidrogen i simultàniament a la mateixa profunditat deixem anar un mol d’oxigen. Quina de les dues arribarà abans a la superfície?",
+    "options": {
+      "a": "la d’oxigen.",
+      "b": "la d’hidrogen.",
+      "c": "les dues al mateix moment.",
+      "d": "cap de les dues arribarà a la superfície 108"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T11 QUÍMICA-81/21-70",
+    "exam": "81/21",
+    "num": "70",
+    "text": "Perquè una substància sigui àcida el seu pH ha de ser... (assenyaleu la resposta CORRECTA)",
+    "options": {
+      "a": "major de 7.",
+      "b": "menor de 7.",
+      "c": "igual a 7.",
+      "d": "no té relació. 114"
+    },
+    "answer": "b"
+  }
+]

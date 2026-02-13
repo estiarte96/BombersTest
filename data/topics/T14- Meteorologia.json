@@ -1,0 +1,457 @@
+[
+  {
+    "id": "T14 METEOROLOGIA-81/24-91",
+    "exam": "81/24",
+    "num": "91",
+    "text": "Respecte a la llevantada, quina afirmació és INCORRECTA?",
+    "options": {
+      "a": "ve determinada per anticicló situat al voltant de les illes britàniques i orientat d’est a oest i una baixa al mar mediterrani.",
+      "b": "el litoral de terres de l’ebre històricament s’ha vist molt afectat per aquest fenomen.",
+      "c": "afecta sobretot el pirineu i porta grans acumulacions de neu.",
+      "d": "pot anar acompanyada de fenòmens molt severs, com ara tempestes intenses, fortes ventades o, fins i tot, alguns tornados o caps de fibló. 14 16"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/23-66",
+    "exam": "81/23",
+    "num": "66",
+    "text": "Quins són els núvols que es formen a grans altituds en zones muntanyoses, que són estacionaris i són considerats com a preludi de fort vent?",
+    "options": {
+      "a": "lenticulars.",
+      "b": "cumulonimbus.",
+      "c": "pirocúmuls.",
+      "d": "nimbostratus. 22 24"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/21-61",
+    "exam": "81/21",
+    "num": "61",
+    "text": "Respecte a la temperatura de rosada, assenyaleu la resposta INCORRECTA:",
+    "options": {
+      "a": "ens indica el contingut de vapor d'aigua d'una massa d’aire a 20º c respecte al màxim que podria contenir.",
+      "b": "és la temperatura a la qual la humitat relativa (hr) és del 100%.",
+      "c": "és la temperatura a la qual una massa d’aire a pressió constant comença a condensar.",
+      "d": "el seu valor dona idea de la quantitat total de vapor d’aigua a l’atmosfera. 30"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/21-76",
+    "exam": "81/21",
+    "num": "76",
+    "text": "(T10-T21) En l’atmosfera, si una bombolla d’aire té una temperatura superior a la de l’aire que l’envolta ascendeix. Si en el nou nivell la bombolla continua tenint una temperatura superior a la de l’aire que l’envolta ( assenyala la CORRECTA):",
+    "options": {
+      "a": "estem en el cas d’estratificació estable.",
+      "b": "la bombolla pesa més que l’aire que l’envolta i baixarà.",
+      "c": "hi ha inestabilitat a l’atmosfera.",
+      "d": "és una bombolla seca i es desplaça seguint la pseudoadiabàtica. 36 38"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19.2-51",
+    "exam": "81/19.2",
+    "num": "51",
+    "text": "A l’hemisferi nord, en les depressions:",
+    "options": {
+      "a": "aquestes giren en el sentit contrari a les agulles del rellotge.",
+      "b": "aquestes giren en el mateix sentit que les agulles del rellotge",
+      "c": "el vent sempre va d’oest a est.",
+      "d": "el vent sempre va d’est a oest. 44"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19.2-58",
+    "exam": "81/19.2",
+    "num": "58",
+    "text": "El vent que procedeix d’un rumb de 135º rep el nom de:",
+    "options": {
+      "a": "migjorn.",
+      "b": "llevant.",
+      "c": "xaloc.",
+      "d": "garbí 50 52"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19-20",
+    "exam": "81/19",
+    "num": "20",
+    "text": "Les brises marines i terrestres són vents originats per:",
+    "options": {
+      "a": "la diferència de temperatura que s'estableix durant el procés d'escalfament de superfícies adjacents de terra i aigua.",
+      "b": "l’entrada de vent de nord, fred i sec.",
+      "c": "una línia de torbonada activa, que evoluciona d‘oest a est.",
+      "d": "l’efecte termodinàmic d’augment de la temperatura i condensació que experimenta una massa d’aire quan travessa una cadena muntanyosa o serralada. 58"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19-22",
+    "exam": "81/19",
+    "num": "22",
+    "text": "Quan la humitat relativa de l'aire és del 100% podem dir que:",
+    "options": {
+      "a": "l’aire està sobresaturat de vapor d’aigua.",
+      "b": "la temperatura de l'aire coincideix amb la temperatura del punt de rosada.",
+      "c": "encara falta vapor d’aigua per estar saturat.",
+      "d": "si augmenta la temperatura la humitat relativa serà superior al 100%. 64"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19-43",
+    "exam": "81/19",
+    "num": "43",
+    "text": "El vent anomenat fogony és un vent local (efecte Föhn) que a sotavent es caracteritza per ser?",
+    "options": {
+      "a": "un vent calent i sec.",
+      "b": "un vent fred i sec.",
+      "c": "un vent calent i humit.",
+      "d": "un vent fred i humit. 70"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/19-66",
+    "exam": "81/19",
+    "num": "66",
+    "text": "Segons el pla INUNCAT, zones d’inundació freqüent són aquelles:",
+    "options": {
+      "a": "zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys.",
+      "b": "zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys.",
+      "c": "zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de dos-cents anys.",
+      "d": "zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de dos- cents i superiorment per la línia de període de cinc-cents anys 76 78"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/18-32",
+    "exam": "81/18",
+    "num": "32",
+    "text": "A efectes pràctics, sol resumir-se la composició dels gasos de l’atmosfera com:",
+    "options": {
+      "a": "nitrogen 78%, oxigen 21%, altres gasos 1%.",
+      "b": "hidrogen 78%, oxigen 21%, altres gasos 1%.",
+      "c": "nitrogen 21%, oxigen 78%, altres gasos 1%.",
+      "d": "hidrogen 21%, oxigen 78%, altres gasos 1% 84"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/18-61",
+    "exam": "81/18",
+    "num": "61",
+    "text": "El mestral és un vent procedent del:",
+    "options": {
+      "a": "nord-est.",
+      "b": "nord-oest.",
+      "c": "sud-oest.",
+      "d": "sud-est. 90"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/18-64",
+    "exam": "81/18",
+    "num": "64",
+    "text": "Quina de les següents espècies de núvols es classifica dins del grup de núvols de desenvolupament vertical?",
+    "options": {
+      "a": "altocúmuls.",
+      "b": "cumulonimbus.",
+      "c": "cirrocúmuls.",
+      "d": "altostrats 96"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/18-71",
+    "exam": "81/18",
+    "num": "71",
+    "text": "La capa de l’atmosfera on es produeixen els fenòmens meteorològics s’anomena:",
+    "options": {
+      "a": "mesosfera.",
+      "b": "termosfera.",
+      "c": "estratosfera.",
+      "d": "troposfera. 102 104"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/16-5",
+    "exam": "81/16",
+    "num": "5",
+    "text": "Quan presenta el seu màxim mensual la pressió atmosfèrica a Catalunya?",
+    "options": {
+      "a": "els mesos de juliol i agost.",
+      "b": "el mes de maig",
+      "c": "el mes d'octubre.",
+      "d": "els mesos de desembre i gener. 110"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/16-17",
+    "exam": "81/16",
+    "num": "17",
+    "text": "Quan parlem de la isohieta ens estem referint a:",
+    "options": {
+      "a": "una isolínia que uneix els punts en un plànol que presenten la mateixa precipitació per unitat de temps.",
+      "b": "l'índex pluviométric d'una comarca.",
+      "c": "la quantitat de precipitació per any d'un territori determinat expressat en decilitres.",
+      "d": "el terme isohieta no té cap significat referit a la meteorologia. 116"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/16-42",
+    "exam": "81/16",
+    "num": "42",
+    "text": "Quan presenta el seu minim mensual la pressió atmosfèrica a Catalunya?",
+    "options": {
+      "a": "sobretot a l'abril i a l'estiu.",
+      "b": "el mes de novembre.",
+      "c": "els mesos de gener i febrer.",
+      "d": "els mínims de la pressió atmosfèrica són similars al llarg de tot l'any. 122"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-81/16-92",
+    "exam": "81/16",
+    "num": "92",
+    "text": "A què fa referència el concepte \"període de retorn dels aiguats\"?",
+    "options": {
+      "a": "al temps transcorregut entre els màxims d'inundabilitat per una zona en concret del territori.",
+      "b": "a la freqüència estadística amb què es produeix una inundació en una zona en concret del territori.",
+      "c": "és aquella època de l'any en què hi ha més probabilitats que un riu es desbordi.",
+      "d": "al període de temps on les condicions hidràuliques presenten un calat igual o superior a 1 metre. 128 130"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2009-8",
+    "exam": "2009",
+    "num": "8",
+    "text": "Quina de les quatre orientacions d’una vessant a Catalunya (nord, sud, est i oest) s’escalfarà més i més tard per la radiació del sol?",
+    "options": {
+      "a": "oest",
+      "b": "est",
+      "c": "sud",
+      "d": "nord 136"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2009-35",
+    "exam": "2009",
+    "num": "35",
+    "text": "Les masses d’aire es classifiquen segons la seva regió d’origen i es diferencien les unes de les altres atenent característiques termodinàmiques de temperatura i humitat. De les que afecten a Catalunya habitualment, si parlem d’una massa càlida i seca estarem parlant d’una massa d’aire:",
+    "options": {
+      "a": "polar marítima",
+      "b": "polar continental",
+      "c": "tropical continental",
+      "d": "tropical marítima 142"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2009-43",
+    "exam": "2009",
+    "num": "43",
+    "text": "En una depressió o baixa pressió els vents giren al seu voltant seguint l’anomenada circulació ciclònica. A Catalunya en quin sentit giren?",
+    "options": {
+      "a": "en sentit horari quan es desplacen d’oest a est",
+      "b": "depèn del tipus de massa que els origini",
+      "c": "en sentit antihorari",
+      "d": "en sentit horari quan es desplacen d’est a oest 148"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2009-47",
+    "exam": "2009",
+    "num": "47",
+    "text": "La interacció de la superfície frontal entre dues masses d’aire i el sòl s’anomena front. Quan l’aire d’una massa avança sobre l’altra massa d’aire, la desplaça i l’obliga a elevar-se de forma violenta i desordenada, estarem davant d’un front:",
+    "options": {
+      "a": "estacionari",
+      "b": "oclús",
+      "c": "càlid",
+      "d": "fred 154"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2009-73",
+    "exam": "2009",
+    "num": "73",
+    "text": "Com a exemple de vents locals a Catalunya podem trobar:",
+    "options": {
+      "a": "marinada, topogràfic i terral",
+      "b": "fogony, marinada i topogràfic",
+      "c": "mestral, garbí i tramuntana",
+      "d": "marinada, migjorn i terral 160 162"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2008-29",
+    "exam": "2008",
+    "num": "29",
+    "text": "En parlar de temperatura, pots indicar quins són els paràmetres que amb el mateix valor de temperatura, per exemple 15ºC, tenim una sensació tèrmica diferent?",
+    "options": {
+      "a": "punt de rosada i alçada",
+      "b": "humitat de l’aire i alçada",
+      "c": "humitat de l’aire i força del vent",
+      "d": "pressió atmosfèrica i alçada 168"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2008-44",
+    "exam": "2008",
+    "num": "44",
+    "text": "Quins serien els mètodes per calcular el retorn dels aiguats en una determinada conca?",
+    "options": {
+      "a": "no es poden calcular",
+      "b": "mètodes estadístics",
+      "c": "mètodes empírics o directes",
+      "d": "mètodes històrics o indirectes 174"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2008-60",
+    "exam": "2008",
+    "num": "60",
+    "text": "Segons el Pla INUNCAT, quins són els períodes de retorn que s’estudien per determinar el risc d’inundació? (METEO)",
+    "options": {
+      "a": "100, 500 i 750 anys",
+      "b": "50, 100 i 500 anys",
+      "c": "50, 100 i 250 anys",
+      "d": "10, 50 i 100 anys 180"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2008-67",
+    "exam": "2008",
+    "num": "67",
+    "text": "En les mateixes condicions meteorològiques i al mateix moment, on tindríem una pressió atmosfèrica i una pressió parcial d’oxigen menor?",
+    "options": {
+      "a": "a 300 m d’alçada",
+      "b": "a 150 m d’alçada",
+      "c": "a 100 m d’alçada",
+      "d": "a 50 m d’alçada 186 188"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2006-4",
+    "exam": "2006",
+    "num": "4",
+    "text": "El percentatge total d’energia solar desviada directament a l’espai des de l’atmosfera i des de la superfície terrestre, s’anomena:",
+    "options": {
+      "a": "albedo",
+      "b": "calor sensible",
+      "c": "radiació solar",
+      "d": "balanç radioactiu 194"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2006-9",
+    "exam": "2006",
+    "num": "9",
+    "text": "Les zones inundables amb períodes de retorn d’entre 50 i 100 anys, es denominen:",
+    "options": {
+      "a": "zones d’inundació ordinària",
+      "b": "zones d’inundació freqüent",
+      "c": "zones d’inundació ocasional",
+      "d": "zones d’inundació excepcional 200"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2006-23",
+    "exam": "2006",
+    "num": "23",
+    "text": "La isohieta que sovint s’utilitza com a referència per diferenciar la Catalunya humida de la seca té un valor de:",
+    "options": {
+      "a": "700 mm de precipitació anual",
+      "b": "600 mm de precipitació anual",
+      "c": "500 mm de precipitació anual",
+      "d": "400 mm de precipitació anual 206 208"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2005-1",
+    "exam": "2005",
+    "num": "1",
+    "text": "Les isolínies són línies dibuixades damunt un mapa que identifiquen punts que tenen un mateix valor. Sabríeu dir com s’anomena la isolínia que representa la pluviositat?",
+    "options": {
+      "a": "isohipsa",
+      "b": "isoterma",
+      "c": "isòbara",
+      "d": "isohieta 214"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2005-7",
+    "exam": "2005",
+    "num": "7",
+    "text": "L’heliògraf és un aparell que en meteorologia s’utilitza per mesurar...",
+    "options": {
+      "a": "el punt de rosada",
+      "b": "la insolació o radiació solar",
+      "c": "la nuvolositat",
+      "d": "el vent 220"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2005-24",
+    "exam": "2005",
+    "num": "24",
+    "text": "Amb quin nom identificaríem el vent que prové d’una direcció de 225º de la Rosa dels Vents:",
+    "options": {
+      "a": "garbí",
+      "b": "llevant",
+      "c": "gregal",
+      "d": "mestral 226 228"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2003-31",
+    "exam": "2003",
+    "num": "31",
+    "text": "Una de les comarques amb un índex més elevat de precipitacions al cap de l’any a Catalunya és:",
+    "options": {
+      "a": "la garrotxa",
+      "b": "el montsià",
+      "c": "el garraf",
+      "d": "les garrigues 234"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T14 METEOROLOGIA-2003-40",
+    "exam": "2003",
+    "num": "40",
+    "text": "El vent conegut com a Foehn (Föhn) es caracteritza, en el seu recorregut descendent per:",
+    "options": {
+      "a": "ser fred i humit",
+      "b": "fer remolins",
+      "c": "ser calent i sec",
+      "d": "ser imprevisible 240"
+    },
+    "answer": "c"
+  }
+]

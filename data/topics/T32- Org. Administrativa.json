@@ -1,0 +1,184 @@
+[
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/24-6",
+    "exam": "81/24",
+    "num": "6",
+    "text": "La comarca de la Conca de Barberà, de quines comarques està envoltada (toquen administrativament)?",
+    "options": {
+      "a": "anoia, alt camp, baix camp, garrigues, pla d’urgell i segarra.",
+      "b": "urgell, segarra, anoia, alt camp, baix camp, priorat i garrigues.",
+      "c": "alt camp, priorat, garrigues, pla d’urgell, urgell, segarra i anoia.",
+      "d": "baix camp, priorat, pla d’urgell, urgell, anoia i alt camp. 14"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/24-23",
+    "exam": "81/24",
+    "num": "23",
+    "text": "El Cadí-Moixeró, amb quina figura de protecció compta dins del Sistema d’espais naturals protegits de Catalunya?",
+    "options": {
+      "a": "parc natural.",
+      "b": "reserva natural parcial.",
+      "c": "parc nacional.",
+      "d": "paratge natural d'interès nacional. 20 22"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/23-22",
+    "exam": "81/23",
+    "num": "22",
+    "text": "Quin d’aquests espais naturals NO és un parc natural actualment?",
+    "options": {
+      "a": "massís del montseny.",
+      "b": "massís de sant llorenç del munt i serra de l’obac.",
+      "c": "muntanyes de prades.",
+      "d": "el montsant. 28"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/23-72",
+    "exam": "81/23",
+    "num": "72",
+    "text": "Quina de les comarques següents és la que té més població empadronada (dades de l’any 2022)?",
+    "options": {
+      "a": "la noguera.",
+      "b": "el bages.",
+      "c": "el baix empordà.",
+      "d": "el montsià. 34 36 37"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/21-19",
+    "exam": "81/21",
+    "num": "19",
+    "text": "Quina d’aquestes comarques té més municipis, l’any 2020 (segons l’IDESCAT)?",
+    "options": {
+      "a": "alta ribagorça.",
+      "b": "alt empordà.",
+      "c": "noguera.",
+      "d": "vallès occidental. 43 45 46"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/19.2-87",
+    "exam": "81/19.2",
+    "num": "87",
+    "text": "Quina és la comarca més meridional de Catalunya?",
+    "options": {
+      "a": "la val d’aran",
+      "b": "el montsià",
+      "c": "l'alt empordà",
+      "d": "el baix ebre 52 54"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/19-67",
+    "exam": "81/19",
+    "num": "67",
+    "text": "Quina és la població de Catalunya amb major nombre d’habitants, per darrera de 56Barcelona?",
+    "options": {
+      "a": "badalona.",
+      "b": "sabadell.",
+      "c": "l’hospitalet de llobregat.",
+      "d": "terrassa. 61 63"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -81/16-81",
+    "exam": "81/16",
+    "num": "81",
+    "text": "Quina és la capital de la comarca del Baix Ebre?",
+    "options": {
+      "a": "tortosa",
+      "b": "amposta",
+      "c": "mora d’ebre",
+      "d": "falset. 69 71"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2009-34",
+    "exam": "2009",
+    "num": "34",
+    "text": "A Catalunya es conserven molts espais naturals protegits. Segons l’extensió i el grau de protecció podem distingir-ne de diferents tipus. Una zona molt extensa i amb un grau màxim de protecció s’anomena:",
+    "options": {
+      "a": "paratge natural d’interès nacional. exemple: poblet",
+      "b": "parc nacional. exemple: parc nacional d’aigüestortes i sant maurici",
+      "c": "reserva natural. exemple: la llosa",
+      "d": "parc natural. exemple: parc natural del montseny 77"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2009-60",
+    "exam": "2009",
+    "num": "60",
+    "text": "La comarca amb major densitat de població a Catalunya és:",
+    "options": {
+      "a": "la comarca del vallès occidental",
+      "b": "la comarca del maresme",
+      "c": "la comarca del barcelonès",
+      "d": "la comarca del baix llobregat 83 85"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2008-1",
+    "exam": "2008",
+    "num": "1",
+    "text": "Quin d’aquests municipis no es troba al Vallès Occidental:",
+    "options": {
+      "a": "sant cugat del vallès",
+      "b": "ullastrell",
+      "c": "ullastret",
+      "d": "sant llorenç savall 91 93"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2003-17",
+    "exam": "2003",
+    "num": "17",
+    "text": "Les ciutats de Terrassa i Sabadell es troben a:",
+    "options": {
+      "a": "la depressió central catalana",
+      "b": "la depressió prelitoral catalana",
+      "c": "el delta del ter",
+      "d": "el litoral 99 100 102 103"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2002-58",
+    "exam": "2002",
+    "num": "58",
+    "text": "Quantes comarques catalanes són marítimes?",
+    "options": {
+      "a": "13",
+      "b": "15",
+      "c": "14",
+      "d": "12 109 111"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T32 ORG. ADMINISTRATIVA -2000-4",
+    "exam": "2000",
+    "num": "4",
+    "text": "Un d’aquests paratges no és parc natural. Quin?",
+    "options": {
+      "a": "boumort",
+      "b": "montseny",
+      "c": "cadí-moixeró",
+      "d": "aiguamolls de l’empordà"
+    },
+    "answer": "a"
+  }
+]

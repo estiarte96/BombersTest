@@ -1,0 +1,548 @@
+[
+  {
+    "id": "T21 RISC QUÍMIC-81/24-7",
+    "exam": "81/24",
+    "num": "7",
+    "text": "Una etiqueta amb forma romboidal amb 7 barres verticals negres a la meitat superior, fons blanc i el número 9 de color negre subratllat a la part inferior, què indica segons l'ADR?",
+    "options": {
+      "a": "peròxid orgànic inflamable.",
+      "b": "matèries i objectes perillosos diversos.",
+      "c": "matèries molt corrosives que reaccionen perillosament amb l'aigua.",
+      "d": "aquesta etiqueta no forma part de l'adr 14"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/24-34",
+    "exam": "81/24",
+    "num": "34",
+    "text": "Quina informació ens pot proporcionar als bombers un panell d'identificació de matèries perilloses si al rectangle superior esquerre s'indiquen les sigles 2XE?",
+    "options": {
+      "a": "no es pot extingir amb agents secs, no reacciona violentament i el nivell de protecció és només d'ar més roba de foc.",
+      "b": "no es pot extingir amb escumes, nivell de protecció parcial i s'ha de diluir el vessament.",
+      "c": "s'ha de considerar el confinament de la població al voltant de l'accident, es pot extingir amb aigua a broll i no reacciona violentament.",
+      "d": "no es pot extingir amb aigua a broll, s'ha de considerar l'evacuació de la població al voltant de l'accident i s'ha de contenir el vessament. 20"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/24-50",
+    "exam": "81/24",
+    "num": "50",
+    "text": "Als efectes de l'ADR, s'entén per DL50:",
+    "options": {
+      "a": "és la quantitat d'una substància a la qual s'exposa una persona durant un període de temps, en aquest cas 50 minuts.",
+      "b": "dosi letal mitjana d'un agent químic referenciada a una jornada de 8 hores diàries i 50 dies consecutius.",
+      "c": "dosi letal mitjana per a la toxicitat aguda per absorció cutània o per ingestió d'una substància que provoca la mort del 50% de la població animal a causa de la seva exposició.",
+      "d": "representa la dosi letal mitjana per contaminants químics a l'aire o exposicions cutànies de 50 ppm. 26"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/24-90",
+    "exam": "81/24",
+    "num": "90",
+    "text": "Quin significat tenen les sigles RID?",
+    "options": {
+      "a": "reglament relatiu al transport internacional de mercaderies perilloses per l'aire.",
+      "b": "reglament relatiu al transport internacional de mercaderies perilloses per ferrocarril.",
+      "c": "reglament relatiu al transport nacional de mercaderies perilloses per carretera.",
+      "d": "reglament relatiu al transport nacional de mercaderies perilloses per l'aire. 32"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/24-104",
+    "exam": "81/24",
+    "num": "104",
+    "text": "Segons l'ADR hi ha 13 classes de mercaderies perilloses (MP). Indica a quina mercaderia perillosa correspon la classe 5.2:",
+    "options": {
+      "a": "peròxids orgànics.",
+      "b": "matèries que en contacte amb l'aigua desprenen gasos inflamables.",
+      "c": "matèries tòxiques.",
+      "d": "matèries infeccioses. 38 40"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/23-59",
+    "exam": "81/23",
+    "num": "59",
+    "text": "En toxicologia, la dosi letal mitjana correspon a:",
+    "options": {
+      "a": "cl50",
+      "b": "di50",
+      "c": "dl50",
+      "d": "vla50 46"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/23-80",
+    "exam": "81/23",
+    "num": "80",
+    "text": "Segons l’ADR, quin és el número d'identificació de perill que tindrà una substància líquida i inflamable que sigui transportada en un camió cisterna?",
+    "options": {
+      "a": "3.",
+      "b": "30.",
+      "c": "33.",
+      "d": "23 52"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/23-82",
+    "exam": "81/23",
+    "num": "82",
+    "text": "Segons l'ADR, un producte amb una classe de perill 7 correspon a:",
+    "options": {
+      "a": "matèries i objectes explosius.",
+      "b": "líquids inflamables.",
+      "c": "matèries corrosives.",
+      "d": "matèries radioactives. 58"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/23-95",
+    "exam": "81/23",
+    "num": "95",
+    "text": "Quins perills identifica el diamant de perill NFPA-704?",
+    "options": {
+      "a": "risc per a la salut (blanc), inflamabilitat (vermell), reactivitat (blau), riscos específics (groc).",
+      "b": "risc per a la salut (vermell), inflamabilitat (blau), reactivitat (groc), riscos específics (blanc).",
+      "c": "risc per a la salut (blau), inflamabilitat (vermell), reactivitat (groc), riscos específics (blanc).",
+      "d": "risc per a la salut (groc), inflamabilitat (vermell), reactivitat (blau), riscos específics (blanc). 64"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/23-96",
+    "exam": "81/23",
+    "num": "96",
+    "text": "Segons el Reglament sobre classificació, etiquetatge i envasat de substàncies i mescles químiques, Reglament (CE) nº 1272/2008 (CLP), quin dels següents elements d’informació NO és obligatori que aparegui a l’etiqueta d’un envàs d’un producte definit com a perillós?",
+    "options": {
+      "a": "el nom, l'adreça i el número de telèfon del proveïdor o proveïdors.",
+      "b": "la quantitat nominal de la substància o mescla continguda a l’envàs a disposició del públic en general, excepte que aquesta quantitat ja estigui especificada en un altre lloc de l’envàs.",
+      "c": "la data de fabricació del producte.",
+      "d": "els identificadors del producte. 70 72"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/21-23",
+    "exam": "81/21",
+    "num": "23",
+    "text": "El número de identificació de perill del panell taronja d’una matèria tòxica líquida, que reacciona amb l’aigua emetent gasos inflamables es correspon a:",
+    "options": {
+      "a": "638.",
+      "b": "630.",
+      "c": "623.",
+      "d": "266. 78"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/21-47",
+    "exam": "81/21",
+    "num": "47",
+    "text": "La concentració mitjana ponderada en el temps, en una jornada normal de 8 h i 40 hores setmanals, a la qual la majoria dels treballadors poden estar exposats repetidament dia a dia sense sofrir efectes adversos es correspon a:",
+    "options": {
+      "a": "tlv-twa.",
+      "b": "tlv-stel.",
+      "c": "aegl-3.",
+      "d": "hld-8h. 84"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/21-55",
+    "exam": "81/21",
+    "num": "55",
+    "text": "La classe de perill 4.3 segons la classificació ADR es correspon:",
+    "options": {
+      "a": "matèries que en contacte amb l’aigua desprenen gasos inflamables.",
+      "b": "matèries que poden experimentar inflamació espontània.",
+      "c": "matèries i objectes explosius.",
+      "d": "matèries i objectes perillosos diversos. 90"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/21-58",
+    "exam": "81/21",
+    "num": "58",
+    "text": "Segons el diamant de perill de la norma NFPA 704 identifiqueu els següents perills de la substància a classificar:",
+    "options": {
+      "a": "inflamabilitat, radioctivitat, corrosivitat i reactivitat.",
+      "b": "inflamabilitat, salut, reactivitat i corrosivitat.",
+      "c": "inflamabilitat, corrosivitat, salut i reactivitat.",
+      "d": "inflamabilitat, reactivitat, salut i risc específic. 96"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/21-96",
+    "exam": "81/21",
+    "num": "96",
+    "text": "Quina frase de les següents es correspon a indicació de perill d’explosiu inestable:",
+    "options": {
+      "a": "h200.",
+      "b": "euh 202.",
+      "c": "r 41.",
+      "d": "b 2. 102 104"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-19",
+    "exam": "81/19.2",
+    "num": "19",
+    "text": "Com es coneixen els valors de referència per a les concentracions d’agents químics a l’aire i que representen les condicions a què la majoria de treballadors poden estar exposats dia rere dia, durant tota la seva vida laboral, sense patir efectes adversos per a la seva salut?",
+    "options": {
+      "a": "vla",
+      "b": "idlh",
+      "c": "ipvs",
+      "d": "lc50 110"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-21",
+    "exam": "81/19.2",
+    "num": "21",
+    "text": "D’acord amb l’ADR, a quines mercaderies perilloses podem associar el número de model d’etiqueta de perill 2.1?",
+    "options": {
+      "a": "a les matèries i objectes explosius.",
+      "b": "a els gasos inflamables.",
+      "c": "als gasos no inflamables, no tòxics.",
+      "d": "als gasos tòxics. 116"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-31",
+    "exam": "81/19.2",
+    "num": "31",
+    "text": "Quina d’aquestes informacions NO trobem al codi Hazchem?",
+    "options": {
+      "a": "número onu.",
+      "b": "número de perill segons adr.",
+      "c": "etiqueta de perill.",
+      "d": "telèfon on rebre assessorament tècnic. 122"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-43",
+    "exam": "81/19.2",
+    "num": "43",
+    "text": "En relació amb una mercaderia perillosa, si el primer dígit del seu número ONU és el 0, significa que:",
+    "options": {
+      "a": "és un error, ja que els números onu comencen al 1001 endavant.",
+      "b": "pertany a la classe 1",
+      "c": "pertany a la classe 4.1",
+      "d": "pertany a la classe 2 128"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-80",
+    "exam": "81/19.2",
+    "num": "80",
+    "text": "Una matèria sòlida que reacciona perillosament amb l’aigua desprenent gasos tòxics, quin número d’identificació de perill té?",
+    "options": {
+      "a": "x462",
+      "b": "x426",
+      "c": "x466",
+      "d": "426 134"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19.2-103",
+    "exam": "81/19.2",
+    "num": "103",
+    "text": "Al diamant de perill NFPA-704, a l’espai reservat per identificar aquells riscos especials que poden causar problemes addicionals o requereixen tècniques especials per a la intervenció dels bombers, quin d’aquests símbols NO hi trobarem?",
+    "options": {
+      "a": "w (una w ratllada amb una línia horitzontal) quan els materials reaccionin violentament amb l’aigua.",
+      "b": "ox quan els materials tinguin propietats oxidants.",
+      "c": "sa per identificar gasos asfixiants.",
+      "d": "ex quan hi hagi el risc d’explosió 140 142"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-1",
+    "exam": "81/19",
+    "num": "1",
+    "text": "Considerant la classificació de matèries perilloses segons ADR, les matèries pirofòriques es consideren:",
+    "options": {
+      "a": "classe 1, matèries i objectes explosius, ja que per reacció química poden generar gasos a una temperatura, pressió i velocitat que poden originar danys al seu entorn.",
+      "b": "classe 4.2, ja que en contacte amb l’aire s’inflamen.",
+      "c": "classe 4.3, ja que desprenen gasos inflamables en contacte amb l’aigua.",
+      "d": "classe 5.1, per ser matèries comburents. 148"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-15",
+    "exam": "81/19",
+    "num": "15",
+    "text": "Segons l’ADR, una de les subdivisions de la Classe 6.1 és TFC que correspon a:",
+    "options": {
+      "a": "matèries infeccioses, inflamables i comburents.",
+      "b": "matèries infeccioses, inflamables i corrosives.",
+      "c": "matèries tòxiques, inflamables i comburents.",
+      "d": "matèries tòxiques, inflamables i corrosives. 154"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-31",
+    "exam": "81/19",
+    "num": "31",
+    "text": "Un líquid criogènic:",
+    "options": {
+      "a": "és un gas liquat a molt baixa temperatura.",
+      "b": "és una gas liquat a elevada pressió.",
+      "c": "és un líquid vaporitzat a elevada temperatura.",
+      "d": "és un líquid vaporitzat a pressió propera al zero absolut. 160"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-40",
+    "exam": "81/19",
+    "num": "40",
+    "text": "Quina substància perillosa transporta un vehicle amb un codi de perill 33 i número ONU 1203?",
+    "options": {
+      "a": "gasolina.",
+      "b": "gasoil.",
+      "c": "querosè.",
+      "d": "etanol. 166 167 168 169 170 171 172"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-64",
+    "exam": "81/19",
+    "num": "64",
+    "text": "En el diamant de perill NFPA-704, el número 1 inscrit en color vermell indica:",
+    "options": {
+      "a": "materials que es vaporitzen ràpidament o completament a pressió atmosfèrica i temperatura ambient normal i es cremen fàcilment en l’aire.",
+      "b": "líquids i sòlids que poden encendre’s gairebé a qualsevol temperatura ambient.",
+      "c": "materials que s’han d’escalfar abans que tingui lloc la ignició.",
+      "d": "materials que no s’inflamen. 178"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/19-97",
+    "exam": "81/19",
+    "num": "97",
+    "text": "En el diamant de perill NFPA-704, el número 1 inscrit en color groc indica:",
+    "options": {
+      "a": "risc poc perillós per a la salut.",
+      "b": "inflamable per sobre de 93 ºc.",
+      "c": "risc corrosiu.",
+      "d": "inestable en cas d’escalfament. 184 185 187"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-20",
+    "exam": "81/18",
+    "num": "20",
+    "text": "Es considera l’IPVS com una concentració de referència de la contaminació en el lloc de treball durant la jornada laboral?",
+    "options": {
+      "a": "sí. no es pot superar durant 8 hores de jornada de treball en setmanes laborals de 40 hores.",
+      "b": "no. els valors de referència són els tlv.",
+      "c": "sí. no es pot superar en períodes de treball de 15 minuts.",
+      "d": "no. l’ipvs és la referència de la contaminació aguda en medi aquàtic. 193"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-59",
+    "exam": "81/18",
+    "num": "59",
+    "text": "Una etiqueta de perill amb fons de color taronja, fa referència a una matèria de classe:",
+    "options": {
+      "a": "1.",
+      "b": "2.",
+      "c": "6.",
+      "d": "8. 199"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-60",
+    "exam": "81/18",
+    "num": "60",
+    "text": "Després d’una exposició de 14 minuts de durada a un contaminant, per damunt del TLV- TWA sense arribar al valor STEL, el treballador pot exposar-s'hi una altra vegada durant la mateixa jornada de treball per poder continuar la seva feina?",
+    "options": {
+      "a": "sí, en qualsevol moment.",
+      "b": "no, no en la mateixa jornada de treball.",
+      "c": "sí, si deixa passar un temps de 60 minuts com a mínim.",
+      "d": "sí, pot exposar-s’hi fins a 8 vegades en la jornada de treball 205"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-65",
+    "exam": "81/18",
+    "num": "65",
+    "text": "Una matèria amb codi de perill 423, és una matèria:",
+    "options": {
+      "a": "sòlida que reacciona amb l’aigua emetent gasos inflamables.",
+      "b": "gasosa que sublima en un sòlid inflamable.",
+      "c": "sòlida o gasosa, segons temperatura de transport, inflamable.",
+      "d": "trifàsica (sòlida, líquida i gasosa en condicions ambientals), inflamable 211"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-95",
+    "exam": "81/18",
+    "num": "95",
+    "text": "Dels codis de perill següents, digues quin es correspon a una matèria que necessàriament s'ha de transportar amb vehicles cisterna amb aïllament tèrmic:",
+    "options": {
+      "a": "23.",
+      "b": "30.",
+      "c": "99.",
+      "d": "265. 217"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/18-105",
+    "exam": "81/18",
+    "num": "105",
+    "text": "En toxicologia, la dosi letal mediana, DL50, té per unitat:",
+    "options": {
+      "a": "massa de la substància administrada (mg).",
+      "b": "massa de la substància administrada per unitat de temps d’administració (mg/s).",
+      "c": "massa de la substància administrada per unitat de massa del subjecte testat (mg/kg).",
+      "d": "tant per cent (%) 223 225"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/16-22",
+    "exam": "81/16",
+    "num": "22",
+    "text": "Als tancs d'emmagatzematge de líquids inflamables, trobem una identificació coneguda com a \"diamant de perill”. Si el contingut fos gasoil, que té una temperatura d'inflamació de 52 graus centígrads, quina numeració ha d'aparèixer en el vèrtex superior del \"diamant de perill” corresponent?",
+    "options": {
+      "a": "el número 2.",
+      "b": "el vèrtex superior està reservat als riscos per a la salut.",
+      "c": "el número 1.",
+      "d": "el número 3. 231 232 233 234 235 236 237"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/16-53",
+    "exam": "81/16",
+    "num": "53",
+    "text": "Una substància amb un DL50 de 278 mg/kg respecte d'una altra amb un DL50 de 15 mg/kg;",
+    "options": {
+      "a": "la primera té un nivell de toxicitat superior respecte de la segona.",
+      "b": "cap no es considera tòxica, perquè no supera els 500 mg/kg.",
+      "c": "la primera es considera extremadament tòxica i la segona, moderadament tòxica.",
+      "d": "la primera té un nivell de toxicitat inferior respecte de la segona. 243"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/16-59",
+    "exam": "81/16",
+    "num": "59",
+    "text": "En la identificació de matèries perilloses amb el codi Hazchem, si al requadre superior esquerre, ens trobem que la recomanació d'actuació en un possible incendi ha de ser amb escuma, quina numeració trobarem?:",
+    "options": {
+      "a": "el número 3.",
+      "b": "el número 4.",
+      "c": "el número 1.",
+      "d": "el número 2. 249"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-81/16-64",
+    "exam": "81/16",
+    "num": "64",
+    "text": "Els gasos no inflamables i els no tòxics estan sotmesos a la classificació de mercaderies perilloses segons ADR?",
+    "options": {
+      "a": "no, perquè es consideren matèries no perilloses.",
+      "b": "sí. es regulen segons adr, encara que els vehicles que els transportin no requereixen etiquetes identificatives.",
+      "c": "sí. es regulen segons adr i es consideren classe 9.",
+      "d": "sí. es consideren matèries perilloses segons adr i es consideren classe 2. 255 257"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-2009-3",
+    "exam": "2009",
+    "num": "3",
+    "text": "Quina és la definició d’IPVS?",
+    "options": {
+      "a": "és la màxima concentració de contaminant en l’atmosfera de la qual es podria escapar en un termini de 30 minuts sense que l’exposició patida suposo seqüeles irreversibles",
+      "b": "és la zona compresa entre el límit inferior d’explosivitat i el límit superior d’explosivitat",
+      "c": "és la quantitat d’oxigen que necessiten les bactèries presents a l’aigua per a oxidar la matèria orgànica que conté",
+      "d": "és la dosi de producte que comporta la mort del 50% de la població afectada (en assaig de laboratori amb diferents espècies) 263"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-2009-15",
+    "exam": "2009",
+    "num": "15",
+    "text": "A quina tipologia de substàncies correspon el grup 6.2 en la classificació de mercaderies perilloses de l’ADR?",
+    "options": {
+      "a": "substàncies perilloses diverses",
+      "b": "substàncies corrosives",
+      "c": "peròxids orgànics",
+      "d": "substàncies infeccioses 269"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-2009-40",
+    "exam": "2009",
+    "num": "40",
+    "text": "Què indiquen els quadrants del codi NFPA?",
+    "options": {
+      "a": "toxicitat, perill per al medi ambient, inflamabilitat, reactivitat",
+      "b": "salut, reactivitat, inflamabilitat, informació especial",
+      "c": "salut, toxicitat, inflamabilitat, perill per al medi ambient",
+      "d": "salut, reactivitat, toxicitat, informació especial 275"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-2009-74",
+    "exam": "2009",
+    "num": "74",
+    "text": "Quin és el període d’exposició que es té en compte en la taxa LD50 per una exposició cutània?",
+    "options": {
+      "a": "30 minuts",
+      "b": "24 hores",
+      "c": "1 hora",
+      "d": "6 hores 281 283"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T21 RISC QUÍMIC-2008-21",
+    "exam": "2008",
+    "num": "21",
+    "text": "A quina classe pertanyen els peròxids orgànics?",
+    "options": {
+      "a": "a la classe 6.2",
+      "b": "a la classe 4.2",
+      "c": "a la classe 5.2",
+      "d": "a la classe 5.3 289"
+    },
+    "answer": "c"
+  }
+]

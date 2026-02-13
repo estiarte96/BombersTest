@@ -1,0 +1,106 @@
+[
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/24-20",
+    "exam": "81/24",
+    "num": "20",
+    "text": "En quina de les següents artèries hauries de buscar el pols d’una víctima si cal fer-ho en la més proximal possible?",
+    "options": {
+      "a": "l’artèria pèdia.",
+      "b": "l’artèria poplítia.",
+      "c": "l’artèria humeral.",
+      "d": "l’artèria radial. 14"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/24-24",
+    "exam": "81/24",
+    "num": "24",
+    "text": "En terminologia sanitària, a què fa referència la paraula èmesi?",
+    "options": {
+      "a": "a la memòria.",
+      "b": "al vòmit.",
+      "c": "a la sensibilitat.",
+      "d": "a la sang. 20"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/24-60",
+    "exam": "81/24",
+    "num": "60",
+    "text": "Des de quina de les quatre cavitats del cor s’impulsa la sang oxigenada a la resta del cos?",
+    "options": {
+      "a": "l’aurícula dreta.",
+      "b": "l’aurícula esquerra.",
+      "c": "el ventricle dret.",
+      "d": "el ventricle esquerre. 26"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/24-65",
+    "exam": "81/24",
+    "num": "65",
+    "text": "En què consisteix el moviment de supinació d’una extremitat superior d’una víctima, quan el cos d’aquesta està estirat amb l’esquena a terra?",
+    "options": {
+      "a": "moviment de rotació de l’avantbraç, posant la part palmar o anterior de la mà a dalt.",
+      "b": "moviment del braç en direcció a la línia mitjana del cos.",
+      "c": "moviment de rotació de l’avantbraç, posant la part dorsal o posterior de la mà cap a dalt.",
+      "d": "moviment del braç en direcció oposada a la línia mitjana del cos. 32 34"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/23-17",
+    "exam": "81/23",
+    "num": "17",
+    "text": "Quina de les següents afirmacions és INCORRECTA si parlem de la pleura parietal:",
+    "options": {
+      "a": "està íntimament unida al pulmó.",
+      "b": "contribueix de manera destacada al moviment respiratori.",
+      "c": "és la membrana exterior de les dues que formen la coberta dels pulmons.",
+      "d": "la seva pèrdua d’integritat pot tenir conseqüències importants per a la ventilació. 40"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/23-32",
+    "exam": "81/23",
+    "num": "32",
+    "text": "Respecte a la fisiologia del sistema respiratori, quina és la resposta CORRECTA?",
+    "options": {
+      "a": "la respiració és un fenomen fonamentalment voluntari.",
+      "b": "l’estímul principal de control de la respiració és el nivell de co2 en sang arterial.",
+      "c": "l’estímul principal de control de la respiració és el nivell d’o2 en sang arterial.",
+      "d": "l’estímul per respirar que produeix la hipòxia és ràpid i sensible. 46"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/23-61",
+    "exam": "81/23",
+    "num": "61",
+    "text": "Davant una contusió al quadrant superior esquerre de l’abdomen, sospitarem lesió a:",
+    "options": {
+      "a": "el fetge.",
+      "b": "el pàncrees.",
+      "c": "la melsa.",
+      "d": "la bufeta de l’orina. 52"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T15 CONCEPTES MÈDICS-81/23-102",
+    "exam": "81/23",
+    "num": "102",
+    "text": "Quina afirmació és CORRECTA si parlem dels alvèols?",
+    "options": {
+      "a": "formen part del sistema nerviós.",
+      "b": "són petits sacs al final dels bronquis envoltats de capil·lars sanguinis.",
+      "c": "cobreixen la part externa de la laringe.",
+      "d": "s’hi produeix un intercanvi de gasos: l’oxigen passa de la sang als alvèols i el diòxid de carboni passa dels alvèols a la sang."
+    },
+    "answer": "b"
+  }
+]

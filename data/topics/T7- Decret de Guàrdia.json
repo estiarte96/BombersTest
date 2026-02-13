@@ -1,0 +1,67 @@
+[
+  {
+    "id": "7 D. GUÀRDIA-81/24-52",
+    "exam": "81/24",
+    "num": "52",
+    "text": "D’acord amb el Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament dels serveis de prevenció, extinció d'incendis i salvaments de la Generalitat de Catalunya, quines són les posicions en què s’estructura l’àmbit operatiu de la guàrdia?",
+    "options": {
+      "a": "cap de torn, cap de guàrdia, cap de sortida i cap de coordinació territorial.",
+      "b": "cap operatiu, cap territorial, sotscap territorial i cap de sortida.",
+      "c": "sotscap operatiu, cap de la sala central de bombers i cap de sortida.",
+      "d": "cap del parc, cap de la regió d’emergències i sotsdirector general operatiu. 14 16"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "7 D. GUÀRDIA-81/21-54",
+    "exam": "81/21",
+    "num": "54",
+    "text": "Segons el Decret 276/2016, a qui correspon recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d’actuació corresponent?",
+    "options": {
+      "a": "al cap territorial, si està desplegat.",
+      "b": "al sotscap territorial, en nivell de comandament 2.",
+      "c": "al cap de coordinació territorial.",
+      "d": "al cap de sortida. 22 2381/19.2 (model A) 24"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "7 D. GUÀRDIA-81/21-33",
+    "exam": "81/21",
+    "num": "33",
+    "text": "Segons l'article 11 del Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament dels serveis de prevenció, extinció, d'incendis i salvaments de la Generalitat de Catalunya, quina de les següents NO és una funció del cap de sortida?",
+    "options": {
+      "a": "comunicar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent.",
+      "b": "recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació.",
+      "c": "elaborar els informes que correspongui en relació amb les actuacions operatives en què hagi intervingut.",
+      "d": "elaborar el pla d'actuació del grup d'intervenció (pagi) del pla d'emergències d'àmbit general que correspongui i supervisar-ne el compliment. 30"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "7 D. GUÀRDIA-81/21-45",
+    "exam": "81/21",
+    "num": "45",
+    "text": "L'article 21 del Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament dels serveis de prevenció, extinció d'incendis i salvaments de la Generalitat de Catalunya, estableix els nivells de comandament en funció de les necessitats d'organització. A quina posició de comandament de l'àmbit operatiu de la guàrdia li correspon assumir la funció de cap d'intervenció per a un nivell de comandament 3?",
+    "options": {
+      "a": "al sotscap territorial.",
+      "b": "al cap territorial.",
+      "c": "al cap operatiu.",
+      "d": "al cap de coordinació de la sala central de bombers. 36"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "7 D. GUÀRDIA-81/21-76",
+    "exam": "81/21",
+    "num": "76",
+    "text": "D'acord amb el Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament dels serveis de prevenció, extinció d'incendis i salvaments de la Generalitat de Catalunya, quina de les afirmacions següents és correcta?",
+    "options": {
+      "a": "la guàrdia del cap operatiu s'organitza mitjançant un torn rotatori entre membres del cos de bombers de la generalitat de la categoria de sotsinspectors.",
+      "b": "la guàrdia del cap territorial s'organitza mitjançant un torn rotatori entre membres dels cos de bombers de la generalitat de les categories d'inspector de l'escala superior o sotsinspector de l'escala executiva o oficial de l'escala tècnica.",
+      "c": "la guàrdia de sotscap territorial s'organitza mitjançant un torn rotatori entre membres del cos de bombers de la generalitat amb la categoria de sotsinspector de l'escala executiva o de les categories d'oficial o sergent de l'escala tècnica.",
+      "d": "la guàrdia del cap de sortida s'organitza entre els membres del cos de bombers de la generalitat amb la categoria de caporal o bomber de primera de l'escala tècnica o amb la categoria de bomber de l'escala bàsica."
+    },
+    "answer": "c"
+  }
+]

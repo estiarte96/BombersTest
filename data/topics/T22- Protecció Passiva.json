@@ -1,0 +1,223 @@
+[
+  {
+    "id": "T22 P. PASSIVA-81/24-92",
+    "exam": "81/24",
+    "num": "92",
+    "text": "Donats dos materials amb les següents característiques:  B-s1,d0 (material 1) D-s2,d1 (material 2)  Segons la classificació europea de reacció al foc de materials de construcció (Euro classes), podem afirmar:",
+    "options": {
+      "a": "el material 1 té millor reacció al foc que el material 2.",
+      "b": "el material 2 té millor reacció al foc que el material 1.",
+      "c": "els dos materials tenen la mateixa reacció al foc.",
+      "d": "no podem saber la reacció al foc amb aquesta classificació. 15 17"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/23-23",
+    "exam": "81/23",
+    "num": "23",
+    "text": "Quins dels següents paràmetres caracteritzen la reacció al foc dels materials segons la classificació en Euroclasses?",
+    "options": {
+      "a": "alçada de flama i temperatura d'ignició.",
+      "b": "intensitat de flama, velocitat de propagació.",
+      "c": "producció de fums, producció/caiguda de gotes o partícules inflamades.",
+      "d": "capacitat d’autoignició i capacitat portant de l'estructura. 23"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/23-47",
+    "exam": "81/23",
+    "num": "47",
+    "text": "En relació amb la reacció al foc d’un material constructiu, què podem afirmar?",
+    "options": {
+      "a": "és la seva capacitat portant durant l’acció del foc, sota condicions específiques d’assaig.",
+      "b": "és la seva capacitat per mantenir durant un període de temps determinat la funció portant que se li exigeixi, així com la integritat i/o l’aïllament tèrmic, davant l’acció del foc en els termes especificats a l’assaig normalitzat corresponent.",
+      "c": "és la resposta mesurada segons la seva contribució al desenvolupament del foc mitjançant la seva pròpia combustió, sota condicions específiques d’assaig.",
+      "d": "és la seva resposta mesurada segons la seva integritat i funció portant, davant l’acció del foc, sota condicions específiques d’assaig. 29"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/23-50",
+    "exam": "81/23",
+    "num": "50",
+    "text": "Respecte dels objectius de la sectorització d’incendis en els edificis, quina afirmació és FALSA?",
+    "options": {
+      "a": "promou la limitació de la propagació de l’incendi de forma que les edificacions veïnes no es vegin afectades.",
+      "b": "promou la limitació dels danys a les persones afavorint l’evacuació dels ocupants de forma més segura.",
+      "c": "facilita les tasques d’extinció dels serveis de bombers.",
+      "d": "evita l’aparició de l’incendi. 35"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/23-58",
+    "exam": "81/23",
+    "num": "58",
+    "text": "La resistència al foc d’una paret sectoritzadora i amb funció estructural portant de l’edifici, amb un grau de resistència de 120 minuts, s’expressa com a:",
+    "options": {
+      "a": "ei-120.",
+      "b": "rei-120.",
+      "c": "e -120.",
+      "d": "r-120. 41 43"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/21-3",
+    "exam": "81/21",
+    "num": "3",
+    "text": "Un paviment de terratzo (còdols de pedra conglomerats amb ciment) es classifica, pel que fa a la seva reacció al foc, atenent a la norma del Reial decret 842/2013, de 31 d’octubre, pel qual s’aprova la classificació dels productes de construcció i dels elements constructius en funció de les seves propietats de reacció i de resistència davant del foc, com a:",
+    "options": {
+      "a": "a2.",
+      "b": "a1 fl.",
+      "c": "a1-s1, d0.",
+      "d": "a2 fl-s1, d0. 49"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/21-12",
+    "exam": "81/21",
+    "num": "12",
+    "text": "D’acord amb el document bàsic de seguretat contra incendis del Codi tècnic de l’edificació, una porta de pas entre dos sectors d’incendi amb resistència al foc 60 min serà: (IMPUGNADA)",
+    "options": {
+      "a": "ei 2 30-c5.",
+      "b": "ei 2 60-c5.",
+      "c": "rei 2 30-c5.",
+      "d": "rei 2 60-c5. 55"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/21-46",
+    "exam": "81/21",
+    "num": "46",
+    "text": "Si parlem d’un material amb classificació de reacció al foc Broof (t1), ens referim a un producte assajat per a?",
+    "options": {
+      "a": "aplicació general.",
+      "b": "cobertes.",
+      "c": "terres.",
+      "d": "aïllaments d’elements lineals. 61 63"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/19.2-13",
+    "exam": "81/19.2",
+    "num": "13",
+    "text": "En relació amb la resistència al foc dels elements constructius, què podem afirmar?",
+    "options": {
+      "a": "és la capacitat portant dels elements constructius durant l’acció del foc, sota condicions específiques d’assaig.",
+      "b": "és la capacitat dels elements constructius per mantenir durant un període de temps determinat la funció portant que se'ls exigeixi, així com la integritat i/o l’aïllament tèrmic, davant l’acció del foc en els termes especificats a l’assaig normalitzat corresponent.",
+      "c": "és la resposta dels elements constructius mesurada segons la contribució que realitzen al desenvolupament del foc mitjançant la seva pròpia combustió, sota condicions específiques d’assaig.",
+      "d": "és la resposta dels elements constructius mesurada segons la seva integritat i funció portant, davant l’acció del foc, sota condicions específiques d’assaig. 69"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/19.2-64",
+    "exam": "81/19.2",
+    "num": "64",
+    "text": "En relació amb una escala protegida, es pot afirmar que:",
+    "options": {
+      "a": "disposarà sempre d’un sistema de pressió positiva contra la invasió del fum.",
+      "b": "sempre es trobarà compartimentada respecte de la resta de l’edifici amb elements constructius i portes resistents al foc.",
+      "c": "sempre es trobarà compartimentada respecte de la resta de l’edifici i disposarà necessàriament d’un vestíbul d’independència a cada accés de cada planta.",
+      "d": "disposarà sempre d’un sistema de detecció automàtica d’incendis per protegir-la contra els incendis. 75"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/19.2-71",
+    "exam": "81/19.2",
+    "num": "71",
+    "text": "Indiqueu quin d’aquests paràmetres NO és avaluat per les euroclasses, en relació amb la reacció al foc dels materials:",
+    "options": {
+      "a": "l’opacitat dels fums produïts.",
+      "b": "la toxicitat dels fums produïts.",
+      "c": "el degoteig del producte.",
+      "d": "la contribució al foc. 81 83"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/19-45",
+    "exam": "81/19",
+    "num": "45",
+    "text": "La resistència al foc d’una jàssera en un aparcament situat sota un edifici d’habitatges ha de ser:",
+    "options": {
+      "a": "r-120.",
+      "b": "ei-180.",
+      "c": "e-90.",
+      "d": "i-90. 89"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/19-93",
+    "exam": "81/19",
+    "num": "93",
+    "text": "Un forjat que compartimenti dos sectors d’incendi diferenciats, amb una resistència al foc de 120 minuts, té una característica:",
+    "options": {
+      "a": "e 120.",
+      "b": "r 120.",
+      "c": "ei 120.",
+      "d": "rei 120. 95 96 98 99 100 101 102 103 104 106"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/16-29",
+    "exam": "81/16",
+    "num": "29",
+    "text": "La compartimentació en sectors d'incendi en un edifici té per finalitat:",
+    "options": {
+      "a": "extingir els incendis.",
+      "b": "limitar l'extensió de l'incendi.",
+      "c": "prevenir l'aparició d'incendis.",
+      "d": "reduir la càrrega de foc. 112"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T22 P. PASSIVA-81/16-66",
+    "exam": "81/16",
+    "num": "66",
+    "text": "Quina de les classificacions de reacció al foc següents és correcta:",
+    "options": {
+      "a": "classe c: mitjana contribució al foc.",
+      "b": "classe f: alta contribució al foc.",
+      "c": "classe b: sense contribució al foc.",
+      "d": "classe a2: sense contribució en grau menor al foc. 118 120"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T22 P. PASSIVA-2009-9",
+    "exam": "2009",
+    "num": "9",
+    "text": "La ignifugació és un procediment fisicoquímic que incideix principalment en:",
+    "options": {
+      "a": "l’estabilitat al foc dels materials",
+      "b": "l’aïllament tèrmic dels teixits de protecció",
+      "c": "la reacció al foc dels materials",
+      "d": "la resistència al foc dels elements de construcció 126"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T22 P. PASSIVA-2009-31",
+    "exam": "2009",
+    "num": "31",
+    "text": "Segons la classificació europea de les propietats de resistència al foc dels elements constructius (RD 312/2005), la classe “I” a quina característica correpon?",
+    "options": {
+      "a": "capacitat portant",
+      "b": "estabilitat al foc",
+      "c": "aïllament tèrmic",
+      "d": "integritat al pas de les flames i gasos calents 132"
+    },
+    "answer": "c"
+  }
+]

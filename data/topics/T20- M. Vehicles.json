@@ -1,0 +1,327 @@
+[
+  {
+    "id": "T20 M. VEHICLES-81/24-2",
+    "exam": "81/24",
+    "num": "2",
+    "text": "Quin dels següents sistemes de seguretat forma part de la seguretat activa del vehicle?",
+    "options": {
+      "a": "el coixí de seguretat (airbag).",
+      "b": "el volant d’absorció d’energia.",
+      "c": "l’abs.",
+      "d": "el cinturó de seguretat. 10"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/24-10",
+    "exam": "81/24",
+    "num": "10",
+    "text": "Quins vehicles portaran el sistema HVIL (HV Interlock)?",
+    "options": {
+      "a": "vehicles glp.",
+      "b": "vehicles híbrids i elèctrics.",
+      "c": "vehicles de combustió.",
+      "d": "vehicles gnc. 16"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/24-67",
+    "exam": "81/24",
+    "num": "67",
+    "text": "Quan es parla de muntant o pilar B, a l’estructura d’un vehicle turisme de quatre portes, es refereix a:",
+    "options": {
+      "a": "al que se situa darrere de les portes davanteres i que pot servir com a punt d’ancoratge del cinturó de seguretat.",
+      "b": "al que es troba a la part posterior de les portes de darrere i que suporta el vidre posterior.",
+      "c": "un turisme amb 4 portes mai portarà un muntant b.",
+      "d": "al que es troba davant del conductor i que suporta el vidre davanter. 22"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/24-85",
+    "exam": "81/24",
+    "num": "85",
+    "text": "El compressor volumètric de tipus Roots consisteix en dos engranatges de forma especial que giren en sentit oposat comprimint l'aire entre ells. Quina de les següents característiques és CORRECTA?",
+    "options": {
+      "a": "no proporcionen pressió a l'instant.",
+      "b": "no funcionen des del ralentí, per tant es necessita el motor revolucionat.",
+      "c": "roben energia a la mecànica, ja que giren mitjançant una corretja solidària al cigonyal.",
+      "d": "són poc sorollosos i molt econòmics 28 30"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/23-12",
+    "exam": "81/23",
+    "num": "12",
+    "text": "En un terreny molt adherent, quin tipus de tracció del vehicle tindrà dificultats per compensar la diferència de recorregut de les rodes del davant sobre les del darrere fent patir la mecànica quan estem amb la tracció a les 4 rodes?",
+    "options": {
+      "a": "la tracció opcional convencional dels vehicles 4x4.",
+      "b": "la tracció permanent dels vehicles 4x4.",
+      "c": "aquesta dificultat només dependrà de la velocitat del vehicle.",
+      "d": "mentre el vehicle tingui dos diferencials, això no passarà. 36"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/23-13",
+    "exam": "81/23",
+    "num": "13",
+    "text": "Les característiques bàsiques d’una bateria d’un vehicle de motor són:",
+    "options": {
+      "a": "la seva tensió, la seva capacitat i la potència d’arrancada.",
+      "b": "la seva resistència límit i la seva data de caducitat.",
+      "c": "la marca, model i hores de treball previsible.",
+      "d": "la col·locació dels seus terminals, amperatge mínim i potència admissible d’arrancada en fred. 42"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/23-67",
+    "exam": "81/23",
+    "num": "67",
+    "text": "Indiqueu quina de les següents afirmacions és CERTA respecte a la vàlvula EGR d’un motor:",
+    "options": {
+      "a": "s’encarrega de regular la quantitat de gasos d’escapament que arriben al col·lector d’admissió.",
+      "b": "catalitza els gasos d’escapament tòxics generats en la combustió i els transforma parcialment en elements no tòxics.",
+      "c": "forma part del circuit de baixa pressió del carburant i permet que l’excés de carburant que no alimentarà la bomba d’injecció retorni al dipòsit.",
+      "d": "redueix els nivells de nox (òxids de nitrogen) que produeix el vehicle, mitjançant la separació del nitrogen i l’oxigen. 48 50"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/21-14",
+    "exam": "81/21",
+    "num": "14",
+    "text": "En un cotxe, el sistema de control dinàmic d’estabilitat evita que es produeixin situacions extremes de subviratge i sobreviratge. Quina de les sigles següents correspon a aquest sistema?",
+    "options": {
+      "a": "esp.",
+      "b": "abs.",
+      "c": "asr.",
+      "d": "hhc. 56"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/21-56",
+    "exam": "81/21",
+    "num": "56",
+    "text": "Quina de les definicions següents és CORRECTA respecte del turbocompressor d’un vehicle amb motor dièsel?",
+    "options": {
+      "a": "és un mecanisme intercalat en el circuit d’admissió amb l’única funció de disminuir la temperatura de l’aire d’admissió amb la finalitat de millorar el rendiment.",
+      "b": "és un mecanisme que aprofita la velocitat de sortida dels gasos d’escapament per incrementar l’entrada d’aire en el col·lector d’admissió i generar una sobrealimentació.",
+      "c": "és el mecanisme que s’encarrega de subministrar el combustible a alta pressió al tub distribuïdor o rampa on es troben els injectors.",
+      "d": "és un mecanisme comandat per centraleta que es posiciona obrint més o menys l’entrada d’aire als cilindres per mitjà d’un potenciòmetre situat en el pedal de l’accelerador. 62 64"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/19.2-88",
+    "exam": "81/19.2",
+    "num": "88",
+    "text": "Els components del sistema de lubricació d'un motor de gasolina i de gasoil són:",
+    "options": {
+      "a": "bomba d'oli, circuit refrigerant, filtre d'oli i sensor de pressió.",
+      "b": "bomba d'oli, filtre d'oli, termòstat i vàlvula de sobrepressió.",
+      "c": "bomba d'oli, filtre d'oli, vàlvula de sobrepressió i sensor de pressió.",
+      "d": "bomba d'oli, vàlvula de sobrepressió, sensor de pressió i termòstat. 70 72"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/19-53",
+    "exam": "81/19",
+    "num": "53",
+    "text": "Amb un turbocompressor, què aconseguim?",
+    "options": {
+      "a": "augmentar la quantitat d’aire que entra als cilindres.",
+      "b": "disminuir la quantitat d'aire que entra als cilindres.",
+      "c": "no té cap efecte sobre la quantitat d’aire que entra als cilindres.",
+      "d": "disminueix la cilindrada del motor. 78"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/19-60",
+    "exam": "81/19",
+    "num": "60",
+    "text": "Quin circuit és l'encarregat d'extreure el carburant del dipòsit, filtrar-lo i alimentar la bomba d'injecció d'un motor de combustió?",
+    "options": {
+      "a": "circuit d'alta pressió i de baixa pressió.",
+      "b": "circuit d'alta pressió.",
+      "c": "circuit de baixa pressió.",
+      "d": "circuit de compressió. 84"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/19-88",
+    "exam": "81/19",
+    "num": "88",
+    "text": "El carburador en un motor, per fer la barreja aire/gasolina, aprofita un efecte físic anomenat:",
+    "options": {
+      "a": "efecte coriolis.",
+      "b": "efecte venturi.",
+      "c": "la llei de boyle-mariotte de dinàmica de fluids.",
+      "d": "la primera llei de newton. 90 92"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-81/18-26",
+    "exam": "81/18",
+    "num": "26",
+    "text": "Com es denominen els aparells de sobrealimentació en un motor de combustió?",
+    "options": {
+      "a": "alternador.",
+      "b": "compressor.",
+      "c": "ventilador.",
+      "d": "èmbol 98 100"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-2009-4",
+    "exam": "2009",
+    "num": "4",
+    "text": "En els motors de diversos cilindres, el combustible vaporitzat es condueix als cilindres a través d’un tub ramificat anomenat:",
+    "options": {
+      "a": "injector",
+      "b": "tub de vaporització",
+      "c": "carburador",
+      "d": "col·lector d’admissió 106 108"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T20 M. VEHICLES-2008-11",
+    "exam": "2008",
+    "num": "11",
+    "text": "En un motor d’explosió amb turbocompressor, l’aire d’admissió necessari per fer la combustió es troba a més temperatura en el circuit que va des de:",
+    "options": {
+      "a": "el col·lector d’escapament fins al refrigerador intermedi (intercooler)",
+      "b": "el refrigerador intermedi (intercooler) fins a l’admissió",
+      "c": "la turbina fins al refrigerador intermedi (intercooler)",
+      "d": "l’admissió exterior fins a la turbina 114"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-2008-17",
+    "exam": "2008",
+    "num": "17",
+    "text": "En un motor amb sistema d’injecció directa:",
+    "options": {
+      "a": "no disposa de vàlvula de papallona de gasos",
+      "b": "el combustible i comburent es barregen a la càmera de compressió",
+      "c": "el combustible s’injecta en el col·lector d’admissió",
+      "d": "el combustible entra per la vàlvula d’admissió 120"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-2008-18",
+    "exam": "2008",
+    "num": "18",
+    "text": "La transmissió d’un vehicle és el conjunt de mecanismes que fan possible que el gir del motor arribi a les rodes. Quin és l’ordre correcte des del motor fins a les rodes?",
+    "options": {
+      "a": "motor, distribució, caixa de canvis, arbre de transmissió, diferencial, semieixos, rodes",
+      "b": "motor, caixa de canvis, embragatge, arbre de transmissió, diferencial, semieixos, rodes",
+      "c": "motor, embragatge, caixa de canvis, arbre de transmissió, diferencial, semieixos, rodes",
+      "d": "motor, embragatge, arbre de transmissió, semieixos, satèl·lits, planetaris, rodes 126 128"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-2006-24",
+    "exam": "2006",
+    "num": "24",
+    "text": "En el turbocompressor d’un motor d’explosió:",
+    "options": {
+      "a": "la turbina és accionada per l’aire d’admissió",
+      "b": "el compressor és accionat pels gasos d’escapament",
+      "c": "la turbina és accionada pels gasos d’escapament",
+      "d": "el compressor és accionat pel motor 134"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-2006-36",
+    "exam": "2006",
+    "num": "36",
+    "text": "La missió del refrigerador intemedi (intercooler) en un motor turboalimentat és:",
+    "options": {
+      "a": "refrigerar els gasos d’escapament per limitar el règim de la turbina",
+      "b": "refrigerar l’aire que aspira el compressor per limitar el seu règim",
+      "c": "refrigerar els gasos d’escapament per evitar contrapressió a l’escapament",
+      "d": "refrigerar l’aire d’admissió per augmentar la seva densitat 140"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T20 M. VEHICLES-2006-44",
+    "exam": "2006",
+    "num": "44",
+    "text": "La funció del termòstat del sistema de refrigeració és:",
+    "options": {
+      "a": "repartir el cabal de refrigeració entre el radiador del motor i el refrigerador d’oli",
+      "b": "accionar el ventilador a partir d’una temperatura de l’aigua determinada",
+      "c": "fer circular l’aigua pel radiador a partir d’una temperatura de sortida del motor determinada",
+      "d": "regular el cabal de la bomba d’aigua en funció de la temperatura 146 148"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-2005-13",
+    "exam": "2005",
+    "num": "13",
+    "text": "El conductes per on entren i surten els gasos del motor es coneixen pel nom general de:",
+    "options": {
+      "a": "col·lectors",
+      "b": "tubs de circulació",
+      "c": "canalitzacions",
+      "d": "maneguets 154"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T20 M. VEHICLES-2005-57",
+    "exam": "2005",
+    "num": "57",
+    "text": "Si en un motor dièsel la pressió de l’oli de lubricació augmenta linealment amb el règim de gir del motor per damunt del límit de seguretat:",
+    "options": {
+      "a": "el filtre d’oli està obstruït",
+      "b": "la vàlvula de descàrrega està espatllada",
+      "c": "algun conducte del circuit de lubricació està obstruït",
+      "d": "existeix un excés de pèrdues mecàniques en la bomba d’oli 160 162"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T20 M. VEHICLES-2002-62",
+    "exam": "2002",
+    "num": "62",
+    "text": "En un motor d’explosió, quina és la funció de l’arbre de lleves?",
+    "options": {
+      "a": "regular el pas de combustible als diferents cilindres",
+      "b": "és el dispositiu motriu de la bomba d’injecció",
+      "c": "obrir i tancar les vàlvules dels diferents cilindres",
+      "d": "convertir el moviment rectilini de pistons en el moviment circular del cigonyal 168 170 171 173"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T20 M. VEHICLES-1999-22",
+    "exam": "1999",
+    "num": "22",
+    "text": "En un motor d’explosió, quina és la missió del termòstat en el sistema de refrigeració?",
+    "options": {
+      "a": "tanca el pas del líquid refrigerant cap al radiador mentre el motor està fred",
+      "b": "engegar i parar el ventilador que impulsa aire cap al radiador del sistema de refrigeració amb la finalitat de mantenir la temperatura del motor",
+      "c": "distribuir el líquid refrigerant cap als diferents passos del bloc motor",
+      "d": "donar pas al líquid refrigerant cap al radiador de calefacció del vehicle quan és necessari"
+    },
+    "answer": "a"
+  }
+]

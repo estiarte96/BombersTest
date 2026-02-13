@@ -1,0 +1,626 @@
+[
+  {
+    "id": "T24 C.MATERIALS-81/24-21",
+    "exam": "81/24",
+    "num": "21",
+    "text": "Quina afirmació es FALSA en referència a l’acer?",
+    "options": {
+      "a": "un augment de la temperatura provoca un augment del valor del mòdul d’elasticitat del material i, per tant, una disminució de la resistència a tracció del material.",
+      "b": "l’incendi afecta molt la seva capacitat resistent.",
+      "c": "els canvis bruscos de temperatura trempen i fragilitzen l’acer i, per tant, l’aigua d’extinció no s’ha de projectar directament sobre les estructures metàl·liques calentes.",
+      "d": "l’acer pot experimentar deformacions importants a alta temperatura, si està sotmès a sol·licitacions mecàniques, encara que no hagi assolit la temperatura mínima de fusió. 10"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/24-36",
+    "exam": "81/24",
+    "num": "36",
+    "text": "Quina de les següents afirmacions és FALSA?",
+    "options": {
+      "a": "en les peces de ceràmica, la dessecació les esberla successivament.",
+      "b": "el formigó armat té una baixa conductivitat tèrmica i, per tant, una baixa inèrcia tèrmica.",
+      "c": "el guix prové de la pedra d’algeps.",
+      "d": "la capacitat resistent de la fusta es veu poc afectada per la temperatura. 16"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/24-76",
+    "exam": "81/24",
+    "num": "76",
+    "text": "Quina afirmació es CORRECTA?",
+    "options": {
+      "a": "els materials de construcció ceràmics es caracteritzen per una alta fragilitat i poca duresa.",
+      "b": "en un incendi, la velocitat de carbonització de la fusta disminueix a mesura que avança la quantitat de fusta carbonitzada.",
+      "c": "l’acer és un aliatge poc tenaç.",
+      "d": "en el formigó armat, generalment, la pèrdua de capacitat resistent per efecte de la calor és lenta i reversible. 22"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/24-87",
+    "exam": "81/24",
+    "num": "87",
+    "text": "Què s’ha de tenir en consideració de la fusta emprada en la construcció?",
+    "options": {
+      "a": "que les característiques de la fusta laminada no depenen de la seva anisotropia.",
+      "b": "que té una alta conductivitat tèrmica.",
+      "c": "que és conductora de l’electricitat.",
+      "d": "que supera de manera similar les tensions de tracció i de compressió. 28 30"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/23-6",
+    "exam": "81/23",
+    "num": "6",
+    "text": "Quin dels següents materials és el més elàstic basant-nos en el mòdul de Young?",
+    "options": {
+      "a": "formigó.",
+      "b": "acer al carboni.",
+      "c": "guix.",
+      "d": "fusta. 36"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/23-29",
+    "exam": "81/23",
+    "num": "29",
+    "text": "Seleccioneu l’afirmació CORRECTA:",
+    "options": {
+      "a": "el revoltó ceràmic es fa servir en forjats unidireccionals.",
+      "b": "el formigó disminueix al 50% la seva resistència als 100ºc.",
+      "c": "el vidre trempat ha rebut un tractament per augmentar la fragilitat.",
+      "d": "el component majoritari del formigó és el ciment. 42"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/23-78",
+    "exam": "81/23",
+    "num": "78",
+    "text": "Com es denomina la propietat per la qual els atributs dels materials canvien de valor segons la direcció en la qual s’avaluen?",
+    "options": {
+      "a": "isotropia.",
+      "b": "anisotropia.",
+      "c": "ortotropia.",
+      "d": "higroscòpia. 48"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/23-103",
+    "exam": "81/23",
+    "num": "103",
+    "text": "Indiqueu l’afirmació CORRECTA respecte als materials constructius següents:",
+    "options": {
+      "a": "el guix és un material combustible i amb baixa conductivitat tèrmica.",
+      "b": "la fusta és un material combustible i amb baixa conductivitat tèrmica.",
+      "c": "l’acer és un material no combustible i amb baixa conductivitat tèrmica.",
+      "d": "el formigó és un material no combustible i amb alta conductivitat tèrmica. 54 56"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-15",
+    "exam": "81/21",
+    "num": "15",
+    "text": "Quin material emprat en els elements estructurals en la construcció és el que, quan es sotmet a l’acció d’un incendi, diem que pot trencar per disminució o manca de secció resistent, que suporta per igual les traccions i les compressions i que els fenòmens tèrmics no es traslladaran al llarg de l’estructura?",
+    "options": {
+      "a": "la ceràmica (maons).",
+      "b": "la fusta.",
+      "c": "l’acer.",
+      "d": "el formigó. 62"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-20",
+    "exam": "81/21",
+    "num": "20",
+    "text": "A quin dels materials següents o elements de la construcció pot ser pertinent la denominació “UPN”?",
+    "options": {
+      "a": "barra d’acer d’alta resistència per a formigó armat.",
+      "b": "perfil d’acer laminat.",
+      "c": "xapa d’acer grecada per a estructura col·laborant.",
+      "d": "panell sandvitx amb ànima de poliuretà per a tancament de façanes. 68"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-80",
+    "exam": "81/21",
+    "num": "80",
+    "text": "La pedra algeps és l’element bàsic per a l’aglomerant conegut com a:",
+    "options": {
+      "a": "calç hidràulica.",
+      "b": "ciment pòrtland.",
+      "c": "ciment aluminós.",
+      "d": "guix. 74 751/2/2019 76"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-2",
+    "exam": "81/21",
+    "num": "2",
+    "text": "Quina de les afirmacions següents és correcta per definir el límit elàstic d'un material?",
+    "options": {
+      "a": "és la capacitat de dilatació i contracció d'un material.",
+      "b": "és només atribuïble a polímers amb un comportament elàstic.",
+      "c": "és el rang en què oscil·la l'elasticitat pròpia de cada material.",
+      "d": "és la tensió màxima que un material pot suportar sense patir deformacions permanents. 82"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-72",
+    "exam": "81/21",
+    "num": "72",
+    "text": "La capacitat que els materials tenen per absorbir o cedir aigua en funció de la humitat ambiental rep el nom de:",
+    "options": {
+      "a": "absorció.",
+      "b": "higroscopicitat.",
+      "c": "capil·laritat.",
+      "d": "permeabilitat. 88"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-81/21-73",
+    "exam": "81/21",
+    "num": "73",
+    "text": "Davant d'un formigó que presenta idèntiques característiques, quina d'aquestes afirmacions és correcta?",
+    "options": {
+      "a": "a més porositat, més resistència.",
+      "b": "a menys porositat, més resistència.",
+      "c": "la resistència no es veu condicionada per la porositat.",
+      "d": "el formigó no és un element constructiu porós. 94 96"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2019-10",
+    "exam": "2019",
+    "num": "10",
+    "text": "El formigó en massa és un material petri amb:",
+    "options": {
+      "a": "una alta resistència a la compressió, a la tracció i a la torsió.",
+      "b": "una alta resistència a la tracció.",
+      "c": "una alta resistència a la compressió i a la flexió.",
+      "d": "una alta resistència a la compressió i baixa a la tracció. 102"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-2019-23",
+    "exam": "2019",
+    "num": "23",
+    "text": "Els principals tipus de guix emprats en l’edificació són:",
+    "options": {
+      "a": "el guix blanc i el guix gris.",
+      "b": "el guix negre, el guix blanc i l’escaiola.",
+      "c": "el guix blanc i la calç.",
+      "d": "la calç i l’escaiola. 108"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2019-56",
+    "exam": "2019",
+    "num": "56",
+    "text": "El formigó està compost per:",
+    "options": {
+      "a": "ciment pòrtland, àrids (grava i sorra) i aigua.",
+      "b": "ciment pòrtland, àrids (grava i sorra), acer i aigua.",
+      "c": "ciment, àrids (grava i sorra), calç i aigua.",
+      "d": "ciment, àrids (grava i sorra), guix i aigua. 114"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2019-103",
+    "exam": "2019",
+    "num": "103",
+    "text": "La resistència mecànica d’un element de fusta:",
+    "options": {
+      "a": "augmenta en incrementar el seu contingut d’humitat.",
+      "b": "serà major si utilitzem com a material una fusta menys densa.",
+      "c": "augmenta en disminuir el seu contingut d’humitat.",
+      "d": "només depèn de la seva secció. 120 122"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-5",
+    "exam": "2018",
+    "num": "5",
+    "text": "El guix:",
+    "options": {
+      "a": "és un material insoluble en aigua.",
+      "b": "és un material molt resistent a compressió.",
+      "c": "és un material que pot provocar corrosió a l’acer.",
+      "d": "és un material amb adormiment lent 128"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-44",
+    "exam": "2018",
+    "num": "44",
+    "text": "La funció principal de les juntes de morter en un mur d’obra de fàbrica és:",
+    "options": {
+      "a": "augmentar la resistència a tracció del mur.",
+      "b": "transmetre les compressions a tota la superfície dels maons.",
+      "c": "absorbir les dilatacions tèrmiques.",
+      "d": "evitar les humitats per condensació. 134"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-50",
+    "exam": "2018",
+    "num": "50",
+    "text": "L'acer de construcció:",
+    "options": {
+      "a": "s'utilitza barrejat amb guix per fer biguetes als forjats sanitaris.",
+      "b": "és un aliatge de ferro i carboni, en concentracions màximes d'un 2,2%.",
+      "c": "és un material inoxidable i s'utilitza per a la construcció de pilars i jàsseres.",
+      "d": "la seva composició el fa un element indispensable en estructures de formigó en massa sotmeses a compressió. 140 141 142 143 144 145 146"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-63",
+    "exam": "2018",
+    "num": "63",
+    "text": "La densitat mitjana de l’acer és de:",
+    "options": {
+      "a": "78.500 kg/m3 .",
+      "b": "7.850 kg/m3 .",
+      "c": "785 kg/m3 .",
+      "d": "78,5 kg/m3 . 152"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-75",
+    "exam": "2018",
+    "num": "75",
+    "text": "La consistència del formigó fresc:",
+    "options": {
+      "a": "és fluida, elàstica i plàstica.",
+      "b": "és la menor o major facilitat que té per deformar-se.",
+      "c": "es mesura amb el con de williams.",
+      "d": "és la seva resistència a compressió a les 48 hores de ser fabrica. 158"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2018-99",
+    "exam": "2018",
+    "num": "99",
+    "text": "Quin d’aquests materials és més resistent als esforços de compressió?",
+    "options": {
+      "a": "el formigó armat.",
+      "b": "l’obra de fàbrica.",
+      "c": "l’acer.",
+      "d": "la fusta. 164 166"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2016-31",
+    "exam": "2016",
+    "num": "31",
+    "text": "El policlorur de vinil (PVC) és un material del tipus:",
+    "options": {
+      "a": "polímer",
+      "b": "bituminós",
+      "c": "aliatge",
+      "d": "composite 172"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2016-87",
+    "exam": "2016",
+    "num": "87",
+    "text": "Una de les propietats de la fusta és:",
+    "options": {
+      "a": "és un material anisòtrop",
+      "b": "és un material ignífug",
+      "c": "és un material amb bona conductivitat",
+      "d": "és un material fràgil 178 180"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2009-2",
+    "exam": "2009",
+    "num": "2",
+    "text": "El ferro en la construcció es fa servir per:",
+    "options": {
+      "a": "ajudar en els esforços de compressió del morter",
+      "b": "ajudar en els esforços de tracció del morter bastard",
+      "c": "ajudar el formigó en els esforços de tracció",
+      "d": "ajudar el formigó en massa 186"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2009-10",
+    "exam": "2009",
+    "num": "10",
+    "text": "Quina de les expressions següents sobre la fusta és incorrecta?",
+    "options": {
+      "a": "té un coeficient de transmissió tèrmica alt i, per tant, s’escalfa ràpidament",
+      "b": "a les primeres fases de l’incendi, la fusta es deshidrata produint-se un augment de la resistència mecànica",
+      "c": "quan és atacada pel foc, pateix un procés de carbonatació a la superfície",
+      "d": "és un material higroscòpic i conté un cert grau d’humitat 192"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2009-16",
+    "exam": "2009",
+    "num": "16",
+    "text": "Una propietat important de la calç és:",
+    "options": {
+      "a": "que és un gran reforç com a aglomerant en el formigó armat",
+      "b": "la seva rigidesa",
+      "c": "que es pot acolorir",
+      "d": "que és un material molt modern 198"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2009-38",
+    "exam": "2009",
+    "num": "38",
+    "text": "El guix com a aglomerant es fa servir:",
+    "options": {
+      "a": "com a aglomerant en envans",
+      "b": "com a protector d’humitats",
+      "c": "en parets de càrrega",
+      "d": "com a aglomerant del ferro 204"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2009-70",
+    "exam": "2009",
+    "num": "70",
+    "text": "Un morter bastard o mixt és aquell tipus de morter que:",
+    "options": {
+      "a": "es fa servir per a fonaments en presència d’aigües agressives",
+      "b": "aquesta definició, d’acord amb la rc-97, no correspon a cap tipus de morter",
+      "c": "té dos aglomerants",
+      "d": "es fa servir per a treballs que requereixen una alta resistència a la compressió 210 212"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2008-4",
+    "exam": "2008",
+    "num": "4",
+    "text": "L’efecte de Spalling, es produeix quan el foc afecta les estructures de tipus...",
+    "options": {
+      "a": "de fosa",
+      "b": "de formigó",
+      "c": "de fusta",
+      "d": "metàl·liques 218"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2008-34",
+    "exam": "2008",
+    "num": "34",
+    "text": "Per què és inadequat l’ús del formigó en massa de peces que han de treballar a flexió?",
+    "options": {
+      "a": "perquè ha de suportar esforços a vinclament",
+      "b": "perquè ha de suportar esforços a vinclament i a compressió",
+      "c": "perquè té una escassa resistència a tracció",
+      "d": "perquè presenta una bona resistència a compressió 224"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2008-47",
+    "exam": "2008",
+    "num": "47",
+    "text": "El formigó en massa és una barreja homogènia de…",
+    "options": {
+      "a": "ciment tipus i i aigua",
+      "b": "ciment, aigua i els àrids corresponents",
+      "c": "ciment tipus ii, aigua i els corresponents rodons de l’armadura",
+      "d": "ciment tipus ii i aigua 230"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2008-49",
+    "exam": "2008",
+    "num": "49",
+    "text": "Quina de les propietats següents no correspon al guix?",
+    "options": {
+      "a": "adherent",
+      "b": "resistent",
+      "c": "d’adormiment ràpid",
+      "d": "soluble 236 238"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2006-33",
+    "exam": "2006",
+    "num": "33",
+    "text": "En quin dels següents usos NO és apropiat l’ús del guix?",
+    "options": {
+      "a": "com a regulador d’adormiment (fraguado) afegit en els clínquers portland",
+      "b": "com a aglomerant en treballs provisionals d’obra",
+      "c": "com a material de revestiment de protecció contra el foc",
+      "d": "com a material de traba en apuntalaments realitzats en l’exterior 244"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-2006-34",
+    "exam": "2006",
+    "num": "34",
+    "text": "Quin dels següents materials NO és un aglomerant en el sentit estricte?",
+    "options": {
+      "a": "guix",
+      "b": "calç",
+      "c": "ciment",
+      "d": "morter de calç 250"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T24 C.MATERIALS-2006-64",
+    "exam": "2006",
+    "num": "64",
+    "text": "Un morter bastard o mixt, és aquell tipus de morter que…",
+    "options": {
+      "a": "té dos aglomerants",
+      "b": "s’utilitza per a treballs que requereixen una alta resistència a compressió",
+      "c": "s’utilitza quan fem fonaments amb presència d’aigües agressives",
+      "d": "aquesta definició, d’acord amb la rc-97, no correspon a cap tipus de morter 256 258"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2005-11",
+    "exam": "2005",
+    "num": "11",
+    "text": "Quina és la funció de les armadures d’acer en el formigó armat?",
+    "options": {
+      "a": "absorbir les tensions originades pels esforços tangencials (tallants i torsors)",
+      "b": "totes les funcions expressades són funcions de les armadures d’acer",
+      "c": "absorbir els esforços de tracció",
+      "d": "reforçar les zones comprimides del formigó 264"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2005-36",
+    "exam": "2005",
+    "num": "36",
+    "text": "Quin dels següents tipus de ciment no poden utilitzar-se en el cas de la confecció de formigons armats?",
+    "options": {
+      "a": "ciments aluminosos tipus (vi)",
+      "b": "tots els ciments poden utilitzar-se per a la confecció de formigons armats",
+      "c": "ciments putzolànics tipus (iv)",
+      "d": "ciments mixtes tipus (v) 270"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-2005-64",
+    "exam": "2005",
+    "num": "64",
+    "text": "En quin dels següents treballs no és idoni la utilització del guix?",
+    "options": {
+      "a": "en la fabricació d’elements que han de servir per a protecció davant el foc",
+      "b": "en treballs provisionals d’obra per al collat d’armadures d’acer",
+      "c": "en la realització d’elements prefabricats lleugers",
+      "d": "en revestiments de paraments ceràmics 276 278"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-2003-10",
+    "exam": "2003",
+    "num": "10",
+    "text": "Un vidre pot ser REI(30), antic RF3O?",
+    "options": {
+      "a": "només si és doble tipus laminat",
+      "b": "no, mai",
+      "c": "sí",
+      "d": "només si és arma 284 286"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-2000-7",
+    "exam": "2000",
+    "num": "7",
+    "text": "El formigó armat s’utilitza bàsicament:",
+    "options": {
+      "a": "en elements estructurals",
+      "b": "en fonamentacions i murs de contenció solament",
+      "c": "de manera idònia, en l’aïllament tèrmic i acústic",
+      "d": "en elements de tancament 292 294"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-1999-6",
+    "exam": "1999",
+    "num": "6",
+    "text": "La sigla M-80 en un sac de morter ens indica:",
+    "options": {
+      "a": "la quantitat de morter que hi ha en el sac en pes humit, un cop feta la barreja",
+      "b": "la quantitat de morter que hi ha en el sac, en pes sec",
+      "c": "la resistència en kg/cm2 que ens donarà el morter al cap de 28 dies",
+      "d": "els m3 de morter 300"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T24 C.MATERIALS-1999-35",
+    "exam": "1999",
+    "num": "35",
+    "text": "Des del punt de vista de protecció contra incendis, una estructura metàl·lica es recobreix amb morter projectat per augmentar-ne:",
+    "options": {
+      "a": "l’aïllament tèrmic",
+      "b": "la reacció al foc",
+      "c": "la capacitat portant",
+      "d": "la resistència mecànica 306"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-1999-54",
+    "exam": "1999",
+    "num": "54",
+    "text": "Si agafem tres varetes de diferents materials, una d’acer, una d’alumini i una de coure, amb la mateixa forma i les escalfem a la mateixa temperatura, quin serà el resultat respecte a la seva longitud?",
+    "options": {
+      "a": "la vareta d’alumini s’allargarà més que les altres",
+      "b": "la vareta de coure s’allargarà més que les altres",
+      "c": "s’allargaran les tres la mateixa longitud",
+      "d": "la varta d’acer s’allargarà més que les altres 312 314"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T24 C.MATERIALS-1998-35",
+    "exam": "1998",
+    "num": "35",
+    "text": "De què depèn la resistència a la compressió d’un tauló de fusta?",
+    "options": {
+      "a": "de les condicions de conservació i de l’altura del tauló",
+      "b": "de la secció, l’altura, les condicions de conservació del tauló i del tipus de fusta",
+      "c": "de la secció del tauló i del tipus de fusta",
+      "d": "de la força que hagi de suportar el tauló 320"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T24 C.MATERIALS-1998-37",
+    "exam": "1998",
+    "num": "37",
+    "text": "El procediment de galvanitzat per a què es fa servir?",
+    "options": {
+      "a": "per tractament antifoc",
+      "b": "per tractament tèrmic",
+      "c": "per tractament electrostàtic",
+      "d": "per tractament antioxidant"
+    },
+    "answer": "a"
+  }
+]

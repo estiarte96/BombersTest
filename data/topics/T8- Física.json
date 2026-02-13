@@ -1,0 +1,716 @@
+[
+  {
+    "id": "T8 FÍSICA-81/24-17",
+    "exam": "81/24",
+    "num": "17",
+    "text": "Quina d’aquestes NO és una magnitud fonamental?",
+    "options": {
+      "a": "la força (n).",
+      "b": "la temperatura termodinàmica (k).",
+      "c": "la longitud (m).",
+      "d": "la quantitat de substància (mol). 10"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/24-32",
+    "exam": "81/24",
+    "num": "32",
+    "text": "Els vectors es poden dividir en polars i axials. Els vectors polars no estan lligats a efectes de rotació. Tenint en compte el punt d'aplicació, aquests vectors poden ser:",
+    "options": {
+      "a": "lliures, lliscants i escalars.",
+      "b": "lliures, lliscants i mòbils.",
+      "c": "lliures, lliscants i fixos.",
+      "d": "lliures, lliscants i de rotació. 16"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/24-61",
+    "exam": "81/24",
+    "num": "61",
+    "text": "En física, quin d’aquests NO és un principi de l’estàtica?",
+    "options": {
+      "a": "la resultant de forces concurrents les rectes d'acció de les quals coincideixin serà la suma algebraica dels vectors representatius de les components.",
+      "b": "perquè dues forces s'equilibrin cal que siguin oposades.",
+      "c": "l'efecte d'un sistema de forces donat sobre un cos rígid no es modifica si a aquest sistema s'agrega o es treu un sistema de forces nul.",
+      "d": "tota acció implica l'existència d'una reacció d'igual intensitat i en el mateix sentit. 22"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/24-71",
+    "exam": "81/24",
+    "num": "71",
+    "text": "Quina d'aquestes NO és una magnitud escalar?",
+    "options": {
+      "a": "la massa.",
+      "b": "la textura.",
+      "c": "la superfície.",
+      "d": "la densitat. 28"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/24-96",
+    "exam": "81/24",
+    "num": "96",
+    "text": "Quan un bomber passa per sobre una escala que està exercint de pont entre dos punts, quina afirmació és INCORRECTA?",
+    "options": {
+      "a": "l’escala exerceix una força n sentit cap amunt en la posició on està el bomber.",
+      "b": "és un exemple d’aplicació de la segona llei de newton.",
+      "c": "és un exemple d’aplicació de la tercera llei de newton.",
+      "d": "sobre el bomber actuen dues forces, p i n, iguals de magnitud i direcció però de sentit contrari, per això no cau. 34 36"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/23-26",
+    "exam": "81/23",
+    "num": "26",
+    "text": "Quina de les magnituds físiques següents NO és una de les fonamentals del SI (Sistema Internacional)?",
+    "options": {
+      "a": "longitud.",
+      "b": "energia.",
+      "c": "temperatura termodinàmica.",
+      "d": "intensitat de corrent elèctric. 42"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/23-31",
+    "exam": "81/23",
+    "num": "31",
+    "text": "Un vector té el component X negatiu i el component Y positiu. L'angle mesurat en sentit antihorari des de l'eix + X està:",
+    "options": {
+      "a": "entre 0 i 90 graus.",
+      "b": "entre 90 i 180 graus.",
+      "c": "més enllà dels 180 graus.",
+      "d": "entre 0 i 180 graus. 48"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/23-77",
+    "exam": "81/23",
+    "num": "77",
+    "text": "Un nen vol arrossegar 4 metres una caixa per una superfície horitzontal. Ho fa mitjançant una corda que forma un angle de 30º respecte a la vertical (eix perpendicular a la direcció de desplaçament), i amb una força constant (F) de 25N. Quin és el treball que fa la força F? Considereu nul·la la força de fregament.",
+    "options": {
+      "a": "50 j.",
+      "b": "70,7 j.",
+      "c": "86,6 j.",
+      "d": "100 j. 54"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/23-94",
+    "exam": "81/23",
+    "num": "94",
+    "text": "Els vectors PQ i RS són equipol·lents. Si P (0, -1, 3), Q (3, 4, 1) i S (-4, -2, 1), esbrina les coordenades del punt R.",
+    "options": {
+      "a": "r (2, -3, 6)",
+      "b": "r (-7, -7, 3)",
+      "c": "r (-1, 4, -2)",
+      "d": "r (5, 2, -5) 60"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/23-101",
+    "exam": "81/23",
+    "num": "101",
+    "text": "Quina energia potencial té una roca de 5 kg de massa, situada a 20 metres d'alçada? (considereu g = 9,8 m/s2).",
+    "options": {
+      "a": "980 j.",
+      "b": "980 n.",
+      "c": "980 kg/cm2.",
+      "d": "980 km/s2. 66 68"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-27",
+    "exam": "81/21",
+    "num": "27",
+    "text": "Quina és la unitat de força en el Sistema Internacional d’Unitats (SI)?",
+    "options": {
+      "a": "gr·cm/s2.",
+      "b": "kg·cm/s2.",
+      "c": "el newton.",
+      "d": "el pascal. 74"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-41",
+    "exam": "81/21",
+    "num": "41",
+    "text": "Quina força cal aplicar sobre una superfície de 20 m2 per assolir una pressió de 100 pascals?",
+    "options": {
+      "a": "2.000 n.",
+      "b": "200 n.",
+      "c": "5 n.",
+      "d": "1.000 n. 80"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-64",
+    "exam": "81/21",
+    "num": "64",
+    "text": "Quina d’aquestes unitats NO és una unitat de pressió:",
+    "options": {
+      "a": "pascal.",
+      "b": "bar.",
+      "c": "atmosfera.",
+      "d": "newton. 86"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-69",
+    "exam": "81/21",
+    "num": "69",
+    "text": "La resultant de dues forces de diferent magnitud, igual direcció i mateix sentit.",
+    "options": {
+      "a": "és igual a la resta de les dues forces.",
+      "b": "és igual a la divisió de les dues forces.",
+      "c": "és igual a la divisió de les dues forces.",
+      "d": "és igual a la multiplicació de les dues forces. 92"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-84",
+    "exam": "81/21",
+    "num": "84",
+    "text": "L’acceleració és una magnitud física que ens indica.",
+    "options": {
+      "a": "com canvia la massa d’un cos en relació amb el temps.",
+      "b": "com canvia la velocitat d’un cos en relació amb el temps.",
+      "c": "com canvia la posició d’un cos en relació amb el temps.",
+      "d": "com canvia el pes d’un cos en relació amb el temps. 98"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-95",
+    "exam": "81/21",
+    "num": "95",
+    "text": "De què depèn l'energia potencial d’un cos?",
+    "options": {
+      "a": "de la seva massa, la seva velocitat i la seva llargada.",
+      "b": "del seu pes i de l'acceleració de la gravetat.",
+      "c": "del seu pes, de la seva alçada i la seva velocitat.",
+      "d": "de la seva massa, de l'acceleració de la gravetat i de la seva alçada. 104"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-103",
+    "exam": "81/21",
+    "num": "103",
+    "text": "Quin treball realitza un tràctel per aixecar 20 m d’alçada una caixa de 600 kg? (IMPUGNADA)",
+    "options": {
+      "a": "30 j.",
+      "b": "60 j.",
+      "c": "3.000 j.",
+      "d": "120.000 j. 110"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/21-105",
+    "exam": "81/21",
+    "num": "105",
+    "text": "Una de les propietats dels fluids és la seva viscositat dinàmica. Quina és la unitat de mesura d’aquesta propietat en el Sistema Internacional?",
+    "options": {
+      "a": "pa·s.",
+      "b": "poise.",
+      "c": "n ·s.",
+      "d": "la viscositat dinàmica és un propietat adimensional. 116 118"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/19.2-6",
+    "exam": "81/19.2",
+    "num": "6",
+    "text": "Quina és la unitat de mesura de l'activitat radioactiva en el Sistema Internacional?",
+    "options": {
+      "a": "200 kg.",
+      "b": "100 kg.",
+      "c": "20 kg.",
+      "d": "10 kg. 130"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/19.2-62",
+    "exam": "81/19.2",
+    "num": "62",
+    "text": "Calculeu la massa d'un cos que en rebre una força de 20 N adquireix una acceleració de 5 m/s2.",
+    "options": {
+      "a": "m = 100 kg",
+      "b": "m = 4 kg",
+      "c": "m = 10 kg",
+      "d": "m = 20 kg 136"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/19.2-83",
+    "exam": "81/19.2",
+    "num": "83",
+    "text": "Un ciclista va a 8 km/h en direcció a un fanal que és a 1,5 km i el sobrepassa. A quina distància haurà deixat el fanal quan porti 1,5 h pedalant des de l'inici?",
+    "options": {
+      "a": "12,5 km.",
+      "b": "10,5 km.",
+      "c": "11 km.",
+      "d": "7 km. 142"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/19.2-93",
+    "exam": "81/19.2",
+    "num": "93",
+    "text": "L'energia mecànica d'un cos és:",
+    "options": {
+      "a": "el sumatori de la seva energia cinètica i la potencial.",
+      "b": "el sumatori de la seva energia potencial i centrífuga.",
+      "c": "el sumatori de la seva energia centrífuga i la cinètica.",
+      "d": "el sumatori de la seva energia centrípeta i la cinètica. 148"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/19.2-98",
+    "exam": "81/19.2",
+    "num": "98",
+    "text": "En el moviment rectilini i uniforme quina magnitud és sempre igual a zero?",
+    "options": {
+      "a": "trajectòria.",
+      "b": "desplaçament.",
+      "c": "velocitat.",
+      "d": "acceleració. 154 155 157"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/19-4",
+    "exam": "81/19",
+    "num": "4",
+    "text": "Segons el Sistema Internacional d’Unitats (SI), per mesurar la intensitat lluminosa utilitzem:",
+    "options": {
+      "b": "el mol.",
+      "c": "el lumen.",
+      "d": "l'amper. 163"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/19-16",
+    "exam": "81/19",
+    "num": "16",
+    "text": "Un motor de 1000 W està movent un cos a una velocitat constant de 10 m/s. Considerant que, a part de la força motor, només actua la força de fregament, quina és la força de fregament que està vencent?",
+    "options": {
+      "a": "100 n.",
+      "b": "10 n.",
+      "c": "1000 n.",
+      "d": "1000 j. 169"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/19-17",
+    "exam": "81/19",
+    "num": "17",
+    "text": "Una pilota de 2 kg es desplaça per un pla horitzontal a 1 m/s, obviant qualsevol fregament. Arriba a un pla inclinat. Respecte del pla horitzontal, quina altura assolirà quan la velocitat sigui 0, just abans d’iniciar el descens?",
+    "options": {
+      "a": "0,50 m.",
+      "b": "1,10 m.",
+      "c": "0,05 m.",
+      "d": "0,10 m. 175"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/19-50",
+    "exam": "81/19",
+    "num": "50",
+    "text": "El kWh és una unitat de:",
+    "options": {
+      "a": "treball, del sistema internacional d'unitats.",
+      "b": "treball, i no és del sistema internacional d'unitats.",
+      "c": "potència, i no és del sistema internacional d’unitats.",
+      "d": "força, i no és del sistema internacional d’unitats. 181"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/19-61",
+    "exam": "81/19",
+    "num": "61",
+    "text": "Un dipòsit d’aigua de 20 m3 de capacitat màxima descansa sobre una llosa de formigó plana. El dipòsit té una superfície de 10 m2, i està a la meitat de capacitat, assolint una alçada d'1 m. Quina és la força que exerceix la llosa de formigó en cada metre quadrat?",
+    "options": {
+      "a": "9,8 kg.",
+      "b": "980 pa.",
+      "c": "19.600 n.",
+      "d": "9.800 n. 187 189"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-3",
+    "exam": "81/18",
+    "num": "3",
+    "text": "Amb quines unitats base del sistema internacional expressem la pressió:",
+    "options": {
+      "a": "kg·m-1·s-2",
+      "b": "n",
+      "c": "kg·m·s-2",
+      "d": "kg·cm-2 195"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-12",
+    "exam": "81/18",
+    "num": "12",
+    "text": "A un cos de massa 5 kg li apliquem una força vertical i cap amunt de 70N. Amb quina acceleració pujarà? (Considereu negligible la resistència de l'aire i 10m/s2 com a acceleració de la gravetat.)",
+    "options": {
+      "a": "12 m/s2.",
+      "b": "10 m/s 2.",
+      "c": "8 m/s 2.",
+      "d": "4 m/s2. 201"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-38",
+    "exam": "81/18",
+    "num": "38",
+    "text": "Les unitats de cabal en el sistema internacional (SI) són de:",
+    "options": {
+      "a": "m 3·s-1",
+      "b": "m 2·s",
+      "c": "l/m2",
+      "d": "galons/s 207"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-39",
+    "exam": "81/18",
+    "num": "39",
+    "text": "Un camió de bombers es troba pujant un port de muntanya amb un pendent constant del 5%. Quin és l’angle d’inclinació de la carretera respecte a la horitzontal?",
+    "options": {
+      "a": "arcsinus (0,05).",
+      "b": "arccosinus (0,05).",
+      "c": "arctangent (0,05).",
+      "d": "arccotangent (0,05) 213"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-73",
+    "exam": "81/18",
+    "num": "73",
+    "text": "Des d'una alçada de 10 m sobre el nivell del terra, es llança verticalment i cap a dalt un objecte de massa 10g amb una velocitat de 10m/s. A quina alçada màxima, respecte el nivell del terra, arribarà l’objecte? (considereu negligible la fricció de l’aire i 10m/s2 l’acceleració de la gravetat).",
+    "options": {
+      "a": "1,5 m.",
+      "b": "5 m.",
+      "c": "10 m.",
+      "d": "15 m. 219"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-78",
+    "exam": "81/18",
+    "num": "78",
+    "text": "Un cos es mourà a velocitat constant sempre que:",
+    "options": {
+      "a": "hi actuï en ell una força en la mateixa direcció i desplaçament.",
+      "b": "la resultant de les forces que hi actuen sigui nul·la.",
+      "c": "hi actuï una força constant.",
+      "d": "hi actuï una força amb acceleració constant 225"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-81/18-79",
+    "exam": "81/18",
+    "num": "79",
+    "text": "Una bomba elèctrica és capaç d’elevar 500kg d’aigua a una alçada vertical de 25 metres en 50 segons. Quina és la potència útil de la bomba? (considereu 10m/s2 l’acceleració de la gravetat).",
+    "options": {
+      "a": "1000 w.",
+      "b": "1500 w.",
+      "c": "2000 w.",
+      "d": "2500 w. 231 233"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-81/16-36",
+    "exam": "81/16",
+    "num": "36",
+    "text": "La tercera llei de Newton exposa que:",
+    "options": {
+      "a": "un cos insoluble submergit en un fluix en repòs rep una força de baix cap a dalt igual al pes del volum del fluid que desallotja.",
+      "b": "quan apliquem una pressió en un punt qualsevol d'un líquid, aquesta pressió es transmet amb la mateixa intensitat i en totes les direccions a tots els punts de liquid.",
+      "c": "sempre que un cos exerceix una força sobre un altre, aquest segon cos exerceix una fora de la mateixa magnitud i direcció però de sentit contrari sobre el primer.",
+      "d": "en produir-se en un fluid un corrent estacionari, la suma de la pressió estàtica i de la pressió dinàmica es manté constant al llarg d'una línia de corrent. 239"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/16-76",
+    "exam": "81/16",
+    "num": "76",
+    "text": "Si deixem caure un objecte en repòs verticalment i cap avall des de la boca d'un pou, quina de les afirmacions següents és certa?",
+    "options": {
+      "a": "l'energia mecànica de l'objecte és la suma de les seves energia cinètica, potencial i interna.",
+      "b": "l'energia potencial de l'objecte és 0,5 vegades la seva massa multiplicat pel quadrat de la velocitat a què es mou.",
+      "c": "l'energia mecànica de l'objecte al fons del pou és igual a la seva energia mecànica a la boca del pou menys l'energia perduda pel fregament amb l'aire.",
+      "d": "tota l'energia potencial de l'objecte a la boca del pou es transforma en energia cinètica quan l'objecte arriba al fons del pou, encara que hi hagi fregament amb l'aire. 245"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/16-77",
+    "exam": "81/16",
+    "num": "77",
+    "text": "En aplicar a un cos en repòs una força constant de 100 N adquireix en 10 s, una velocitat de 20 m/s. Quina és la massa del cos? (Considereu negligibles les forces de fricció.)",
+    "options": {
+      "a": "2 kg.",
+      "b": "2n.",
+      "c": "50 kg.",
+      "d": "50 n. 251"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-81/16-78",
+    "exam": "81/16",
+    "num": "78",
+    "text": "Si un vehicle es desplaça a velocitat constant des d'un punt A fins a un punt B, podem assegurar que:",
+    "options": {
+      "a": "la seva acceleració és de 0 m/s2.",
+      "b": "la seva acceleració és de 10 m/s2.",
+      "c": "la seva acceleració és la velocitat inicial dividida pel temps de recorregut.",
+      "d": "la seva acceleració és la velocitat final dividida pel temps de recorregut. 257"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-81/16-89",
+    "exam": "81/16",
+    "num": "89",
+    "text": "Si un vehicle en moviment redueix la seva velocitat a la meitat, quina de les afirmacions següents és certa?",
+    "options": {
+      "a": "la seva energia cinètica final serà l'energia cinètica inicial dividida per dos.",
+      "b": "la seva energia cinètica final serà l'energia cinètica inicial dividida per quatre.",
+      "c": "la seva energia cinètica final serà igual a la seva energia potencial.",
+      "d": "la seva energia cinètica final serà igual a la inicial. 263 265"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-2009-7",
+    "exam": "2009",
+    "num": "7",
+    "text": "El principi de la conservació de l’energia mecànica, quan només actuen forces conservatives, ens relaciona energia cinètica (Ec), energia mecànica (Em) i energia potencial (Ep). L’expressió correcta d’aquesta relació és:",
+    "options": {
+      "a": "ep = em + ec = constant",
+      "b": "em = ec – ep = constant",
+      "c": "em = ec + ep = constant",
+      "d": "ec = em + ep = constant 271"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-2009-12",
+    "exam": "2009",
+    "num": "12",
+    "text": "La definició actual de la unitat de longitud (metre, m) del Sistema Internacional és:",
+    "options": {
+      "a": "el metre és la distància recorreguda per un mòbil que va a una velocitat de 60 m/s en una hora",
+      "b": "el metre és 1650763’73 vegades la longitud d’ona de la radiació vermella taronja de l’àtom de criptó 86",
+      "c": "el metre és la longitud de trajecte recorregut en el buit per la llum durant un temps de 1/299792458 de segon",
+      "d": "el metre és la distància entre dues marques d’una barra de platí-iridí que es troba al museu de pesos i mesures de parís. 277"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-2009-36",
+    "exam": "2009",
+    "num": "36",
+    "text": "Indiqueu l’afirmació correcta pel que fa al principi de conservació de l’energia.",
+    "options": {
+      "a": "quan actuen forces no conservatives, l’energia mecànica no es conserva, però es conserva l’energia total",
+      "b": "quan actuen forces no conservatives, l’energia mecànica es conserva, i l’energia total també",
+      "c": "quan actuen forces no conservatives, l’energia mecànica no es conserva, i l’energia total tampoc",
+      "d": "quan actuen forces no conservatives, l’energia mecànica es conserva, però no es conserva l’energia total 283"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-2009-67",
+    "exam": "2009",
+    "num": "67",
+    "text": "En el Sistema Internacional la velocitat es mesura en m/s. Tenim un mòbil que viatja a una velocitat constant de 20 m/s. L’expressió correcta d’aquesta velocitat en Km/h és:",
+    "options": {
+      "a": "144 km/h",
+      "b": "72 km/h",
+      "c": "40 km/h",
+      "d": "32 km/h 289 291"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-2008-23",
+    "exam": "2008",
+    "num": "23",
+    "text": "Totes les parts d’una roda en rotació tenen la mateixa acceleració angular?",
+    "options": {
+      "a": "mai serà la mateixa, depèn del radi",
+      "b": "tenen la mateixa velocitat lineal",
+      "c": "sí",
+      "d": "no 297"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "T8 FÍSICA-2008-40",
+    "exam": "2008",
+    "num": "40",
+    "text": "La potència:",
+    "options": {
+      "a": "quan es parla de potència no intervé el temps, solament la massa",
+      "b": "representa l’acceleració per unitat de temps",
+      "c": "representa la força per unitat de temps",
+      "d": "representa el treball efectuat per unitat de temps 303"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-2008-61",
+    "exam": "2008",
+    "num": "61",
+    "text": "Totes les parts d’una roda en rotació tenen la mateixa velocitat lineal?",
+    "options": {
+      "a": "solament a velocitats superiors a 30 km/h",
+      "b": "solament a velocitats inferiors a 30 km/h",
+      "c": "sí",
+      "d": "no 309 311"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-2006-53",
+    "exam": "2006",
+    "num": "53",
+    "text": "Una molla que té una constant de recuperació k = 200 N/cm està comprimida 5 cm respecte a la seva posició d’equilibri. La força F que comprimeix la molla té un valor de:",
+    "options": {
+      "a": "40 n",
+      "b": "100 n",
+      "c": "400 n",
+      "d": "1.000 n 317"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-2006-54",
+    "exam": "2006",
+    "num": "54",
+    "text": "Els elements bàsica (característics) d’una força són:",
+    "options": {
+      "a": "pes, superfície, direcció i sentit",
+      "b": "intensitat, punt d’aplicació, direcció i sentit",
+      "c": "pes, superfície, punt d’aplicació i sentit",
+      "d": "intensitat, superfície, punt d’aplicació i direcció 323"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-2006-73",
+    "exam": "2006",
+    "num": "73",
+    "text": "S’aplica una força de 16 N a un cos de 8 kg de massa. Quina acceleració tindrà el cos?",
+    "options": {
+      "a": "2 m/s2",
+      "b": "0’5 m/s2",
+      "c": "128 m/s2",
+      "d": "24 m/s2 329 330 331 333"
+    },
+    "answer": ""
+  },
+  {
+    "id": "T8 FÍSICA-2005-25",
+    "exam": "2005",
+    "num": "25",
+    "text": "En un moviment uniformement accelerat, quina de les següents frases és certa?",
+    "options": {
+      "a": "l’acceleració augmenta uniformement",
+      "b": "l’acceleració disminueix uniformement",
+      "c": "la velocitat és constant",
+      "d": "l’acceleració és constant 339"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-2005-27",
+    "exam": "2005",
+    "num": "27",
+    "text": "Les unitats del sistema internacional de mesures (SI) són:",
+    "options": {
+      "a": "el centímetre, el gram i el segon",
+      "b": "el metre, el kilogram i el segon",
+      "c": "el metre, el kilopond i el segon",
+      "d": "el metre, el kilogram i l’hora 345"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "T8 FÍSICA-2005-62",
+    "exam": "2005",
+    "num": "62",
+    "text": "Assenyala l’expressió incorrecta:",
+    "options": {
+      "a": "el quocient entre força i espai és treball",
+      "b": "potència per temps és igual a treball",
+      "c": "el treball és igual a força per espai",
+      "d": "el quocient entre el treball i el temps és potència 351 353"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "T8 FÍSICA-2003-59",
+    "exam": "2003",
+    "num": "59",
+    "text": "Una força es defineix per:",
+    "options": {
+      "a": "l’angle i la magnitud",
+      "b": "la magnitud i la direcció",
+      "c": "el sentit i la magnitud",
+      "d": "la magnitud, la direcció i el sentit 359 361"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "T8 FÍSICA-2002-4",
+    "exam": "2002",
+    "num": "4",
+    "text": "En el Sistema Internacional la unitat amb què es mesura el treball elèctric realitzat per unitat de temps és:",
+    "options": {
+      "a": "el joule per segon",
+      "b": "el volt",
+      "c": "el newton",
+      "d": "el watt 367"
+    },
+    "answer": "d"
+  }
+]
