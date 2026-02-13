@@ -86,5 +86,32 @@ export const FirebaseDB = {
             console.error(`Error initializing ${source} questions:`, error);
             return false;
         }
+    },
+
+    // --- MULTIPLAYER ROOMS ---
+    getRoomsRef() {
+        return getDb().ref('rooms');
+    },
+
+    async createRoom(roomData) {
+        const ref = this.getRoomsRef().child(roomData.code);
+        await ref.set(roomData);
+        return ref;
+    },
+
+    async getRoom(code) {
+        const snapshot = await this.getRoomsRef().child(code).once('value');
+        return snapshot.val();
+    },
+
+    async joinRoom(code, player) {
+        const playerKey = player.email.replace(/[.#$[\]]/g, '_');
+        await this.getRoomsRef().child(code).child('players').child(playerKey).set(player);
+    },
+
+    async updatePlayerStatus(code, playerEmail, status) {
+        const playerKey = playerEmail.replace(/[.#$[\]]/g, '_');
+        await this.getRoomsRef().child(code).child('players').child(playerKey).update(status);
     }
 };
+

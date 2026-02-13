@@ -1,16 +1,26 @@
 import { FirebaseDB } from './firebase-db.js';
+import { ThemeManager } from './theme.js';
+import { Multiplayer } from './multiplayer.js';
 
 // App State
 let allData = [];
+let currentRoomCode = null; // Track if we are in a multiplayer match
+
+ThemeManager.init();
+Multiplayer.init();
+
 let officialData = [];
 let aiData = [];
 let extraData = [];
 let includeAI = false;
 let includeExtra = false;
+let includeOfficial = true;
 let selectedTopics = new Set();
 let failedQuestions = JSON.parse(localStorage.getItem('failed_questions') || '[]');
 let testMode = 'standard'; // 'standard' or 'exam'
 let currentUser = JSON.parse(localStorage.getItem('current_user') || 'null');
+
+
 
 let currentQuiz = {
     questions: [],
@@ -73,7 +83,10 @@ async function loadData() {
         // Load AI questions
         aiData = await FirebaseDB.getQuestions('ai');
 
-        // Initial setup with official only
+        // Load Extra questions
+        extraData = await FirebaseDB.getQuestions('extra');
+
+        // Initial setup
         updateFinalData();
 
         renderTopics();
@@ -84,12 +97,13 @@ async function loadData() {
         // Fallback
         const response = await fetch('data/questions.json');
         officialData = await response.json();
-        allData = JSON.parse(JSON.stringify(officialData));
+        updateFinalData();
         renderTopics();
         updateFailedUI();
         initAuth();
     }
 }
+
 
 function initAuth() {
     if (currentUser) {
@@ -115,7 +129,64 @@ function showApp() {
     }
 
     switchScreen('selection-screen');
+    renderRanking();
 }
+
+async function renderRanking() {
+    const rankingList = document.getElementById('ranking-list');
+    if (!rankingList) return;
+
+    rankingList.innerHTML = '<p style="text-align:center; padding: 10px;">Carregant rànquing...</p>';
+
+    try {
+        const users = await FirebaseDB.getUsers();
+
+        // Filter and sort users by total correct answers
+        const sortedUsers = users
+            .filter(u => u.stats && (u.stats.correct || 0) > 0)
+            .sort((a, b) => (b.stats.correct || 0) - (a.stats.correct || 0))
+            .slice(0, 10);
+
+        if (sortedUsers.length === 0) {
+            rankingList.innerHTML = '<p style="text-align:center; color: var(--text-muted);">Encara no hi ha dades per al rànquing.</p>';
+            return;
+        }
+
+        rankingList.innerHTML = '';
+        sortedUsers.forEach((user, index) => {
+            const displayName = user.nickname || getInitials(user.name || user.email);
+            const isCurrent = (currentUser && user.email === currentUser.email);
+
+            const div = document.createElement('div');
+            div.className = `ranking-item ${isCurrent ? 'is-current' : ''}`;
+            div.innerHTML = `
+                <div class="rank-left">
+                    <span class="rank-number">#${index + 1}</span>
+                    <div class="rank-initials" style="${user.nickname ? 'width: auto; padding: 0 15px; border-radius: 20px;' : ''}">
+                        ${displayName}
+                    </div>
+                </div>
+                <div class="rank-score">
+                    ${user.stats.correct} <span>encerts</span>
+                </div>
+            `;
+            rankingList.appendChild(div);
+        });
+    } catch (error) {
+        console.error('Error rendering ranking:', error);
+        rankingList.innerHTML = '<p style="text-align:center; color: var(--danger);">Error en carregar el rànquing.</p>';
+    }
+}
+
+function getInitials(name) {
+    if (!name) return '??';
+    const parts = name.split(/[ @._]/);
+    if (parts.length >= 2) {
+        return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    return parts[0].substring(0, 2).toUpperCase();
+}
+
 
 async function updateUserInFirebase() {
     try {
@@ -173,16 +244,20 @@ function updateSelectionUI() {
 }
 
 // Mode Selection
+const examSettingsEl = document.getElementById('exam-settings');
+
 document.getElementById('btn-mode-standard').onclick = function () {
     testMode = 'standard';
     this.classList.add('active');
     document.getElementById('btn-mode-exam').classList.remove('active');
+    examSettingsEl.style.display = 'none';
 };
 
 document.getElementById('btn-mode-exam').onclick = function () {
     testMode = 'exam';
     this.classList.add('active');
     document.getElementById('btn-mode-standard').classList.remove('active');
+    examSettingsEl.style.display = 'block';
 };
 
 // Control Buttons
@@ -201,15 +276,22 @@ topicSearch.oninput = (e) => renderTopics(e.target.value);
 // Start Standard/Exam Test
 startTestBtn.onclick = () => {
     const selectedData = allData.filter(t => selectedTopics.has(t.topic));
-    const questions = getWeightedQuestions(selectedData, (testMode === 'exam' ? 50 : 30));
-    startQuiz(questions, testMode === 'exam');
+    let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 30;
+    let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
+
+    const questions = getWeightedQuestions(selectedData, numQuestions);
+    startQuiz(questions, testMode === 'exam', duration);
 };
 
 // Mix Aleatori (Tot)
 document.getElementById('btn-random-mix').onclick = () => {
-    const questions = getWeightedQuestions(allData, 50);
-    startQuiz(questions, false);
+    let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 50;
+    let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
+
+    const questions = getWeightedQuestions(allData, numQuestions);
+    startQuiz(questions, testMode === 'exam', duration);
 };
+
 
 // Weighted random selection logic
 function getWeightedQuestions(data, totalToSelect) {
@@ -258,7 +340,7 @@ btnClearFailed.onclick = () => {
     }
 };
 
-function startQuiz(questions, isExam) {
+function startQuiz(questions, isExam, customDuration) {
     if (questions.length === 0) {
         alert('No hi ha preguntes disponibles.');
         return;
@@ -270,10 +352,11 @@ function startQuiz(questions, isExam) {
         score: 0,
         results: [],
         startTime: new Date(),
-        totalTimeSeconds: isExam ? 2700 : 0, // 45 mins for exam
+        totalTimeSeconds: customDuration ? customDuration : (isExam ? 2700 : 0),
         isExamMode: isExam,
         timerInterval: setInterval(isExam ? updateExamTimer : updateTimer, 1000)
     };
+
 
     switchScreen('quiz-screen');
     renderQuestion();
@@ -380,7 +463,17 @@ function handleChoice(isCorrect, btn) {
         updateUserInFirebase().catch(e => console.error('Firebase sync failed', e));
         localStorage.setItem('failed_questions', JSON.stringify(failedQuestions));
         updateFailedUI();
+
+        // MULTIPLAYER SYNC
+        if (currentRoomCode) {
+            const progress = Math.round(((currentQuiz.currentIndex + 1) / currentQuiz.questions.length) * 100);
+            FirebaseDB.updatePlayerStatus(currentRoomCode, currentUser.email, {
+                score: currentQuiz.score,
+                progress: progress
+            });
+        }
     }
+
 
     const nextBtn = document.getElementById('btn-next-question');
     const options = document.querySelectorAll('.option-btn');
@@ -434,7 +527,36 @@ function finishQuiz() {
     if (scorePct >= 80) msgEl.textContent = 'Excel·lent!';
     else if (scorePct >= 50) msgEl.textContent = 'Molt bé!';
     else msgEl.textContent = 'Cal seguir practicant';
+
+    // Save test in history for the chart
+    if (currentUser) {
+        if (!currentUser.stats.history) currentUser.stats.history = [];
+
+        const historyEntry = {
+            date: new Date().toISOString(),
+            score: currentQuiz.score,
+            total: total,
+            topics: {}
+        };
+
+        // Group results by topic for granular tracking
+        currentQuiz.results.forEach(res => {
+            const tName = res.questionObj.topicName || 'General';
+            if (!historyEntry.topics[tName]) {
+                historyEntry.topics[tName] = { correct: 0, total: 0 };
+            }
+            historyEntry.topics[tName].total++;
+            if (res.correct) historyEntry.topics[tName].correct++;
+        });
+
+        // Limit history to last 50 entries to keep Firebase light
+        currentUser.stats.history.push(historyEntry);
+        if (currentUser.stats.history.length > 50) currentUser.stats.history.shift();
+
+        updateUserInFirebase().catch(e => console.error('Error saving history:', e));
+    }
 }
+
 
 function updateTimer() {
     const duration = Math.floor((new Date() - currentQuiz.startTime) / 1000);
@@ -471,15 +593,20 @@ function switchScreen(screenId) {
 }
 
 document.getElementById('btn-restart').onclick = () => {
+    currentRoomCode = null;
     switchScreen('selection-screen');
+    renderRanking();
 };
 
 document.getElementById('btn-exit-quiz').onclick = () => {
     if (confirm('Segur que vols sortir? El progrés es perdrà.')) {
+        currentRoomCode = null;
         clearInterval(currentQuiz.timerInterval);
         switchScreen('selection-screen');
+        renderRanking();
     }
 };
+
 
 btnLogout.onclick = () => {
     if (confirm('Segur que vols tancar la sessió?')) {
@@ -504,13 +631,22 @@ btnShowStats.onclick = () => {
 window.toggleTopic = toggleTopic;
 
 // Toggles Logic
+const btnToggleOfficial = document.getElementById('btn-toggle-official');
+const officialStatusEl = document.getElementById('official-status');
+const officialTotalCountEl = document.getElementById('official-total-count');
 const btnToggleAI = document.getElementById('btn-toggle-ai');
 const aiStatusEl = document.getElementById('ai-status');
+const aiTotalCountEl = document.getElementById('ai-total-count');
 const btnToggleExtra = document.getElementById('btn-toggle-extra');
 const extraStatusEl = document.getElementById('extra-status');
+const extraTotalCountEl = document.getElementById('extra-total-count');
 
 function updateFinalData() {
-    let merged = JSON.parse(JSON.stringify(officialData));
+    let merged = [];
+
+    if (includeOfficial) {
+        merged = JSON.parse(JSON.stringify(officialData));
+    }
 
     if (includeExtra) {
         extraData.forEach(extraT => {
@@ -518,7 +654,7 @@ function updateFinalData() {
             if (existing) {
                 existing.questions = [...existing.questions, ...extraT.questions];
             } else {
-                merged.push(extraT);
+                merged.push(JSON.parse(JSON.stringify(extraT)));
             }
         });
     }
@@ -529,13 +665,33 @@ function updateFinalData() {
             if (existing) {
                 existing.questions = [...existing.questions, ...aiT.questions];
             } else {
-                merged.push(aiT);
+                merged.push(JSON.parse(JSON.stringify(aiT)));
             }
         });
     }
 
+    // Refresh UI Counters
+    const officialTotal = (officialData || []).reduce((acc, t) => acc + (t.questions ? t.questions.length : 0), 0);
+    const aiTotal = (aiData || []).reduce((acc, t) => acc + (t.questions ? t.questions.length : 0), 0);
+    const extraTotal = (extraData || []).reduce((acc, t) => acc + (t.questions ? t.questions.length : 0), 0);
+
+    if (officialTotalCountEl) officialTotalCountEl.textContent = officialTotal;
+    if (aiTotalCountEl) aiTotalCountEl.textContent = aiTotal;
+    if (extraTotalCountEl) extraTotalCountEl.textContent = extraTotal;
+
     allData = merged;
     renderTopics(topicSearch.value);
+}
+
+
+if (btnToggleOfficial) {
+    btnToggleOfficial.onclick = () => {
+        includeOfficial = !includeOfficial;
+        btnToggleOfficial.classList.toggle('official-on', includeOfficial);
+        btnToggleOfficial.classList.toggle('official-off', !includeOfficial);
+        officialStatusEl.textContent = includeOfficial ? 'ON' : 'OFF';
+        updateFinalData();
+    };
 }
 
 if (btnToggleAI) {
@@ -548,6 +704,7 @@ if (btnToggleAI) {
     };
 }
 
+
 if (btnToggleExtra) {
     btnToggleExtra.onclick = () => {
         includeExtra = !includeExtra;
@@ -559,3 +716,15 @@ if (btnToggleExtra) {
 }
 
 loadData();
+
+window.startMultiplayerQuiz = (questions, roomCode, timeMin) => {
+    currentRoomCode = roomCode;
+    // Set duration: timeMin conversion to seconds
+    const durationSeconds = (timeMin || 15) * 60;
+
+    // Start quiz in Exam mode with custom duration
+    startQuiz(questions, true, durationSeconds);
+};
+
+
+

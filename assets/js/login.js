@@ -1,4 +1,8 @@
 import { FirebaseDB } from './firebase-db.js';
+import { ThemeManager } from './theme.js';
+
+ThemeManager.init();
+
 
 const loginForm = document.getElementById('login-form');
 const registerForm = document.getElementById('register-form');
@@ -47,7 +51,7 @@ registerForm.onsubmit = async (e) => {
 
     await FirebaseDB.updateUser(newUser);
     localStorage.setItem('current_user', JSON.stringify(newUser));
-    window.location.href = 'index.html';
+    window.location.href = 'app.html';
 };
 
 // Handle Login
@@ -65,7 +69,7 @@ loginForm.onsubmit = async (e) => {
             stats: { correct: 0, wrong: 0, topics: {}, days: [new Date().toISOString().split('T')[0]] }
         };
         localStorage.setItem('current_user', JSON.stringify(currentUser));
-        window.location.href = 'index.html';
+        window.location.href = 'app.html';
         return;
     }
 
@@ -76,7 +80,7 @@ loginForm.onsubmit = async (e) => {
             user.stats = { correct: 0, wrong: 0, topics: {}, days: [] };
         }
         localStorage.setItem('current_user', JSON.stringify(user));
-        window.location.href = 'index.html';
+        window.location.href = 'app.html';
     } else {
         alert('Correu o contrasenya incorrectes.');
     }
@@ -84,5 +88,6 @@ loginForm.onsubmit = async (e) => {
 
 // Redirect if already logged in
 if (localStorage.getItem('current_user')) {
-    window.location.href = 'index.html';
+    window.location.href = 'app.html';
 }
+

@@ -16,6 +16,19 @@
     --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+[data-theme="dark"] {
+    --background: #0f172a;
+    --card-bg: #1e293b;
+    --text: #e2e8f0;
+    /* Gris clar/blanc suau */
+    --text-muted: #94a3b8;
+    --secondary: #3b82f6;
+    --secondary-light: #60a5fa;
+    --border: #334155;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +41,19 @@ body {
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text);
+}
+
+
 
 .app-container {
     max-width: 800px;
@@ -80,6 +105,17 @@ header {
 .logo h1 span {
     color: var(--primary);
 }
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+.logo-link:hover {
+    transform: translateY(-1px);
+}
+
 
 /* Screens */
 .screen {
@@ -162,6 +198,43 @@ header {
     border-color: var(--primary);
 }
 
+/* Toggle States */
+.official-on {
+    border-color: var(--success) !important;
+    color: var(--success) !important;
+    background: rgba(76, 175, 80, 0.05);
+}
+
+.official-off {
+    border-color: var(--border) !important;
+    color: var(--text-muted) !important;
+    opacity: 0.6;
+}
+
+.extra-on {
+    border-color: var(--secondary) !important;
+    color: var(--secondary) !important;
+    background: rgba(43, 45, 66, 0.05);
+}
+
+.extra-off {
+    border-color: var(--border) !important;
+    color: var(--text-muted) !important;
+    opacity: 0.6;
+}
+
+.ai-on {
+    border-color: #7209b7 !important;
+    color: #7209b7 !important;
+    background: rgba(114, 9, 183, 0.05);
+}
+
+.ai-off {
+    border-color: var(--border) !important;
+    color: var(--text-muted) !important;
+    opacity: 0.6;
+}
+
 .mode-btn.active i {
     color: white;
 }
@@ -231,6 +304,85 @@ header {
     display: flex;
     gap: 12px;
 }
+
+/* Ranking Section */
+.ranking-section {
+    margin-top: 40px;
+    background: var(--card-bg);
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
+.ranking-section .section-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ranking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ranking-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: var(--background);
+    border-radius: 12px;
+    transition: var(--transition);
+}
+
+.ranking-item:hover {
+    transform: scale(1.02);
+}
+
+.ranking-item.is-current {
+    border: 2px solid var(--primary);
+    background: rgba(230, 57, 70, 0.05);
+}
+
+.rank-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rank-number {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--primary);
+    width: 30px;
+}
+
+.rank-initials {
+    width: 45px;
+    height: 45px;
+    background: var(--secondary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.rank-score {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.rank-score span {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
 
 /* Topic Grid */
 .topics-grid {
@@ -767,9 +919,54 @@ header {
 /* Importance weights styles */
 .config-section {
     margin-top: 40px;
-    padding-top: 24px;
-    border-top: 2px dashed var(--border);
+    padding: 24px;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
 }
+
+.profile-edit-section {
+    margin-bottom: 32px;
+    background: var(--card-bg);
+    padding: 24px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.form-group input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-family: inherit;
+    font-size: 16px;
+    background: var(--background);
+    color: var(--text);
+}
+
+.form-group input:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
 
 .weight-item {
     display: flex;
@@ -870,6 +1067,107 @@ header {
     justify-content: center;
     margin-top: 24px;
 }
+
+/* --- MULTIPLAYER LOBBY STYLES --- */
+.lobby-card {
+    background: var(--card-bg);
+    padding: 32px;
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.lobby-header {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.room-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+}
+
+#lobby-room-code {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: 4px;
+}
+
+.players-list-container {
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.players-list-container h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: var(--text-muted);
+}
+
+.players-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 12px;
+}
+
+.player-bubble {
+    background: var(--background);
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.player-bubble.is-me {
+    border-color: var(--primary);
+    background: rgba(230, 57, 70, 0.05);
+}
+
+.player-bubble.is-host {
+    border-color: var(--warning);
+}
+
+.player-avatar {
+    width: 45px;
+    height: 45px;
+    background: var(--secondary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.player-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.host-badge {
+    background: var(--warning);
+    color: white;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
 
 /* --- MOBILE ADJUSTMENTS (PREMIUM EXPERIENCE) --- */
 @media (max-width: 650px) {
