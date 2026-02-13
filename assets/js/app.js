@@ -6,8 +6,12 @@ import { Multiplayer } from './multiplayer.js';
 let allData = [];
 let currentRoomCode = null; // Track if we are in a multiplayer match
 
-ThemeManager.init();
-Multiplayer.init();
+try {
+    ThemeManager.init();
+    Multiplayer.init();
+} catch (e) {
+    console.error("Error durant la inicialització:", e);
+}
 
 let officialData = [];
 let aiData = [];
@@ -245,52 +249,71 @@ function updateSelectionUI() {
 
 // Mode Selection
 const examSettingsEl = document.getElementById('exam-settings');
+const btnModeStandard = document.getElementById('btn-mode-standard');
+const btnModeExam = document.getElementById('btn-mode-exam');
 
-document.getElementById('btn-mode-standard').onclick = function () {
-    testMode = 'standard';
-    this.classList.add('active');
-    document.getElementById('btn-mode-exam').classList.remove('active');
-    examSettingsEl.style.display = 'none';
-};
+if (btnModeStandard) {
+    btnModeStandard.onclick = function () {
+        testMode = 'standard';
+        this.classList.add('active');
+        if (btnModeExam) btnModeExam.classList.remove('active');
+        if (examSettingsEl) examSettingsEl.style.display = 'none';
+    };
+}
 
-document.getElementById('btn-mode-exam').onclick = function () {
-    testMode = 'exam';
-    this.classList.add('active');
-    document.getElementById('btn-mode-standard').classList.remove('active');
-    examSettingsEl.style.display = 'block';
-};
+if (btnModeExam) {
+    btnModeExam.onclick = function () {
+        testMode = 'exam';
+        this.classList.add('active');
+        if (btnModeStandard) btnModeStandard.classList.remove('active');
+        if (examSettingsEl) examSettingsEl.style.display = 'block';
+    };
+}
 
 // Control Buttons
-document.getElementById('btn-select-all').onclick = () => {
-    allData.forEach(t => selectedTopics.add(t.topic));
-    updateSelectionUI();
-};
+const btnSelectAll = document.getElementById('btn-select-all');
+if (btnSelectAll) {
+    btnSelectAll.onclick = () => {
+        allData.forEach(t => selectedTopics.add(t.topic));
+        updateSelectionUI();
+    };
+}
 
-document.getElementById('btn-deselect-all').onclick = () => {
-    selectedTopics.clear();
-    updateSelectionUI();
-};
+const btnDeselectAll = document.getElementById('btn-deselect-all');
+if (btnDeselectAll) {
+    btnDeselectAll.onclick = () => {
+        selectedTopics.clear();
+        updateSelectionUI();
+    };
+}
 
-topicSearch.oninput = (e) => renderTopics(e.target.value);
+if (topicSearch) {
+    topicSearch.oninput = (e) => renderTopics(e.target.value);
+}
 
 // Start Standard/Exam Test
-startTestBtn.onclick = () => {
-    const selectedData = allData.filter(t => selectedTopics.has(t.topic));
-    let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 30;
-    let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
+if (startTestBtn) {
+    startTestBtn.onclick = () => {
+        const selectedData = allData.filter(t => selectedTopics.has(t.topic));
+        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 30;
+        let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
 
-    const questions = getWeightedQuestions(selectedData, numQuestions);
-    startQuiz(questions, testMode === 'exam', duration);
-};
+        const questions = getWeightedQuestions(selectedData, numQuestions);
+        startQuiz(questions, testMode === 'exam', duration);
+    };
+}
 
 // Mix Aleatori (Tot)
-document.getElementById('btn-random-mix').onclick = () => {
-    let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 50;
-    let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
+const btnRandomMix = document.getElementById('btn-random-mix');
+if (btnRandomMix) {
+    btnRandomMix.onclick = () => {
+        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 50;
+        let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
 
-    const questions = getWeightedQuestions(allData, numQuestions);
-    startQuiz(questions, testMode === 'exam', duration);
-};
+        const questions = getWeightedQuestions(allData, numQuestions);
+        startQuiz(questions, testMode === 'exam', duration);
+    };
+}
 
 
 // Weighted random selection logic
@@ -327,18 +350,22 @@ function getWeightedQuestions(data, totalToSelect) {
 }
 
 // Start Review Test
-btnReviewFailed.onclick = () => {
-    if (failedQuestions.length === 0) return;
-    startQuiz(shuffleArray([...failedQuestions]), false);
-};
+if (btnReviewFailed) {
+    btnReviewFailed.onclick = () => {
+        if (failedQuestions.length === 0) return;
+        startQuiz(shuffleArray([...failedQuestions]), false);
+    };
+}
 
-btnClearFailed.onclick = () => {
-    if (confirm('Segur que vols borrar totes les fallades registrades?')) {
-        failedQuestions = [];
-        localStorage.setItem('failed_questions', JSON.stringify([]));
-        updateFailedUI();
-    }
-};
+if (btnClearFailed) {
+    btnClearFailed.onclick = () => {
+        if (confirm('Segur que vols borrar totes les fallades registrades?')) {
+            failedQuestions = [];
+            localStorage.setItem('failed_questions', JSON.stringify([]));
+            updateFailedUI();
+        }
+    };
+}
 
 function startQuiz(questions, isExam, customDuration) {
     if (questions.length === 0) {
@@ -588,42 +615,58 @@ function shuffleArray(array) {
 
 function switchScreen(screenId) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-    document.getElementById(screenId).classList.add('active');
-    window.scrollTo(0, 0);
+    const screen = document.getElementById(screenId);
+    if (screen) {
+        screen.classList.add('active');
+        window.scrollTo(0, 0);
+    } else {
+        console.warn(`La pantalla "${screenId}" no s'ha trobat al DOM.`);
+    }
 }
 
-document.getElementById('btn-restart').onclick = () => {
-    currentRoomCode = null;
-    switchScreen('selection-screen');
-    renderRanking();
-};
-
-document.getElementById('btn-exit-quiz').onclick = () => {
-    if (confirm('Segur que vols sortir? El progrés es perdrà.')) {
+const btnRestart = document.getElementById('btn-restart');
+if (btnRestart) {
+    btnRestart.onclick = () => {
         currentRoomCode = null;
-        clearInterval(currentQuiz.timerInterval);
         switchScreen('selection-screen');
         renderRanking();
-    }
-};
+    };
+}
 
+const btnExitQuiz = document.getElementById('btn-exit-quiz');
+if (btnExitQuiz) {
+    btnExitQuiz.onclick = () => {
+        if (confirm('Segur que vols sortir? El progrés es perdrà.')) {
+            currentRoomCode = null;
+            clearInterval(currentQuiz.timerInterval);
+            switchScreen('selection-screen');
+            renderRanking();
+        }
+    };
+}
 
-btnLogout.onclick = () => {
-    if (confirm('Segur que vols tancar la sessió?')) {
-        currentUser = null;
-        localStorage.removeItem('current_user');
-        window.location.href = 'login.html';
-    }
-};
+if (btnLogout) {
+    btnLogout.onclick = () => {
+        if (confirm('Segur que vols tancar la sessió?')) {
+            currentUser = null;
+            localStorage.removeItem('current_user');
+            window.location.href = 'login.html';
+        }
+    };
+}
 
 // Stats logic
-userNameDisplay.onclick = () => {
-    window.location.href = 'perfil.html';
-};
+if (userNameDisplay) {
+    userNameDisplay.onclick = () => {
+        window.location.href = 'perfil.html';
+    };
+}
 
-btnShowStats.onclick = () => {
-    window.location.href = 'perfil.html';
-};
+if (btnShowStats) {
+    btnShowStats.onclick = () => {
+        window.location.href = 'perfil.html';
+    };
+}
 
 
 

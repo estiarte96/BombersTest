@@ -5,13 +5,24 @@ export const Multiplayer = {
     isHost: false,
 
     init() {
-        // Buttons
-        document.getElementById('btn-mode-multiplayer').onclick = () => this.showSetup();
-        document.getElementById('btn-multi-back').onclick = () => this.switchScreen('selection-screen');
-        document.getElementById('btn-create-room').onclick = () => this.createRoom();
-        document.getElementById('btn-join-room').onclick = () => this.joinRoom();
-        document.getElementById('btn-leave-lobby').onclick = () => this.leaveRoom();
-        document.getElementById('btn-start-multi-test').onclick = () => this.startMatch();
+        // Buttons - Check if they exist before setting onclick
+        const btnMulti = document.getElementById('btn-mode-multiplayer');
+        if (btnMulti) btnMulti.onclick = () => this.showSetup();
+
+        const btnBack = document.getElementById('btn-multi-back');
+        if (btnBack) btnBack.onclick = () => this.switchScreen('selection-screen');
+
+        const btnCreate = document.getElementById('btn-create-room');
+        if (btnCreate) btnCreate.onclick = () => this.createRoom();
+
+        const btnJoin = document.getElementById('btn-join-room');
+        if (btnJoin) btnJoin.onclick = () => this.joinRoom();
+
+        const btnLeave = document.getElementById('btn-leave-lobby');
+        if (btnLeave) btnLeave.onclick = () => this.leaveRoom();
+
+        const btnStart = document.getElementById('btn-start-multi-test');
+        if (btnStart) btnStart.onclick = () => this.startMatch();
     },
 
     showSetup() {
@@ -193,6 +204,9 @@ export const Multiplayer = {
 
     switchScreen(id) {
         document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
+        const screen = document.getElementById(id);
+        if (screen) {
+            screen.classList.add('active');
+        }
     }
 };
