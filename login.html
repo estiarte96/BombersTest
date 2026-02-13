@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inici de Sessió - Bombers Test</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <main id="main-content">
+            <section id="auth-screen" class="screen active">
+                <div class="auth-container">
+                    <div class="auth-card">
+                        <div class="auth-header">
+                            <img src="assets/img/logo.png" alt="Bombers Test Logo" class="auth-logo">
+                            <h2 id="auth-title">Inicia Sessió</h2>
+                            <p id="auth-subtitle">Benvingut de nou, futur bomber.</p>
+                        </div>
+
+                        <form id="login-form" class="auth-form">
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="login-email" placeholder="Correu electrònic" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="login-password" placeholder="Contrasenya" required>
+                            </div>
+                            <button type="submit" class="btn-primary w-100">ENTRAR</button>
+                            <p class="auth-switch">No tens compte? <a href="#" id="go-to-register">Registra't</a></p>
+                        </form>
+
+                        <form id="register-form" class="auth-form" style="display: none;">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="reg-name" placeholder="Nom complet" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="reg-email" placeholder="Correu electrònic" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="reg-password" placeholder="Contrasenya" required>
+                            </div>
+                            <button type="submit" class="btn-primary w-100">CREAR COMPTE</button>
+                            <p class="auth-switch">Ja tens compte? <a href="#" id="go-to-login">Inicia sessió</a></p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCQU1_MLzmIKUlqT34gLZvamDu2pbw8xNs",
+            authDomain: "academiabombers-91da9.firebaseapp.com",
+            databaseURL: "https://academiabombers-91da9-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "academiabombers-91da9",
+            storageBucket: "academiabombers-91da9.firebasestorage.app",
+            messagingSenderId: "719744658379",
+            appId: "1:719744658379:web:d3c018afdb2395fec6a44e",
+            measurementId: "G-66EPW2KMTP"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script type="module" src="assets/js/login.js"></script>
+</body>
+
+</html>

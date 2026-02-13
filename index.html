@@ -37,48 +37,6 @@
         </header>
 
         <main id="main-content">
-            <!-- Screen 0: Auth -->
-            <section id="auth-screen" class="screen active">
-                <div class="auth-container">
-                    <div class="auth-card">
-                        <div class="auth-header">
-                            <img src="assets/img/logo.png" alt="Bombers Test Logo" class="auth-logo">
-                            <h2 id="auth-title">Inicia Sessió</h2>
-                            <p id="auth-subtitle">Benvingut de nou, futur bomber.</p>
-                        </div>
-
-                        <form id="login-form" class="auth-form">
-                            <div class="input-group">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="login-email" placeholder="Correu electrònic" required>
-                            </div>
-                            <div class="input-group">
-                                <i class="fas fa-lock"></i>
-                                <input type="password" id="login-password" placeholder="Contrasenya" required>
-                            </div>
-                            <button type="submit" class="btn-primary w-100">ENTRAR</button>
-                            <p class="auth-switch">No tens compte? <a href="#" id="go-to-register">Registra't</a></p>
-                        </form>
-
-                        <form id="register-form" class="auth-form" style="display: none;">
-                            <div class="input-group">
-                                <i class="fas fa-user"></i>
-                                <input type="text" id="reg-name" placeholder="Nom complet" required>
-                            </div>
-                            <div class="input-group">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="reg-email" placeholder="Correu electrònic" required>
-                            </div>
-                            <div class="input-group">
-                                <i class="fas fa-lock"></i>
-                                <input type="password" id="reg-password" placeholder="Contrasenya" required>
-                            </div>
-                            <button type="submit" class="btn-primary w-100">CREAR COMPTE</button>
-                            <p class="auth-switch">Ja tens compte? <a href="#" id="go-to-login">Inicia sessió</a></p>
-                        </form>
-                    </div>
-                </div>
-            </section>
 
             <!-- Screen 1: Selection -->
             <section id="selection-screen" class="screen">
@@ -113,13 +71,21 @@
                             <i class="fas fa-random"></i> Mix Aleatori (Tot)
                         </button>
                     </div>
-                    <div class="review-actions">
+                    <div class="review-actions" style="display: flex; gap: 8px; flex-wrap: wrap; width: 100%;">
                         <button id="btn-review-failed" class="btn-outline btn-review" disabled>
                             <i class="fas fa-redo"></i> Repassar Fallades (<span id="failed-count">0</span>)
                         </button>
                         <button id="btn-clear-failed" class="btn-outline btn-clear" disabled
                             title="Borrar registre de fallades">
                             <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <!-- Extra Questions Toggle -->
+                        <button id="btn-toggle-extra" class="btn-outline extra-off" style="flex: 1; min-width: 200px;">
+                            <i class="fas fa-plus-circle"></i> Preguntes No Oficials: <span id="extra-status">OFF</span>
+                        </button>
+                        <!-- AI Questions Toggle -->
+                        <button id="btn-toggle-ai" class="btn-outline ai-off" style="flex: 1; min-width: 200px;">
+                            <i class="fas fa-robot"></i> Incloure Preguntes IA: <span id="ai-status">OFF</span>
                         </button>
                     </div>
                 </div>
@@ -189,43 +155,6 @@
                         <button id="btn-restart" class="btn-primary">TORNAR A L'INICI</button>
                     </div>
                 </div>
-                <!-- Screen 4: Statistics -->
-                <section id="stats-screen" class="screen">
-                    <div class="screen-header">
-                        <div style="display: flex; align-items: center; gap: 12px;">
-                            <button id="btn-stats-back" class="btn-icon"><i class="fas fa-arrow-left"></i></button>
-                            <h2>Les Meves Estadístiques</h2>
-                        </div>
-                    </div>
-
-                    <div class="stats-grid">
-                        <div class="stat-card main-stat">
-                            <i class="fas fa-calendar-check"></i>
-                            <span class="stat-value" id="user-days">1</span>
-                            <span class="stat-label">Dies d'ús</span>
-                        </div>
-                        <div class="stat-card main-stat">
-                            <i class="fas fa-crosshairs"></i>
-                            <span class="stat-value" id="user-accuracy">0%</span>
-                            <span class="stat-label">Encert Global</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-value text-success" id="user-total-correct">0</span>
-                            <span class="stat-label">Correctes totals</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-value text-danger" id="user-total-wrong">0</span>
-                            <span class="stat-label">Fallades totals</span>
-                        </div>
-                    </div>
-
-                    <div class="detailed-stats">
-                        <h3>Detall per Temes</h3>
-                        <div class="topic-stats-table" id="topic-stats-list">
-                            <!-- Topic details injected here -->
-                        </div>
-                    </div>
-                </section>
         </main>
     </div>
 

@@ -1,0 +1,72 @@
+﻿Starting parsing of topic: 1 CE
+Topic '1 CE': 22 questions extracted.
+Starting parsing of topic: 1 EAC
+Topic '1 EAC': 37 questions extracted.
+Starting parsing of topic: 2 F. P┌BLICA
+Topic '2 F. P┌BLICA': 2 questions extracted.
+Starting parsing of topic: 3 PRL I EPIS
+Topic '3 PRL I EPIS': 16 questions extracted.
+Starting parsing of topic: 4 L.192020 I PROTOCOLS
+Topic '4 L.192020 I PROTOCOLS': 2 questions extracted.
+Starting parsing of topic: 5 L.172015
+Topic '5 L.172015': 3 questions extracted.
+Starting parsing of topic: 6 L.BOMBERS
+Topic '6 L.BOMBERS': 11 questions extracted.
+Starting parsing of topic: 6 L.PC
+Topic '6 L.PC': 16 questions extracted.
+Starting parsing of topic: 7 D. GU└RDIA
+Topic '7 D. GU└RDIA': 5 questions extracted.
+Starting parsing of topic: 7 D. INTERIOR
+Topic '7 D. INTERIOR': 8 questions extracted.
+Starting parsing of topic: T 10A. EXTINTORS
+Topic 'T 10A. EXTINTORS': 37 questions extracted.
+Starting parsing of topic: T 9 N. DEL FOC
+Topic 'T 9 N. DEL FOC': 28 questions extracted.
+Starting parsing of topic: T.31 G. HUMANA
+Topic 'T.31 G. HUMANA': 15 questions extracted.
+Starting parsing of topic: T11 QU═MICA
+Topic 'T11 QU═MICA': 16 questions extracted.
+Starting parsing of topic: T12 HIDR└ULICA
+Topic 'T12 HIDR└ULICA': 31 questions extracted.
+Starting parsing of topic: T13. ELECTRICITAT MAGNITUDS 
+Topic 'T13. ELECTRICITAT MAGNITUDS ': 40 questions extracted.
+Starting parsing of topic: T14 METEOROLOGIA
+Topic 'T14 METEOROLOGIA': 35 questions extracted.
+Starting parsing of topic: T15 CONCEPTES M╚DICS
+Topic 'T15 CONCEPTES M╚DICS': 8 questions extracted.
+Starting parsing of topic: T16. VEGETACIË
+Topic 'T16. VEGETACIË': 15 questions extracted.
+Starting parsing of topic: T17 MEC└NICA
+Topic 'T17 MEC└NICA': 51 questions extracted.
+Starting parsing of topic: T18. MOTORS
+Topic 'T18. MOTORS': 39 questions extracted.
+Starting parsing of topic: T19 FLUIDS
+Topic 'T19 FLUIDS': 6 questions extracted.
+Starting parsing of topic: T20 M. VEHICLES
+Topic 'T20 M. VEHICLES': 25 questions extracted.
+Starting parsing of topic: T21 RISC QU═MIC
+Topic 'T21 RISC QU═MIC': 42 questions extracted.
+Starting parsing of topic: T22 P. PASSIVA
+Topic 'T22 P. PASSIVA': 17 questions extracted.
+Starting parsing of topic: T22P. ACTIVA
+Topic 'T22P. ACTIVA': 37 questions extracted.
+Starting parsing of topic: T23 AT. SANITARIA
+Topic 'T23 AT. SANITARIA': 13 questions extracted.
+Starting parsing of topic: T24 C.MATERIALS
+Topic 'T24 C.MATERIALS': 48 questions extracted.
+Starting parsing of topic: T25 C. EDIFICACIË
+Topic 'T25 C. EDIFICACIË': 58 questions extracted.
+Starting parsing of topic: T26 COMPONENTS I APARELLS
+Topic 'T26 COMPONENTS I APARELLS': 4 questions extracted.
+Starting parsing of topic: T27 INST ELECTRIQUES
+Topic 'T27 INST ELECTRIQUES': 28 questions extracted.
+Starting parsing of topic: T28 I. GASOS
+Topic 'T28 I. GASOS': 1 questions extracted.
+Starting parsing of topic: T29 CARTOGRAFIA
+Topic 'T29 CARTOGRAFIA': 61 questions extracted.
+Starting parsing of topic: T30 G. F═SICA
+Topic 'T30 G. F═SICA': 50 questions extracted.
+Starting parsing of topic: T32 ORG. ADMINISTRATIVA 
+Topic 'T32 ORG. ADMINISTRATIVA ': 14 questions extracted.
+Starting parsing of topic: T8 F═SICA
+Topic 'T8 F═SICA': 55 questions extracted.
