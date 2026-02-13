@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Server files (no longer needed with Firebase)
+server.py
+start_server.ps1
+
+# Scripts de desenvolupament
+scripts/
+
+# Fitxers temporals
+*.log
+*.tmp
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# No pujar dades locals antigues
+data/users.json

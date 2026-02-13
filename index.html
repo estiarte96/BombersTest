@@ -4,176 +4,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bombers Test - Preparació Oposicions</title>
+    <title>Bombers Test - La millor preparació per a les teves oposicions</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .landing-hero {
+            padding: 80px 24px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+            border-radius: 0 0 40px 40px;
+            margin-bottom: 60px;
+        }
 
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+        .landing-hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .landing-hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary);
+            padding: 16px 32px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 24px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid var(--border);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card i {
+            font-size: 40px;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        .stats-strip {
+            background: var(--card-bg);
+            padding: 40px 24px;
+            margin: 60px 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-box h2 {
+            font-size: 36px;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .stat-box p {
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .cta-section {
+            padding: 80px 24px;
+            text-align: center;
+        }
+
+        .cta-card {
+            background: var(--secondary);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 32px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-card h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            padding: 40px 24px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        [data-theme="dark"] .btn-white {
+            background: var(--primary);
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="app-container">
-        <!-- Header -->
-        <header>
+    <div class="app-container" style="max-width: 100%; padding-bottom: 0;">
+        <header style="max-width: 1000px; margin: 0 auto; width: 100%; border: none;">
             <div class="logo">
                 <img src="assets/img/logo.png" alt="Bombers Test Logo" class="logo-img">
                 <h1>BOMBERS<span>TEST</span></h1>
             </div>
-            <div class="stats-overview" id="stats-overview">
-                <!-- Stats will be injected here -->
-            </div>
-            <div class="user-profile" id="user-profile" style="display: none;">
-                <button id="btn-show-stats" class="btn-icon" title="Estadístiques"><i
-                        class="fas fa-chart-line"></i></button>
-                <span id="user-name-display"></span>
-                <button id="btn-logout" class="btn-icon" title="Tancar sessió"><i
-                        class="fas fa-sign-out-alt"></i></button>
+            <div style="display: flex; gap: 12px; align-items: center;" id="nav-actions">
+                <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+                <a href="login.html" class="btn-outline">Inicia Sessió</a>
             </div>
         </header>
 
-        <main id="main-content">
+        <section class="landing-hero">
+            <h1>Aconsegueix la teva plaça de bomber</h1>
+            <p>La plataforma més completa i actualitzada per preparar els tests de l'oposició. Estudia on vulguis i quan
+                vulguis.</p>
+            <div class="hero-btns" id="hero-actions">
+                <a href="login.html" class="btn-white">Comença Gratis</a>
+                <a href="#features" class="btn-outline" style="color: white; border-color: white;">Saber-ne més</a>
+            </div>
+        </section>
 
-            <!-- Screen 1: Selection -->
-            <section id="selection-screen" class="screen">
-                <div class="screen-header">
-                    <h2>Selecciona els Temes</h2>
-                    <p>Escull un o més temes per començar el test personalitzat.</p>
+        <section id="features" class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-database"></i>
+                <h3>Milers de preguntes</h3>
+                <p>Base de dades amb preguntes oficials de convocatòries anteriors i preguntes noves cada mes.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Estadístiques reals</h3>
+                <p>Analitza el teu progrés per temes i descobreix exactament on has de millorar per aprovar.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Rànquing en temps real</h3>
+                <p>Competició sana amb altres opositors. Compta els teus encerts i escala posicions al rànquing global.
+                </p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Multi-dispositiu</h3>
+                <p>Estudia des del mòbil, tauleta o ordinador. El teu progrés se sincronitza automàticament.</p>
+            </div>
+
+        </section>
+
+        <!-- New Installation Guide Section -->
+        <section id="install-guide" style="padding: 60px 24px; max-width: 1000px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h2 style="font-size: 32px; font-weight: 700;">Porta'ns sempre amb tu</h2>
+                <p style="color: var(--text-muted);">Afegeix Bombers Test a la teva pantalla d'inici com si fos una app
+                    nativa.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <!-- iOS Instructions -->
+                <div
+                    style="background: var(--card-bg); padding: 30px; border-radius: 20px; border: 1px solid var(--border); box-shadow: var(--shadow);">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <i class="fab fa-apple" style="font-size: 30px; color: var(--text);"></i>
+                        <h3 style="font-size: 20px;">Instal·lar en iPhone / iOS</h3>
+                    </div>
+                    <ul
+                        style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px; color: var(--text-muted);">
+                        <li><i class="fas fa-external-link-alt" style="color: var(--primary); margin-right: 10px;"></i>
+                            Obre <b>Safari</b> i entra a l'app.</li>
+                        <li><i class="fas fa-share-square" style="color: var(--primary); margin-right: 10px;"></i> Prem
+                            el botó de <b>Compartir</b> a la part inferior.</li>
+                        <li><i class="fas fa-plus-square" style="color: var(--primary); margin-right: 10px;"></i>
+                            Selecciona <b>"Afegir a la pantalla d'inici"</b>.</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Prem
+                            <b>"Afegeix"</b> i ja la tindràs!
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="controls">
-                    <div class="search-box">
-                        <i class="fas fa-search"></i>
-                        <input type="text" id="topic-search" placeholder="Cerca temes...">
+                <!-- Android Instructions -->
+                <div
+                    style="background: var(--card-bg); padding: 30px; border-radius: 20px; border: 1px solid var(--border); box-shadow: var(--shadow);">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <i class="fab fa-android" style="font-size: 30px; color: #3DDC84;"></i>
+                        <h3 style="font-size: 20px;">Instal·lar en Android / Chrome</h3>
                     </div>
-                    <div class="test-modes">
-                        <button id="btn-mode-standard" class="mode-btn active"
-                            title="Feedback immediat i sense límit de temps">
-                            <i class="fas fa-graduation-cap"></i> Estudi
-                        </button>
-                        <button id="btn-mode-exam" class="mode-btn"
-                            title="Sense pistes i amb temps limitat (50 preguntes / 45 min)">
-                            <i class="fas fa-stopwatch"></i> Examen
-                        </button>
-                    </div>
+                    <ul
+                        style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px; color: var(--text-muted);">
+                        <li><i class="fas fa-external-link-alt" style="color: var(--primary); margin-right: 10px;"></i>
+                            Obre <b>Chrome</b> i entra a l'app.</li>
+                        <li><i class="fas fa-ellipsis-v" style="color: var(--primary); margin-right: 10px;"></i> Prem
+                            els <b>tres punts</b> de la cantonada superior.</li>
+                        <li><i class="fas fa-mobile-alt" style="color: var(--primary); margin-right: 10px;"></i>
+                            Selecciona <b>"Instal·la l'aplicació"</b> o <b>"Afegir a pantalla d'inici"</b>.</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i>
+                            Confirma i l'icona apareixerà al teu escriptori.</li>
+                    </ul>
                 </div>
+            </div>
+        </section>
 
-                <div class="extra-actions">
-                    <div class="action-buttons">
-                        <button id="btn-select-all" class="btn-outline">Seleccionar Tots</button>
-                        <button id="btn-deselect-all" class="btn-outline">Desmarcar</button>
-                        <button id="btn-random-mix" class="btn-outline"
-                            style="color: var(--warning); border-color: var(--warning);">
-                            <i class="fas fa-random"></i> Mix Aleatori (Tot)
-                        </button>
-                    </div>
-                    <div class="review-actions" style="display: flex; gap: 8px; flex-wrap: wrap; width: 100%;">
-                        <button id="btn-review-failed" class="btn-outline btn-review" disabled>
-                            <i class="fas fa-redo"></i> Repassar Fallades (<span id="failed-count">0</span>)
-                        </button>
-                        <button id="btn-clear-failed" class="btn-outline btn-clear" disabled
-                            title="Borrar registre de fallades">
-                            <i class="fas fa-trash-alt"></i>
-                        </button>
-                        <!-- Extra Questions Toggle -->
-                        <button id="btn-toggle-extra" class="btn-outline extra-off" style="flex: 1; min-width: 200px;">
-                            <i class="fas fa-plus-circle"></i> Preguntes No Oficials: <span id="extra-status">OFF</span>
-                        </button>
-                        <!-- AI Questions Toggle -->
-                        <button id="btn-toggle-ai" class="btn-outline ai-off" style="flex: 1; min-width: 200px;">
-                            <i class="fas fa-robot"></i> Incloure Preguntes IA: <span id="ai-status">OFF</span>
-                        </button>
-                    </div>
+
+        <section class="stats-strip">
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h2>+5,000</h2>
+                    <p>Preguntes</p>
                 </div>
-
-                <div class="topics-grid" id="topics-grid">
-                    <!-- Topics will be injected here -->
+                <div class="stat-box">
+                    <h2>+1,200</h2>
+                    <p>Opositors</p>
                 </div>
-
-                <div class="sticky-footer">
-                    <div class="selection-summary">
-                        <span id="selected-count">0</span> temes seleccionats
-                    </div>
-                    <button id="btn-start-test" class="btn-primary" disabled>
-                        COMENÇAR TEST <i class="fas fa-play"></i>
-                    </button>
+                <div class="stat-box">
+                    <h2>98%</h2>
+                    <p>Satisfacció</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Screen 2: Quiz -->
-            <section id="quiz-screen" class="screen">
-                <div class="quiz-header">
-                    <button id="btn-exit-quiz" class="btn-icon"><i class="fas fa-times"></i></button>
-                    <div class="progress-container">
-                        <div class="progress-bar" id="progress-bar"></div>
-                    </div>
-                    <div class="quiz-timer" id="quiz-timer">00:00</div>
-                </div>
+        <section class="cta-section">
+            <div class="cta-card">
+                <h2>Preparat per a l'examen?</h2>
+                <p style="margin-bottom: 30px; opacity: 0.9;">Uneix-te a la comunitat d'opositors més gran i apropa't al
+                    teu somni.</p>
+                <a href="login.html" class="btn-white" style="display: inline-block;">Crea el teu compte ara</a>
+            </div>
+        </section>
 
-                <div class="question-container" id="question-container">
-                    <!-- Question card will be injected here -->
-                </div>
-
-                <div class="quiz-footer">
-                    <span id="question-counter">Pregunta 1 de 10</span>
-                    <button id="btn-next-question" class="btn-primary" style="display: none;">
-                        SEGÜENT <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </section>
-
-            <!-- Screen 3: Results -->
-            <section id="results-screen" class="screen">
-                <div class="results-card">
-                    <div class="results-header">
-                        <div class="score-circle">
-                            <span id="final-score">0%</span>
-                        </div>
-                        <h2 id="result-message">Ben fet!</h2>
-                    </div>
-
-                    <div class="results-stats">
-                        <div class="stat-item">
-                            <span class="stat-label">Correctes</span>
-                            <span class="stat-value text-success" id="stat-correct">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Incorrectes</span>
-                            <span class="stat-value text-danger" id="stat-incorrect">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Temps</span>
-                            <span class="stat-value" id="stat-time">0m 0s</span>
-                        </div>
-                    </div>
-
-                    <div class="results-actions">
-                        <button id="btn-restart" class="btn-primary">TORNAR A L'INICI</button>
-                    </div>
-                </div>
-        </main>
+        <footer>
+            <p>&copy; 2024 Bombers Test. Tots els drets reservats.</p>
+        </footer>
     </div>
 
+    <script type="module">
+        import { ThemeManager } from './assets/js/theme.js';
+        ThemeManager.init();
 
-    <script>
-        // Initialize Firebase before loading app.js
-        const firebaseConfig = {
-            apiKey: "AIzaSyCQU1_MLzmIKUlqT34gLZvamDu2pbw8xNs",
-            authDomain: "academiabombers-91da9.firebaseapp.com",
-            databaseURL: "https://academiabombers-91da9-default-rtdb.europe-west1.firebasedatabase.app",
-            projectId: "academiabombers-91da9",
-            storageBucket: "academiabombers-91da9.firebasestorage.app",
-            messagingSenderId: "719744658379",
-            appId: "1:719744658379:web:d3c018afdb2395fec6a44e",
-            measurementId: "G-66EPW2KMTP"
-        };
-        firebase.initializeApp(firebaseConfig);
+        // Check if user is logged in
+        const user = localStorage.getItem('current_user');
+        if (user) {
+            const navActions = document.getElementById('nav-actions');
+            const heroActions = document.getElementById('hero-actions');
+
+            if (navActions) {
+                navActions.innerHTML = `
+                    <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+                    <a href="app.html" class="btn-primary" style="padding: 10px 20px;">ANAR A L'APP</a>
+                `;
+                document.getElementById('btn-theme-toggle').onclick = () => ThemeManager.toggle();
+            }
+
+            if (heroActions) {
+                heroActions.innerHTML = `
+                    <a href="app.html" class="btn-white">Continuar Estudiant</a>
+                    <a href="#features" class="btn-outline" style="color: white; border-color: white;">Saber-ne més</a>
+                `;
+            }
+        }
     </script>
-    <script type="module" src="assets/js/app.js"></script>
+
 </body>
 
 </html>
