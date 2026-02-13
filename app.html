@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombers Test - Preparació Oposicions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header>
+            <a href="app.html" class="logo-link">
+                <div class="logo">
+
+                    <img src="assets/img/logo.png" alt="Bombers Test Logo" class="logo-img">
+                    <h1>BOMBERS<span>TEST</span></h1>
+                </div>
+            </a>
+
+            <div class="stats-overview" id="stats-overview">
+                <!-- Stats will be injected here -->
+            </div>
+            <div class="user-profile" id="user-profile" style="display: none;">
+                <button id="btn-show-stats" class="btn-icon" title="Estadístiques"><i
+                        class="fas fa-chart-line"></i></button>
+                <span id="user-name-display"></span>
+                <button id="btn-theme-toggle" class="btn-icon" title="Canviar tema"><i class="fas fa-moon"></i></button>
+                <button id="btn-logout" class="btn-icon" title="Tancar sessió"><i
+                        class="fas fa-sign-out-alt"></i></button>
+
+            </div>
+        </header>
+
+        <main id="main-content">
+
+            <!-- Screen 1: Selection -->
+            <section id="selection-screen" class="screen">
+                <div class="screen-header">
+                    <h2>Selecciona els Temes</h2>
+                    <p>Escull un o més temes per començar el test personalitzat.</p>
+                </div>
+
+                <div class="controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="topic-search" placeholder="Cerca temes...">
+                    </div>
+                    <div class="test-modes">
+                        <button id="btn-mode-standard" class="mode-btn active"
+                            title="Feedback immediat i sense límit de temps">
+                            <i class="fas fa-graduation-cap"></i> Estudi
+                        </button>
+                        <button id="btn-mode-exam" class="mode-btn" title="Sense pistes i amb temps limitat">
+                            <i class="fas fa-stopwatch"></i> Examen
+                        </button>
+                        <button id="btn-mode-multiplayer" class="mode-btn"
+                            style="border-color: var(--warning); color: var(--warning);"
+                            title="Competició en temps real amb altres usuaris">
+                            <i class="fas fa-users"></i> Multijugador
+                        </button>
+                        <div style="display: flex; gap: 4px;">
+                            <button id="btn-review-failed" class="mode-btn" disabled
+                                style="min-width: unset; padding: 10px 15px;" title="Repassar Fallades">
+                                <i class="fas fa-redo"></i> (<span id="failed-count">0</span>)
+                            </button>
+                            <button id="btn-clear-failed" class="mode-btn" disabled
+                                style="min-width: unset; padding: 10px 12px;" title="Borrar registre de fallades">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Exam Mode Settings (Initially hidden/compact) -->
+                <div id="exam-settings" class="auth-card"
+                    style="display: none; padding: 16px; margin-bottom: 24px; border: 1px solid var(--primary);">
+                    <p style="font-size: 13px; font-weight: 700; margin-bottom: 12px; color: var(--primary);">
+                        CONFIGURACIÓ EXAMEN</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Preguntes</label>
+                            <select id="exam-num-questions" class="form-input"
+                                style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border);">
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                                <option value="50" selected>50</option>
+                                <option value="100">100</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 11px;">Temps (min)</label>
+                            <select id="exam-match-time" class="form-input"
+                                style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid var(--border);">
+                                <option value="15">15</option>
+                                <option value="30">30</option>
+                                <option value="45" selected>45</option>
+                                <option value="60">60</option>
+                                <option value="90">90</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="extra-actions">
+                    <div class="action-buttons">
+                        <button id="btn-select-all" class="btn-outline">Seleccionar Tots</button>
+                        <button id="btn-deselect-all" class="btn-outline">Desmarcar</button>
+                        <button id="btn-random-mix" class="btn-outline"
+                            style="color: var(--warning); border-color: var(--warning);">
+                            <i class="fas fa-random"></i> Mix Aleatori (Tot)
+                        </button>
+                    </div>
+                    <div class="review-actions" style="display: flex; gap: 8px; flex-wrap: wrap; width: 100%;">
+                        <!-- Official Questions Toggle -->
+                        <button id="btn-toggle-official" class="btn-outline official-on"
+                            style="flex: 1; min-width: 200px;">
+                            <i class="fas fa-check-double"></i> Preguntes Oficials (<span
+                                id="official-total-count">0</span>): <span id="official-status">ON</span>
+                        </button>
+                        <!-- Extra Questions Toggle -->
+                        <button id="btn-toggle-extra" class="btn-outline extra-off" style="flex: 1; min-width: 200px;">
+                            <i class="fas fa-plus-circle"></i> Preguntes No Oficials (<span
+                                id="extra-total-count">0</span>): <span id="extra-status">OFF</span>
+                        </button>
+                        <!-- AI Questions Toggle -->
+                        <button id="btn-toggle-ai" class="btn-outline ai-off" style="flex: 1; min-width: 200px;">
+                            <i class="fas fa-robot"></i> Incloure Preguntes IA (<span id="ai-total-count">0</span>):
+                            <span id="ai-status">OFF</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="topics-grid" id="topics-grid">
+                    <!-- Topics will be injected here -->
+                </div>
+
+                <!-- Ranking Section -->
+                <div class="ranking-section" id="ranking-section">
+                    <div class="section-header">
+                        <h3>🏆 TOP 10 Rànquing</h3>
+                        <p>Basat en encerts totals</p>
+                    </div>
+                    <div class="ranking-list" id="ranking-list">
+                        <!-- Ranking items will be injected here -->
+                    </div>
+                </div>
+
+
+                <div class="sticky-footer">
+                    <div class="selection-summary">
+                        <span id="selected-count">0</span> temes seleccionats
+                    </div>
+                    <button id="btn-start-test" class="btn-primary" disabled>
+                        COMENÇAR TEST <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Screen 2: Quiz -->
+            <section id="quiz-screen" class="screen">
+                <div class="quiz-header">
+                    <button id="btn-exit-quiz" class="btn-icon"><i class="fas fa-times"></i></button>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <div class="quiz-timer" id="quiz-timer">00:00</div>
+                </div>
+
+                <div class="question-container" id="question-container">
+                    <!-- Question card will be injected here -->
+                </div>
+
+                <div class="quiz-footer">
+                    <span id="question-counter">Pregunta 1 de 10</span>
+                    <button id="btn-next-question" class="btn-primary" style="display: none;">
+                        SEGÜENT <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Screen 3: Results -->
+            <section id="results-screen" class="screen">
+                <div class="results-card">
+                    <div class="results-header">
+                        <div class="score-circle">
+                            <span id="final-score">0%</span>
+                        </div>
+                        <h2 id="result-message">Ben fet!</h2>
+                    </div>
+
+                    <div class="results-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Correctes</span>
+                            <span class="stat-value text-success" id="stat-correct">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Incorrectes</span>
+                            <span class="stat-value text-danger" id="stat-incorrect">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Temps</span>
+                            <span class="stat-value" id="stat-time">0m 0s</span>
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button id="btn-restart" class="btn-primary">TORNAR A L'INICI</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Screen 4: Multiplayer Setup -->
+            <section id="multiplayer-screen" class="screen">
+                <div class="screen-header">
+                    <button id="btn-multi-back" class="btn-icon"><i class="fas fa-arrow-left"></i></button>
+                    <h2>Sales de Competició</h2>
+                    <p>Competeix en temps real amb altres opositors.</p>
+                </div>
+
+                <div class="auth-card" style="max-width: 100%; margin-bottom: 24px;">
+                    <h3>Crear una Sala Nova</h3>
+                    <p style="font-size: 13px; margin-bottom: 16px;">Configura la partida per als teus amics.</p>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Preguntes</label>
+                            <select id="multi-num-questions" class="form-input"
+                                style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border);">
+                                <option value="10">10</option>
+                                <option value="20" selected>20</option>
+                                <option value="30">30</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Temps (min)</label>
+                            <select id="multi-match-time" class="form-input"
+                                style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border);">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15" selected>15</option>
+                                <option value="30">30</option>
+                                <option value="45">45</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="btn-create-room" class="btn-primary w-100">CREAR SALA</button>
+                </div>
+
+
+                <div class="auth-card" style="max-width: 100%;">
+                    <h3>Unir-se a una Sala</h3>
+                    <div class="input-group" style="margin: 16px 0;">
+                        <i class="fas fa-hashtag"></i>
+                        <input type="text" id="join-room-code" placeholder="Codi de sala (ex: BOMB)" maxlength="4"
+                            style="text-transform: uppercase;">
+                    </div>
+                    <button id="btn-join-room" class="btn-outline w-100" style="padding: 14px;">UNIR-SE</button>
+                </div>
+            </section>
+
+            <!-- Screen 5: Lobby -->
+            <section id="lobby-screen" class="screen">
+                <div class="lobby-card">
+                    <div class="lobby-header">
+                        <span class="room-label">CODI DE LA SALA</span>
+                        <h2 id="lobby-room-code">----</h2>
+                    </div>
+
+                    <div class="players-list-container">
+                        <h3>Jugadors a la sala (<span id="player-count">0</span>)</h3>
+                        <div id="players-list" class="players-list">
+                            <!-- Players injected here -->
+                        </div>
+                    </div>
+
+                    <div class="lobby-actions">
+                        <p id="lobby-wait-msg" style="color: var(--text-muted); margin-bottom: 16px;">Esperant que
+                            l'amfitrió comenci...</p>
+                        <button id="btn-start-multi-test" class="btn-primary w-100" style="display: none;">COMENÇAR
+                            PARTIDA</button>
+                        <button id="btn-leave-lobby" class="btn-outline w-100" style="margin-top: 12px;">SORTIR</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+
+    <script>
+        // Initialize Firebase before loading app.js
+        const firebaseConfig = {
+            apiKey: "AIzaSyCQU1_MLzmIKUlqT34gLZvamDu2pbw8xNs",
+            authDomain: "academiabombers-91da9.firebaseapp.com",
+            databaseURL: "https://academiabombers-91da9-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "academiabombers-91da9",
+            storageBucket: "academiabombers-91da9.firebasestorage.app",
+            messagingSenderId: "719744658379",
+            appId: "1:719744658379:web:d3c018afdb2395fec6a44e",
+            measurementId: "G-66EPW2KMTP"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
