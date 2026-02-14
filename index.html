@@ -169,12 +169,7 @@
             margin-bottom: 20px;
         }
 
-        footer {
-            padding: 40px 24px;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
+
 
         [data-theme="dark"] .btn-white {
             background: var(--primary);
@@ -193,6 +188,10 @@
                     <h1>BOMBERS<span>TEST</span></h1>
                 </div>
                 <div style="display: flex; gap: 12px; align-items: center;" id="nav-actions">
+                    <button id="btn-news-toggle" class="btn-icon" title="Novetats i Millores">
+                        <i class="fas fa-bullhorn"></i>
+                        <span class="news-badge"></span>
+                    </button>
                     <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
                     <a href="login.html" class="btn-outline">Inicia Sessió</a>
                 </div>
@@ -336,9 +335,91 @@
             </div>
         </section>
 
-        <footer>
-            <p>&copy; 2024 Bombers Test. Tots els drets reservats.</p>
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="social-links">
+                        <a href="mailto:info@bomberstest.cat" class="social-btn" title="Contacte"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/bomberstest" class="social-btn" target="_blank" title="Telegram"><i
+                                class="fab fa-telegram-plane"></i></a>
+                        <a href="https://instagram.com/bomberstest" class="social-btn" target="_blank"
+                            title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="avis-legal.html" class="footer-link">Avís Legal</a>
+                        <a href="politica-privadesa.html" class="footer-link">Política de Privadesa</a>
+                    </div>
+                    <p class="copyright">&copy; 2026 Bombers Test. Tots els drets reservats.</p>
+                </div>
+            </div>
         </footer>
+    </div>
+
+    <!-- News Modal -->
+    <div id="news-modal" class="news-modal">
+        <div class="news-card">
+            <div class="news-header">
+                <h3 style="margin: 0; font-size: 20px;">Novetats i Futur</h3>
+                <button id="btn-close-news" class="btn-icon"><i class="fas fa-times"></i></button>
+            </div>
+
+            <div class="news-tabs">
+                <button class="news-tab active" data-tab="tab-news">Historial Novetats</button>
+                <button class="news-tab" data-tab="tab-future">Futures Millores</button>
+            </div>
+
+            <div class="news-content" id="tab-news">
+                <div class="timeline-item">
+                    <div class="timeline-date">14 Febrer 2026</div>
+                    <div class="timeline-title">Actualització de Disseny</div>
+                    <div class="timeline-desc">Nou disseny del peu de pàgina amb accés ràpid a xarxes socials i millores
+                        visuals en mode fosc.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">10 Febrer 2026</div>
+                    <div class="timeline-title">Mode Multijugador (Beta)</div>
+                    <div class="timeline-desc">Ja pots competir amb altres opositors en temps real! Crea sales privades
+                        i desafia als teus companys.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">01 Gener 2026</div>
+                    <div class="timeline-title">Llançament Oficial</div>
+                    <div class="timeline-desc">Inaugurem la plataforma amb més de 3.000 preguntes actualitzades per a
+                        l'oposició.</div>
+                </div>
+            </div>
+
+            <div class="news-content" id="tab-future" style="display: none;">
+                <p style="margin-bottom: 16px; font-size: 13px; color: var(--text-muted);">Llisca per veure el que estem
+                    preparant:</p>
+                <div class="future-scroller">
+                    <div class="future-card-item">
+                        <span class="future-status status-soon">Aviat</span>
+                        <div class="future-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h4 style="font-size: 15px; margin:0;">Estadístiques Avançades</h4>
+                        <p style="font-size: 12px; color: var(--text-muted); margin:0;">Gràfics detallats per tema per
+                            identificar els teus punts febles.</p>
+                    </div>
+                    <div class="future-card-item">
+                        <span class="future-status status-planned">En Planificació</span>
+                        <div class="future-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4 style="font-size: 15px; margin:0;">App Nativa iOS/Android</h4>
+                        <p style="font-size: 12px; color: var(--text-muted); margin:0;">Una experiència encara més
+                            fluida directament al teu mòbil.</p>
+                    </div>
+                    <div class="future-card-item">
+                        <span class="future-status status-planned">En Planificació</span>
+                        <div class="future-icon"><i class="fas fa-trophy"></i></div>
+                        <h4 style="font-size: 15px; margin:0;">Torneigs Setmanals</h4>
+                        <p style="font-size: 12px; color: var(--text-muted); margin:0;">Competicions organitzades amb
+                            premis per als millors classificats.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script type="module">
@@ -352,11 +433,16 @@
             const heroActions = document.getElementById('hero-actions');
 
             if (navActions) {
+                // Preserve the news button when updating text
                 navActions.innerHTML = `
+                    <button id="btn-news-toggle" class="btn-icon" title="Novetats i Millores">
+                        <i class="fas fa-bullhorn"></i>
+                        <span class="news-badge"></span>
+                    </button>
                     <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
                     <a href="app.html" class="btn-primary" style="padding: 10px 20px;">ANAR A L'APP</a>
                 `;
-                document.getElementById('btn-theme-toggle').onclick = () => ThemeManager.toggle();
+                document.getElementById('btn-theme-toggle').onclick = () => ThemeManager.toggleTheme();
             }
 
             if (heroActions) {
@@ -365,6 +451,46 @@
                     <a href="#features" class="btn-hero-outline">Saber-ne més</a>
                 `;
             }
+        }
+
+        // News Modal Logic
+        const btnNews = document.getElementById('btn-news-toggle');
+        const newsModal = document.getElementById('news-modal');
+        const btnCloseNews = document.getElementById('btn-close-news');
+        const tabs = document.querySelectorAll('.news-tab');
+        const contents = document.querySelectorAll('.news-content');
+
+        if (btnNews && newsModal) {
+            btnNews.onclick = () => {
+                newsModal.classList.add('active');
+                // Hide badge on click
+                const badge = btnNews.querySelector('.news-badge');
+                if (badge) badge.style.display = 'none';
+            };
+
+            if (btnCloseNews) {
+                btnCloseNews.onclick = () => newsModal.classList.remove('active');
+            }
+
+            // Close on click outside
+            newsModal.onclick = (e) => {
+                if (e.target === newsModal) newsModal.classList.remove('active');
+            }
+
+            // Tab Switching
+            tabs.forEach(tab => {
+                tab.onclick = () => {
+                    // Remove active from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active to clicked
+                    tab.classList.add('active');
+
+                    // Hide all contents
+                    contents.forEach(c => c.style.display = 'none');
+                    // Show target content
+                    document.getElementById(tab.dataset.tab).style.display = 'block';
+                }
+            });
         }
     </script>
 

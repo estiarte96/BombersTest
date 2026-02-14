@@ -153,6 +153,15 @@
                     <!-- Topics will be injected here -->
                 </div>
 
+                <div class="sticky-footer">
+                    <div class="selection-summary">
+                        <span id="selected-count">0</span> temes seleccionats
+                    </div>
+                    <button id="btn-start-test" class="btn-primary" disabled>
+                        COMENÇAR TEST <i class="fas fa-play"></i>
+                    </button>
+                </div>
+
                 <!-- Ranking Section -->
                 <div class="ranking-section" id="ranking-section">
                     <div class="section-header">
@@ -163,22 +172,16 @@
                         <!-- Ranking items will be injected here -->
                     </div>
                 </div>
-
-
-                <div class="sticky-footer">
-                    <div class="selection-summary">
-                        <span id="selected-count">0</span> temes seleccionats
-                    </div>
-                    <button id="btn-start-test" class="btn-primary" disabled>
-                        COMENÇAR TEST <i class="fas fa-play"></i>
-                    </button>
-                </div>
             </section>
 
             <!-- Screen 2: Quiz -->
             <section id="quiz-screen" class="screen">
                 <div class="quiz-header">
-                    <button id="btn-exit-quiz" class="btn-icon"><i class="fas fa-times"></i></button>
+                    <button id="btn-exit-quiz" class="btn-icon" title="Cancel·lar"><i class="fas fa-times"></i></button>
+                    <button id="btn-finish-early" class="btn-icon" style="color: var(--success); margin-right: 8px;"
+                        title="Guardar i Sortir">
+                        <i class="fas fa-save"></i>
+                    </button>
                     <div class="progress-container">
                         <div class="progress-bar" id="progress-bar"></div>
                     </div>
@@ -305,6 +308,28 @@
                 </div>
             </section>
         </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="social-links">
+                        <a href="mailto:info@bomberstest.cat" class="social-btn" title="Contacte"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/bomberstest" class="social-btn" target="_blank" title="Telegram"><i
+                                class="fab fa-telegram-plane"></i></a>
+                        <a href="https://instagram.com/bomberstest" class="social-btn" target="_blank"
+                            title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="avis-legal.html" class="footer-link">Avís Legal</a>
+                        <a href="politica-privadesa.html" class="footer-link">Política de Privadesa</a>
+                    </div>
+                    <p class="copyright">&copy; 2026 Bombers Test. Tots els drets reservats.</p>
+                </div>
+            </div>
+        </footer>
 
     </div>
 

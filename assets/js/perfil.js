@@ -107,6 +107,38 @@ btnResetStats.onclick = async () => {
     }
 };
 
+function toggleChartDataset(topicName, btn) {
+    if (!evolutionChart) return;
+
+    // Find dataset index
+    const datasetIndex = evolutionChart.data.datasets.findIndex(d => d.label === topicName);
+
+    if (datasetIndex !== -1) {
+        // Toggle hidden property
+        const isHidden = evolutionChart.getDatasetMeta(datasetIndex).hidden;
+
+        // Toggle visibility
+        evolutionChart.setDatasetVisibility(datasetIndex, isHidden === null ? false : !isHidden);
+
+        // Update Icon
+        const icon = btn.querySelector('i');
+        const newHiddenState = !evolutionChart.isDatasetVisible(datasetIndex);
+
+        if (newHiddenState) {
+            icon.classList.remove('fa-eye');
+            icon.classList.add('fa-eye-slash');
+            btn.style.opacity = '0.5';
+        } else {
+            icon.classList.remove('fa-eye-slash');
+            icon.classList.add('fa-eye');
+            btn.style.opacity = '1';
+        }
+
+        evolutionChart.update();
+    }
+}
+
+
 btnToggleConfig.onclick = () => {
     configSection.classList.toggle('hidden');
     if (!configSection.classList.contains('hidden')) {
@@ -229,9 +261,16 @@ function renderStats() {
         const pct = Math.round((data.correct / data.total) * 100);
         const item = document.createElement('div');
         item.className = 'topic-stat-item';
+
+        // Check visibility state for chart
+        const isHidden = false; // Default visible
+
         item.innerHTML = `
-            <div class="topic-stat-info">
-                <span class="topic-stat-name">${name}</span>
+            <div class="topic-stat-info" style="display:flex; align-items:center;">
+                <button class="btn-icon btn-toggle-chart" data-topic="${name}" title="Mostrar/Amagar a la gràfica" style="margin-right: 8px; font-size: 14px; padding: 4px; color: var(--text-muted);">
+                    <i class="fas fa-eye"></i>
+                </button>
+                <span class="topic-stat-name" style="flex:1;">${name}</span>
                 <span class="topic-stat-numbers">${data.correct}/${data.total} (${pct}%)</span>
             </div>
             <div class="topic-stat-bar-bg">
@@ -239,6 +278,13 @@ function renderStats() {
             </div>
         `;
         list.appendChild(item);
+
+        // Add listener for toggle
+        const toggleBtn = item.querySelector('.btn-toggle-chart');
+        toggleBtn.onclick = (e) => {
+            e.stopPropagation();
+            toggleChartDataset(name, toggleBtn);
+        };
     });
 
     renderChart(s.history || []);
@@ -324,7 +370,7 @@ function renderChart(history) {
             data: data,
             borderColor: color,
             borderWidth: 2,
-            hidden: true,
+            // hidden: true, // Removed to show all topics by default
             spanGaps: true,
             tension: 0.3,
             pointRadius: 3

@@ -1305,3 +1305,389 @@ header {
         background-color: rgba(0, 0, 0, 0.05);
     }
 }
+
+/* New Footer Design - Bold Update */
+.site-footer {
+    background-color: #1d3557 !important;
+    /* Dark Blue */
+    color: white !important;
+    padding: 50px 24px;
+    margin-top: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    text-align: right;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-btn {
+    width: 56px;
+    /* Larger buttons */
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08);
+    /* Subtlebg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-size: 24px;
+    /* Larger icons */
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn:hover {
+    background-color: #e63946;
+    border-color: #e63946;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 10px 20px rgba(230, 57, 70, 0.3);
+    color: white !important;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-link:hover {
+    color: white !important;
+}
+
+.footer-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #e63946;
+    transition: width 0.3s ease;
+}
+
+.footer-link:hover::after {
+    width: 100%;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Mobile Responsiveness for Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 10px 0;
+    }
+
+    .footer-right {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social-links {
+        gap: 16px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+/* News Modal & Button */
+.btn-news {
+    position: relative;
+}
+
+.news-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--danger);
+    border-radius: 50%;
+    border: 2px solid var(--card-bg);
+}
+
+.news-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.news-modal.active {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+}
+
+.news-card {
+    background-color: var(--card-bg);
+    width: 90%;
+    max-width: 500px;
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border);
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border);
+}
+
+.news-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: var(--background);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.news-tab {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: none;
+    color: var(--text-muted);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.news-tab.active {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.news-content {
+    overflow-y: auto;
+    flex: 1;
+    padding-right: 5px;
+}
+
+/* Timeline Style for News */
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    border-left: 2px solid var(--border);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid var(--card-bg);
+}
+
+.timeline-date {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.timeline-title {
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: var(--text-color);
+}
+
+.timeline-desc {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+/* Horizontal Scroll for Future */
+.future-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 4px 4px 16px 4px;
+    scroll-snap-type: x mandatory;
+}
+
+.future-card-item {
+    min-width: 200px;
+    background: var(--background);
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.future-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(230, 57, 70, 0.1);
+    color: var(--primary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.future-status {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.status-soon {
+    background: rgba(251, 191, 36, 0.2);
+    color: #d97706;
+}
+
+.status-planned {
+    background: rgba(59, 130, 246, 0.2);
+    color: #2563eb;
+}
+
+/* DESKTOP LAYOUT FIXES */
+@media (min-width: 1024px) {
+    .app-container {
+        max-width: 100%;
+        /* Allow full width on PC */
+    }
+
+    header {
+        /* Center content but keep background full width */
+        padding-left: max(24px, calc(50% - 400px));
+        padding-right: max(24px, calc(50% - 400px));
+        /* Note: 400px is half of 800px max content width */
+    }
+
+    /* Target specific header elements to ensure they don't stretch too much if needed */
+    /* header .logo, header .user-profile { } */
+
+    #main-content {
+        max-width: 800px;
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Ensure Footer content is also centered like header/main */
+    .site-footer {
+        /* Padding handles vertical, lets adjust horizontal */
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-content {
+        /* It already has max-width 1200px and margin 0 auto */
+        /* Let's make it match the app feel if desired, or keep it wider like landing page */
+        /* User said "app zone" - usually app keeps consistent width */
+        /* But footer on landing page is 1200px wide. */
+
+        /* If we want consistency with landing page footer: */
+        max-width: 1000px;
+        /* Slightly wider than app content but okay */
+        padding: 0 24px;
+    }
+
+    /* Fix Start Test button position on PC - ensure it's not floating over content */
+    .sticky-footer {
+        position: static !important;
+        transform: none !important;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        background: transparent;
+        padding: 30px 0;
+        margin-top: 40px;
+        border-top: 1px solid var(--border);
+        backdrop-filter: none;
+        display: flex;
+        flex-direction: row;
+        /* Horizontal layout on PC */
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sticky-footer .btn-primary {
+        width: auto;
+        /* Natural width on PC */
+        min-width: 250px;
+    }
+}

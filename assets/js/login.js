@@ -47,6 +47,12 @@ registerForm.onsubmit = async (e) => {
     const name = document.getElementById('reg-name').value;
     const email = document.getElementById('reg-email').value;
     const password = document.getElementById('reg-password').value;
+    const privacyCheck = document.getElementById('reg-privacy');
+
+    if (!privacyCheck.checked) {
+        alert("Has d'acceptar la política de privadesa per registrar-te.");
+        return;
+    }
 
     try {
         // Try Firebase Auth first

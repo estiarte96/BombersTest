@@ -306,7 +306,8 @@ if (topicSearch) {
 if (startTestBtn) {
     startTestBtn.onclick = () => {
         const selectedData = allData.filter(t => selectedTopics.has(t.topic));
-        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 30;
+        // If not exam, request a huge number to get ALL unique questions available
+        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 9999;
         let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
 
         const questions = getWeightedQuestions(selectedData, numQuestions);
@@ -318,7 +319,7 @@ if (startTestBtn) {
 const btnRandomMix = document.getElementById('btn-random-mix');
 if (btnRandomMix) {
     btnRandomMix.onclick = () => {
-        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 50;
+        let numQuestions = testMode === 'exam' ? parseInt(document.getElementById('exam-num-questions').value) : 9999;
         let duration = testMode === 'exam' ? parseInt(document.getElementById('exam-match-time').value) * 60 : 0;
 
         const questions = getWeightedQuestions(allData, numQuestions);
@@ -328,36 +329,100 @@ if (btnRandomMix) {
 
 
 // Weighted random selection logic
+// Weighted random selection logic
 function getWeightedQuestions(data, totalToSelect) {
     const weights = (currentUser && currentUser.stats && currentUser.stats.weights) ? currentUser.stats.weights : {};
-    let fullPool = [];
 
+    // 1. Organize questions by topic
+    let questionsByTopic = {};
     data.forEach(t => {
-        const weight = weights[t.topic] || 5;
-        // We multiply the topic's questions in the pool based on its weight
-        // Higher weight = more presence in the random shuffle
-        t.questions.forEach(q => {
-            const questionEntry = { ...q, topicName: t.topic };
-            for (let i = 0; i < weight; i++) {
-                fullPool.push(questionEntry);
-            }
-        });
+        questionsByTopic[t.topic] = t.questions.map(q => ({ ...q, topicName: t.topic }));
     });
 
-    // Shuffle and pick unique questions (by ID)
-    const shuffled = shuffleArray(fullPool);
-    const selected = [];
-    const usedIds = new Set();
+    // 2. Determine how many questions to pick from each topic based on weights
+    let selected = [];
+    let topics = Object.keys(questionsByTopic);
+    let totalWeight = 0;
 
-    for (const q of shuffled) {
-        if (!usedIds.has(q.id)) {
-            selected.push(q);
-            usedIds.add(q.id);
-        }
-        if (selected.length >= totalToSelect) break;
+    topics.forEach(t => {
+        // Default weight is 5 if not set
+        const w = weights[t];
+        const val = (w !== undefined && w !== null && !isNaN(w)) ? parseInt(w) : 5;
+        totalWeight += val;
+    });
+
+    if (totalWeight === 0) totalWeight = 1;
+
+    // Mode Estudi (Unlimited - >5000 requested):
+    // Use Weighted Random Sort (Efraimidis-Spirakis) to prioritize high-weight topics in the order.
+    if (totalToSelect > 5000) {
+        let allValidQuestions = [];
+        data.forEach(t => {
+            let w = weights[t.topic];
+            let weight = (w !== undefined && w !== null && !isNaN(w)) ? parseInt(w) : 5;
+            if (weight < 1) weight = 1;
+
+            t.questions.forEach(q => {
+                // R ^ (1/w)
+                // Higher weight -> Exponent closer to 0 -> SortKey closer to 1
+                const sortKey = Math.pow(Math.random(), 1 / weight);
+                allValidQuestions.push({
+                    ...q,
+                    topicName: t.topic,
+                    sortKey: sortKey
+                });
+            });
+        });
+
+        // Sort descending by Key: high weight topics will appear earlier on average
+        allValidQuestions.sort((a, b) => b.sortKey - a.sortKey);
+
+        return allValidQuestions;
     }
 
-    return selected;
+    // Mode Exam (Limited count e.g. 30):
+    // Use weights to determine quota per topic
+    let remainingSlots = totalToSelect;
+
+    topics.forEach(t => {
+        const w = weights[t];
+        const weight = (w !== undefined && w !== null && !isNaN(w)) ? parseInt(w) : 5;
+        const quota = Math.round((weight / totalWeight) * totalToSelect);
+
+        // Get questions for this topic
+        let topicQuestions = questionsByTopic[t];
+
+        // Shuffle this topic's questions
+        topicQuestions = shuffleArray(topicQuestions);
+
+        // Take quota amount (or all if quota > available)
+        let take = Math.min(quota, topicQuestions.length);
+        if (take > 0) {
+            selected.push(...topicQuestions.slice(0, take));
+            remainingSlots -= take;
+        }
+    });
+
+    // Fill remaining slots if any (due to rounding or empty topics)
+    if (remainingSlots > 0 || selected.length < totalToSelect) {
+        // Gather all remaining unselected questions
+        let pool = [];
+        let usedIds = new Set(selected.map(sq => sq.id));
+
+        data.forEach(t => {
+            t.questions.forEach(q => {
+                if (!usedIds.has(q.id)) {
+                    pool.push({ ...q, topicName: t.topic });
+                }
+            });
+        });
+
+        pool = shuffleArray(pool);
+        selected.push(...pool.slice(0, totalToSelect - selected.length));
+    }
+
+    // Final shuffle of the mixed selection
+    return shuffleArray(selected);
 }
 
 // Start Review Test
@@ -644,12 +709,33 @@ function finishQuiz() {
     switchScreen('results-screen');
 
     const total = currentQuiz.questions.length;
-    const scorePct = Math.round((currentQuiz.score / total) * 100);
+
+    // Calculate Score with Penalty: Correct - (Incorrect * 0.25)
+    // Incorrect is total answered minus correct ones (assuming we force answer or count only answered ones as wrong?)
+    // In our logic results array contains ONLY answered questions.
+    // So Incorrect = results.length - score (where score is correct count)
+    // Wait, let's recount from results to be safe.
+    const correctCount = currentQuiz.results.filter(r => r.correct).length;
+    const incorrectCount = currentQuiz.results.filter(r => !r.correct).length;
+
+    // Penalize 0.25 points for each incorrect answer
+    let rawScore = correctCount - (incorrectCount * 0.25);
+    if (rawScore < 0) rawScore = 0; // Prevent negative scores
+
+    // Percentage based on raw score vs total questions
+    // e.g. 10 questions. 5 correct, 4 wrong. Score = 5 - 1 = 4. 4/10 = 40%
+    const scorePct = total > 0 ? Math.round((rawScore / total) * 100) : 0;
+
+    // Update score display to show weighted score, but let's keep simple "Correct" count for stats
+    // Or maybe show the decimal score? User asked for formula, likely for the final grade.
+    // We will show percentage based on formula.
 
     document.getElementById('final-score').textContent = `${scorePct}%`;
     document.querySelector('.score-circle').style.setProperty('--percentage', `${scorePct}%`);
-    document.getElementById('stat-correct').textContent = currentQuiz.score;
-    document.getElementById('stat-incorrect').textContent = total - currentQuiz.score;
+
+    // Stat details: Just raw counts for clarity
+    document.getElementById('stat-correct').textContent = correctCount;
+    document.getElementById('stat-incorrect').textContent = incorrectCount; // Show actual errors count
 
     const duration = Math.floor((new Date() - currentQuiz.startTime) / 1000);
     const mins = Math.floor(duration / 60);
@@ -747,6 +833,36 @@ if (btnExitQuiz) {
             clearInterval(currentQuiz.timerInterval);
             switchScreen('selection-screen');
             renderRanking();
+        }
+    };
+}
+
+// New Button: Save and Exit (Finish Early)
+const btnFinishEarly = document.getElementById('btn-finish-early');
+if (btnFinishEarly) {
+    btnFinishEarly.onclick = () => {
+        if (confirm('Vols acabar el test ara i guardar el resultat?')) {
+            // If in standard mode, we treat the answered questions as the total
+            // so the score reflects "real" performance on what was attempted
+            if (!currentQuiz.isExamMode) {
+                const answeredCount = currentQuiz.currentIndex;
+                // However, currentQuiz.currentIndex matches the NEXT question index usually, 
+                // but results only have answered ones.
+                // Actually, if we are at question 5 (index 4), we answered 4 questions OR we are looking at question 5.
+                // If we are looking at it and haven't answered, result len is 4.
+                // If we answered, 'Next' button is visible.
+
+                // Let's use results length as the source of truth for "completed" questions
+                const completedCount = currentQuiz.results.length;
+
+                // Slice the questions array to match what we actually did
+                // This will make finishQuiz calculate score against completedCount
+                currentQuiz.questions = currentQuiz.questions.slice(0, completedCount);
+                // Also update currentIndex to match end
+                currentQuiz.currentIndex = completedCount;
+            }
+
+            finishQuiz();
         }
     };
 }
