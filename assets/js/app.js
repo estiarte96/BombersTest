@@ -21,10 +21,15 @@ let includeExtra = false;
 let includeOfficial = true;
 let selectedTopics = new Set();
 let failedQuestions = JSON.parse(localStorage.getItem('failed_questions') || '[]');
+let favoriteQuestions = JSON.parse(localStorage.getItem('favorite_questions') || '[]');
 let testMode = 'standard'; // 'standard' or 'exam'
 let currentUser = JSON.parse(localStorage.getItem('current_user') || 'null');
 
-
+// Sync favorites from user profile if exists
+if (currentUser && currentUser.favorites) {
+    favoriteQuestions = currentUser.favorites;
+    localStorage.setItem('favorite_questions', JSON.stringify(favoriteQuestions));
+}
 
 let currentQuiz = {
     questions: [],
@@ -46,7 +51,9 @@ const selectedCountEl = document.getElementById('selected-count');
 const startTestBtn = document.getElementById('btn-start-test');
 const topicSearch = document.getElementById('topic-search');
 const failedCountEl = document.getElementById('failed-count');
+const favoritesCountEl = document.getElementById('favorites-count');
 const btnReviewFailed = document.getElementById('btn-review-failed');
+const btnReviewFavorites = document.getElementById('btn-review-favorites');
 const btnClearFailed = document.getElementById('btn-clear-failed');
 
 // Header Elements
@@ -205,6 +212,10 @@ function updateFailedUI() {
     failedCountEl.textContent = failedQuestions.length;
     btnReviewFailed.disabled = failedQuestions.length === 0;
     if (btnClearFailed) btnClearFailed.disabled = failedQuestions.length === 0;
+
+    // Favorites UI - rename function later maybe?
+    if (favoritesCountEl) favoritesCountEl.textContent = favoriteQuestions.length;
+    if (btnReviewFavorites) btnReviewFavorites.disabled = favoriteQuestions.length === 0;
 }
 
 // Render Themes List
@@ -357,6 +368,13 @@ if (btnReviewFailed) {
     };
 }
 
+if (btnReviewFavorites) {
+    btnReviewFavorites.onclick = () => {
+        if (favoriteQuestions.length === 0) return;
+        startQuiz(shuffleArray([...favoriteQuestions]), false);
+    };
+}
+
 if (btnClearFailed) {
     btnClearFailed.onclick = () => {
         if (confirm('Segur que vols borrar totes les fallades registrades?')) {
@@ -436,6 +454,94 @@ function renderQuestion() {
             handleChoice(isCorrect, btn);
         });
     });
+
+    // Report Error Logic
+    const reportBtn = document.createElement('button');
+    reportBtn.className = 'btn-report-error';
+    reportBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Informar d\'error';
+    reportBtn.title = 'Informa d\'un error en aquesta pregunta';
+    reportBtn.style.cssText = 'position: absolute; top: 20px; right: 20px; background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 14px; display: flex; align-items: center; gap: 6px; opacity: 0.7; transition: opacity 0.3s;';
+
+    reportBtn.onmouseover = () => reportBtn.style.opacity = '1';
+    reportBtn.onmouseout = () => reportBtn.style.opacity = '0.7';
+
+    reportBtn.onclick = async () => {
+        const comment = prompt("Descriu l'error que has trobat en aquesta pregunta:");
+        if (comment !== null) { // If user didn't cancel
+            const report = {
+                questionId: question.id || 'unknown',
+                questionText: question.text,
+                topic: question.topicName || 'unknown',
+                user: currentUser ? currentUser.email : 'anonymous',
+                comment: comment || 'Sense comentari',
+                fixed: false
+            };
+
+            try {
+                await FirebaseDB.saveErrorReport(report);
+                alert("Gràcies pel teu feedback! Ho revisarem el més aviat possible.");
+            } catch (e) {
+                alert("Hi ha hagut un error enviant l'informe. Torna-ho a provar més tard.");
+            }
+        }
+    };
+
+    // Favorites Logic
+    const isFav = favoriteQuestions.some(q => q.id === question.id);
+    const starBtn = document.createElement('button');
+    starBtn.className = 'btn-favorite';
+    starBtn.innerHTML = `<i class="${isFav ? 'fas' : 'far'} fa-star"></i>`;
+    starBtn.title = isFav ? 'Treure de favorits' : 'Afegir a favorits';
+    starBtn.style.cssText = `
+        position: absolute; 
+        top: 20px; 
+        right: 170px; /* Positioned to the left of report button */
+        background: transparent; 
+        border: none; 
+        color: ${isFav ? '#fbbf24' : 'var(--text-muted)'}; 
+        cursor: pointer; 
+        font-size: 18px; 
+        transition: transform 0.2s;
+    `;
+
+    starBtn.onmouseover = () => starBtn.style.transform = 'scale(1.2)';
+    starBtn.onmouseout = () => starBtn.style.transform = 'scale(1)';
+
+    starBtn.onclick = () => {
+        const index = favoriteQuestions.findIndex(q => q.id === question.id);
+        if (index === -1) {
+            // Add to favorites
+            favoriteQuestions.push(question);
+            starBtn.innerHTML = '<i class="fas fa-star"></i>';
+            starBtn.style.color = '#fbbf24';
+            starBtn.title = 'Treure de favorits';
+        } else {
+            // Remove from favorites
+            favoriteQuestions.splice(index, 1);
+            starBtn.innerHTML = '<i class="far fa-star"></i>';
+            starBtn.style.color = 'var(--text-muted)';
+            starBtn.title = 'Afegir a favorits';
+        }
+
+        // Save locally
+        localStorage.setItem('favorite_questions', JSON.stringify(favoriteQuestions));
+
+        // Sync with user profile if logged in
+        if (currentUser) {
+            currentUser.favorites = favoriteQuestions;
+            updateUserInFirebase().catch(e => console.error('Error syncing favorites:', e));
+        }
+
+        updateFailedUI(); // Updates the count in the background
+    };
+
+    // Ensure parent has relative positioning for absolute button
+    const card = container.querySelector('.question-card');
+    if (card) {
+        card.style.position = 'relative';
+        card.appendChild(reportBtn);
+        card.appendChild(starBtn);
+    }
 
     // Store correct index for feedback
     window.currentCorrectIdx = shuffledOptions.findIndex(o => o.isCorrect);
@@ -648,9 +754,21 @@ if (btnExitQuiz) {
 if (btnLogout) {
     btnLogout.onclick = () => {
         if (confirm('Segur que vols tancar la sessió?')) {
-            currentUser = null;
-            localStorage.removeItem('current_user');
-            window.location.href = 'login.html';
+            // Check if Firebase is available
+            if (typeof firebase !== 'undefined' && firebase.auth) {
+                firebase.auth().signOut().then(() => {
+                    localStorage.removeItem('current_user');
+                    window.location.href = 'login.html';
+                }).catch((error) => {
+                    // Force local logout
+                    localStorage.removeItem('current_user');
+                    window.location.href = 'login.html';
+                });
+            } else {
+                // Offline fallback - logout locally
+                localStorage.removeItem('current_user');
+                window.location.href = 'login.html';
+            }
         }
     };
 }

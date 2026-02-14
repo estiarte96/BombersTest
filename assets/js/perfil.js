@@ -120,8 +120,21 @@ btnStatsBack.onclick = () => {
 
 btnLogout.onclick = () => {
     if (confirm('Segur que vols tancar la sessió?')) {
-        localStorage.removeItem('current_user');
-        window.location.href = 'login.html';
+        // If Firebase is loaded and online
+        if (typeof firebase !== 'undefined' && firebase.auth) {
+            firebase.auth().signOut().then(() => {
+                localStorage.removeItem('current_user');
+                window.location.href = 'login.html';
+            }).catch((error) => {
+                // Force logout if Firebase fails
+                localStorage.removeItem('current_user');
+                window.location.href = 'login.html';
+            });
+        } else {
+            // Offline fallback
+            localStorage.removeItem('current_user');
+            window.location.href = 'login.html';
+        }
     }
 };
 

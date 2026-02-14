@@ -112,6 +112,47 @@ export const FirebaseDB = {
     async updatePlayerStatus(code, playerEmail, status) {
         const playerKey = playerEmail.replace(/[.#$[\]]/g, '_');
         await this.getRoomsRef().child(code).child('players').child(playerKey).update(status);
+    },
+
+    // --- ERROR REPORTING ---
+    async saveErrorReport(report) {
+        try {
+            const reportRef = getDb().ref('error_reports').push();
+            await reportRef.set({
+                ...report,
+                timestamp: firebase.database.ServerValue.TIMESTAMP
+            });
+            console.log("Error report saved:", reportRef.key);
+            return true;
+        } catch (error) {
+            console.error("Error saving report:", error);
+            return false;
+        }
+    },
+
+    async getErrorReports() {
+        try {
+            const snapshot = await getDb().ref('error_reports').once('value');
+            const reportsObj = snapshot.val() || {};
+            // Convert to array and add key as id
+            return Object.entries(reportsObj).map(([key, value]) => ({
+                id: key,
+                ...value
+            }));
+        } catch (error) {
+            console.error("Error getting reports:", error);
+            return [];
+        }
+    },
+
+    async resolveReport(reportId) {
+        try {
+            await getDb().ref('error_reports').child(reportId).remove();
+            return true;
+        } catch (error) {
+            console.error("Error resolving report:", error);
+            return false;
+        }
     }
 };
 

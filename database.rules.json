@@ -1,0 +1,30 @@
+{
+    "rules": {
+        ".read": false,
+        ".write": false,
+        "users": {
+            // Allows fetching strict list for ranking, but ideally we should separate public profiles
+            ".read": "auth != null",
+            "$user_key": {
+                // Only allow write if the user maps to the auth email
+                // Logic: The key is the sanitized email. We verify auth.token.email matches.
+                ".write": "auth != null && ($user_key === auth.token.email.replace('.', '_'))"
+            }
+        },
+        "questions": {
+            // Only logged in users can read questions
+            ".read": "auth != null",
+            ".write": false // Only admin via Console can write questions
+        },
+        "error_reports": {
+            // Only admin can read reports (password protected on client, but logic here helps too if we had admin roles)
+            // For now we allow read to authenticated so admin panel works with simple auth
+            ".read": "auth != null",
+            ".write": "auth != null"
+        },
+        "rooms": {
+            ".read": "auth != null",
+            ".write": "auth != null"
+        }
+    }
+}

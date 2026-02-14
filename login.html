@@ -35,6 +35,13 @@
                         </div>
 
                         <form id="login-form" class="auth-form">
+                            <!-- Alert for errors -->
+                            <div id="login-alert" class="alert alert-danger"
+                                style="display: none; background-color: #fee2e2; color: #b91c1c; padding: 12px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; border: 1px solid #fecaca;">
+                                <i class="fas fa-exclamation-circle" style="margin-right: 8px;"></i>
+                                <span id="login-alert-msg"></span>
+                            </div>
+
                             <div class="input-group">
                                 <i class="fas fa-envelope"></i>
                                 <input type="email" id="login-email" placeholder="Correu electrònic" required>
@@ -43,6 +50,13 @@
                                 <i class="fas fa-lock"></i>
                                 <input type="password" id="login-password" placeholder="Contrasenya" required>
                             </div>
+
+                            <div style="text-align: right; margin-bottom: 16px;">
+                                <a href="#" id="forgot-password-link"
+                                    style="color: var(--primary); font-size: 13px; text-decoration: none;">Has oblidat
+                                    la contrasenya?</a>
+                            </div>
+
                             <button type="submit" class="btn-primary w-100">ENTRAR</button>
                             <p class="auth-switch">No tens compte? <a href="#" id="go-to-register">Registra't</a></p>
                         </form>

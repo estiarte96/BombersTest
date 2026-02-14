@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bombers Test - La millor preparació per a les teves oposicions</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mobile-optimization.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -16,8 +17,12 @@
             text-align: center;
             background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
             color: white;
-            border-radius: 0 0 40px 40px;
-            margin-bottom: 60px;
+            border-radius: 40px;
+            /* Rounded corners on all sides */
+            margin: 20px auto 60px;
+            /* Add margin to float it */
+            max-width: 1200px;
+            /* Constrain width for card look */
         }
 
         .landing-hero h1 {
@@ -55,16 +60,35 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
+        .btn-hero-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 16px 32px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-hero-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
         .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 30px;
             padding: 24px;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .feature-card {
+            flex: 1 1 280px;
+            max-width: 400px;
             background: var(--card-bg);
             padding: 32px;
             border-radius: 24px;
@@ -161,14 +185,17 @@
 
 <body>
     <div class="app-container" style="max-width: 100%; padding-bottom: 0;">
-        <header style="max-width: 1000px; margin: 0 auto; width: 100%; border: none;">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="Bombers Test Logo" class="logo-img">
-                <h1>BOMBERS<span>TEST</span></h1>
-            </div>
-            <div style="display: flex; gap: 12px; align-items: center;" id="nav-actions">
-                <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
-                <a href="login.html" class="btn-outline">Inicia Sessió</a>
+        <header style="width: 100%; border: none;">
+            <div
+                style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="Bombers Test Logo" class="logo-img">
+                    <h1>BOMBERS<span>TEST</span></h1>
+                </div>
+                <div style="display: flex; gap: 12px; align-items: center;" id="nav-actions">
+                    <button id="btn-theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+                    <a href="login.html" class="btn-outline">Inicia Sessió</a>
+                </div>
             </div>
         </header>
 
@@ -178,7 +205,7 @@
                 vulguis.</p>
             <div class="hero-btns" id="hero-actions">
                 <a href="login.html" class="btn-white">Comença Gratis</a>
-                <a href="#features" class="btn-outline" style="color: white; border-color: white;">Saber-ne més</a>
+                <a href="#features" class="btn-hero-outline">Saber-ne més</a>
             </div>
         </section>
 
@@ -205,6 +232,29 @@
                 <p>Estudia des del mòbil, tauleta o ordinador. El teu progrés se sincronitza automàticament.</p>
             </div>
 
+        </section>
+
+        <!-- NEW MULTIPLAYER SECTION -->
+        <section class="multiplayer-highlight">
+            <div class="multiplayer-content">
+                <span class="new-badge"><i class="fas fa-bolt"></i> NOVETAT INCREÏBLE</span>
+                <h2 class="multiplayer-title">Mode Multijugador</h2>
+                <div class="multiplayer-visual">
+                    <div class="player-card-demo">
+                        <i class="fas fa-user-astronaut" style="color: #64ffda;"></i>
+                        <span>Tu</span>
+                    </div>
+                    <div class="vs-badge">VS</div>
+                    <div class="player-card-demo">
+                        <i class="fas fa-fire-extinguisher" style="color: #ff7675;"></i>
+                        <span>Rival</span>
+                    </div>
+                </div>
+                <p class="multiplayer-desc">Posa a prova els teus coneixements desafiant a altres opositors en temps
+                    real. Qui respondrà més ràpid?</p>
+                <a href="login.html" class="btn-play"><i class="fas fa-gamepad" style="margin-right: 10px;"></i> JUGAR
+                    ARA</a>
+            </div>
         </section>
 
         <!-- New Installation Guide Section -->
@@ -312,7 +362,7 @@
             if (heroActions) {
                 heroActions.innerHTML = `
                     <a href="app.html" class="btn-white">Continuar Estudiant</a>
-                    <a href="#features" class="btn-outline" style="color: white; border-color: white;">Saber-ne més</a>
+                    <a href="#features" class="btn-hero-outline">Saber-ne més</a>
                 `;
             }
         }
