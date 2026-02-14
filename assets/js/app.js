@@ -492,9 +492,25 @@ function renderQuestion() {
 
     const shuffledOptions = shuffleArray([...options]);
 
+    // Check Favorites Status
+    const isFav = favoriteQuestions.some(q => q.id === question.id);
+
     container.innerHTML = `
         <div class="question-card">
-            <span class="question-topic">${question.topicName} — ${question.exam}</span>
+            <div class="question-header-top">
+                <span class="question-topic">${question.topicName} — ${question.exam}</span>
+                <div class="question-actions-top">
+                    <!-- Favorite Button -->
+                    <button class="btn-action-icon btn-favorite ${isFav ? 'active' : ''}" title="${isFav ? 'Treure de favorits' : 'Afegir a favorits'}">
+                        <i class="${isFav ? 'fas' : 'far'} fa-star"></i>
+                    </button>
+                    <!-- Report Button -->
+                    <button class="btn-action-icon btn-report" title="Informar d'error">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </button>
+                </div>
+            </div>
+            
             <h2 class="question-text">${question.text}</h2>
             <div class="options-list" id="options-list">
                 ${shuffledOptions.map((opt, idx) => {
@@ -521,91 +537,69 @@ function renderQuestion() {
     });
 
     // Report Error Logic
-    const reportBtn = document.createElement('button');
-    reportBtn.className = 'btn-report-error';
-    reportBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Informar d\'error';
-    reportBtn.title = 'Informa d\'un error en aquesta pregunta';
-    reportBtn.style.cssText = 'position: absolute; top: 20px; right: 20px; background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 14px; display: flex; align-items: center; gap: 6px; opacity: 0.7; transition: opacity 0.3s;';
+    const reportBtn = container.querySelector('.btn-report');
+    if (reportBtn) {
+        reportBtn.onclick = async () => {
+            const comment = prompt("Descriu l'error que has trobat en aquesta pregunta:");
+            if (comment !== null) { // If user didn't cancel
+                const report = {
+                    questionId: question.id || 'unknown',
+                    questionText: question.text,
+                    topic: question.topicName || 'unknown',
+                    user: currentUser ? currentUser.email : 'anonymous',
+                    comment: comment || 'Sense comentari',
+                    fixed: false
+                };
 
-    reportBtn.onmouseover = () => reportBtn.style.opacity = '1';
-    reportBtn.onmouseout = () => reportBtn.style.opacity = '0.7';
-
-    reportBtn.onclick = async () => {
-        const comment = prompt("Descriu l'error que has trobat en aquesta pregunta:");
-        if (comment !== null) { // If user didn't cancel
-            const report = {
-                questionId: question.id || 'unknown',
-                questionText: question.text,
-                topic: question.topicName || 'unknown',
-                user: currentUser ? currentUser.email : 'anonymous',
-                comment: comment || 'Sense comentari',
-                fixed: false
-            };
-
-            try {
-                await FirebaseDB.saveErrorReport(report);
-                alert("Gràcies pel teu feedback! Ho revisarem el més aviat possible.");
-            } catch (e) {
-                alert("Hi ha hagut un error enviant l'informe. Torna-ho a provar més tard.");
+                try {
+                    await FirebaseDB.saveErrorReport(report);
+                    alert("Gràcies pel teu feedback! Ho revisarem el més aviat possible.");
+                } catch (e) {
+                    alert("Hi ha hagut un error enviant l'informe. Torna-ho a provar més tard.");
+                }
             }
-        }
-    };
+        };
+    }
 
     // Favorites Logic
-    const isFav = favoriteQuestions.some(q => q.id === question.id);
-    const starBtn = document.createElement('button');
-    starBtn.className = 'btn-favorite';
-    starBtn.innerHTML = `<i class="${isFav ? 'fas' : 'far'} fa-star"></i>`;
-    starBtn.title = isFav ? 'Treure de favorits' : 'Afegir a favorits';
-    starBtn.style.cssText = `
-        position: absolute; 
-        top: 20px; 
-        right: 170px; /* Positioned to the left of report button */
-        background: transparent; 
-        border: none; 
-        color: ${isFav ? '#fbbf24' : 'var(--text-muted)'}; 
-        cursor: pointer; 
-        font-size: 18px; 
-        transition: transform 0.2s;
-    `;
+    const starBtn = container.querySelector('.btn-favorite');
+    if (starBtn) {
+        starBtn.onclick = () => {
+            const index = favoriteQuestions.findIndex(q => q.id === question.id);
+            let isNowFav = false;
 
-    starBtn.onmouseover = () => starBtn.style.transform = 'scale(1.2)';
-    starBtn.onmouseout = () => starBtn.style.transform = 'scale(1)';
+            if (index === -1) {
+                // Add to favorites
+                favoriteQuestions.push(question);
+                isNowFav = true;
+            } else {
+                // Remove from favorites
+                favoriteQuestions.splice(index, 1);
+                isNowFav = false;
+            }
 
-    starBtn.onclick = () => {
-        const index = favoriteQuestions.findIndex(q => q.id === question.id);
-        if (index === -1) {
-            // Add to favorites
-            favoriteQuestions.push(question);
-            starBtn.innerHTML = '<i class="fas fa-star"></i>';
-            starBtn.style.color = '#fbbf24';
-            starBtn.title = 'Treure de favorits';
-        } else {
-            // Remove from favorites
-            favoriteQuestions.splice(index, 1);
-            starBtn.innerHTML = '<i class="far fa-star"></i>';
-            starBtn.style.color = 'var(--text-muted)';
-            starBtn.title = 'Afegir a favorits';
-        }
+            // Update UI
+            if (isNowFav) {
+                starBtn.classList.add('active');
+                starBtn.innerHTML = '<i class="fas fa-star"></i>';
+                starBtn.title = 'Treure de favorits';
+            } else {
+                starBtn.classList.remove('active');
+                starBtn.innerHTML = '<i class="far fa-star"></i>';
+                starBtn.title = 'Afegir a favorits';
+            }
 
-        // Save locally
-        localStorage.setItem('favorite_questions', JSON.stringify(favoriteQuestions));
+            // Save locally
+            localStorage.setItem('favorite_questions', JSON.stringify(favoriteQuestions));
 
-        // Sync with user profile if logged in
-        if (currentUser) {
-            currentUser.favorites = favoriteQuestions;
-            updateUserInFirebase().catch(e => console.error('Error syncing favorites:', e));
-        }
+            // Sync with user profile if logged in
+            if (currentUser) {
+                currentUser.favorites = favoriteQuestions;
+                updateUserInFirebase().catch(e => console.error('Error syncing favorites:', e));
+            }
 
-        updateFailedUI(); // Updates the count in the background
-    };
-
-    // Ensure parent has relative positioning for absolute button
-    const card = container.querySelector('.question-card');
-    if (card) {
-        card.style.position = 'relative';
-        card.appendChild(reportBtn);
-        card.appendChild(starBtn);
+            updateFailedUI(); // Updates the count in the background
+        };
     }
 
     // Store correct index for feedback
