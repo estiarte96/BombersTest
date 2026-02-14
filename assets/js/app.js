@@ -139,6 +139,11 @@ function showApp() {
         updateUserInFirebase();
     }
 
+    // Cleanup stale hash (e.g. from reload during quiz)
+    if (window.location.hash === '#quiz') {
+        history.replaceState(null, document.title, window.location.pathname + window.location.search);
+    }
+
     switchScreen('selection-screen');
     renderRanking();
 }
@@ -467,6 +472,9 @@ function startQuiz(questions, isExam, customDuration) {
         timerInterval: setInterval(isExam ? updateExamTimer : updateTimer, 1000)
     };
 
+    // Add history state to prevent accidental back navigation
+    history.pushState({ screen: 'quiz' }, document.title, '#quiz');
+
 
     switchScreen('quiz-screen');
     renderQuestion();
@@ -700,6 +708,12 @@ document.getElementById('btn-next-question').onclick = () => {
 
 function finishQuiz() {
     clearInterval(currentQuiz.timerInterval);
+
+    // Clear history state to match screen switch
+    if (history.state && history.state.screen === 'quiz') {
+        history.replaceState(null, document.title, window.location.pathname + window.location.search);
+    }
+
     switchScreen('results-screen');
 
     const total = currentQuiz.questions.length;
@@ -825,6 +839,12 @@ if (btnExitQuiz) {
         if (confirm('Segur que vols sortir? El progrés es perdrà.')) {
             currentRoomCode = null;
             clearInterval(currentQuiz.timerInterval);
+
+            // Clear history state
+            if (history.state && history.state.screen === 'quiz') {
+                history.replaceState(null, document.title, window.location.pathname + window.location.search);
+            }
+
             switchScreen('selection-screen');
             renderRanking();
         }
@@ -986,6 +1006,7 @@ if (btnToggleExtra) {
     };
 }
 
+
 loadData();
 
 window.startMultiplayerQuiz = (questions, roomCode, timeMin) => {
@@ -996,6 +1017,31 @@ window.startMultiplayerQuiz = (questions, roomCode, timeMin) => {
     // Start quiz in Exam mode with custom duration
     startQuiz(questions, true, durationSeconds);
 };
+
+// Handle Browser Back Button (Mobile/Desktop)
+window.addEventListener('popstate', (event) => {
+    const quizScreen = document.getElementById('quiz-screen');
+    // If we are currently seeing the quiz screen
+    if (quizScreen && quizScreen.classList.contains('active')) {
+        // The user pressed back, because the state changed (likely from #quiz to empty)
+        // We intercept this and ask specifically to exit the quiz
+
+        // If the state says we should be in quiz (e.g. going forward), do nothing (URL matches UI)
+        if (event.state && event.state.screen === 'quiz') return;
+
+        // Otherwise, we are leaving the quiz via back button.
+        if (confirm('Segur que vols sortir? El progrés es perdrà.')) {
+            currentRoomCode = null;
+            clearInterval(currentQuiz.timerInterval);
+            switchScreen('selection-screen');
+            renderRanking();
+        } else {
+            // User cancelled exit, so we must restore the "Quiz" history state
+            // to keep them on the page logically and physically
+            history.pushState({ screen: 'quiz' }, document.title, '#quiz');
+        }
+    }
+});
 
 
 
